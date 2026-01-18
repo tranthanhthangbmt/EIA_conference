@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Energy Simulation | Q1 Paper Visualizer</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar: Controls -->
+        <aside class="sidebar">
+            <div class="brand">
+                <h1>Bio-PKT <span class="highlight">Sim</span></h1>
+                <p>Cognitive Energy Dynamics</p>
+            </div>
+
+            <div class="control-group">
+                <h3>Simulation Config</h3>
+                
+                <label>
+                    Simulation Days
+                    <input type="range" id="simDays" min="1" max="14" value="7" oninput="this.nextElementSibling.value = this.value">
+                    <output>7</output>
+                </label>
+
+                <label>
+                    Hours Per Day
+                    <input type="range" id="hoursPerDay" min="4" max="16" value="10" oninput="this.nextElementSibling.value = this.value">
+                    <output>10</output>
+                </label>
+            </div>
+
+            <div class="control-group">
+                <h3>Bio-Battery Params</h3>
+                
+                <label>
+                    Review Critical Threshold (E_CRITICAL)
+                    <input type="range" id="eCritical" min="5" max="50" value="20" oninput="this.nextElementSibling.value = this.value">
+                    <output>20</output>
+                </label>
+                
+                <label>
+                    Safety Margin (Bio-PKT)
+                    <input type="range" id="eSafeMargin" min="20" max="80" value="40" oninput="this.nextElementSibling.value = this.value">
+                    <output>40</output>
+                </label>
+            </div>
+
+            <div class="control-group">
+                <h3>Task Load Cost (%/hr)</h3>
+                
+                <label>
+                    High Load (Math/Physics)
+                    <input type="range" id="alphaHigh" min="10" max="30" value="18" oninput="this.nextElementSibling.value = this.value">
+                    <output>18</output>
+                </label>
+                
+                <label>
+                    Low Load (Active Rest)
+                    <input type="range" id="alphaLow" min="1" max="10" value="3" oninput="this.nextElementSibling.value = this.value">
+                    <output>3</output>
+                </label>
+
+                <label>
+                    Recovery Rate (Rest)
+                    <input type="range" id="recoveryRate" min="5" max="30" value="15" oninput="this.nextElementSibling.value = this.value">
+                    <output>15</output>
+                </label>
+            </div>
+
+            <button id="resetBtn" class="btn-reset">Reset Defaults</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Stats Panel -->
+            <div class="stats-grid">
+                <div class="card stat-card greedy">
+                    <h4>Greedy (Baseline)</h4>
+                    <div class="stat-value" id="greedyScore">0</div>
+                    <div class="stat-label">Knowledge Points</div>
+                    <div class="stat-sub" id="greedyBurnout">Burnouts: 0</div>
+                </div>
+
+                <div class="card stat-card bio">
+                    <h4>Bio-PKT (Proposed)</h4>
+                    <div class="stat-value" id="bioScore">0</div>
+                    <div class="stat-label">Knowledge Points</div>
+                    <div class="stat-sub" id="bioBurnout">Burnouts: 0</div>
+                </div>
+
+                <div class="card stat-card result">
+                    <h4>Improvement</h4>
+                    <div class="stat-value highlight-text" id="improvementScore">+0%</div>
+                    <div class="stat-label">Performance Gain</div>
+                    <div class="stat-sub">Bio-PKT vs Greedy</div>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="charts-container">
+                <div class="card chart-card">
+                    <div class="chart-header">
+                        <h3>Fig 4a. Cognitive Energy Dynamics (Et)</h3>
+                        <p>Real-time monitoring of energy depletion and recovery cycles.</p>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="energyChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="card chart-card">
+                    <div class="chart-header">
+                        <h3>Fig 4b. Cumulative Knowledge Gain</h3>
+                        <p>Comparison of total learning efficiency over time.</p>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="knowledgeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

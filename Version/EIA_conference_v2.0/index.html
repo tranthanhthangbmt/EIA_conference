@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-PKT Simulation Framework v3.0 (MPC Core)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="header">
+                <h2>Bio-PKT Sim v3.0</h2>
+                <p>Advanced MPC & Memory Decay</p>
+            </div>
+
+            <div class="control-group">
+                <label>Energy Profile</label>
+                <div class="input-wrap">
+                    <span>High Load Drain (&alpha;<sub>high</sub>)</span>
+                    <input type="range" id="alphaHigh" min="10" max="30" value="18"
+                        oninput="updateVal('valAlphaHigh', this.value)">
+                    <span id="valAlphaHigh" class="val-display">18%</span>
+                </div>
+                <div class="input-wrap">
+                    <span>Recovery Rate (&beta;)</span>
+                    <input type="range" id="recovRate" min="5" max="25" value="15"
+                        oninput="updateVal('valRecov', this.value)">
+                    <span id="valRecov" class="val-display">15%</span>
+                </div>
+            </div>
+
+            <div class="control-group warning-zone">
+                <label>Realism & Constraints</label>
+
+                <div class="input-wrap">
+                    <span>Forgetting Rate (&delta;)</span>
+                    <input type="range" id="decayRate" min="0" max="20" value="5" step="1"
+                        oninput="updateVal('valDecay', this.value/1000)">
+                    <span id="valDecay" class="val-display">0.005</span>
+                    <p class="small-note">*Knowledge decays over time. Burnout accelerates this by 3x.</p>
+                </div>
+
+                <div class="input-wrap">
+                    <span>Switching Cost</span>
+                    <input type="range" id="switchCost" min="0" max="10" value="2"
+                        oninput="updateVal('valSwitch', this.value)">
+                    <span id="valSwitch" class="val-display">2%</span>
+                </div>
+            </div>
+
+            <div class="control-group mpc-zone">
+                <label>MPC Controller</label>
+                <div class="input-wrap">
+                    <span>Prediction Horizon (H)</span>
+                    <input type="range" id="mpcHorizon" min="1" max="5" value="3"
+                        oninput="updateVal('valHorizon', this.value)">
+                    <span id="valHorizon" class="val-display">3 hrs</span>
+                </div>
+                <div class="toggle-wrap">
+                    <span>Non-linear Fatigue</span>
+                    <label class="switch">
+                        <input type="checkbox" id="nonLinearToggle" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+
+            <button onclick="runSimulation()" class="btn-run">RUN EXPERIMENT v3.0</button>
+        </aside>
+
+        <main class="main-content">
+            <div class="stats-panel">
+                <div class="card stat-card red">
+                    <h3>Greedy</h3>
+                    <p>Net Knowledge: <span id="scoreGreedy">0</span></p>
+                    <p>Burnouts: <span id="burnGreedy">0</span></p>
+                </div>
+                <div class="card stat-card yellow">
+                    <h3>Fixed (Pomodoro)</h3>
+                    <p>Net Knowledge: <span id="scoreFixed">0</span></p>
+                    <p>Burnouts: <span id="burnFixed">0</span></p>
+                </div>
+                <div class="card stat-card green">
+                    <h3>Bio-PKT (MPC)</h3>
+                    <p>Net Knowledge: <span id="scoreBio">0</span></p>
+                    <p>Burnouts: <span id="burnBio">0</span></p>
+                </div>
+                <div class="card stat-card improvement">
+                    <h3>Superiority</h3>
+                    <p id="improvementVal">+0%</p>
+                    <small>vs. Fixed Strategy</small>
+                </div>
+            </div>
+
+            <div class="charts-container">
+                <div class="chart-wrapper">
+                    <h4>Fig 4a. Energy Optimization (E<sub>t</sub>) with Non-linear Constraints</h4>
+                    <canvas id="energyChart"></canvas>
+                </div>
+                <div class="chart-wrapper">
+                    <h4>Fig 4b. Retention-Aware Knowledge Gain (Memory Decay Included)</h4>
+                    <canvas id="knowledgeChart"></canvas>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function updateVal(id, val) {
+            let displayVal = val;
+            if (id === 'valDecay') displayVal = (val / 1000).toFixed(3);
+            else if (id === 'valHorizon') displayVal = val + ' hrs';
+            else displayVal += '%';
+
+            document.getElementById(id).innerText = displayVal;
+            setTimeout(runSimulation, 50); // Small delay for smoothness
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+Implementation Plan: Visual Simulation System (Q1 Paper)
+Goal Description
+The goal is to transform the existing Python simulation script (
+simulation.py
+) into an interactive, visually appealing web application. This allows the user to "directly view" and experiment with the simulation on their computer without running Python scripts manually. The system will visualize the "Bio-PKT" vs "Greedy" strategies as described in the paper.
+
+User Review Required
+IMPORTANT
+
+I am proposing a Web-based solution (HTML/CSS/JS) instead of a Python GUI. This ensures modern aesthetics, interactivity, and portability. The simulation logic will be ported from Python to JavaScript.
+
+Proposed Changes
+Structure
+The project will be a single-page application (SPA) running locally.
+
+Files
+[NEW] 
+index.html
+Main container for the simulation.
+Layout:
+Header: Title and simple description.
+Controls Sidebar/Panel: Inputs for simulation parameters (ALPHA_HIGH, RECOVERY_RATE, etc.) so the user can "play" with the model.
+Visualization Area: Two main charts (Energy Dynamics & Cumulative Knowledge) corresponding to Fig 4a and 4b.
+Stats Panel: Summary metrics (Total Burnout, Final Score, Improvement %).
+[NEW] 
+style.css
+Premium, modern design.
+Color palette: Deep blues/purples for background (scientific/tech feel), with distinct colors for the two agents (e.g., Red for Greedy, Green for Bio-PKT).
+"Glassmorphism" effects for panels.
+[NEW] 
+script.js
+Logic Port: Port the 
+VirtualLearner
+ class and the simulation loop from Python to JavaScript.
+Visualization: Use Chart.js (via CDN) to render the line charts dynamically.
+Interactivity: Re-run the simulation and update charts whenever parameters are changed.
+Verification Plan
+Automated Tests
+None planned for this visual prototype.
+Manual Verification
+Logic Check: Compare the JavaScript output values with the Python script output for the exact same parameters to ensure accuracy.
+Visual Check: Ensure charts look like the reference screenshots/descriptions in 
+simulation.py
+.
+Interaction: Verify that changing sliders updates the graphs instantly.

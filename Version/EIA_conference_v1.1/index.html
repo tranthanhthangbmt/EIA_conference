@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-PKT Simulation Framework v2.0</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="header">
+                <h2>Bio-PKT Sim</h2>
+                <p>EAI RAIDS 2026 - Experiment</p>
+            </div>
+
+            <div class="control-group">
+                <label>Strategy Parameters</label>
+
+                <div class="input-wrap">
+                    <span>High Load Drain ($\alpha_{high}$)</span>
+                    <input type="range" id="alphaHigh" min="10" max="30" value="18"
+                        oninput="updateVal('valAlphaHigh', this.value)">
+                    <span id="valAlphaHigh" class="val-display">18%</span>
+                </div>
+
+                <div class="input-wrap">
+                    <span>Low Load Drain ($\alpha_{low}$)</span>
+                    <input type="range" id="alphaLow" min="1" max="10" value="3"
+                        oninput="updateVal('valAlphaLow', this.value)">
+                    <span id="valAlphaLow" class="val-display">3%</span>
+                </div>
+            </div>
+
+            <div class="control-group warning-zone">
+                <label>Reviewer "Traps" (Realism)</label>
+
+                <div class="input-wrap">
+                    <span>Switching Cost Penalty</span>
+                    <input type="range" id="switchCost" min="0" max="10" value="2"
+                        oninput="updateVal('valSwitch', this.value)">
+                    <span id="valSwitch" class="val-display">2%</span>
+                </div>
+
+                <div class="input-wrap">
+                    <span>Stochastic Noise (+/-)</span>
+                    <input type="range" id="noiseFactor" min="0" max="5" value="2" step="0.5"
+                        oninput="updateVal('valNoise', this.value)">
+                    <span id="valNoise" class="val-display">2.0</span>
+                </div>
+
+                <div class="toggle-wrap">
+                    <span>Non-linear Fatigue</span>
+                    <label class="switch">
+                        <input type="checkbox" id="nonLinearToggle" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <p class="small-note">*When ON: Fatigue accelerates as Energy drops < 50%.</p>
+            </div>
+
+            <button onclick="runSimulation()" class="btn-run">RUN SIMULATION</button>
+            <button onclick="downloadCharts()" class="btn-export">Export High-Res</button>
+        </aside>
+
+        <main class="main-content">
+            <div class="stats-panel">
+                <div class="card stat-card red">
+                    <h3>Greedy (Baseline)</h3>
+                    <p>Score: <span id="scoreGreedy">0</span></p>
+                    <p>Burnouts: <span id="burnGreedy">0</span></p>
+                </div>
+                <div class="card stat-card yellow">
+                    <h3>Fixed (Pomodoro)</h3>
+                    <p>Score: <span id="scoreFixed">0</span></p>
+                    <p>Burnouts: <span id="burnFixed">0</span></p>
+                </div>
+                <div class="card stat-card green">
+                    <h3>Bio-PKT (Ours)</h3>
+                    <p>Score: <span id="scoreBio">0</span></p>
+                    <p>Burnouts: <span id="burnBio">0</span></p>
+                </div>
+                <div class="card stat-card improvement">
+                    <h3>Improvement</h3>
+                    <p id="improvementVal">+0%</p>
+                    <small>vs. Fixed Strategy</small>
+                </div>
+            </div>
+
+            <div class="charts-container">
+                <div class="chart-wrapper">
+                    <h4>Fig 4a. Bio-Cybernetic Energy Dynamics ($E_t$)</h4>
+                    <div class="canvas-container">
+                        <canvas id="energyChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-wrapper">
+                    <h4>Fig 4b. Cumulative Knowledge Gain</h4>
+                    <div class="canvas-container">
+                        <canvas id="knowledgeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function updateVal(id, val) {
+            document.getElementById(id).innerText = val + (id === 'valNoise' ? '' : '%');
+            runSimulation(); // Auto-run on change
+        }
+    </script>
+</body>
+
+</html>
