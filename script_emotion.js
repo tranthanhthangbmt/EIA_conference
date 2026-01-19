@@ -262,10 +262,19 @@ function updateSpeed(val) {
 function tick() {
     stepCount++;
     globalTime++; // v15: Hour Tick
+    window.globalTime = globalTime; // Sync for external scripts
 
-    if (stepCount > TOTAL_STEPS) {
+    if (globalTime >= 168 || stepCount > TOTAL_STEPS) {
         clearInterval(timer);
-        log("Experiment Completed.", "system");
+        timer = null;
+        log("Experiment Completed (7 Days / 168 Hours).", "system");
+
+        setTimeout(() => {
+            let choice = confirm("Simulation Complete (7 Days).\n\nDo you want to view the Final Evidence Dashboard (RQ4)?");
+            if (choice) {
+                window.open('dashboard.html', '_blank');
+            }
+        }, 500);
         return;
     }
 
@@ -400,36 +409,54 @@ function updateRadarData(chart, agent) {
     chart.update('none');
 }
 
-function updateUI() {
-    document.getElementById('scoreGreedy').innerText = Math.round(efa.mastery);
-    document.getElementById('burnGreedy').innerText = efa.burnoutCount;
-    document.getElementById('statusGreedy').innerHTML = efa.status; // Use innerHTML
-    if (efa.lastEfficiency) document.getElementById('efa-efficiency').innerText = efa.lastEfficiency + "%";
+// Expose globals for external scripts (script.js)
+window.efa = efa;
+window.hra = hra;
+window.globalTime = globalTime;
 
-    document.getElementById('scoreBio').innerText = Math.round(hra.mastery);
-    document.getElementById('burnBio').innerText = hra.burnoutCount;
-    document.getElementById('statusBio').innerHTML = hra.status; // Use innerHTML
-    if (hra.lastEfficiency) document.getElementById('bio-efficiency').innerText = hra.lastEfficiency + "%";
+function updateUI() {
+    // Helper to safe update text
+    const setText = (id, val) => {
+        const el = document.getElementById(id);
+        if (el) el.innerText = val;
+    };
+    // Helper to safe update HTML
+    const setHTML = (id, val) => {
+        const el = document.getElementById(id);
+        if (el) el.innerHTML = val;
+    };
+
+    setText('scoreGreedy', Math.round(efa.mastery));
+    setText('burnGreedy', efa.burnoutCount);
+    setHTML('statusGreedy', efa.status);
+    if (efa.lastEfficiency) setText('efa-efficiency', efa.lastEfficiency + "%");
+
+    setText('scoreBio', Math.round(hra.mastery));
+    setText('burnBio', hra.burnoutCount);
+    setHTML('statusBio', hra.status);
+    if (hra.lastEfficiency) setText('bio-efficiency', hra.lastEfficiency + "%");
 
     // v14 Happiness Update
-    document.getElementById('efa-happy-val').innerText = efa.happyIndex;
-    document.getElementById('bio-happy-val').innerText = hra.happyIndex;
+    setText('efa-happy-val', efa.happyIndex);
+    setText('bio-happy-val', hra.happyIndex);
 
-    // Scale bar (Assume range -200 to +600 approx based on prompt, let's normalize to some width)
-    // Actually, let's just show relative width. Center at 50%.
-    // If index is 0 => 50%. +100 => right. -100 => left.
-    // Let's make it simpler: just a value for now, or a simple 0-100% scale if positive?
-    // The prompt implementation used `style="width: 50%"`
-    // Let's limit comparison since it can be negative.
-    // I will implement a visual mapping: 50% + (Index / 10)%
-    let efaW = 50 + (efa.happyIndex / 5);
-    let bioW = 50 + (hra.happyIndex / 5);
-    document.getElementById('efa-happy-bar').style.width = Math.max(0, Math.min(100, efaW)) + "%";
-    document.getElementById('bio-happy-bar').style.width = Math.max(0, Math.min(100, bioW)) + "%";
+    // Bars
+    let efaBar = document.getElementById('efa-happy-bar');
+    if (efaBar) {
+        let efaW = 50 + (efa.happyIndex / 5);
+        efaBar.style.width = Math.max(0, Math.min(100, efaW)) + "%";
+    }
+
+    let bioBar = document.getElementById('bio-happy-bar');
+    if (bioBar) {
+        let bioW = 50 + (hra.happyIndex / 5);
+        bioBar.style.width = Math.max(0, Math.min(100, bioW)) + "%";
+    }
 }
 
 function log(msg, type) {
     const box = document.getElementById('console-log');
+    if (!box) return; // Silent fail if console missing
     const div = document.createElement('div');
     div.innerText = `[T=${stepCount}] ${msg}`;
     div.className = `log-line log-${type}`;

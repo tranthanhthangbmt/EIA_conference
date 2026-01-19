@@ -16,6 +16,8 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    /* FIX: Stack Navbar on top */
     overflow: hidden;
 }
 
@@ -23,7 +25,11 @@ body {
 .container {
     display: flex;
     width: 100%;
-    height: 100%;
+    flex: 1;
+    /* FIX: Take remaining height after Navbar */
+    min-height: 0;
+    /* Important for nested scrollbars */
+    height: auto;
 }
 
 /* SIDEBAR */
@@ -37,10 +43,10 @@ body {
     border-right: 1px solid #334155;
 }
 
+.header,
 .header h2 {
-    font-size: 1.2rem;
-    color: var(--accent);
-    margin: 0;
+    display: none !important;
+    /* Global Navbar replaces this */
 }
 
 .control-group {

@@ -129,7 +129,49 @@
         </aside>
 
         <main class="main-content">
-            <div class="stats-panel">
+            <!-- NEW: Metabolic Vitals Panel (from update_1.txt) -->
+            <div class="vitals-panel" style="margin-bottom: 20px; display:flex; gap:20px;">
+                <div class="agent-box efa-box"
+                    style="flex:1; background:#2d2d2d; padding:15px; border-radius:8px; border-top:4px solid #ff4444;">
+                    <h2 style="margin:0 0 10px 0; font-size:1.1em;">HPA (Greedy) Vitals</h2>
+                    <div class="meter-label" style="font-size:0.8em; color:#aaa;">Energy Reserves</div>
+                    <div class="progress-bg" style="background:#444; height:10px; border-radius:5px; overflow:hidden;">
+                        <div id="efa-energy-bar" class="progress-fill red"
+                            style="width:100%; height:100%; background:#ff4444;"></div>
+                    </div>
+                    <div class="metric-row"
+                        style="display:flex; justify-content:space-between; margin-top:10px; border-bottom:1px solid #444; padding-bottom:5px;">
+                        <span>Metabolic Cost:</span>
+                        <span style="font-weight:bold; color:#ff4444;"><span id="efa-metabolic">---</span> J/pt</span>
+                    </div>
+                    <div class="metric-row" style="display:flex; justify-content:space-between; margin-top:5px;">
+                        <span>Energy Debt:</span>
+                        <span style="font-weight:bold; color:#ff4444;"><span id="efa-debt">0</span> units</span>
+                    </div>
+                </div>
+
+                <div class="agent-box bio-box"
+                    style="flex:1; background:#2d2d2d; padding:15px; border-radius:8px; border-top:4px solid #44cc44;">
+                    <h2 style="margin:0 0 10px 0; font-size:1.1em;">Bio-PKT (Ours) Vitals</h2>
+                    <div class="meter-label" style="font-size:0.8em; color:#aaa;">Energy Reserves</div>
+                    <div class="progress-bg" style="background:#444; height:10px; border-radius:5px; overflow:hidden;">
+                        <div id="bio-energy-bar" class="progress-fill green"
+                            style="width:100%; height:100%; background:#44cc44;"></div>
+                    </div>
+                    <div class="metric-row"
+                        style="display:flex; justify-content:space-between; margin-top:10px; border-bottom:1px solid #444; padding-bottom:5px;">
+                        <span>Metabolic Cost:</span>
+                        <span style="font-weight:bold; color:#44cc44;"><span id="bio-metabolic">---</span> J/pt</span>
+                    </div>
+                    <div class="metric-row" style="display:flex; justify-content:space-between; margin-top:5px;">
+                        <span>Energy Debt:</span>
+                        <span style="font-weight:bold; color:#44cc44;"><span id="bio-debt">0</span> units</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Existing Stats (Summary) -->
+            <div class="stats-panel" style="margin-bottom: 20px;">
                 <div class="card stat-card red">
                     <h3>Greedy</h3>
                     <p>Net Knowledge: <span id="scoreGreedy">0</span></p>
@@ -154,15 +196,24 @@
 
             <div class="charts-container">
                 <div class="chart-wrapper">
-                    <h4>Fig 4a. Energy Optimization (E<sub>t</sub>) with Non-linear Constraints</h4>
+                    <h4>Fig 4a. Energy Optimization (E<sub>t</sub>)</h4>
                     <div class="canvas-container">
                         <canvas id="energyChart"></canvas>
                     </div>
                 </div>
                 <div class="chart-wrapper">
-                    <h4>Fig 4b. Retention-Aware Knowledge Gain (Memory Decay Included)</h4>
+                    <h4>Fig 4b. Cumulative Knowledge Gain</h4>
                     <div class="canvas-container">
                         <canvas id="knowledgeChart"></canvas>
+                    </div>
+                </div>
+                <!-- NEW CHART -->
+                <div class="chart-wrapper">
+                    <h4>Fig 4c. Cost of Learning (Joules per Point)</h4>
+                    <p class="scientific-note" style="font-size:0.8em; color:#aaa; margin-top:-5px;">*Lower is better.
+                        High spikes = Inefficient Stress.</p>
+                    <div class="canvas-container">
+                        <canvas id="metabolicChart"></canvas>
                     </div>
                 </div>
             </div>
@@ -183,6 +234,7 @@
             setTimeout(runSimulation, 50);
         }
     </script>
+    <script src="navbar.js"></script>
 </body>
 
 </html>

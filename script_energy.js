@@ -47,22 +47,24 @@ function predictStep(currentState, action, params) {
 }
 
 // --- 2. PHYSICAL REALITY ---
+// --- 2. PHYSICAL REALITY ---
 function executeRealStep(currentState, action, params) {
     let nextState = { ...currentState };
+    let realCost = 0; // Usage
+    let realGain = 0; // Knowledge Delta (pre-decay)
+
     if (nextState.burnoutTimer > 0) {
         nextState.energy = Math.min(E_MAX, nextState.energy + params.recovRate);
         nextState.burnoutTimer--;
         nextState.knowledge *= (1 - params.decayRate * 3);
-        return nextState;
+        return { newState: nextState, cost: 0, gain: 0 };
     }
 
-    // --- REALISM 5: HUMAN COMPLIANCE (Sự bất tuân) ---
-    // Reviewer #5: Students have "Greedy Impulse".
+    // --- REALISM 5: HUMAN COMPLIANCE ---
     let finalAction = action;
     if (params.compliance < 1.0) {
         let roll = Math.random();
-        if (roll > params.compliance) { // Non-compliance triggered!
-            // Instinct: If Energy > 30, push HIGH. Else REST.
+        if (roll > params.compliance) {
             if (currentState.energy > 30) finalAction = 'HIGH';
             else finalAction = 'REST';
         }
@@ -84,6 +86,7 @@ function executeRealStep(currentState, action, params) {
     // Realism 3: Switching Cost
     if (nextState.lastAction && nextState.lastAction !== finalAction && finalAction !== 'REST') {
         nextState.energy -= params.switchCost;
+        if (cost > 0) cost += params.switchCost; // Include in metabolic cost?
     }
 
     // Realism 4: Dynamic Efficiency
@@ -96,32 +99,45 @@ function executeRealStep(currentState, action, params) {
     // Stochastic Noise
     if (gain > 0) gain += (Math.random() - 0.5) * 1.5;
 
+    realCost = (cost > 0) ? cost : 0; // Only count spent energy
+    realGain = Math.max(0, gain);
+
     // Update Energy
     nextState.energy -= cost;
     nextState.energy = Math.max(0, Math.min(E_MAX, nextState.energy));
 
     // Update Knowledge
     nextState.knowledge *= (1 - params.decayRate);
-    nextState.knowledge += Math.max(0, gain);
+    nextState.knowledge += realGain;
 
     // Check Burnout
     if (nextState.energy < E_CRITICAL && finalAction !== 'REST') {
         nextState.burnoutTimer = 2;
-        nextState.knowledge -= gain; // Lose recent gain
+        nextState.knowledge -= realGain; // Lose recent gain
+        realGain = 0;
     }
 
     nextState.lastAction = finalAction;
-    return nextState;
+    return { newState: nextState, cost: realCost, gain: realGain };
+}
+
+// --- HELPER METRICS ---
+function calculateMetabolicCost(energySpent, masteryGained) {
+    if (masteryGained <= 0.1) return 25; // Cap for infinity (visuals)
+    let cost = energySpent / masteryGained;
+    return Math.min(cost, 25);
 }
 
 // --- AGENT CLASS ---
 class VirtualLearner {
     constructor(strategy, type = 'Average') {
         this.strategy = strategy;
-        this.type = type; // 'Strong', 'Weak', 'Average'
+        this.type = type;
         this.state = { energy: E_MAX, knowledge: 0, burnoutTimer: 0, lastAction: null };
+        this.debt = 0; // New Metric
         this.logEnergy = [];
         this.logKnowledge = [];
+        this.logMetabolic = []; // New Log
     }
 
     step(stepIndex, params) {
@@ -136,8 +152,18 @@ class VirtualLearner {
         else if (this.strategy === 'BIO') action = this.runMPC(params);
 
         // Execute
-        this.state = executeRealStep(this.state, action, params);
-        this.logState();
+        const res = executeRealStep(this.state, action, params);
+        this.state = res.newState;
+
+        // Metrics Logic (from update_1.txt)
+        let j_pt = calculateMetabolicCost(res.cost, res.gain);
+
+        // Debt Accumulation
+        if (this.state.energy < 20) this.debt += 1.5;
+        // Recovery of debt? Maybe slow recovery if Energy > 80? use update_1 logic (only accum mentioned)
+        if (this.state.energy > 80) this.debt = Math.max(0, this.debt - 0.5);
+
+        this.logState(j_pt);
     }
 
     runMPC(params) {
@@ -159,15 +185,15 @@ class VirtualLearner {
         for (let act of actions) {
             let pred = predictStep(this.state, act, params);
             let score = search(pred.state, horizon - 1, pred.reward);
-            // Bias Breaker: Prefer Activity if equal
             if (score > bestScore + 0.1) { bestScore = score; bestAction = act; }
         }
         return bestAction;
     }
 
-    logState() {
+    logState(metabolic) {
         this.logEnergy.push(this.state.energy);
         this.logKnowledge.push(this.state.knowledge);
+        this.logMetabolic.push(metabolic);
     }
 }
 
@@ -464,8 +490,66 @@ function updateCharts(g, f, b) {
             options: commonOptions
         });
     }
+
+    // 3. Metabolic Cost Chart (NEW)
+    let chartMeta = window.chartMetabolic;
+    const ctxM = document.getElementById('metabolicChart');
+
+    if (ctxM) {
+        const ctxMC = ctxM.getContext('2d');
+        if (window.chartMetabolic) {
+            window.chartMetabolic.data.datasets[0].data = g.logMetabolic;
+            window.chartMetabolic.data.datasets[1].data = b.logMetabolic;
+            window.chartMetabolic.update('none');
+        } else {
+            window.chartMetabolic = new Chart(ctxMC, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'Greedy Cost (J/pt)', data: g.logMetabolic, borderColor: '#ef4444', borderWidth: 1, tension: 0.4 },
+                        { label: 'Bio-PKT Cost (J/pt)', data: b.logMetabolic, borderColor: '#10b981', borderWidth: 2, tension: 0.4 }
+                    ]
+                },
+                options: {
+                    ...commonOptions,
+                    scales: { ...commonOptions.scales, y: { title: { display: true, text: 'Joules per Point' }, min: 0, max: 25 } }
+                }
+            });
+        }
+    }
 }
 
+// Update UI including Vitals
+function updateStats(g, f, b) {
+    updateStatsUI(
+        g.state.knowledge, g.state.burnoutCount || 0,
+        f.state.knowledge, f.state.burnoutCount || 0,
+        b.state.knowledge, b.state.burnoutCount || 0,
+        false
+    );
+
+    // Update Vitals Panel (NEW)
+    updateVitals(g, b);
+}
+
+function updateVitals(g, b) {
+    // Bars
+    if (document.getElementById('efa-energy-bar')) {
+        document.getElementById('efa-energy-bar').style.width = g.state.energy + "%";
+        document.getElementById('bio-energy-bar').style.width = b.state.energy + "%";
+
+        // Debt & Metabolic (Use last value)
+        const gLastMeta = g.logMetabolic[g.logMetabolic.length - 1] || 0;
+        const bLastMeta = b.logMetabolic[b.logMetabolic.length - 1] || 0;
+
+        document.getElementById('efa-metabolic').innerText = gLastMeta.toFixed(2);
+        document.getElementById('bio-metabolic').innerText = bLastMeta.toFixed(2);
+
+        document.getElementById('efa-debt').innerText = Math.round(g.debt);
+        document.getElementById('bio-debt').innerText = Math.round(b.debt);
+    }
+}
 function updateChartsMonteCarlo(stats) {
     const labels = Array.from({ length: TOTAL_STEPS }, (_, i) => i);
     const commonOptions = {

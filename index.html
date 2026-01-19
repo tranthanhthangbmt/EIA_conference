@@ -12,167 +12,227 @@
             background: #0b1120;
             color: #f1f5f9;
             font-family: 'Inter', sans-serif;
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+            /* No scrolling requested */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hub-content {
+            flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
-            margin: 0;
-            overflow: hidden;
-        }
-
-        .hub-container {
-            text-align: center;
-            max-width: 1200px;
-            width: 100%;
             padding: 20px;
         }
 
         h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
             background: linear-gradient(135deg, #38bdf8, #818cf8);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            text-align: center;
         }
 
         .subtitle {
-            font-size: 1.2rem;
+            font-size: 0.9rem;
             color: #94a3b8;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
+            text-align: center;
         }
 
-        .pillars-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            padding: 20px;
+        /* HORIZONTAL FLOW LAYOUT */
+        .flow-container {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            align-items: stretch;
             justify-content: center;
+            width: 100%;
+            padding: 0 20px;
+            height: 70vh;
+            /* Fixed height area for cards */
+        }
+
+        .level-col {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 350px;
+            position: relative;
+        }
+
+        /* Connecting Lines (Visual) */
+        .level-col:not(:last-child)::after {
+            content: "→";
+            position: absolute;
+            right: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2rem;
+            color: #334155;
+            font-weight: bold;
+        }
+
+        .level-header {
+            color: #64748b;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 8px;
+            margin-bottom: 0;
+            text-align: center;
         }
 
         .pillar-card {
             background: #1e293b;
             border: 1px solid #334155;
-            border-radius: 16px;
-            padding: 40px 20px;
+            border-radius: 12px;
+            padding: 20px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.2s ease;
             position: relative;
-            overflow: hidden;
             text-decoration: none;
             color: inherit;
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
+            flex: 1;
+            /* Fill column height */
+            text-align: center;
         }
 
         .pillar-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
             border-color: var(--card-accent);
+            background: #253345;
         }
 
         .pillar-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
         }
 
         .pillar-title {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
             font-weight: 700;
-            margin-bottom: 15px;
+            margin-bottom: 8px;
             color: var(--card-accent);
         }
 
         .pillar-desc {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             color: #cbd5e1;
-            line-height: 1.5;
+            line-height: 1.4;
         }
 
-        /* Psychological Pillar */
+        /* Accents */
+        .pillar-graph {
+            --card-accent: #f59e0b;
+        }
+
         .pillar-psych {
             --card-accent: #ec4899;
-            /* Pink/Purple */
         }
 
-        /* Biological Pillar */
         .pillar-bio {
             --card-accent: #10b981;
-            /* Green */
         }
 
-        /* Systemic Pillar */
         .pillar-sys {
             --card-accent: #38bdf8;
-            /* Blue */
         }
 
-        .footer {
-            margin-top: 50px;
-            color: #64748b;
-            font-size: 0.8rem;
+        .pillar-dash {
+            --card-accent: #f43f5e;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="hub-container">
-        <h1>V16.0: The Triumvirate System</h1>
-        <p class="subtitle">A Multi-Dimensional Analysis of AI Learning Constraints</p>
-
-        <div class="pillars-grid">
-            <!-- 1. Psychological Pillar -->
-            <a href="emotion.html" class="pillar-card pillar-psych">
-                <div class="pillar-icon">🧠</div>
-                <h2 class="pillar-title">Psychological</h2>
-                <p class="pillar-desc">
-                    <strong>Focus:</strong> Emotion & Motivation<br>
-                    <strong>Key Metric:</strong> Flow State (PSI)<br>
-                    <strong>Observed Phenomenon:</strong> Emotional Inertia & Trauma
-                </p>
-            </a>
-
-            <!-- 2. Biological Pillar -->
-            <a href="energy.html" class="pillar-card pillar-bio">
-                <div class="pillar-icon">⚡</div>
-                <h2 class="pillar-title">Biological</h2>
-                <p class="pillar-desc">
-                    <strong>Focus:</strong> Energy & Metabolism<br>
-                    <strong>Key Metric:</strong> Metabolic Efficiency (J/pt)<br>
-                    <strong>Observed Phenomenon:</strong> Energy Debt & Burnout
-                </p>
-            </a>
-
-            <!-- 3. Systemic Pillar -->
-            <a href="treeKnowledge.html" class="pillar-card pillar-sys">
-                <div class="pillar-icon">🌌</div>
-                <h2 class="pillar-title">Systemic</h2>
-                <p class="pillar-desc">
-                    <strong>Focus:</strong> Complexity & Stability<br>
-                    <strong>Key Metric:</strong> Phase Space Trajectory<br>
-                    <strong>Observed Phenomenon:</strong> The Burnout Plane
-                </p>
-            </a>
-
-            <!-- 4. Legacy Graph -->
-            <a href="graph.html" class="pillar-card pillar-graph" style="--card-accent: #f59e0b;">
-                <div class="pillar-icon">🕸️</div>
-                <h2 class="pillar-title">Live Graph</h2>
-                <p class="pillar-desc">
-                    <strong>Focus:</strong> Knowledge Tree (DAG)<br>
-                    <strong>Key Metric:</strong> Node Mastery Status<br>
-                    <strong>Legacy View:</strong> Dual-Agent Network (v9.0)
-                </p>
-            </a>
+    <div class="hub-content">
+        <!-- Title Section -->
+        <div>
+            <h1>V16.0: The Triumvirate System</h1>
+            <p class="subtitle">Multi-Dimensional Analysis of AI Constraints</p>
         </div>
 
-        <div class="footer">
-            EIA Conference Submission &copy; 2026
+        <!-- Horizontal Flow -->
+        <div class="flow-container">
+
+            <!-- COL 1: MICRO -->
+            <div class="level-col">
+                <div class="level-header">Level 1: Micro-Mechanism</div>
+                <a href="graph.html" class="pillar-card pillar-graph">
+                    <div class="pillar-icon">🕸️</div>
+                    <h2 class="pillar-title">Knowledge Network</h2>
+                    <p class="pillar-desc">
+                        Dependency Graph Traversal<br>
+                        (Node Acquisition)
+                    </p>
+                </a>
+            </div>
+
+            <!-- COL 2: MESO (Psych & Bio) -->
+            <div class="level-col">
+                <div class="level-header">Level 2: Meso-Dynamics</div>
+
+                <a href="emotion.html" class="pillar-card pillar-psych">
+                    <div class="pillar-icon">🧠</div>
+                    <h2 class="pillar-title">Psych-Dynamics</h2>
+                    <p class="pillar-desc">
+                        Flow, Inertia & Trauma<br>
+                        (Emotional State)
+                    </p>
+                </a>
+
+                <a href="energy.html" class="pillar-card pillar-bio">
+                    <div class="pillar-icon">⚡</div>
+                    <h2 class="pillar-title">Bio-Dynamics</h2>
+                    <p class="pillar-desc">
+                        Metabolic Cost & Debt<br>
+                        (Biological Constraints)
+                    </p>
+                </a>
+            </div>
+
+            <!-- COL 3: MACRO & EVIDENCE -->
+            <div class="level-col">
+                <div class="level-header">Level 3 & 4: Macro-System</div>
+
+                <a href="treeKnowledge.html" class="pillar-card pillar-sys">
+                    <div class="pillar-icon">🌌</div>
+                    <h2 class="pillar-title">Phase Space (3D)</h2>
+                    <p class="pillar-desc">
+                        Stability Analysis<br>
+                        (Chaos vs Attractors)
+                    </p>
+                </a>
+
+                <a href="dashboard.html" class="pillar-card pillar-dash">
+                    <div class="pillar-icon">📊</div>
+                    <h2 class="pillar-title">Evidence Report</h2>
+                    <p class="pillar-desc">
+                        Statistical Significance<br>
+                        (Final Results RQ4)
+                    </p>
+                </a>
+            </div>
+
         </div>
     </div>
 
+    <!-- Inject Navbar last (Fixed Top) -->
+    <script src="navbar.js"></script>
 </body>
 
 </html>

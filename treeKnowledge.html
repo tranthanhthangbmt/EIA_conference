@@ -3,94 +3,48 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>System Pillar: Complexity Phase Space</title>
-    <!-- Dependencies -->
+    <title>EIA Conference Simulation - Phase Space</title>
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_emotion.css">
-    <style>
-        .system-container {
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            background: #0f172a;
-            color: white;
-        }
-
-        .system-header {
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #334155;
-            background: #1e293b;
-        }
-
-        .main-viz-3d {
-            flex: 1;
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="system-container">
-        <header class="system-header">
-            <div>
-                <h1 style="margin:0; font-size:1.5rem; color:#38bdf8">System Pillar: The Burnout Plane</h1>
-                <p style="margin:5px 0 0; color:#94a3b8; font-size:0.9rem">3D Phase Space Trajectory (Energy x Stress x
-                    Mastery)</p>
-            </div>
-            <div>
-                <button onclick="window.location.href='index.html'" class="btn-run" style="background:#475569">
-                    &larr; Back to Dashboard
-                </button>
-                <button onclick="restartSim()" class="btn-run" style="background:#10b981">
-                    Restart Simulation
-                </button>
-            </div>
-        </header>
+    <div class="container-3d">
+        <!-- Header merged into Global Navbar -->
 
-        <main class="main-viz-3d" id="phaseSpaceChart">
-            <!-- Plotly requires specific ID -->
-        </main>
+        <div class="main-stage">
+            <div id="phaseSpaceChart" class="chart-3d"></div>
 
-        <!-- Live Metrics Overlay -->
-        <div
-            style="position: absolute; bottom: 20px; left: 20px; background: rgba(15, 23, 42, 0.8); padding: 15px; border-radius: 8px; border: 1px solid #334155; pointer-events:none;">
-            <div style="color: #f43f5e; font-weight: bold;">EFA (Greedy): <span id="statusGreedy">Initializing...</span>
-            </div>
-            <div style="color: #10b981; font-weight: bold; margin-top:5px;">Bio-PKT (HRA): <span
-                    id="statusBio">Initializing...</span></div>
-            <div style="margin-top:10px; font-size:0.8rem; color:#94a3b8">
-                *Red Plane = Burnout Threshold (Stress > 80)
+            <div class="control-overlay">
+                <div class="stat-box">
+                    <h3>Simulation Control</h3>
+                    <div class="btn-group">
+                        <button onclick="togglePause()">⏯ Pause/Play</button>
+                        <button onclick="restartSim()">🔄 Reset</button>
+                    </div>
+                    <div class="slider-group">
+                        <label>Speed:</label>
+                        <input type="range" min="10" max="500" value="190" id="speedSlider">
+                    </div>
+                </div>
+                <div class="stat-box">
+                    <h3>Live Coordinates (M/E/S)</h3>
+                    <div style="color:#ff4444">EFA: <span id="efa-coord">0 / 0 / 0</span></div>
+                    <div style="color:#44cc44">Bio: <span id="bio-coord">0 / 0 / 0</span></div>
+                </div>
             </div>
         </div>
 
-        <!-- Hidden Console for script_emotion compatibility -->
-        <div id="console-log" style="display:none;"></div>
-        <!-- Hidden Canvas for Charts (script_emotion requires them to not crash?) 
-             Actually script_emotion.js initCharts checks for element existence. 
-             If 'phaseChart' doesn't exist, it might error.
-             I need to verify script_emotion.js safety.
-        -->
-        <div style="display:none">
-            <canvas id="phaseChart"></canvas>
-            <canvas id="lineChart"></canvas>
-            <canvas id="radarGreedy"></canvas>
-            <canvas id="radarBio"></canvas>
+        <div class="science-footer">
+            ⚠️ <b>The Red Plane (z=90)</b> represents the <i>Biological Limit</i>.
+            Notice how EFA crashes into this ceiling repeatedly, while Bio-PKT spirals safely beneath it.
         </div>
     </div>
 
-    <!-- Scripts -->
-    <!-- Core Simulation Logic (EFA/HRA) -->
     <script src="script_emotion.js"></script>
-    <!-- 3D Visualization Logic -->
     <script src="script_system.js"></script>
+    <script src="navbar.js"></script>
 </body>
 
 </html>

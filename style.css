@@ -18,6 +18,75 @@
     /* Violet-400 */
 }
 
+/* --- SCIENTIFIC NAVBAR --- */
+.sci-navbar {
+    display: flex;
+    justify-content: flex-start;
+    /* Align left to save space */
+    align-items: center;
+    background: #0f172a;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+    padding: 0 10px;
+    /* Slim padding */
+    height: 40px;
+    /* Fixed slim height */
+    font-family: 'Inter', sans-serif;
+    z-index: 9999;
+    white-space: nowrap;
+    /* Prevent wrapping */
+    overflow-x: auto;
+    /* Scroll if too small */
+}
+
+.nav-brand {
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+    font-size: 0.85rem;
+    margin-right: 15px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 5px;
+    /* Tighter gap */
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.2s;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+.nav-item:hover {
+    color: var(--text-main);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.nav-item.active {
+    color: var(--color-bio);
+    background: rgba(52, 211, 153, 0.1);
+}
+
+.nav-item.highlight {
+    color: var(--color-greedy);
+    border: 1px solid rgba(244, 63, 94, 0.3);
+}
+
+.nav-item.highlight:hover {
+    background: rgba(244, 63, 94, 0.1);
+}
+
+.nav-sep {
+    color: #334155;
+    font-size: 0.8rem;
+}
+
 /* --- BASICS --- */
 body {
     margin: 0;
@@ -49,19 +118,9 @@ body {
     z-index: 10;
 }
 
-.header h2 {
-    margin: 0;
-    color: #f8fafc;
-    font-weight: 700;
-    font-size: 1.5rem;
-    letter-spacing: -0.025em;
-}
-
-.header p {
-    margin: 4px 0 0;
-    color: var(--text-muted);
-    font-size: 0.875rem;
-    font-weight: 400;
+.header {
+    display: none;
+    /* Hidden to save space (Merged into Navbar) */
 }
 
 /* Control Groups */
@@ -426,4 +485,116 @@ input:checked+.slider:before {
     border-radius: 4px;
     font-size: 0.8em;
     font-weight: bold;
+}
+
+/* --- 3D COMMAND CENTER (treeKnowledge.html) --- */
+.container-3d {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #000;
+}
+
+.science-header {
+    padding: 10px 20px;
+    background: #1a1a1a;
+    border-bottom: 1px solid #333;
+    z-index: 10;
+}
+
+.science-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.science-header p {
+    margin: 5px 0 0;
+    color: #aaa;
+}
+
+.main-stage {
+    flex: 1;
+    position: relative;
+    background: #121212;
+}
+
+.chart-3d {
+    width: 100%;
+    height: 100%;
+}
+
+/* Control Overlay */
+.control-overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    pointer-events: none;
+    /* Allow clicking through to chart */
+}
+
+.stat-box {
+    background: rgba(0, 0, 0, 0.7);
+    /* Frosted glass */
+    border: 1px solid #555;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    pointer-events: auto;
+    /* Enable buttons */
+    backdrop-filter: blur(5px);
+}
+
+.stat-box h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+    color: #ddd;
+    font-size: 1rem;
+}
+
+.btn-group {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-group button {
+    background: #333;
+    color: white;
+    border: 1px solid #666;
+    padding: 5px 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn-group button:hover {
+    background: #555;
+}
+
+.slider-group {
+    margin-top: 10px;
+}
+
+.slider-group label {
+    display: block;
+    color: #aaa;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.slider-group input {
+    width: 100%;
+}
+
+.science-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 5px;
+    font-size: 0.9em;
+    color: #ccc;
+    pointer-events: none;
 }
