@@ -1,0 +1,29 @@
+PHÂN TÍCH VẤN ĐỀ: CẢM XÚC THAY ĐỔI QUÁ NHANH (MICRO-EMOTIONS)
+(Giải pháp cho Reviewer: "Cognitive Inertia" & "Visual Trails")
+
+1. Vấn đề thực tế (Reality Gap)
+- Trong simulation hiện tại (v9.6), cảm xúc của Agent thay đổi tức thời theo mỗi bước (Step). Ví dụ: Pin 31% (Med) -> Pin 29% (Low) sẽ khiến cảm xúc nhảy từ "Relaxed" sang "Tired" ngay lập tức.
+- Điều này tạo ra cảm giác "giật cục" (Jittery), thiếu tính ổn định tâm lý của con người. Con người có "quán tính cảm xúc" (Emotional Inertia) - chúng ta không vui/buồn ngay lập tức chỉ sau 1 giây.
+
+2. Giải pháp Đề xuất: "Cognitive Inertia" (Quán tính Nhận thức)
+
+A. Về mặt Logic (Khoa học):
+- Không thay đổi logic cốt lõi (vì đây là Simulation từng bước).
+- Tuy nhiên, chúng ta lập luận rằng các thay đổi nhanh đó là "Micro-Emotions" (Cảm xúc vi mô).
+- Còn cái chúng ta cần hiển thị cho người xem là "Mood" (Tâm trạng - Macro State).
+
+B. Về mặt Trực quan hóa (Visualization):
+- Thay vì chỉ hiển thị 1 điểm chấm (Dot) duy nhất, ta sẽ hiển thị một **"Vệt Di Chuyển" (Trajectory Trail)**.
+- **Visual Trail**: Hiển thị 5-10 bước quá khứ mờ dần.
+- **Tác dụng**:
+    - Giúp mắt người xem "làm mượt" (smooth) các chuyển động giật cục.
+    - Nhìn thấy *xu hướng* (Trend) thay vì chỉ điểm hiện tại.
+    - Ví dụ: Một Agent đang lao từ vùng Flow xuống Anxiety sẽ để lại một vệt đỏ dài, cho thấy sự "trượt dốc" (Downward Spiral) rất rõ ràng.
+
+3. Kế hoạch Cải tiến (v9.7)
+- **Cập nhật `script_emotion.js`**:
+    - Thêm mảng `historyTrail` lưu 20 vị trí gần nhất `{x, y}`.
+    - Vẽ đường nối (Line Segment) mờ dần trên biểu đồ Flow Map.
+    - Giảm tốc độ mặc định `SIM_SPEED` xuống 200ms để não người kịp xử lý thông tin.
+
+Mời bạn xem xét và phê duyệt giải pháp "Visual Trails" này. Nó sẽ giải quyết triệt để vấn đề "khó theo dõi" mà vẫn giữ nguyên độ chính xác của dữ liệu.
