@@ -4,180 +4,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio-PKT Sim v8.0 (Live Graph)</title>
+    <title>EIA Conference: The 3 Pillars of AI</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script>
-        function updateVal(id, val) {
-            let suffix = (id.includes('Rate') || id.includes('mismatch') || id.includes('Alpha') || id.includes('Switch') || id.includes('Comp')) ? '%' : '';
-            if (id === 'valDecay') suffix = '';
-            if (id === 'valHorizon') suffix = ' hrs';
-
-            let displayVal = val;
-            if (id === 'valDecay') displayVal = (val / 1000).toFixed(3);
-
-            document.getElementById(id).innerText = displayVal + suffix;
+    <link rel="stylesheet" href="style_emotion.css">
+    <style>
+        body {
+            background: #0b1120;
+            color: #f1f5f9;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
         }
-    </script>
+
+        .hub-container {
+            text-align: center;
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            margin-bottom: 50px;
+        }
+
+        .pillars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .pillar-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 40px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pillar-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border-color: var(--card-accent);
+        }
+
+        .pillar-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .pillar-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--card-accent);
+        }
+
+        .pillar-desc {
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+
+        /* Psychological Pillar */
+        .pillar-psych {
+            --card-accent: #ec4899;
+            /* Pink/Purple */
+        }
+
+        /* Biological Pillar */
+        .pillar-bio {
+            --card-accent: #10b981;
+            /* Green */
+        }
+
+        /* Systemic Pillar */
+        .pillar-sys {
+            --card-accent: #38bdf8;
+            /* Blue */
+        }
+
+        .footer {
+            margin-top: 50px;
+            color: #64748b;
+            font-size: 0.8rem;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <div class="header">
-                <h2>Bio-PKT Sim v8.0</h2>
-                <p>Live Graph Visualization</p>
-            </div>
 
-            <!-- Link to Energy Sim -->
-            <div class="control-group">
-                <button onclick="window.location.href='energy.html'" class="btn-run"
-                    style="background: #475569; margin-bottom: 5px;">
-                    Go to Energy Experiments &rarr;
-                </button>
-                <button onclick="window.location.href='emotion.html'" class="btn-run"
-                    style="background: linear-gradient(135deg, #ec4899, #8b5cf6);">
-                    Go to Empathic AI (v9.4) &rarr;
-                </button>
-            </div>
+    <div class="hub-container">
+        <h1>V16.0: The Triumvirate System</h1>
+        <p class="subtitle">A Multi-Dimensional Analysis of AI Learning Constraints</p>
 
-            <div class="control-group">
-                <label>Simulation Controls</label>
-                <div class="input-wrap">
-                    <span>Simulation Speed</span>
-                    <input type="range" id="simSpeed" min="10" max="500" value="100" oninput="updateSpeed(this.value)">
-                    <span id="valSpeed" class="val-display">100ms</span>
-                </div>
-                <button onclick="runLiveSimulation()" class="btn-run">RESTART DEMO</button>
-            </div>
+        <div class="pillars-grid">
+            <!-- 1. Psychological Pillar -->
+            <a href="emotion.html" class="pillar-card pillar-psych">
+                <div class="pillar-icon">🧠</div>
+                <h2 class="pillar-title">Psychological</h2>
+                <p class="pillar-desc">
+                    <strong>Focus:</strong> Emotion & Motivation<br>
+                    <strong>Key Metric:</strong> Flow State (PSI)<br>
+                    <strong>Observed Phenomenon:</strong> Emotional Inertia & Trauma
+                </p>
+            </a>
 
-            <div class="control-group">
-                <label>View Mode</label>
-                <div class="tab-buttons">
-                    <button onclick="switchTab('graph')" class="tab-btn active">Live Graph</button>
-                    <button onclick="switchTab('energy')" class="tab-btn">Energy Data</button>
-                </div>
-            </div>
+            <!-- 2. Biological Pillar -->
+            <a href="energy.html" class="pillar-card pillar-bio">
+                <div class="pillar-icon">⚡</div>
+                <h2 class="pillar-title">Biological</h2>
+                <p class="pillar-desc">
+                    <strong>Focus:</strong> Energy & Metabolism<br>
+                    <strong>Key Metric:</strong> Metabolic Efficiency (J/pt)<br>
+                    <strong>Observed Phenomenon:</strong> Energy Debt & Burnout
+                </p>
+            </a>
 
-            <!-- v2D Controls Restored (Physics Parameters) for Hybrid Logic -->
-            <!-- Keeping these because the Hybrid Engine (v9.0) runs better with controls, even if visual ref -->
-            <!-- Energy Physics -->
-            <div class="control-group">
-                <label>Energy Physics</label>
-                <div class="input-wrap">
-                    <span>High Load Cost (&alpha;<sub>high</sub>)</span>
-                    <input type="range" id="alphaHigh" min="10" max="30" value="18"
-                        oninput="updateVal('valAlphaHigh', this.value)">
-                    <span id="valAlphaHigh" class="val-display">18%</span>
-                </div>
-                <div class="input-wrap">
-                    <span>Recovery Rate (&beta;)</span>
-                    <input type="range" id="recovRate" min="5" max="25" value="15"
-                        oninput="updateVal('valRecov', this.value)">
-                    <span id="valRecov" class="val-display">15%</span>
-                </div>
-            </div>
+            <!-- 3. Systemic Pillar -->
+            <a href="treeKnowledge.html" class="pillar-card pillar-sys">
+                <div class="pillar-icon">🌌</div>
+                <h2 class="pillar-title">Systemic</h2>
+                <p class="pillar-desc">
+                    <strong>Focus:</strong> Complexity & Stability<br>
+                    <strong>Key Metric:</strong> Phase Space Trajectory<br>
+                    <strong>Observed Phenomenon:</strong> The Burnout Plane
+                </p>
+            </a>
 
-            <!-- Cognitive Constraints (Restored) -->
-            <div class="control-group warning-zone">
-                <label>Cognitive Constraints</label>
-                <div class="input-wrap">
-                    <span>Forgetting Rate (&delta;)</span>
-                    <input type="range" id="decayRate" min="0" max="20" value="5" step="1"
-                        oninput="updateVal('valDecay', this.value/1000)">
-                    <span id="valDecay" class="val-display">0.005</span>
-                </div>
-                <div class="input-wrap">
-                    <span>Switching Cost</span>
-                    <input type="range" id="switchCost" min="0" max="10" value="2"
-                        oninput="updateVal('valSwitch', this.value)">
-                    <span id="valSwitch" class="val-display">2%</span>
-                </div>
-            </div>
+            <!-- 4. Legacy Graph -->
+            <a href="graph.html" class="pillar-card pillar-graph" style="--card-accent: #f59e0b;">
+                <div class="pillar-icon">🕸️</div>
+                <h2 class="pillar-title">Live Graph</h2>
+                <p class="pillar-desc">
+                    <strong>Focus:</strong> Knowledge Tree (DAG)<br>
+                    <strong>Key Metric:</strong> Node Mastery Status<br>
+                    <strong>Legacy View:</strong> Dual-Agent Network (v9.0)
+                </p>
+            </a>
+        </div>
 
-            <div class="control-group warning-zone">
-                <label>Reality Gap</label>
-                <div class="input-wrap">
-                    <span>Model Mismatch</span>
-                    <input type="range" id="mismatch" min="0" max="50" value="20"
-                        oninput="updateVal('valMis', this.value)">
-                    <span id="valMis" class="val-display">20%</span>
-                </div>
-            </div>
-            <div class="control-group mpc-zone">
-                <label>Bio-PKT Controller (MPC)</label>
-                <div class="input-wrap">
-                    <span>Prediction Horizon (H)</span>
-                    <input type="range" id="mpcHorizon" min="1" max="5" value="3"
-                        oninput="updateVal('valHorizon', this.value)">
-                    <span id="valHorizon" class="val-display">3 hrs</span>
-                </div>
-                <div class="toggle-wrap">
-                    <span>Non-linear Fatigue</span>
-                    <label class="switch">
-                        <input type="checkbox" id="nonLinearToggle" checked>
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-            </div>
-
-
-            <div class="control-group terminal-box">
-                <label>Algorithmic Reasoning Log</label>
-                <div id="console-log" class="console">
-                    <span class="log-line">Waiting for start...</span>
-                </div>
-            </div>
-        </aside>
-
-        <main class="main-content">
-            <div class="stats-panel">
-                <div class="card stat-card red">
-                    <h3>Greedy</h3>
-                    <p>Mastery: <span id="scoreGreedy">0</span>%</p>
-                    <small>Burnouts: <span id="burnGreedy">0</span></small>
-                </div>
-                <div class="card stat-card green">
-                    <h3>Bio-PKT</h3>
-                    <p>Mastery: <span id="scoreBio">0</span>%</p>
-                    <small>Burnouts: <span id="burnBio">0</span></small>
-                </div>
-            </div>
-
-            <div id="tab-graph" class="tab-content active" style="display:flex; flex-direction: column; gap: 10px;">
-                <div style="display:flex; gap: 10px; height: 100%;">
-                    <div class="chart-wrapper" style="flex:1; position: relative;">
-                        <h4>Greedy Agent (Chaos)</h4>
-                        <div id="network-greedy"
-                            style="width:100%; height:90%; border:1px solid rgba(239, 68, 68, 0.3); border-radius:8px;">
-                        </div>
-                        <div class="agent-status" id="status-greedy">Idle</div>
-                    </div>
-                    <div class="chart-wrapper" style="flex:1; position: relative;">
-                        <h4>Bio-PKT Agent (Structured + Physics)</h4>
-                        <div id="network-bio"
-                            style="width:100%; height:90%; border:1px solid rgba(16, 185, 129, 0.3); border-radius:8px;">
-                        </div>
-                        <div class="agent-status" id="status-bio">Idle</div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="tab-energy" class="tab-content" style="display:none;">
-                <div class="charts-container">
-                    <div class="chart-wrapper">
-                        <canvas id="energyChart"></canvas>
-                    </div>
-                    <div class="chart-wrapper">
-                        <canvas id="knowledgeChart"></canvas>
-                    </div>
-                </div>
-            </div>
-        </main>
+        <div class="footer">
+            EIA Conference Submission &copy; 2026
+        </div>
     </div>
-    <script src="script.js"></script>
+
 </body>
 
 </html>

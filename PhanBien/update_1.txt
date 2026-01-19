@@ -1,0 +1,221 @@
+Tuyệt vời. Chúng ta sẽ biến energy.html từ một “thanh pin” đơn giản thành một Phòng Lab Đo lường Chuyển hóa Năng lượng (Metabolic Efficiency Lab).
+Mục tiêu của phần này là cung cấp bằng chứng định lượng cho RQ1: Chi phí sinh học (Biological Cost). Chúng ta sẽ chứng minh rằng: Để đạt cùng 1 điểm kiến thức, EFA phải đốt nhiều năng lượng gấp 3-4 lần Bio-PKT do “ma sát” của Stress.
+Dưới đây là chi tiết triển khai cho Trụ cột Sinh học.
+
+1. Cơ sở Khoa học (The Scientific Rationale)
+Để thuyết phục Reviewer, chúng ta cần đưa vào 2 chỉ số mới:
+1. Hiệu suất Chuyển hóa Tức thời ( J_metabolic ):
+J(t)=ΔEnergyUsed/ΔMasteryGained
+o EFA: Khi Stress cao, mẫu số ( ΔMastery ) giảm về 0, khiến J(t) tiến tới vô cùng (Lãng phí cực đại).
+o Bio-PKT: Giữ chỉ số này thấp và ổn định (Hiệu quả cao).
+2. Nợ Năng lượng (Energy Debt / Allostatic Load):
+o Khi năng lượng xuống dưới ngưỡng tới hạn (ví dụ 20%), hệ thống bắt đầu “vay nóng” từ ngân hàng sức khỏe. Khoản nợ này phải trả bằng thời gian hồi phục gấp đôi.
+
+2. Cập nhật Giao diện: energy.html
+Chúng ta cần chia màn hình thành các khu vực hiển thị dữ liệu chuyên sâu hơn.
+Hãy thay thế nội dung trong thẻ <body> (phần container chính) bằng mã sau:
+<div class="container-energy">
+    <h1>🔬 Biological Constraints Analysis (Trụ cột Sinh học)</h1>
+    
+    <div class="vitals-panel">
+        <div class="agent-box efa-box">
+            <h2>EFA (Greedy)</h2>
+            <div class="meter-label">Energy Reserves</div>
+            <div class="progress-bg"><div id="efa-energy-bar" class="progress-fill red"></div></div>
+            <div class="metric-row">
+                <span>Metabolic Rate:</span> 
+                <span id="efa-metabolic" class="critical-value">---</span> J/pt
+            </div>
+            <div class="metric-row">
+                <span>Energy Debt:</span> 
+                <span id="efa-debt" class="danger-text">0</span> units
+            </div>
+        </div>
+
+        <div class="agent-box bio-box">
+            <h2>Bio-PKT (Ours)</h2>
+            <div class="meter-label">Energy Reserves</div>
+            <div class="progress-bg"><div id="bio-energy-bar" class="progress-fill green"></div></div>
+            <div class="metric-row">
+                <span>Metabolic Rate:</span> 
+                <span id="bio-metabolic" class="optimal-value">---</span> J/pt
+            </div>
+            <div class="metric-row">
+                <span>Energy Debt:</span> 
+                <span id="bio-debt" class="safe-text">0</span> units
+            </div>
+        </div>
+    </div>
+
+    <div class="chart-section">
+        <h3>📉 Cost of Learning (Chi phí Năng lượng trên mỗi điểm Kiến thức)</h3>
+        <p class="scientific-note">
+            *Biểu đồ này chứng minh "Ma sát Stress": Đường càng cao = Càng lãng phí năng lượng.
+            EFA (Đỏ) sẽ tăng vọt theo hàm mũ khi Stress cao. Bio-PKT (Xanh) duy trì ổn định.
+        </p>
+        <div class="canvas-container">
+            <canvas id="metabolicChart"></canvas>
+        </div>
+    </div>
+</div>
+
+3. Cập nhật Logic: script_energy.js
+Đây là nơi “ma thuật” xảy ra. Chúng ta sẽ tính toán cái giá phải trả cho mỗi hành động.
+Hãy cập nhật (hoặc thay thế) nội dung file JS như sau:
+// Cấu hình Chart.js
+let metabolicChartCtx = document.getElementById('metabolicChart').getContext('2d');
+let metabolicChart = new Chart(metabolicChartCtx, {
+    type: 'line',
+    data: {
+        labels: [],
+        datasets: [{
+            label: 'EFA Cost (Joules/Point)',
+            borderColor: '#ff4444', // Đỏ
+            data: [],
+            fill: false,
+            tension: 0.4
+        }, {
+            label: 'Bio-PKT Cost (Joules/Point)',
+            borderColor: '#44cc44', // Xanh
+            data: [],
+            fill: false,
+            tension: 0.4
+        }]
+    },
+    options: {
+        animation: false,
+        scales: {
+            y: {
+                beginAtZero: true,
+                title: { display: true, text: 'Energy Cost per Mastery Point' },
+                max: 20 // Giới hạn trục Y để thấy rõ sự bùng nổ của EFA
+            }
+        }
+    }
+});
+
+// Biến theo dõi Nợ năng lượng
+let efaDebt = 0;
+let bioDebt = 0;
+
+// Hàm tính toán chi phí chuyển hóa (Metabolic Cost Calculation)
+function calculateMetabolicCost(energySpent, masteryGained) {
+    // Nếu không học được gì (Gain=0) mà vẫn tốn năng lượng -> Chi phí là Vô cùng
+    if (masteryGained <= 0.1) return 20; // Cap ở mức 20 để vẽ biểu đồ cho đẹp
+    let cost = energySpent / masteryGained;
+    return Math.min(cost, 20); // Clamp value
+}
+
+// --- CẬP NHẬT TRONG VÒNG LẶP SIMULATION ---
+// (Gọi hàm này bên trong hàm step() chính của bạn)
+
+function updateEnergyMetrics(efaAction, efaGain, bioAction, bioGain) {
+    
+    // 1. Tính chi phí thực tế (Actual Energy Cost)
+    // EFA bị phạt thêm năng lượng khi Stress cao (Stress Tax)
+    let efaStressTax = (greedy.stress > 70) ? 1.5 : 1.0; 
+    let efaRealCost = efaAction.cost * efaStressTax;
+    
+    let bioStressTax = (bio.stress > 70) ? 1.5 : 1.0;
+    let bioRealCost = bioAction.cost * bioStressTax;
+
+    // 2. Tính chỉ số Metabolic Rate (J/pt)
+    let efaMetric = calculateMetabolicCost(efaRealCost, efaGain);
+    let bioMetric = calculateMetabolicCost(bioRealCost, bioGain);
+
+    // 3. Tính Nợ Năng lượng (Energy Debt)
+    // Nếu Energy < 20%, bắt đầu tích lũy nợ
+    if (greedy.energy < 20) efaDebt += 1.5; // Lãi suất cao
+    if (bio.energy < 20) bioDebt += 0.5;    // Bio ít khi bị, nhưng nếu bị thì nhẹ hơn
+
+    // --- CẬP NHẬT UI ---
+    
+    // Text Metrics
+    document.getElementById('efa-metabolic').innerText = efaMetric.toFixed(2);
+    document.getElementById('bio-metabolic').innerText = bioMetric.toFixed(2);
+    document.getElementById('efa-debt').innerText = Math.round(efaDebt);
+    document.getElementById('bio-debt').innerText = Math.round(bioDebt);
+
+    // Bars
+    document.getElementById('efa-energy-bar').style.width = greedy.energy + "%";
+    document.getElementById('bio-energy-bar').style.width = bio.energy + "%";
+
+    // Chart Update (Mỗi 5 frame update 1 lần cho đỡ lag)
+    if (globalTime % 5 === 0) {
+        metabolicChart.data.labels.push(globalTime);
+        metabolicChart.data.datasets[0].data.push(efaMetric);
+        metabolicChart.data.datasets[1].data.push(bioMetric);
+        
+        // Giữ biểu đồ trôi (xoá dữ liệu cũ)
+        if (metabolicChart.data.labels.length > 50) {
+            metabolicChart.data.labels.shift();
+            metabolicChart.data.datasets[0].data.shift();
+            metabolicChart.data.datasets[1].data.shift();
+        }
+        metabolicChart.update();
+    }
+}
+
+4. Thêm Style vào style_emotion.css (hoặc style.css)
+/* Layout cho Energy Dashboard */
+.container-energy {
+    background: #1a1a1a;
+    color: #eee;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.vitals-panel {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.agent-box {
+    flex: 1;
+    background: #2d2d2d;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.efa-box { border-top: 4px solid #ff4444; }
+.bio-box { border-top: 4px solid #44cc44; }
+
+.metric-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.critical-value { color: #ff4444; font-weight: bold; }
+.optimal-value { color: #44cc44; font-weight: bold; }
+
+.progress-bg {
+    background: #444;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill { height: 100%; transition: width 0.2s; }
+.progress-fill.red { background: linear-gradient(90deg, #ff4444, #cc0000); }
+.progress-fill.green { background: linear-gradient(90deg, #44cc44, #008800); }
+
+.scientific-note {
+    font-style: italic;
+    color: #aaa;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+5. Phân tích kết quả (Dành cho Bài báo)
+Sau khi code xong và chạy energy.html, bạn sẽ thấy hiện tượng sau để viết vào bài báo:
+1. Giai đoạn đầu (Tài nguyên dồi dào): Hai đường trên biểu đồ trùng nhau (~2.0 J/pt). EFA và Bio-PKT hiệu quả như nhau.
+2. Giai đoạn Stress (Điểm gãy):
+o Đường màu đỏ (EFA) bắt đầu dao động mạnh và tăng vọt lên mức 10-20 J/pt.
+o Giải thích: EFA đang cố “lái xe lên dốc bằng số 5”. Nó đốt rất nhiều năng lượng nhưng xe (kiến thức) hầu như không nhích lên.
+3. Khoản nợ (The Debt):
+o Số Energy Debt của EFA tăng lên hàng trăm đơn vị. Đây là con số ẩn dụ cho “Sự tổn hại tế bào thần kinh” hoặc “Burnout mãn tính” mà một giấc ngủ đêm không thể bù đắp hết.
+Việc tách riêng file energy.html với các chỉ số chuyên sâu này giúp bài báo của bạn có thêm một Layer (Lớp) phân tích sinh học cực kỳ đắt giá.

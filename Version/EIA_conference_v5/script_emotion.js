@@ -282,7 +282,6 @@ function tick() {
 
     updateUI();
     updateCharts();
-    if (window.update3DChart) window.update3DChart(); // v16 3D Hook
 
     // Log Notable Events
     if (resEFA.type === 'burnout') log(`[HPA] SYSTEM CRASH! (Rebooting...)`, 'greedy');

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-PKT Sim v8.0 (Live Graph)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function updateVal(id, val) {
+            let suffix = (id.includes('Rate') || id.includes('mismatch') || id.includes('Alpha') || id.includes('Switch') || id.includes('Comp')) ? '%' : '';
+            if (id === 'valDecay') suffix = '';
+            if (id === 'valHorizon') suffix = ' hrs';
+
+            let displayVal = val;
+            if (id === 'valDecay') displayVal = (val / 1000).toFixed(3);
+
+            document.getElementById(id).innerText = displayVal + suffix;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="header">
+                <h2>Bio-PKT Sim v8.0</h2>
+                <p>Live Graph Visualization</p>
+            </div>
+
+            <!-- Link to Energy Sim -->
+            <div class="control-group">
+                <button onclick="window.location.href='energy.html'" class="btn-run"
+                    style="background: #475569; margin-bottom: 5px;">
+                    Go to Energy Experiments &rarr;
+                </button>
+                <button onclick="window.location.href='emotion.html'" class="btn-run"
+                    style="background: linear-gradient(135deg, #ec4899, #8b5cf6);">
+                    Go to Empathic AI (v9.4) &rarr;
+                </button>
+            </div>
+
+            <div class="control-group">
+                <label>Simulation Controls</label>
+                <div class="input-wrap">
+                    <span>Simulation Speed</span>
+                    <input type="range" id="simSpeed" min="10" max="500" value="100" oninput="updateSpeed(this.value)">
+                    <span id="valSpeed" class="val-display">100ms</span>
+                </div>
+                <button onclick="runLiveSimulation()" class="btn-run">RESTART DEMO</button>
+            </div>
+
+            <div class="control-group">
+                <label>View Mode</label>
+                <div class="tab-buttons">
+                    <button onclick="switchTab('graph')" class="tab-btn active">Live Graph</button>
+                    <button onclick="switchTab('energy')" class="tab-btn">Energy Data</button>
+                </div>
+            </div>
+
+            <!-- v2D Controls Restored (Physics Parameters) for Hybrid Logic -->
+            <!-- Keeping these because the Hybrid Engine (v9.0) runs better with controls, even if visual ref -->
+            <!-- Energy Physics -->
+            <div class="control-group">
+                <label>Energy Physics</label>
+                <div class="input-wrap">
+                    <span>High Load Cost (&alpha;<sub>high</sub>)</span>
+                    <input type="range" id="alphaHigh" min="10" max="30" value="18"
+                        oninput="updateVal('valAlphaHigh', this.value)">
+                    <span id="valAlphaHigh" class="val-display">18%</span>
+                </div>
+                <div class="input-wrap">
+                    <span>Recovery Rate (&beta;)</span>
+                    <input type="range" id="recovRate" min="5" max="25" value="15"
+                        oninput="updateVal('valRecov', this.value)">
+                    <span id="valRecov" class="val-display">15%</span>
+                </div>
+            </div>
+
+            <!-- Cognitive Constraints (Restored) -->
+            <div class="control-group warning-zone">
+                <label>Cognitive Constraints</label>
+                <div class="input-wrap">
+                    <span>Forgetting Rate (&delta;)</span>
+                    <input type="range" id="decayRate" min="0" max="20" value="5" step="1"
+                        oninput="updateVal('valDecay', this.value/1000)">
+                    <span id="valDecay" class="val-display">0.005</span>
+                </div>
+                <div class="input-wrap">
+                    <span>Switching Cost</span>
+                    <input type="range" id="switchCost" min="0" max="10" value="2"
+                        oninput="updateVal('valSwitch', this.value)">
+                    <span id="valSwitch" class="val-display">2%</span>
+                </div>
+            </div>
+
+            <div class="control-group warning-zone">
+                <label>Reality Gap</label>
+                <div class="input-wrap">
+                    <span>Model Mismatch</span>
+                    <input type="range" id="mismatch" min="0" max="50" value="20"
+                        oninput="updateVal('valMis', this.value)">
+                    <span id="valMis" class="val-display">20%</span>
+                </div>
+            </div>
+            <div class="control-group mpc-zone">
+                <label>Bio-PKT Controller (MPC)</label>
+                <div class="input-wrap">
+                    <span>Prediction Horizon (H)</span>
+                    <input type="range" id="mpcHorizon" min="1" max="5" value="3"
+                        oninput="updateVal('valHorizon', this.value)">
+                    <span id="valHorizon" class="val-display">3 hrs</span>
+                </div>
+                <div class="toggle-wrap">
+                    <span>Non-linear Fatigue</span>
+                    <label class="switch">
+                        <input type="checkbox" id="nonLinearToggle" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="control-group terminal-box">
+                <label>Algorithmic Reasoning Log</label>
+                <div id="console-log" class="console">
+                    <span class="log-line">Waiting for start...</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="stats-panel">
+                <div class="card stat-card red">
+                    <h3>Greedy</h3>
+                    <p>Mastery: <span id="scoreGreedy">0</span>%</p>
+                    <small>Burnouts: <span id="burnGreedy">0</span></small>
+                </div>
+                <div class="card stat-card green">
+                    <h3>Bio-PKT</h3>
+                    <p>Mastery: <span id="scoreBio">0</span>%</p>
+                    <small>Burnouts: <span id="burnBio">0</span></small>
+                </div>
+            </div>
+
+            <div id="tab-graph" class="tab-content active" style="display:flex; flex-direction: column; gap: 10px;">
+                <div style="display:flex; gap: 10px; height: 100%;">
+                    <div class="chart-wrapper" style="flex:1; position: relative;">
+                        <h4>Greedy Agent (Chaos)</h4>
+                        <div id="network-greedy"
+                            style="width:100%; height:90%; border:1px solid rgba(239, 68, 68, 0.3); border-radius:8px;">
+                        </div>
+                        <div class="agent-status" id="status-greedy">Idle</div>
+                    </div>
+                    <div class="chart-wrapper" style="flex:1; position: relative;">
+                        <h4>Bio-PKT Agent (Structured + Physics)</h4>
+                        <div id="network-bio"
+                            style="width:100%; height:90%; border:1px solid rgba(16, 185, 129, 0.3); border-radius:8px;">
+                        </div>
+                        <div class="agent-status" id="status-bio">Idle</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-energy" class="tab-content" style="display:none;">
+                <div class="charts-container">
+                    <div class="chart-wrapper">
+                        <canvas id="energyChart"></canvas>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="knowledgeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
