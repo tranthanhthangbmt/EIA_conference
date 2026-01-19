@@ -1,0 +1,198 @@
+/* ... Giữ lại các biến màu root ... */
+:root {
+    --bg-dark: #0b1120;
+    /* Darker, clearer background */
+    --panel-bg: #1e293b;
+    --text-main: #f1f5f9;
+    --accent: #38bdf8;
+    --color-greedy: #f43f5e;
+    --color-bio: #10b981;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-main);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+/* LAYOUT: 3 COLUMNS (Sidebar - Main Viz - Stats/Logs) */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 260px;
+    background: var(--panel-bg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: 1px solid #334155;
+}
+
+.header h2 {
+    font-size: 1.2rem;
+    color: var(--accent);
+    margin: 0;
+}
+
+.control-group {
+    background: #0f172a;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+.btn-run {
+    background: var(--accent);
+    color: #000;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-run:hover {
+    opacity: 0.9;
+}
+
+/* MAIN VISUALIZATION (CENTER) */
+.main-viz {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.viz-container {
+    flex: 1;
+    background: #0f172a;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    padding: 15px;
+    position: relative;
+}
+
+.viz-title {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+    color: #94a3b8;
+    font-size: 0.9rem;
+    z-index: 10;
+}
+
+/* AGENT CARDS (RIGHT COLUMN) */
+.stats-column {
+    width: 300px;
+    background: #0f172a;
+    border-left: 1px solid #334155;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.agent-card {
+    background: var(--panel-bg);
+    border-radius: 12px;
+    padding: 15px;
+    border-top: 4px solid transparent;
+}
+
+.agent-card.greedy {
+    border-color: var(--color-greedy);
+}
+
+.agent-card.bio {
+    border-color: var(--color-bio);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.agent-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.agent-status {
+    font-size: 0.8rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* METRICS GRID */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.metric-box {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.metric-val {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.metric-label {
+    font-size: 0.7rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+/* SEPARATE RADARS */
+.radar-container {
+    height: 180px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* LOG */
+.log-box {
+    flex: 1;
+    background: #000;
+    font-family: monospace;
+    font-size: 0.7rem;
+    padding: 10px;
+    overflow-y: auto;
+    color: #4ade80;
+    border-radius: 8px;
+    max-height: 200px;
+}
+
+.log-line {
+    border-bottom: 1px solid #111;
+    padding: 2px 0;
+}
+
+.log-greedy {
+    color: #f87171;
+}

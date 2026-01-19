@@ -28,76 +28,32 @@ const ACTION_SPACE = [
     { name: "Medium", cost: 10, gain: 10, difficulty: 0.6, stressImpact: 10 },
     { name: "Hard", cost: 15, gain: 15, difficulty: 0.9, stressImpact: 15 }
 ];
-let globalTime = 0; // v15 Circadian Clock (Hours)
 
 // ==========================================
 // 2. HELPER FUNCTIONS
 // ==========================================
 function calculateEfficiency(stress) {
+    // Yerkes-Dodson Law (Explicit Formula)
+    // Optimal: 50 (1.0)
+    // High Stress: > 70 (0.5), > 90 (0.2)
+    // Low Stress (Boredom): < 20 (0.6)
+
     if (stress > 90) return 0.2;
     if (stress > 70) return 0.5;
-    if (stress < 20) return 0.6; // Boredom penalty (for efficiency, not happiness)
+    if (stress < 20) return 0.6; // Boredom penalty
     return 1.0; // Optimal flow
 }
 
-function calculateHappiness(stress, energy, status) {
-    let deltaHappy = 0;
+function calculateHappiness(stress, energy) {
+    let stressDist = Math.abs(stress - 50);
+    // v14.1 Tuned Formula
+    // Flow: Stress 30-70, Energy > 20 (Relaxed constraints)
+    if (stressDist < 20 && energy > 20) return 10;
+    // Comfort: Stress 10-90, Energy > 10
+    if (stressDist < 40 && energy > 10) return 2;
 
-    // 1. FLOW STATE (Best)
-    // Stress [40-70], Energy > 30
-    if (stress >= 40 && stress <= 70 && energy > 30) {
-        deltaHappy = 2.0;
-    }
-
-    // 2. RELAXATION (Recovery is Good)
-    else if (stress < 30 && status.includes('Recovery') || status.includes('Resting')) {
-        deltaHappy = 1.0; // Positive reinforcement for rest
-    }
-
-    // 3. BOREDOM (Bad Rest)
-    else if (stress < 20 && !status.includes('Recovery') && !status.includes('Resting')) {
-        deltaHappy = -0.5;
-    }
-
-    // 4. ANXIETY / BURNOUT
-    else if (stress > 85) {
-        deltaHappy = -3.0;
-    }
-
-    // 5. EXHAUSTION
-    if (energy < 10) {
-        deltaHappy -= 1.0;
-    }
-
-    return deltaHappy;
-}
-
-function checkCircadianRhythm(agent, agentType) {
-    // Every 24 hours (ticks)
-    if (globalTime > 0 && globalTime % 24 === 0) {
-        // --- NIGHT RESET ---
-        if (agentType === 'HRA') {
-            // Bio sleeps well
-            agent.stress = Math.max(10, agent.stress - 40);
-            agent.energy = Math.min(100, agent.energy + 50);
-            agent.happyIndex += 20;
-            log(`🌙 Bio-PKT slept well. Happiness restored!`, 'bio');
-        }
-        else if (agentType === 'EFA') {
-            // EFA Insomnia Risk
-            let sleepQuality = (agent.stress > 80) ? 0.3 : 0.7;
-
-            agent.stress = Math.max(30, agent.stress - (20 * sleepQuality));
-            agent.energy = Math.min(100, agent.energy + (30 * sleepQuality));
-
-            if (sleepQuality < 0.5) {
-                agent.happyIndex -= 10;
-                log(`🌑 HPA Insomnia (High Stress). Mood worsened.`, 'greedy');
-            } else {
-                log(`🌙 HPA slept (Short Rest).`, 'greedy');
-            }
-        }
-    }
+    // Misery: Burnout (>90), Boredom (<10), or Exhaustion (<10 En)
+    return -5;
 }
 
 function getSmartEFAAction(agent) {
@@ -176,8 +132,8 @@ class Agent {
         this.mastery += actualGain;
 
         // --- D. STATE DYNAMICS ---
-        // Happiness Track (v14/v15)
-        this.happyIndex += calculateHappiness(this.stress, this.energy, this.status);
+        // Happiness Track (v14)
+        this.happyIndex += calculateHappiness(this.stress, this.energy);
 
         // Stress Update
         if (decision.difficulty > 0.6) {
@@ -261,8 +217,6 @@ function updateSpeed(val) {
 
 function tick() {
     stepCount++;
-    globalTime++; // v15: Hour Tick
-
     if (stepCount > TOTAL_STEPS) {
         clearInterval(timer);
         log("Experiment Completed.", "system");
@@ -272,19 +226,11 @@ function tick() {
     let resEFA = efa.step();
     let resHRA = hra.step();
 
-    // v15: Circadian Check
-    checkCircadianRhythm(efa, 'EFA');
-    checkCircadianRhythm(hra, 'HRA');
-
-    // v15: Clamp Happiness (-100 to 100)
-    efa.happyIndex = Math.max(-100, Math.min(100, efa.happyIndex));
-    hra.happyIndex = Math.max(-100, Math.min(100, hra.happyIndex));
-
     updateUI();
     updateCharts();
 
     // Log Notable Events
-    if (resEFA.type === 'burnout') log(`[HPA] SYSTEM CRASH! (Rebooting...)`, 'greedy');
+    if (resEFA.type === 'burnout') log(`[EFA] SYSTEM CRASH! (Rebooting...)`, 'greedy');
     if (resHRA.action === 'Resting 💤' && hra.energy > 30) log(`[HRA] Proactive Rest (Sandwich)`, 'bio');
 }
 

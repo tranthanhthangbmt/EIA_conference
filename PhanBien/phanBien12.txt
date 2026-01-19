@@ -1,0 +1,108 @@
+Dựa trên bộ code bạn đã tải lên (EIA_conference_v4) và ngữ cảnh về bài báo Q1, tôi xin phân tích logic "Emotion" (Cảm xúc) hiện tại, so sánh sự ưu việt của phương pháp mới (Bio-PKT), và đưa ra các đề xuất cải thiện cốt lõi để Simulation trở nên "khoa học" và trực quan hơn.
+
+1. Phân tích Logic "Emotion" trong Code
+Trong file script_emotion.js, hai tác nhân (Agents) đại diện cho hai triết lý giáo dục đối lập:
+
+A. Tác nhân EFA (Efficiency-First / Greedy)
+Logic: Tác nhân này hoạt động như một cỗ máy tuyến tính. Hàm mục tiêu (Objective Function) là Max(Gain).
+
+Cảm xúc: "Vô cảm" (Emotion-blind). Nó coi Energy và Stress chỉ là các thông số nhiên liệu, không phải là trạng thái sinh học.
+
+Hành vi trong Code: Nó sẽ chọn bài học khó nhất liên tục cho đến khi Energy <= 0. Khi sập nguồn, nó chỉ nghỉ ngơi tối thiểu (Reactive Rest) để có đủ năng lượng làm việc tiếp.
+
+Kết quả hình ảnh: Biểu đồ Radar sẽ bị méo (Stress cực đại), và biểu đồ đường (Line Chart) sẽ có dạng răng cưa gắt (Crash & Burn).
+
+B. Tác nhân HRA (Bio-PKT / Emotion-Aware)
+Logic: Tác nhân này hoạt động dựa trên cơ chế cân bằng nội môi (Homeostasis). Hàm mục tiêu là Max(Gain) subject to (Stress < Threshold).
+
+Cảm xúc: "Nhạy cảm" (Affective-aware). Nó nhận thức được rằng Stress cao sẽ làm giảm Hiệu suất (Efficiency).
+
+Hành vi trong Code: Sử dụng logic "Sandwich" (kẹp giữa bài học là nghỉ ngơi hoặc bài dễ). Nó dự báo (Predictive) được việc sập nguồn và ngăn chặn nó trước khi xảy ra.
+
+Kết quả hình ảnh: Biểu đồ Radar tròn đều (vùng Well-being lớn), biểu đồ đường đi lên ổn định (Sustainable Growth).
+
+2. Tại sao phương pháp mới (HRA) tốt hơn? (Luận điểm cho bài báo)
+Dựa trên kết quả chạy code, bạn có thể khẳng định với Reviewer:
+
+Vượt qua "Điểm Uốn" (Inflection Point):
+
+Ban đầu EFA thắng vì nó "vay mượn" năng lượng tương lai.
+
+Nhưng sau ngày thứ 3, EFA gặp "Lãi suất kép" của sinh học (Stress Penalty). Phương pháp mới tốt hơn vì nó tránh được chi phí cơ hội của thời gian chết (Downtime Opportunity Cost).
+
+Độ ổn định Không gian pha (Phase Space Stability):
+
+Trong emotion.html, nếu vẽ trục X là Mastery và Y là Energy:
+
+EFA tạo ra các quỹ đạo hỗn loạn (Chaotic Trajectories).
+
+HRA tạo ra một đường xoắn ốc ổn định (Stable Spiral). Đây là bằng chứng toán học của sự bền vững.
+
+3. Điểm cần hoàn thiện để Simulation rõ hơn (Critical Improvements)
+Để người xem (và Reviewer) thấy rõ sự khác biệt "một trời một vực" ngay lập tức, bạn cần nâng cấp code ở 3 điểm sau:
+
+Cải thiện 1: Thêm "Hình phạt Burnout" (The Burnout Lock)
+Hiện tại, nếu EFA hết năng lượng, nó có thể hồi phục ngay ở bước sau. Điều này chưa mô phỏng đúng thực tế "kiệt sức". Hãy thêm cơ chế "bị khóa" (không thể học trong một khoảng thời gian).
+
+Trong script_emotion.js:
+
+JavaScript
+
+// Thêm vào object Greedy (EFA)
+let greedy = { 
+    // ... các thuộc tính cũ
+    burnoutTimer: 0, // Đếm ngược thời gian bị phạt
+    isLocked: false
+};
+
+// Trong hàm step() của Greedy:
+if (greedy.isLocked) {
+    greedy.burnoutTimer--;
+    greedy.energy += 2; // Hồi phục rất chậm khi bị Burnout
+    greedy.stress -= 1; 
+    log("EFA đang bị sập nguồn (Burnout)...", "danger");
+    
+    if (greedy.burnoutTimer <= 0) {
+        greedy.isLocked = false; // Hết phạt
+    }
+    updateChart();
+    return; // Dừng, không được học
+}
+
+// Logic kích hoạt Burnout
+if (greedy.energy <= 5 && greedy.stress >= 90) {
+    greedy.isLocked = true;
+    greedy.burnoutTimer = 10; // Bị phạt đứng hình 10 lượt (tương đương 10 giờ)
+    log("CẢNH BÁO: EFA ĐÃ SẬP NGUỒN!", "error");
+}
+Cải thiện 2: Hiển thị "Hiệu suất thực tế" (Yerkes-Dodson Implementation)
+Hãy làm cho người xem thấy rằng EFA tuy chọn bài khó (Gain=10) nhưng thực tế chỉ nhận được 4 điểm vì Stress quá cao.
+
+Trong hàm tính toán Mastery:
+
+JavaScript
+
+function calculateEfficiency(stress) {
+    // Công thức Yerkes-Dodson mô phỏng: Hiệu suất cao nhất khi Stress ~ 50
+    // Nếu Stress > 90, hiệu suất giảm còn 20%
+    if (stress > 90) return 0.2;
+    if (stress > 70) return 0.5;
+    if (stress < 20) return 0.6; // Quá chán cũng không học tốt
+    return 1.0; // Optimal flow
+}
+
+// Khi cập nhật Mastery
+let eff = calculateEfficiency(agent.stress);
+let actualGain = action.gain * eff;
+agent.mastery += actualGain;
+Cải thiện 3: Trực quan hóa "Vết" trên biểu đồ (Visual Trails)
+Trong emotion.html, các chấm trên biểu đồ Scatter (Phase Space) nên để lại "vết" (trail) để người xem thấy được lịch sử hành vi.
+
+Gợi ý sử dụng Chart.js (đã có trong code của bạn): Thay vì chỉ vẽ 1 điểm hiện tại, hãy push điểm đó vào một mảng data nhưng giới hạn độ dài (ví dụ: giữ lại 20 điểm gần nhất) để tạo hiệu ứng "đuôi sao chổi". Điều này giúp Reviewer thấy rõ quỹ đạo "Răng cưa" của EFA vs "Xoắn ốc" của HRA.
+
+Tổng kết
+Bằng cách thêm "Burnout Lock" và "Efficiency Formula", bạn biến Simulation từ một trò chơi đơn giản thành một Mô hình Khoa học Hành vi (Behavioral Science Model). Đây chính là yếu tố biến bài báo từ Q3 lên Q1.
+
+Link video minh họa khái niệm Yerkes-Dodson thực tế để bạn tham khảo cách giải thích: The Yerkes-Dodson Law - Performance vs Stress
+
+Video này rất phù hợp vì nó giải thích trực quan mối quan hệ hình chữ U ngược giữa áp lực và hiệu suất, giúp bạn có thêm từ vựng để viết phần "Theoretical Framework" cho bài báo.

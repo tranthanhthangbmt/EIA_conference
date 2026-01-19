@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio-PKT Research v12.0 (Bio-Cybernetic)</title>
+    <title>Bio-PKT Research v11.0 (Phase Space)</title>
     <!-- Dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
     <script
@@ -21,7 +21,7 @@
         <aside class="sidebar">
             <div class="header">
                 <h2>Bio-PKT Framework</h2>
-                <p>Bio-Cybernetic Analysis v12.0</p>
+                <p>Comparative Analysis v11</p>
             </div>
 
             <div class="control-group">
@@ -60,11 +60,11 @@
 
         <!-- RIGHT: AGENT STATS (SEPARATE RADARS) -->
         <aside class="stats-column">
-            <!-- EFA CARD -->
+            <!-- GREEDY CARD -->
             <div class="agent-card greedy">
                 <div class="card-header">
-                    <span class="agent-name" style="color:var(--color-greedy)">EFA (Greedy)</span>
-                    <span id="statusGreedy" style="font-size:0.8em">Idle</span>
+                    <span class="agent-name" style="color:var(--color-greedy)">Greedy Agent</span>
+                    <span class="agent-status" id="statusGreedy">Idle</span>
                 </div>
                 <div class="metrics-grid">
                     <div class="metric-box">
@@ -76,23 +76,16 @@
                         <span class="metric-label">Burnouts</span>
                     </div>
                 </div>
-                <!-- v13 Efficiency Display -->
-                <div
-                    style="background:rgba(0,0,0,0.2); padding:5px; margin-bottom:10px; border-radius:4px; text-align:center;">
-                    <div>Brain Efficiency: <span id="efa-efficiency"
-                            style="font-weight:bold; color:var(--color-greedy); font-size:1.1em">100%</span></div>
-                    <small style="opacity:0.6; font-size:0.7em">(Ignored by Agent)</small>
-                </div>
                 <div class="radar-container">
                     <canvas id="radarGreedy"></canvas>
                 </div>
             </div>
 
-            <!-- HRA CARD -->
+            <!-- BIO CARD -->
             <div class="agent-card bio">
                 <div class="card-header">
-                    <span class="agent-name" style="color:var(--color-bio)">Bio-PKT (HRA)</span>
-                    <span id="statusBio" style="font-size:0.8em">Idle</span>
+                    <span class="agent-name" style="color:var(--color-bio)">Bio-PKT Agent</span>
+                    <span class="agent-status" id="statusBio">Idle</span>
                 </div>
                 <div class="metrics-grid">
                     <div class="metric-box">
@@ -104,41 +97,8 @@
                         <span class="metric-label">Burnouts</span>
                     </div>
                 </div>
-                <!-- v13 Efficiency Display -->
-                <div
-                    style="background:rgba(0,0,0,0.2); padding:5px; margin-bottom:10px; border-radius:4px; text-align:center;">
-                    <div>Brain Efficiency: <span id="bio-efficiency"
-                            style="font-weight:bold; color:var(--color-bio); font-size:1.1em">100%</span></div>
-                    <small style="opacity:0.6; font-size:0.7em">(Optimized Constantly)</small>
-                </div>
                 <div class="radar-container">
                     <canvas id="radarBio"></canvas>
-                </div>
-            </div>
-
-            <!-- v14 Happiness Comparison -->
-            <div class="agent-card" style="border:1px solid #64748b; margin-top:10px;">
-                <div class="card-header"><span class="agent-name" style="color:#FFF">Happiness Index (Integral)</span>
-                </div>
-                <div style="padding:10px;">
-                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-                        <span style="color:var(--color-greedy)">EFA</span>
-                        <span id="efa-happy-val">0</span>
-                    </div>
-                    <div
-                        style="width:100%; background:#334155; height:10px; border-radius:5px; margin-bottom:10px; overflow:hidden;">
-                        <div id="efa-happy-bar"
-                            style="width: 50%; height:100%; background: #f43f5e; transition: width 0.2s;"></div>
-                    </div>
-
-                    <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
-                        <span style="color:var(--color-bio)">Bio-PKT</span>
-                        <span id="bio-happy-val">0</span>
-                    </div>
-                    <div style="width:100%; background:#334155; height:10px; border-radius:5px; overflow:hidden;">
-                        <div id="bio-happy-bar"
-                            style="width: 50%; height:100%; background: #10b981; transition: width 0.2s;"></div>
-                    </div>
                 </div>
             </div>
         </aside>
