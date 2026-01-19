@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-PKT Sim v10.0 (Psychometric Digital Twin)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Fix: Use compatible versions -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <!-- Use isolated style and script -->
+    <link rel="stylesheet" href="style_emotion.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="header">
+                <h2>Bio-PKT Sim v10.0</h2>
+                <p>Psychometric & Affective AI</p>
+            </div>
+
+            <div class="control-group">
+                <!-- Navigation Back to Index -->
+                <button onclick="window.location.href='index.html'" class="btn-run"
+                    style="background: #475569; margin-bottom: 10px;">
+                    &larr; Back to Live Graph (v8.0)
+                </button>
+                <div class="input-wrap">
+                    <span>Sim Speed</span>
+                    <input type="range" id="simSpeed" min="10" max="500" value="200" oninput="updateSpeed(this.value)">
+                    <span id="valSpeed" class="val-display">200ms</span>
+                </div>
+                <button onclick="runLiveSimulation()" class="btn-run">RESTART EXPERIMENT</button>
+            </div>
+
+            <div class="control-group">
+                <label>Real-time Psychometrics</label>
+                <div style="height: 250px;">
+                    <canvas id="radarChart"></canvas>
+                </div>
+                <p class="small-note" style="text-align:center; margin-top:5px; font-size: 0.8em; opacity: 0.7;">
+                    <span style="color:#ef4444">■ Greedy</span> vs <span style="color:#10b981">■ Bio-PKT</span>
+                </p>
+            </div>
+
+            <div class="control-group">
+                <label>Visualization</label>
+                <div class="tab-buttons">
+                    <button onclick="switchTab('graph')" class="tab-btn active">Live Graph</button>
+                    <button onclick="switchTab('flow')" class="tab-btn">Flow Map</button>
+                    <button onclick="switchTab('energy')" class="tab-btn">Energy</button>
+                </div>
+            </div>
+
+            <div class="control-group terminal-box">
+                <label>Decision Context Log</label>
+                <div id="console-log" class="console">
+                    <span class="log-line">System Ready...</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="stats-panel">
+                <div class="card stat-card red">
+                    <h3>Greedy Agent</h3>
+                    <div class="metric-row">
+                        <span>Stress:</span> <span id="stressGreedy" style="color:#ef4444">0%</span>
+                    </div>
+                    <div class="metric-row">
+                        <span>Flow (Focus):</span> <span id="flowGreedy">0%</span>
+                    </div>
+                    <div class="metric-row">
+                        <span>Mastery:</span> <span id="scoreGreedy">0%</span>
+                    </div>
+                    <div class="emotion-badge" id="badgeGreedy">😐 Neutral</div>
+                    <small>Status: <span id="statusTextGreedy">Idle</span></small>
+                </div>
+                <div class="card stat-card green">
+                    <h3>Bio-PKT Agent</h3>
+                    <div class="metric-row">
+                        <span>Stress:</span> <span id="stressBio">0%</span>
+                    </div>
+                    <div class="metric-row">
+                        <span>Flow (Focus):</span> <span id="flowBio">0%</span>
+                    </div>
+                    <div class="metric-row">
+                        <span>Mastery:</span> <span id="scoreBio">0%</span>
+                    </div>
+                    <div class="emotion-badge" id="badgeBio">😐 Neutral</div>
+                    <small>Status: <span id="statusTextBio">Idle</span></small>
+                </div>
+            </div>
+
+            <div id="tab-graph" class="tab-content active">
+                <div class="subject-legend">
+                    <span class="legend-item"><span class="dot" style="background:#3b82f6"></span> Theory
+                        (Basics)</span>
+                    <span class="legend-item"><span class="dot" style="background:#f59e0b"></span> Coding
+                        (Project)</span>
+                    <span class="legend-item"><span class="dot" style="background:#ef4444"></span> Math (Deep
+                        Logic)</span>
+                </div>
+
+                <div style="display:flex; gap: 15px; height: 100%;">
+                    <div class="chart-wrapper">
+                        <h4>Greedy View (Unstructured)</h4>
+                        <div id="network-greedy"
+                            style="width:100%; height:90%; border:1px solid rgba(239, 68, 68, 0.3); border-radius:8px;">
+                        </div>
+                        <div class="agent-status" id="overlay-greedy">E: 100%</div>
+                    </div>
+                    <div class="chart-wrapper">
+                        <h4>Bio-PKT View (Structured)</h4>
+                        <div id="network-bio"
+                            style="width:100%; height:90%; border:1px solid rgba(16, 185, 129, 0.3); border-radius:8px;">
+                        </div>
+                        <div class="agent-status" id="overlay-bio">E: 100%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flow Map Tab -->
+            <div id="tab-flow" class="tab-content" style="display:none;">
+                <div class="chart-wrapper" style="height: 100%;">
+                    <h4>Cognitive Flow Map (Csikszentmihalyi Model)</h4>
+                    <div style="flex:1; position:relative;">
+                        <canvas id="flowChart"></canvas>
+                    </div>
+                    <div style="text-align: center; margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">
+                        X: Energy (Resources) &mdash; Y: Difficulty (Challenge)
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-energy" class="tab-content" style="display:none;">
+                <div class="chart-wrapper">
+                    <canvas id="energyChart"></canvas>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Point to emotion script -->
+    <script src="script_emotion.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+# Đây là cấu trúc MỚI và ĐÚNG
+cookie:
+  name: k-tree-cookie
+  key: 'day_la_mot_key_bi_mat_123'
+  expiry_days: 30
+credentials:
+  usernames:
+    thanhthang: # Username
+      email: thanhthangbmt151@gmail.com
+      name: Thanh Thang
+      password: '$2b$12$4WF1pgg2aDKZmCz5Uo2nF..sF6.63O9fHqLpnzP1KsmzZeC4q6RyW' # Mật khẩu 1 (từ '123')
+    rdeckard: # Username
+      email: rdeckard@example.com
+      name: Rick Deckard
+      password: '$2b$12$Lo5Id8BthistFwuhKWOxxex6AgisVXfPpFRCL08WkcyFDO.AOKT.q' # Mật khẩu 2 (từ 'abc')
+preauthorized:
+  emails:
+  - user@example.com

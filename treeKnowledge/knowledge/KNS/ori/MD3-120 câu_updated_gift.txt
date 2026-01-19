@@ -1,0 +1,839 @@
+::Theo tài liệu mục tiêu của Module 3 Phát triển nội:: Theo tài liệu, mục tiêu của Module 3: "Phát triển nội dung số" là gì? {
+	=Trang bị khả năng phân tích mục tiêu và đối tượng người dùng.
+	~Hướng dẫn quy trình rà soát và đánh giá tài nguyên nội dung đã có.
+	~Cung cấp kiến thức nền tảng về bản quyền số.
+	~Giúp làm quen với lập trình Python cơ bản.
+}
+
+::Kim chỉ nam cho mọi hoạt động sáng tạo nội dung hi:: "Kim chỉ nam" cho mọi hoạt động sáng tạo nội dung hiệu quả là gì? {
+	=Hiểu rõ "làm nội dung cho ai?" và "để làm gì?".
+	~Nắm vững các công cụ sản xuất nội dung hiện đại.
+	~Có khả năng thiết kế hình ảnh bắt mắt.
+	~Biết cách viết kịch bản video hấp dẫn.
+}
+
+::Mục tiêu nội dung số SMART bao gồm những yếu tố nà:: Mục tiêu nội dung số SMART bao gồm những yếu tố nào? {
+	=Specific, Measurable, Achievable, Relevant, Time-bound.
+	~Simple, Memorable, Attractive, Readable, Timely.
+	~Strategic, Modern, Appealing, Realistic, Thoughtful.
+	~Short, Meaningful, Actionable, Relatable, Teachable.
+}
+
+::Yếu tố nào KHÔNG thuộc 3 yếu tố chính để xây dựng:: Yếu tố nào KHÔNG thuộc 3 yếu tố chính để xây dựng Chân dung người dùng (User Persona)? {
+	~Nhân khẩu học
+	~Tâm lý học
+	~Thói quen số (Digital Habits)
+	=Tình trạng hôn nhân
+}
+
+::Hậu quả của việc không xác định rõ ràng mục tiêu v:: Hậu quả của việc không xác định rõ ràng mục tiêu và đối tượng là gì? {
+	=Nội dung không tiếp cận đúng người cần, thông điệp không hiệu quả.
+	~Chi phí sản xuất nội dung tăng cao.
+	~Thời gian sản xuất nội dung kéo dài.
+	~Khó khăn trong việc lựa chọn công cụ sản xuất.
+}
+
+::Chuẩn đầu ra của phần Phân tích mục tiêu và đối tư:: Chuẩn đầu ra của phần "Phân tích mục tiêu và đối tượng" là gì? {
+	=Sinh viên có khả năng xác định mục tiêu và đối tượng một cách rõ ràng.
+	~Sinh viên có khả năng lập kế hoạch nội dung chi tiết.
+	~Sinh viên biết cách sử dụng các công cụ sản xuất nội dung.
+	~Sinh viên hiểu về các loại giấy phép bản quyền.
+}
+
+::Việc lập kế hoạch nội dung được so sánh với hoạt đ:: Việc lập kế hoạch nội dung được so sánh với hoạt động nào? {
+	=Lập kế hoạch cho một chuyến đi – cần bản đồ và phương tiện.
+	~Xây một ngôi nhà – cần nền móng vững chắc.
+	~Nấu một món ăn – cần công thức và nguyên liệu.
+	~Viết một cuốn sách – cần ý tưởng và cốt truyện.
+}
+
+::Kế hoạch nội dung dài hạn thường được xác định the:: Kế hoạch nội dung dài hạn thường được xác định theo khung thời gian nào? {
+	=Năm
+	~Quý/Tháng
+	~Tuần/Ngày
+	~Giờ
+}
+
+::Công cụ nào sau đây KHÔNG được gợi ý để hỗ trợ lập:: Công cụ nào sau đây KHÔNG được gợi ý để hỗ trợ lập kế hoạch nội dung? {
+	~Năm
+	=Adobe Photoshop
+	~Notion
+	~Trello
+}
+
+::Ưu điểm chính của định dạng nội dung Infographic l:: Ưu điểm chính của định dạng nội dung Infographic là gì? {
+	=Trực quan, dễ chia sẻ
+	~Cung cấp thông tin chi tiết, tốt cho SEO
+	~Tương tác cao, hấp dẫn
+	~Tiện lợi, có thể nghe khi làm việc khác
+}
+
+::Nhược điểm của định dạng nội dung Video là gì:: Nhược điểm của định dạng nội dung Video là gì? {
+	=Tốn công sản xuất
+	~Cần thời gian đọc
+	~Phức tạp khi tạo
+	~Khó tiếp cận người không thích nghe
+}
+
+::Tiêu chí nào KHÔNG phải là tiêu chí để lựa chọn lo:: Tiêu chí nào KHÔNG phải là tiêu chí để lựa chọn loại nội dung phù hợp? {
+	~Mục tiêu nội dung
+	~Đối tượng
+	=Sở thích cá nhân của người tạo nội dung
+	~Nền tảng phân phối
+}
+
+::Việc lập kế hoạch nội dung được ví như là gì cho h:: Việc lập kế hoạch nội dung được ví như là gì cho hoạt động sáng tạo? {
+	=Một "bộ khung" vững chắc
+	~Một "nền móng" vững chắc
+	~Một "bản đồ" chỉ đường
+	~Một "công thức" thành công
+}
+
+::Yếu tố nào sau đây KHÔNG phải là một tiêu chí của:: Yếu tố nào sau đây KHÔNG phải là một tiêu chí của "nội dung có giá trị thật sự"? {
+	~Giúp đỡ/Cung cấp giải pháp
+	~Giải trí
+	=Luôn tạo ra tranh cãi để thu hút chú ý
+	~Truyền cảm hứng
+}
+
+::Công cụ nào được gợi ý để hỗ trợ việc viết nội dun:: Công cụ nào được gợi ý để hỗ trợ việc viết nội dung hấp dẫn? {
+	=Grammarly
+	~CapCut
+	~Canva
+	~Audacity
+}
+
+::Để thiết kế hình ảnh bắt mắt công cụ nào sau đây đ:: Để thiết kế hình ảnh bắt mắt, công cụ nào sau đây được gợi ý cho người mới bắt đầu? {
+	=Canva
+	~Adobe Photoshop
+	~Adobe Illustrator
+	~DaVinci Resolve
+}
+
+::CapCut và KineMaster là các công cụ hỗ trợ cho việ:: CapCut và KineMaster là các công cụ hỗ trợ cho việc gì? {
+	=Quay/chỉnh sửa video trên di động
+	~Chỉnh sửa âm thanh chuyên nghiệp
+	~Thiết kế đồ họa vector
+	~Quản lý dự án nội dung
+}
+
+::Giai đoạn nào quyết định phần lớn sự thành công củ:: Giai đoạn nào quyết định phần lớn sự thành công của nội dung? {
+	=Chất lượng sản xuất
+	~Lập kế hoạch
+	~Phân tích đối tượng
+	~Phân phối nội dung
+}
+
+::Tích hợp và tạo lập lại nội dung số là gì:: "Tích hợp và tạo lập lại nội dung số" là gì? {
+	=Rà soát, đánh giá tài nguyên nội dung đã có, đồng thời cung cấp phương pháp thiết kế khung và biên tập, chuyển đổi nội dung sang các định dạng mới phù hợp.
+	~Tập trung vào việc sản xuất các loại nội dung mới.
+	~Cung cấp kiến thức về bản quyền và giấy phép.
+	~Hướng dẫn lập trình Python cơ bản.
+}
+
+::Bước đầu tiên trong quy trình rà soát và đánh giá:: Bước đầu tiên trong quy trình rà soát và đánh giá nội dung đã có là gì? {
+	=Thu thập tất cả nội dung số liên quan.
+	~Phân loại nội dung theo chủ đề.
+	~Đánh giá độ phù hợp của nội dung.
+	~Loại bỏ các nội dung lỗi thời.
+}
+
+::Evergreen content Nội dung xanh là loại nội dung g:: "Evergreen content" (Nội dung xanh) là loại nội dung gì? {
+	=Nội dung có giá trị bền vững, không lỗi thời.
+	~Nội dung cần được cập nhật thường xuyên.
+	~Nội dung đã lỗi thời và không còn phù hợp.
+	~Nội dung chỉ có giá trị trong một thời gian ngắn.
+}
+
+::Tiêu chí nào được xem là quan trọng nhất khi phân:: Tiêu chí nào được xem là quan trọng nhất khi phân loại nội dung đã có? {
+	=Độ cập nhật
+	~Định dạng
+	~Chủ đề
+	~Nguồn gốc
+}
+
+::Khi đánh giá độ phù hợp của nội dung câu hỏi nào s:: Khi đánh giá độ phù hợp của nội dung, câu hỏi nào sau đây KHÔNG cần đặt ra? {
+	=Nội dung này có được nhiều lượt thích không?
+	~Nội dung có phù hợp với mục tiêu mới không?
+	~Nội dung có còn chính xác không?
+	~Đối tượng mục tiêu có trùng khớp không?
+}
+
+::Lợi ích của việc rà soát và đánh giá nội dung là g:: Lợi ích của việc rà soát và đánh giá nội dung là gì? {
+	=Tiết kiệm nguồn lực, tăng hiệu quả, đảm bảo chất lượng.
+	~Tăng chi phí sản xuất nhưng chất lượng cao hơn.
+	~Giảm thời gian lập kế hoạch cho nội dung mới.
+	~Tăng số lượng nội dung được sản xuất.
+}
+
+::Công cụ nào KHÔNG được dùng để xây dựng khung nội:: Công cụ nào KHÔNG được dùng để xây dựng khung nội dung mới? {
+	~Dàn ý (Outline)
+	~Storyboard
+	~Kịch bản chi tiết
+	=Bảng màu (Color Palette)
+}
+
+::Storyboard thường được sử dụng cho loại nội dung n:: Storyboard thường được sử dụng cho loại nội dung nào? {
+	=Nội dung hình ảnh/video
+	~Nội dung nặng về text (bài viết, báo cáo)
+	~Podcast và nội dung âm thanh
+	~Email marketing
+}
+
+::Yếu tố nào KHÔNG cần có trong một khung storyboard:: Yếu tố nào KHÔNG cần có trong một khung storyboard? {
+	=Mô tả chi tiết về chi phí sản xuất
+	~Mô tả hình ảnh/cảnh quay
+	~Lời thoại/văn bản hiển thị
+	~Âm thanh/nhạc nền
+}
+
+::Kỹ thuật nào KHÔNG được đề cập khi điền nội dung c:: Kỹ thuật nào KHÔNG được đề cập khi "điền" nội dung cũ vào dàn ý mới? {
+	=Viết lại hoàn toàn nội dung cũ
+	~Chèn (đặt nguyên văn)
+	~Rút trích (lấy thông tin cốt lõi)
+	~Tóm tắt (rút gọn)
+}
+
+::Lợi ích của việc thiết kế khung nội dung trước khi:: Lợi ích của việc thiết kế khung nội dung trước khi sản xuất là gì? {
+	=Tiết kiệm thời gian, đảm bảo tính logic, tối ưu hóa tái sử dụng nội dung.
+	~Tăng tính sáng tạo ngẫu hứng trong quá trình sản xuất.
+	~Giúp nội dung trở nên phức tạp và học thuật hơn.
+	~Loại bỏ hoàn toàn nhu cầu biên tập sau sản xuất.
+}
+
+::Giai đoạn biến kế hoạch thành hành động hay hiện t:: Giai đoạn "biến kế hoạch thành hành động" hay "hiện thực hóa bản thiết kế" là giai đoạn nào? {
+	=Biên tập và chuyển đổi nội dung
+	~Rà soát và đánh giá nội dung
+	~Lập kế hoạch nội dung
+	~Phân tích mục tiêu và đối tượng
+}
+
+::Chuẩn hóa ngôn ngữ tông giọng định dạng nhằm mục đ:: "Chuẩn hóa ngôn ngữ, tông giọng, định dạng" nhằm mục đích gì? {
+	=Đảm bảo sự nhất quán, chuyên nghiệp và dễ đọc.
+	~Làm cho nội dung trở nên độc đáo và khác biệt.
+	~Thể hiện cá tính riêng của người viết.
+	~Tăng tốc độ sản xuất nội dung.
+}
+
+::Kỹ thuật Repurpose trong biên tập nội dung có nghĩ:: Kỹ thuật "Repurpose" trong biên tập nội dung có nghĩa là gì? {
+	=Biến đổi nội dung từ định dạng này sang định dạng khác.
+	~Loại bỏ những phần không cần thiết của nội dung.
+	~Kết hợp các phần nội dung khác nhau lại.
+	~Cập nhật lại các số liệu đã lỗi thời.
+}
+
+::Công cụ nào được gợi ý để biên tập hình ảnhinfogra:: Công cụ nào được gợi ý để biên tập hình ảnh/infographic? {
+	=Canva, Adobe Express
+	~Google Docs, Microsoft Word
+	~Audacity, Adobe Audition
+	~CapCut, KineMaster
+}
+
+::DaVinci Resolve và Adobe Premiere Pro là công cụ c:: DaVinci Resolve và Adobe Premiere Pro là công cụ chuyên nghiệp cho việc gì? {
+	=Chỉnh sửa video trên máy tính
+	~Chỉnh sửa âm thanh
+	~Thiết kế đồ họa
+	~Soạn thảo văn bản
+}
+
+::Quá trình biên tập được ví như là gì:: Quá trình biên tập được ví như là gì? {
+	=Quá trình "điêu khắc" nội dung để đạt được mục tiêu.
+	~Quá trình "sao chép" nội dung từ nguồn khác.
+	~Quá trình "lắp ráp" các bộ phận có sẵn.
+	~Quá trình "vẽ" một bức tranh hoàn toàn mới.
+}
+
+::Mục tiêu của Module 3 Thực thi bản quyền và giấy p:: Mục tiêu của Module 3: "Thực thi bản quyền và giấy phép" là gì? {
+	~Hướng dẫn sinh viên cách tạo ra các tác phẩm có bản quyền.
+	=Giúp sinh viên nhận diện, kiểm tra và áp dụng đúng các quy định về bản quyền.
+	~Dạy sinh viên cách đăng ký bản quyền cho sản phẩm số.
+	~Phổ biến các hình thức xử phạt khi vi phạm bản quyền.
+}
+
+::Theo tài liệu bản quyền Copyright là gì:: Theo tài liệu, bản quyền (Copyright) là gì? {
+	~Một loại giấy phép phải đăng ký để được bảo hộ.
+	=Quyền pháp lý tự động trao cho người tạo ra một tác phẩm gốc.
+	~Quyền cho phép người khác sử dụng miễn phí tác phẩm.
+	~Một loại thuế áp dụng cho các sản phẩm sáng tạo.
+}
+
+::Nội dung nào sau đây KHÔNG được bảo hộ bởi bản quy:: Nội dung nào sau đây KHÔNG được bảo hộ bởi bản quyền? {
+	~Bài viết, hình ảnh, video, âm nhạc
+	=Một ý tưởng chưa được thể hiện thành sản phẩm cụ thể
+	~Phần mềm, phông chữ
+	~Đồ họa, tác phẩm kiến trúc
+}
+
+::Miễn phí xem trên Internet có đồng nghĩa với miễn:: "Miễn phí xem" trên Internet có đồng nghĩa với "miễn phí sử dụng" không? {
+	~Có, mọi thứ miễn phí xem đều có thể sử dụng.
+	=Không, việc xem không có nghĩa là có quyền sử dụng lại.
+	~Tùy thuộc vào trang web đăng tải nội dung.
+	~Chỉ áp dụng với hình ảnh, không áp dụng với video.
+}
+
+::Watermark logo mờ trên hình ảnh là một dấu hiệu củ:: Watermark (logo mờ) trên hình ảnh là một dấu hiệu của điều gì? {
+	~Hình ảnh có chất lượng thấp.
+	=Hình ảnh có khả năng cao đang được bảo hộ bản quyền.
+	~Hình ảnh được cung cấp miễn phí.
+	~Hình ảnh đã được chỉnh sửa.
+}
+
+::Việc sao chép nguyên văn một đoạn dài từ blog khác:: Việc sao chép nguyên văn một đoạn dài từ blog khác mà không trích dẫn có được coi là vi phạm bản quyền không? {
+	~Không, nếu blog đó không ghi rõ "bản quyền".
+	=Có, đây là hành vi sao chép trái phép.
+	~Không, nếu chỉ sao chép một phần nhỏ.
+	~Chỉ vi phạm nếu dùng cho mục đích thương mại.
+}
+
+::Sử dụng logo của một thương hiệu khác trong nội du:: Sử dụng logo của một thương hiệu khác trong nội dung của bạn mà không được phép có thể dẫn đến hậu quả gì? {
+	~Tăng uy tín cho nội dung của bạn.
+	=Gây nhầm lẫn về việc hợp tác và có thể bị kiện.
+	~Không có vấn đề gì nếu bạn ghi nguồn.
+	~Chỉ bị yêu cầu gỡ bỏ logo.
+}
+
+::Công cụ nào có thể giúp truy tìm nguồn gốc của một:: Công cụ nào có thể giúp truy tìm nguồn gốc của một bức ảnh? {
+	~Google Translate
+	=Google Reverse Image Search
+	~Google Drive
+	~Google Analytics
+}
+
+::Creative Commons CC là gì:: Creative Commons (CC) là gì? {
+	~Một tổ chức chuyên đi kiện các vụ vi phạm bản quyền.
+	=Một loại giấy phép cho phép sử dụng miễn phí tác phẩm dưới một số điều kiện.
+	~Một kho tài nguyên hoàn toàn miễn phí, không điều kiện.
+	~Một phần mềm giúp kiểm tra bản quyền tự động.
+}
+
+::Trang web nào sau đây KHÔNG phải là kho tài nguyên:: Trang web nào sau đây KHÔNG phải là kho tài nguyên hình ảnh miễn phí uy tín được đề cập? {
+	~Unsplash
+	=Pinterest
+	~Pexels
+	~Pixabay
+}
+
+::YouTube Audio Library cung cấp tài nguyên gì:: YouTube Audio Library cung cấp tài nguyên gì? {
+	~Các video hướng dẫn về luật bản quyền.
+	=Âm nhạc/âm thanh miễn phí và an toàn để sử dụng.
+	~Một công cụ để kiểm tra bản quyền video.
+	~Danh sách các bài hát bị cấm sử dụng.
+}
+
+::Hậu quả của việc vi phạm bản quyền có thể là gì:: Hậu quả của việc vi phạm bản quyền có thể là gì? {
+	~Bị phạt tiền hành chính ngay lập tức.
+	=Bị gỡ bỏ nội dung, khóa tài khoản, kiện tụng.
+	~Bị cấm sử dụng internet vĩnh viễn.
+	~Không có hậu quả gì nghiêm trọng.
+}
+
+::Loại giấy phép nào có các quy định nghiêm ngặt nhấ:: Loại giấy phép nào có các quy định nghiêm ngặt nhất? {
+	~Creative Commons (CC)
+	=Bản quyền đầy đủ (All Rights Reserved - ©)
+	~Public Domain (Miền công cộng)
+	~Royalty-Free
+}
+
+::Public Domain Miền công cộng có nghĩa là gì:: Public Domain (Miền công cộng) có nghĩa là gì? {
+	~Tác phẩm thuộc sở hữu của chính phủ.
+	=Tác phẩm không còn được bảo hộ bản quyền và có thể sử dụng tự do.
+	~Tác phẩm chỉ được sử dụng cho mục đích công cộng.
+	~Tác phẩm được cung cấp miễn phí nhưng phải ghi nguồn.
+}
+
+::Bộ lọc quyền sử dụng usage rights có trong công cụ:: Bộ lọc quyền sử dụng (usage rights) có trong công cụ tìm kiếm nào? {
+	~Facebook Search
+	=Google Advanced Search
+	~YouTube Search
+	~Bing Search
+}
+
+::Khi tra cứu giấy phép thông tin nào KHÔNG cần thiế:: Khi tra cứu giấy phép, thông tin nào KHÔNG cần thiết phải ghi lại? {
+	~Tên tác giả/nguồn.
+	=Cảm nhận cá nhân về tác phẩm.
+	~Loại giấy phép.
+	~Đường dẫn gốc.
+}
+
+::Lợi ích của việc kiểm tra giấy phép là gì:: Lợi ích của việc kiểm tra giấy phép là gì? {
+	~Tăng tốc độ tìm kiếm tài nguyên.
+	=Tôn trọng tác giả, bảo vệ bản thân khỏi rủi ro pháp lý.
+	~Giảm chi phí mua bản quyền.
+	~Giúp nội dung được nhiều người xem hơn.
+}
+
+::Quy tắc ghi nguồn TRAS là viết tắt của những từ nà:: Quy tắc ghi nguồn "TRAS" là viết tắt của những từ nào? {
+	~Time, Region, Author, Style
+	=Title, Creator, Attribution, Source
+	~Type, Rating, Artist, Size
+	~Text, Resolution, Audio, Speed
+}
+
+::Theo quy tắc TRAS chữ A Attribution yêu cầu điều g:: Theo quy tắc "TRAS", chữ "A" (Attribution) yêu cầu điều gì? {
+	~Ghi tên tác giả.
+	=Dẫn link đến nguồn gốc của tác phẩm.
+	~Ghi tên tác phẩm.
+	~Ghi rõ loại giấy phép.
+}
+
+::Khi nào bạn cần gửi email xin phép sử dụng nội dun:: Khi nào bạn cần gửi email xin phép sử dụng nội dung? {
+	~Mỗi khi bạn muốn sử dụng tác phẩm của người khác.
+	=Khi muốn sử dụng ngoài điều kiện của giấy phép hoặc nội dung có bản quyền đầy đủ.
+	~Chỉ khi bạn muốn sử dụng cho mục đích thương mại.
+	~Khi bạn không tìm thấy tên tác giả.
+}
+
+::Nội dung nào KHÔNG cần có trong một email xin phép:: Nội dung nào KHÔNG cần có trong một email xin phép bản quyền? {
+	~Giới thiệu bản thân và mục đích sử dụng.
+	=Yêu cầu tác giả cung cấp các tác phẩm khác.
+	~Mô tả chi tiết nội dung muốn sử dụng.
+	~Hỏi rõ về điều khoản, phí sử dụng (nếu có).
+}
+
+::Trong trường hợp không thể liên hệ tác giả hoặc bị:: Trong trường hợp không thể liên hệ tác giả hoặc bị từ chối cấp phép, giải pháp an toàn là gì? {
+	~Cứ sử dụng và hy vọng không bị phát hiện.
+	=Tìm nội dung thay thế từ nguồn có bản quyền rõ ràng.
+	~Sử dụng một phần nhỏ của tác phẩm.
+	~Chỉnh sửa tác phẩm gốc để nó trở nên khác đi.
+}
+
+::Việc tuân thủ bản quyền giúp xây dựng điều gì:: Việc tuân thủ bản quyền giúp xây dựng điều gì? {
+	~Một môi trường cạnh tranh khốc liệt.
+	=Một hệ sinh thái sáng tạo công bằng và bền vững.
+	~Rào cản cho những người mới sáng tạo.
+	~Sự độc quyền cho các nhà sáng tạo lớn.
+}
+
+::Tại sao một người làm nội dung lại cần biết lập tr:: Tại sao một người làm nội dung lại cần biết lập trình? {
+	~Để có thể tự sửa chữa máy tính khi gặp sự cố.
+	=Để tự động hóa công việc, tạo nội dung tương tác.
+	~Để trở thành một hacker chuyên nghiệp.
+	~Để thiết kế các font chữ độc đáo.
+}
+
+::Lý do chọn Python là gì:: Lý do chọn Python là gì? {
+	~Tốc độ thực thi nhanh nhất.
+	=Dễ học, cộng đồng lớn, đa năng.
+	~Bảo mật cao nhất.
+	~Ngôn ngữ lập trình duy nhất có thể tạo website.
+}
+
+::Công cụ online nào được gợi ý để bắt đầu lập trình:: Công cụ online nào được gợi ý để bắt đầu lập trình Python mà không cần cài đặt? {
+	~VS Code
+	=Google Colab
+	~PyCharm
+	~Sublime Text
+}
+
+::Biến Variable trong lập trình dùng để làm gì:: "Biến" (Variable) trong lập trình dùng để làm gì? {
+	~Thực hiện các phép tính toán học.
+	=Lưu trữ thông tin (văn bản, số, logic).
+	~Lặp lại một hành động nhiều lần.
+	~Đưa ra quyết định dựa trên điều kiện.
+}
+
+::Cấu trúc dữ liệu nào dùng để tổ chức một chuỗi các:: Cấu trúc dữ liệu nào dùng để tổ chức một chuỗi các mục? {
+	~Variable (Biến)
+	~Dictionary (Từ điển)
+	=List (Danh sách)
+	~If-else (Câu lệnh điều kiện)
+}
+
+::Dictionary Từ điển trong Python dùng để làm gì:: "Dictionary" (Từ điển) trong Python dùng để làm gì? {
+	~Sắp xếp dữ liệu theo thứ tự alphabet.
+	~Lưu trữ một danh sách các số.
+	=Tổ chức dữ liệu có cấu trúc theo cặp key-value.
+	~Dịch văn bản từ ngôn ngữ này sang ngôn ngữ khác.
+}
+
+::Vòng lặp for được sử dụng để làm gì:: Vòng lặp "for" được sử dụng để làm gì? {
+	~Kiểm tra xem một điều kiện có đúng hay không.
+	~Dừng chương trình khi có lỗi xảy ra.
+	=Xử lý tác vụ lặp đi lặp lại trên một chuỗi dữ liệu.
+	~Lưu trữ một giá trị duy nhất.
+}
+
+::Câu lệnh ifelse giúp chương trình làm gì:: Câu lệnh "if-else" giúp chương trình làm gì? {
+	~Lấy dữ liệu đầu vào từ người dùng.
+	~Lặp lại một đoạn mã nhiều lần.
+	=Đưa ra quyết định dựa trên một điều kiện.
+	~In dữ liệu ra màn hình.
+}
+
+::Các khái niệm Biến List Dictionary For Ifelse được:: Các khái niệm Biến, List, Dictionary, For, If-else được ví như là gì? {
+	~Mái nhà của một công trình.
+	~Những bức tường của một ngôi nhà.
+	=Những viên gạch nền tảng để xây dựng ứng dụng.
+	~Cánh cửa để đi vào thế giới lập trình.
+}
+
+::Quy trình phát triển phần mềm được giới thiệu gồm:: Quy trình phát triển phần mềm được giới thiệu gồm mấy khâu chính? {
+	~4 khâu: Lên ý tưởng - Thiết kế - Lập trình - Bảo trì.
+	~2 khâu: Lập trình - Chạy thử.
+	=3 khâu: Thiết kế - Cài đặt - Kiểm thử.
+	~1 khâu: Viết code.
+}
+
+::Giai đoạn Thiết kế trong phát triển phần mềm nhấn:: Giai đoạn "Thiết kế" trong phát triển phần mềm nhấn mạnh điều gì? {
+	~Tìm lỗi trong chương trình đã viết.
+	~Viết code càng nhanh càng tốt.
+	=Lập kế hoạch trước khi code, "Đo 7 lần, cắt 1 lần".
+	~Tối ưu hóa hiệu suất của chương trình.
+}
+
+::Pseudocode mã giả là gì:: "Pseudocode" (mã giả) là gì? {
+	~Tên của một phần mềm hỗ trợ viết code.
+	~Một ngôn ngữ lập trình giả, không thể chạy được.
+	=Viết các bước thực hiện của thuật toán bằng ngôn ngữ tự nhiên.
+	~Một loại lỗi thường gặp trong lập trình.
+}
+
+::Giai đoạn Cài đặt Implementation trong phát triển:: Giai đoạn "Cài đặt" (Implementation) trong phát triển phần mềm là gì? {
+	~Giai đoạn thiết kế giao diện cho phần mềm.
+	~Giai đoạn cài đặt phần mềm lên máy tính người dùng.
+	=Giai đoạn chuyển thể bản thiết kế thành các dòng code thực tế.
+	~Giai đoạn kiểm tra lỗi của phần mềm.
+}
+
+::Mục đích chính của giai đoạn Kiểm thử Testing là g:: Mục đích chính của giai đoạn "Kiểm thử" (Testing) là gì? {
+	~Viết tài liệu hướng dẫn sử dụng.
+	~Trình diễn sản phẩm cho khách hàng.
+	=Đảm bảo sản phẩm hoạt động đúng và tìm ra lỗi.
+	~Quảng bá sản phẩm ra thị trường.
+}
+
+::Việc tuân thủ quy trình phát triển phần mềm mang l:: Việc tuân thủ quy trình phát triển phần mềm mang lại lợi ích gì? {
+	~Chỉ phù hợp với các dự án lớn của Google, Facebook.
+	~Làm cho quy trình trở nên phức tạp và tốn thời gian hơn.
+	=Giảm lỗi, dễ bảo trì, làm việc nhóm hiệu quả.
+	~Hạn chế sự sáng tạo của lập trình viên.
+}
+
+::Khóa học Nâng cao năng lực kiến tạo sản phẩm hướng:: Khóa học "Nâng cao năng lực kiến tạo sản phẩm" hướng tới mục tiêu đạt năng lực số bậc mấy? {
+	~Bậc 1 đến bậc 2
+	~Bậc 3 đến bậc 4
+	=Bậc 5 đến bậc 6
+	~Bậc 4 đến bậc 5
+}
+
+::Khóa học được triển khai theo hình thức nào:: Khóa học được triển khai theo hình thức nào? {
+	~Kết hợp trực tuyến và trực tiếp
+	~Trực tiếp tại lớp học
+	=Trực tuyến hoàn toàn
+	~Tự học qua sách giáo khoa
+}
+
+::Phân tích đối tượng giúp tùy chỉnh yếu tố nào:: Phân tích đối tượng giúp tùy chỉnh yếu tố nào? {
+	~Công cụ và nhân sự thực hiện
+	~Chi phí và thời gian sản xuất
+	=Nội dung và kênh phân phối
+	~Giấy phép bản quyền và cách ghi nguồn
+}
+
+::Kế hoạch nội dung trung hạn thường được xác định t:: Kế hoạch nội dung trung hạn thường được xác định theo khung thời gian nào? {
+	~Tuần/Ngày
+	~Năm
+	=Quý/Tháng
+	~Giờ
+}
+
+::Định dạng nội dung nào có ưu điểm là tương tác trự:: Định dạng nội dung nào có ưu điểm là tương tác trực tiếp và chân thực? {
+	~Infographic
+	~Podcast
+	=Livestream
+	~Blog Post
+}
+
+::Để viết nội dung đúng giọng điệu thương hiệu và ph:: Để viết nội dung đúng giọng điệu thương hiệu và phù hợp nền tảng, kỹ năng nào là cần thiết? {
+	~Khả năng quay video
+	~Khả năng thiết kế hình ảnh
+	=Khả năng viết nội dung hấp dẫn
+	~Khả năng chỉnh sửa âm thanh
+}
+
+::Audacity và Adobe Audition là các công cụ chuyên v:: Audacity và Adobe Audition là các công cụ chuyên về lĩnh vực gì? {
+	~Thiết kế đồ họa
+	~Chỉnh sửa video
+	=Chỉnh sửa âm thanh
+	~Soạn thảo văn bản
+}
+
+::Việc tập hợp nội dung về một nơi trong quá trình r:: Việc tập hợp nội dung về một nơi trong quá trình rà soát giúp ích gì? {
+	~Làm chậm quá trình đánh giá
+	~Tăng dung lượng lưu trữ cần thiết
+	=Dễ quản lý và có cái nhìn tổng quan
+	~Gây khó khăn trong việc phân loại
+}
+
+::Dàn ý Outline phù hợp nhất cho loại nội dung nào:: Dàn ý (Outline) phù hợp nhất cho loại nội dung nào? {
+	~Clip mạng xã hội
+	~Video quảng cáo, phim ngắn
+	=Nội dung nặng về text như bài viết, báo cáo
+	~Infographic, hình ảnh
+}
+
+::Trong biên tập nội dung việc chuẩn hóa định dạng f:: Trong biên tập nội dung, việc chuẩn hóa định dạng (font chữ, màu sắc, bố cục) nhằm mục đích gì? {
+	~Làm cho nội dung nổi bật hơn
+	~Thể hiện sự sáng tạo không giới hạn
+	=Đảm bảo tính chuyên nghiệp và dễ đọc
+	~Giảm kích thước file của nội dung
+}
+
+::Quyền nào sau đây KHÔNG thuộc quyền của tác giả:: Quyền nào sau đây KHÔNG thuộc quyền của tác giả? {
+	~Quyền phân phối
+	~Quyền sao chép
+	=Quyền thay đổi nội dung của các tác phẩm phái sinh từ tác phẩm của mình
+	~Quyền trưng bày, trình diễn
+}
+
+::Giấy phép RoyaltyFree có nghĩa là gì:: Giấy phép Royalty-Free có nghĩa là gì? {
+	~Chỉ được sử dụng cho các dự án phi lợi nhuận
+	~Hoàn toàn miễn phí và không có bản quyền
+	=Trả phí một lần để được quyền sử dụng nhiều lần theo quy định
+	~Phải trả tiền cho mỗi lần sử dụng
+}
+
+::Trang web nào sau đây KHÔNG phải là nguồn tài nguy:: Trang web nào sau đây KHÔNG phải là nguồn tài nguyên hợp pháp được đề xuất? {
+	~Wikimedia Commons
+	~Flickr (với bộ lọc giấy phép)
+	=Các trang chia sẻ torrent
+	~Free Music Archive
+}
+
+::Trong email xin phép tại sao cần giữ lại bằng chứn:: Trong email xin phép, tại sao cần giữ lại bằng chứng (email, hợp đồng)? {
+	~Để gửi báo cáo cho cấp trên
+	~Để khoe với bạn bè
+	=Để làm cơ sở pháp lý nếu có tranh chấp sau này
+	~Để lưu trữ làm kỷ niệm
+}
+
+::Miniproject Công cụ đổi tên file được dùng để minh:: Mini-project "Công cụ đổi tên file" được dùng để minh họa cho quy trình nào? {
+	~Quy trình rà soát và đánh giá nội dung
+	~Quy trình sản xuất nội dung số
+	=Quy trình phát triển phần mềm (Thiết kế - Cài đặt - Kiểm thử)
+	~Quy trình áp dụng giấy phép bản quyền
+}
+
+::Mục tiêu Thuyết phụcBán hàng của nội dung số hướng:: Mục tiêu "Thuyết phục/Bán hàng" của nội dung số hướng đến điều gì? {
+	~Mang lại tiếng cười, sự thư giãn
+	~Cung cấp kiến thức, hướng dẫn
+	=Kêu gọi mua hàng, đăng ký dịch vụ
+	~Tạo dựng hình ảnh và giá trị cho thương hiệu
+}
+
+::Thói quen số Digital Habits của đối tượng đề cập đ:: "Thói quen số" (Digital Habits) của đối tượng đề cập đến điều gì? {
+	~Sở thích, giá trị, tính cách
+	~Độ tuổi, giới tính, nơi sinh sống
+	=Các nền tảng mạng xã hội họ sử dụng, thời gian online, loại nội dung ưa thích
+	~Mức thu nhập, trình độ học vấn
+}
+
+::Lên lịch bài đăng chi tiết phân công nhiệm vụ thuộ:: Lên lịch bài đăng chi tiết, phân công nhiệm vụ thuộc loại kế hoạch nội dung nào? {
+	~Kế hoạch trọn đời
+	~Kế hoạch trung hạn (Quý/Tháng)
+	~Kế hoạch dài hạn (Năm)
+	=Kế hoạch ngắn hạn (Tuần/Ngày)
+}
+
+::Định dạng nào phù hợp để truyền tải thông tin chi:: Định dạng nào phù hợp để truyền tải thông tin chi tiết, chuyên sâu và tốt cho SEO? {
+	~Livestream
+	~Video ngắn (TikTok, Reels)
+	~Carousel/Slide (Instagram)
+	=Bài viết (Blog Post/Articles)
+}
+
+::Yếu tố Truyền cảm hứng của một nội dung có giá trị:: Yếu tố "Truyền cảm hứng" của một nội dung có giá trị nhằm mục đích gì? {
+	~Cung cấp thông tin chính xác và khách quan
+	~Giải quyết một vấn đề cụ thể cho người xem
+	~Bán một sản phẩm hoặc dịch vụ
+	=Thúc đẩy tư duy, tạo động lực, thay đổi góc nhìn
+}
+
+::Hemingway Editor là công cụ hỗ trợ cho việc gì:: Hemingway Editor là công cụ hỗ trợ cho việc gì? {
+	~Chỉnh sửa video và âm thanh
+	~Kiểm tra lỗi chính tả và ngữ pháp
+	~Thiết kế hình ảnh và đồ họa
+	=Giúp câu văn trở nên rõ ràng, súc tích hơn
+}
+
+::Nội dung cần cập nhật là nội dung như thế nào:: Nội dung "cần cập nhật" là nội dung như thế nào? {
+	~Nội dung mới được sản xuất trong vòng 24 giờ
+	~Nội dung có giá trị bền vững, không lỗi thời
+	~Nội dung chứa thông tin sai lệch, cần loại bỏ
+	=Có thông tin, số liệu, hoặc xu hướng đã thay đổi
+}
+
+::Yếu tố nào cần có trong dàn ý chi tiết cho nội dun:: Yếu tố nào cần có trong dàn ý chi tiết cho nội dung text? {
+	~Danh sách các công cụ sẽ sử dụng
+	~Mô tả cảnh quay, lời thoại, âm thanh
+	~Bảng màu, font chữ, kích thước hình ảnh
+	=Tiêu đề chính, các phần, các ý nhỏ, ví dụ, CTA
+}
+
+::Kỹ thuật Cắt TrimCut trong biên tập nội dung là gì:: Kỹ thuật "Cắt" (Trim/Cut) trong biên tập nội dung là gì? {
+	~Thêm các hiệu ứng đặc biệt vào nội dung
+	~Kết hợp nhiều đoạn nội dung lại với nhau
+	~Chuyển đổi nội dung sang định dạng mới
+	=Loại bỏ những phần không cần thiết, lặp lại, hoặc lỗi thời
+}
+
+::Hầu hết mọi tác phẩm sáng tạo trên thế giới số đượ:: Hầu hết mọi tác phẩm sáng tạo trên thế giới số được bảo hộ bản quyền từ khi nào? {
+	~Chỉ khi tác phẩm đó được bán và tạo ra lợi nhuận
+	~Sau khi tác giả đăng ký với cơ quan chức năng
+	~Sau khi tác phẩm được công bố 1 năm
+	=Ngay từ khi ra đời, dù có ghi chú hay không
+}
+
+::Điều kiện NonCommercial Phi thương mại trong giấy:: Điều kiện "NonCommercial" (Phi thương mại) trong giấy phép Creative Commons có nghĩa là gì? {
+	~Phải chia sẻ tác phẩm phái sinh với cùng giấy phép
+	~Không được bán lại tác phẩm gốc
+	~Không được thay đổi hay chỉnh sửa tác phẩm
+	=Không được sử dụng tác phẩm cho các mục đích thương mại
+}
+
+::Việc ghi nguồn đầy đủ ngay cả khi giấy phép không:: Việc ghi nguồn đầy đủ ngay cả khi giấy phép không yêu cầu được xem là gì? {
+	~Một cách để quảng cáo cho nguồn gốc tác phẩm
+	~Một việc làm không cần thiết và tốn thời gian
+	~Một yêu cầu bắt buộc của pháp luật
+	=Một hành động chuyên nghiệp và thể hiện sự tôn trọng
+}
+
+::Đầu vào Input và Đầu ra Output cần được xác định t:: "Đầu vào" (Input) và "Đầu ra" (Output) cần được xác định trong giai đoạn nào của quy trình phát triển phần mềm? {
+	~Bảo trì
+	~Cài đặt
+	~Kiểm thử
+	=Thiết kế
+}
+
+::Tại sao cần kiểm thử phần mềm với các kịch bản khá:: Tại sao cần kiểm thử phần mềm với các kịch bản khác nhau (chạy đúng, chạy sai, ngoại lệ)? {
+	~Để viết tài liệu hướng dẫn sử dụng chi tiết hơn
+	~Để làm cho quá trình kiểm thử trở nên phức tạp hơn
+	~Để chứng tỏ rằng phần mềm không có lỗi nào
+	=Để đảm bảo phần mềm hoạt động ổn định trong nhiều tình huống
+}
+
+::Theo tài liệu đâu là một bước chuẩn bị quan trọng:: Theo tài liệu, đâu là một bước chuẩn bị quan trọng khi tham gia vào lực lượng lao động trong kỷ nguyên số? {
+	~Có kinh nghiệm làm việc tại các công ty lớn
+	~Có bằng cấp đại học loại giỏi
+	~Thành thạo ít nhất hai ngoại ngữ
+	=Nắm vững kiến thức và kỹ năng số
+}
+
+::Hoạt động nào được đề xuất để củng cố kiến thức ph:: Hoạt động nào được đề xuất để củng cố kiến thức phần "Phân tích mục tiêu và đối tượng"? {
+	~Dựng một video ngắn
+	~Viết một bài blog hoàn chỉnh
+	~Thiết kế một infographic
+	=Thực hành xây dựng Persona đơn giản
+}
+
+::Yếu tố nào KHÔNG phải là nguồn lực cần cân nhắc kh:: Yếu tố nào KHÔNG phải là nguồn lực cần cân nhắc khi lựa chọn loại nội dung? {
+	~Công cụ sẵn có
+	~Thời gian
+	~Kỹ năng
+	=Mức độ nổi tiếng của người sáng tạo
+}
+
+::Khi sản xuất nội dung việc đảm bảo thiết kế phù hợ:: Khi sản xuất nội dung, việc đảm bảo thiết kế phù hợp kích thước từng nền tảng thuộc về kỹ năng nào? {
+	~Khả năng quay/chỉnh sửa video
+	~Khả năng viết nội dung hấp dẫn
+	~Khả năng sáng tạo kịch bản video
+	=Khả năng thiết kế hình ảnh bắt mắt
+}
+
+::So sánh việc rà soát nội dung với việc sắp xếp một:: So sánh việc rà soát nội dung với việc sắp xếp một kho hàng nhằm mục đích gì? {
+	~Để bán thanh lý hàng tồn kho
+	~Để loại bỏ tất cả hàng hóa cũ
+	~Để nhập thêm nhiều hàng hóa mới
+	=Để tối ưu hóa việc sử dụng tài nguyên
+}
+
+::Kỹ thuật làm nổi bật nhấn mạnh nội dung cũ trong m:: Kỹ thuật "làm nổi bật" (nhấn mạnh) nội dung cũ trong một dàn ý mới có nghĩa là gì? {
+	~Giữ nguyên văn thông tin đó không thay đổi
+	~Viết lại hoàn toàn thông tin đó
+	~Lược bỏ thông tin đó khỏi nội dung mới
+	=Chú trọng, làm rõ một thông tin quan trọng đã có từ trước
+}
+
+::Việc cập nhật dữ liệu hình ảnh ví dụ cho phù hợp v:: Việc cập nhật dữ liệu, hình ảnh, ví dụ cho phù hợp với thời điểm mới nhằm mục đích gì? {
+	~Thay đổi hoàn toàn mục tiêu của nội dung
+	~Làm cho nội dung dài hơn và chi tiết hơn
+	~Tăng chi phí sản xuất nội dung
+	=Tránh cung cấp thông tin lỗi thời, sai lệch
+}
+
+::Phông chữ font có được bảo hộ bản quyền không:: Phông chữ (font) có được bảo hộ bản quyền không? {
+	~Chỉ khi được sử dụng trong các tác phẩm thương mại
+	~Không, phông chữ là tài sản chung của nhân loại
+	~Chỉ các phông chữ trả phí mới có bản quyền
+	=Có, phông chữ có thể được bảo hộ như một phần mềm hoặc tác phẩm mỹ thuật
+}
+
+::Điều kiện ShareAlike Chia sẻ tương tự trong giấy p:: Điều kiện "ShareAlike" (Chia sẻ tương tự) trong giấy phép Creative Commons yêu cầu gì? {
+	~Chỉ được chia sẻ tác phẩm trong các cộng đồng phi lợi nhuận
+	~Phải chia sẻ tác phẩm gốc cho ít nhất hai người khác
+	~Phải thích (like) và chia sẻ (share) tác phẩm trên mạng xã hội
+	=Các tác phẩm phái sinh phải được chia sẻ với cùng một giấy phép
+}
+
+::Lý do chính đáng để tìm nội dung thay thế là gì:: Lý do chính đáng để tìm nội dung thay thế là gì? {
+	~Nội dung đó đã có quá nhiều người sử dụng
+	~Không thích phong cách của tác giả
+	~Muốn tìm một nội dung tốt hơn
+	=Không tìm thấy thông tin giấy phép rõ ràng
+}
+
+::Tư duy của một kỹ sư phần mềm không chỉ đơn thuần:: Tư duy của một kỹ sư phần mềm không chỉ đơn thuần là gì? {
+	~Viết tài liệu
+	~Thiết kế giao diện
+	~Kiểm thử phần mềm
+	=Viết code
+}
+
+::Chuẩn đầu ra của phần Lập kế hoạch nội dung số là:: Chuẩn đầu ra của phần "Lập kế hoạch nội dung số" là gì? {
+	~Sinh viên hiểu rõ luật bản quyền
+	~Sinh viên có thể viết code Python
+	~Sinh viên biết cách thiết kế một storyboard
+	=Sinh viên có khả năng phân biệt các loại nội dung số, yêu cầu cập nhật và tính phù hợp
+}
+
+::Yếu tố nào giúp video ngắn TikTok Reels và video d:: Yếu tố nào giúp video ngắn (TikTok, Reels) và video dài (YouTube) có cấu trúc rõ ràng? {
+	~Sử dụng nhạc nền thịnh hành
+	~Sử dụng máy quay chất lượng cao
+	~Thêm nhiều hiệu ứng đặc biệt
+	=Kịch bản có mở đầu, phát triển, kết thúc
+}
+
+::Việc so sánh thiết kế khung nội dung với việc xây:: Việc so sánh thiết kế khung nội dung với việc xây nhà cần bản vẽ chi tiết nhấn mạnh điều gì? {
+	~Sự linh hoạt và khả năng thay đổi trong quá trình thực hiện
+	~Sự tốn kém và phức tạp của việc tạo nội dung
+	~Sự cần thiết của việc có một đội ngũ lớn
+	=Tầm quan trọng của việc lập kế hoạch để đảm bảo chất lượng và hiệu quả
+}
+
+::Tông giọng tone of voice trong nội dung cần phải p:: Tông giọng (tone of voice) trong nội dung cần phải phù hợp với yếu tố nào? {
+	~Quy định của nền tảng đăng tải
+	~Sở thích cá nhân của người biên tập
+	~Xu hướng đang thịnh hành trên mạng xã hội
+	=Thương hiệu/mục tiêu và đối tượng mới
+}
+
+::Logo không chỉ được bảo hộ bởi luật bản quyền mà c:: Logo không chỉ được bảo hộ bởi luật bản quyền mà còn bởi luật nào? {
+	~Luật báo chí
+	~Luật cạnh tranh
+	~Luật quảng cáo
+	=Luật sở hữu trí tuệ về nhãn hiệu
+}
+
+::Nội dung số được coi là có giá trị khi nào:: Nội dung số được coi là có giá trị khi nào? {
+	~Khi có nhiều lượt xem
+	=Khi mang lại giá trị thực như giải trí, truyền cảm hứng, hoặc thúc đẩy hành động
+	~Khi nội dung ngắn gọn
+	~Khi chứa nhiều từ khóa SEO
+}
+
+::Khi sản xuất nội dung số yếu tố nào quan trọng nhấ:: Khi sản xuất nội dung số, yếu tố nào quan trọng nhất trong việc lựa chọn nhân sự? {
+	~Sống gần công ty
+	=Khả năng sáng tạo nội dung phù hợp nền tảng và thương hiệu
+	~Giọng nói truyền cảm
+	~Có bằng cấp cao
+}

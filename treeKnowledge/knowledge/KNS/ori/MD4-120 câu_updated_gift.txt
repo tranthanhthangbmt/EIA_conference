@@ -1,0 +1,839 @@
+::Hãy cho biết phương thức chính mà kẻ tấn công sử d:: Hãy cho biết phương thức chính mà kẻ tấn công sử dụng để cài đặt mã độc memory-scraper lên các thiết bị PoS sau khi đã xâm nhập vào mạng nội bộ của tổ chức? {
+	~Gửi email giả dạng người tìm việc đính kèm mã độc.
+	=Khai thác lỗ hổng trong phần mềm quản lý bán hàng.
+	~Tấn công vật lý vào các thiết bị đầu cuối PoS.
+	~Sử dụng mạng không dây không an toàn để xâm nhập.
+}
+
+::Hãy cho biết lý do chính khiến các tổ chức y tế tr:: Hãy cho biết lý do chính khiến các tổ chức y tế trở thành nạn nhân của các cuộc tấn công ransomware? {
+	~Dữ liệu có giá trị cao.
+	~Hệ thống an ninh yếu.
+	~Bán thiết bị y tế.
+	=Trả tiền chuộc để khôi phục dữ liệu.
+}
+
+::Người dùng thường mắc lỗi phổ biến là sử dụng mật:: Người dùng thường mắc lỗi phổ biến là sử dụng mật khẩu mặc định đối với các thiết bị mạng gia đình, việc này có thể dẫn đến những rủi ro nào dưới đây? {
+	~Làm hỏng phần cứng của thiết bị.
+	~Mã hóa dữ liệu và đòi tiền chuộc (ransomware).
+	=Chiếm quyền điều khiển thiết bị.
+	~Sử dụng năng lực của thiết bị để đào tiền ảo.
+}
+
+::Hãy cho biết nguyên nhân nào dưới đây khiến cho Cơ:: Hãy cho biết nguyên nhân nào dưới đây khiến cho Cơ quan Quản lý An toàn Giao thông Đường bộ Quốc gia (NHTSA) phải thu hồi 1,4 triệu xe ô tô? Chọn đáp án đúng nhất {
+	~Vấn đề về túi khí không hoạt động đúng cách.
+	~Lỗi sản xuất trong hệ thống phanh của xe.
+	=Lỗ hổng bảo mật cho phép điều khiển xe từ xa.
+	~Lỗi trong hệ thống định vị GPS của xe.
+}
+
+::Botnet Mirai nổi tiếng với việc tạo ra các cuộc tấ:: Botnet Mirai, nổi tiếng với việc tạo ra các cuộc tấn công từ chối dịch vụ (DDoS) quy mô lớn, chủ yếu khai thác lỗ hổng từ loại thiết bị nào? {
+	~Điện thoại thông minh (smartphones) chạy Android.
+	~Máy tính cá nhân (PC) và máy tính xách tay (laptop).
+	=Các thiết bị IoT (như camera IP, bộ định tuyến).
+	~Các máy chủ (servers).
+}
+
+::Các cuộc tấn công chuyển tiếp tín hiệu Relay Attac:: Các cuộc tấn công chuyển tiếp tín hiệu (Relay Attack) nhắm vào hệ thống PKES (Passive Keyless Entry) được thực hiện thành công là do ...? {
+	~Kẻ tấn công sử dụng một chìa khóa đa năng để bẻ khóa mã.
+	~Tín hiệu giữa chìa khóa và xe ô tô không được mã hóa.
+	=Hệ thống chỉ xác thực sự hiện diện của chìa khóa, không xác thực khoảng cách (hoặc thời gian trễ) của tín hiệu.
+	~Hệ thống PKES bị gây nhiễu (jamming) khiến nó tự động mở khóa.
+}
+
+::Hãy cho biết lý do chính khiến các sản phẩm chống:: Hãy cho biết lý do chính khiến các sản phẩm chống virus truyền thống thường có tỷ lệ phát hiện thấp đối với phần mềm độc hại? {
+	~Chỉ kiểm tra các tệp đính kèm email.
+	~Yêu cầu khởi động lại máy tính để cập nhật.
+	=Chưa có mẫu cho mối đe dọa mới.
+	~Sử dụng quá nhiều tài nguyên hệ thống.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây liên quan đến t:: Hãy cho biết lựa chọn nào dưới đây liên quan đến tấn công mạng? {
+	~Người dùng xóa nhầm dữ liệu.
+	~Dữ liệu bị mất do hỏng ổ cứng.
+	=Thông tin thẻ thanh toán bị kẻ tấn công mạng đánh cắp.
+	~Gửi nhầm dữ liệu cho người dùng khác.
+}
+
+::Hãy cho biết lỗ hổng nghiêm trọng xuất hiện trên m:: Hãy cho biết lỗ hổng nghiêm trọng xuất hiện trên máy tính Apple liên quan đến tính năng nào dưới đây? {
+	~Trình duyệt web Safari mặc định.
+	~Tính năng xác thực bằng vân tay (Touch ID).
+	=Tính năng tiết kiệm năng lượng khi máy khởi động từ chế độ ngủ.
+	~Cửa hàng ứng dụng App Store.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả đầy đủ nh:: Hãy cho biết lựa chọn nào dưới đây mô tả đầy đủ nhất liên quan đến một mạng lưới lỏng lẻo của những kẻ tấn công, trộm danh tính và lừa đảo tài chính? {
+	~Nhà hoạt động tin tặc (Hactivists).
+	~Script Kiddies.
+	=Tội phạm mạng (Cybercriminals).
+	~Khủng bố mạng (Cyberterrorists).
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả đầy đủ nh:: Hãy cho biết lựa chọn nào dưới đây mô tả đầy đủ nhất liên quan đến Web chìm (Deep Web)? {
+	~Thông tin đã được cố tình che giấu và không thể truy cập qua trình duyệt web tiêu chuẩn.
+	~Bất cứ thứ gì có thể được tìm thấy và lập chỉ mục bởi một công cụ tìm kiếm.
+	=Nội dung không thể tìm thấy bởi một công cụ tìm kiếm mà chỉ có thể truy cập qua hộp tìm kiếm trên trang web đó.
+	~Các trang web chợ đen của kẻ tấn công.
+}
+
+::Hãy cho biết tội phạm mạng Cybercriminals thực hiệ:: Hãy cho biết tội phạm mạng (Cybercriminals) thực hiện các cuộc tấn công nhằm mục đích gì? {
+	~Thể hiện quan điểm chính trị.
+	~Khoe khoang kỹ năng công nghệ.
+	=Lợi ích tài chính.
+	~Gây ra sự gián đoạn và hoảng loạn.
+}
+
+::Hãy cho biết những đối tượng thuộc Script Kiddies:: Hãy cho biết những đối tượng thuộc "Script Kiddies" có đặc điểm gì? {
+	~Được nhà nước bảo trợ để thực hiện các cuộc tấn công mạng.
+	~Có kỹ năng máy tính tiên tiến và tự viết các công cụ tấn công.
+	=Thiếu kiến thức về máy tính và mạng, sử dụng phần mềm tấn công tự động tải xuống từ các trang web.
+	~Bán kiến thức về các lỗ hổng bảo mật cho người trả giá cao nhất.
+}
+
+::Các cuộc tấn công được thực hiện bởi Script Kiddie:: Các cuộc tấn công được thực hiện bởi Script Kiddies đòi hỏi mức kỹ năng nào? {
+	~Kỹ năng cao.
+	~Kỹ năng trung bình.
+	=Kỹ năng thấp hoặc không có kỹ năng.
+	~Kỹ năng chuyên gia.
+}
+
+::Hãy cho biết các nhà môi giới Brokers trong lĩnh v:: Hãy cho biết các nhà môi giới (Brokers) trong lĩnh vực an ninh mạng thường thực hiện hành vi nào dưới đây? {
+	~Cung cấp các bộ công cụ khai thác (exploit kits) cho Script Kiddies.
+	~Mua bán dữ liệu cá nhân bị đánh cắp trên các diễn đàn ngầm.
+	=Bán kiến thức về một lỗ hổng cho người trả giá cao nhất thay vì báo cáo cho nhà cung cấp.
+	~Môi giới cho các cuộc tấn công mạng giữa các quốc gia.
+}
+
+::Hãy cho biết thuật ngữ Insiders đề cập đến các mối:: Hãy cho biết thuật ngữ Insiders đề cập đến các mối đe dọa thường xuất phát từ đâu? {
+	~Các cơ quan chính phủ nước ngoài.
+	~Các đối thủ cạnh tranh trong cùng ngành.
+	=Nhân viên, nhà thầu và đối tác kinh doanh của chính tổ chức.
+	~Các nhóm tội phạm có tổ chức.
+}
+
+::Hãy cho biết động cơ chính của Khủng bố mạng Cyber:: Hãy cho biết động cơ chính của Khủng bố mạng (Cyberterrorists) là gì? {
+	=Trả thù một tổ chức cụ thể.
+	~Lợi ích tài chính cá nhân.
+	~Ý thức hệ, tấn công vì nguyên tắc hoặc niềm tin.
+	~Gây thiệt hại kinh tế cho đối thủ.
+}
+
+::Hactivists thực hiện các cuộc tấn công nhằm mục đí:: Hactivists thực hiện các cuộc tấn công nhằm mục đích gì? {
+	~Gây hoảng loạn trong dân chúng.
+	~Đánh cắp thông tin thẻ tín dụng để trục lợi.
+	=Đưa ra một tuyên bố chính trị hoặc thúc đẩy một chương trình nghị sự.
+	~Bán các lỗ hổng bảo mật cho chính phủ.
+}
+
+::Hãy cho biết tại sao những kẻ tấn công được nhà nư:: Hãy cho biết tại sao những kẻ tấn công được nhà nước bảo trợ (State-Sponsored Attackers) thuộc loại rất nguy hiểm? {
+	~Tấn công một cách ngẫu nhiên.
+	~Tấn công vào các hệ thống tài chính cá nhân.
+	=Có kỹ năng cao và nguồn lực dồi dào của chính phủ để vượt qua hầu hết các biện pháp phòng thủ.
+	~Sử dụng các công cụ tấn công đơn giản và dễ bị phát hiện.
+}
+
+::Kẻ tấn công sử dụng các giao thức ứng dụng Interne:: Kẻ tấn công sử dụng các giao thức, ứng dụng Internet phổ biến và thay đổi hành vi để khiến cuộc tấn công xuất hiện khác nhau ở mỗi lần thực hiện. Hãy chọn đáp án chính xác nhất mô tả cho vấn đề này? {
+	~Các cuộc tấn công phân tán.
+	~Tốc độ tấn công gia tăng.
+	=Sự tinh vi ngày càng cao của các cuộc tấn công.
+	~Sự chậm trễ trong việc cập nhật bảo mật.
+}
+
+::Hãy cho biết mục đích chính của an ninh thông tin:: Hãy cho biết mục đích chính của an ninh thông tin? Chọn đáp án đúng nhất. {
+	~Đảm bảo công ty tuân thủ tất cả các quy định pháp lý về bảo vệ dữ liệu.
+	~Chỉ tập trung vào việc mã hóa tất cả dữ liệu để ngăn chặn truy cập trái phép.
+	=Đảm bảo rằng các biện pháp bảo vệ được triển khai đúng cách để chống lại các cuộc tấn công và cung cấp sự bảo vệ ở mức độ cao nhất có thể.
+	~Phục hồi hệ thống nhanh nhất có thể sau khi một cuộc tấn công xảy ra.
+}
+
+::Bộ ba CIA trong an ninh thông tin gồm những yếu tố:: Bộ ba CIA trong an ninh thông tin gồm những yếu tố nào dưới đây? Chọn đáp án đúng nhất. {
+	~Sản phẩm (Products), Con người (People), Chính sách (Policies).
+	~Xác thực (Authentication), Ủy quyền (Authorization), Ghi nhận (Accounting).
+	=Tính bí mật (Confidentiality), Tính toàn vẹn (Integrity), Tính sẵn sàng (Availability).
+	~Rủi ro (Risk), Mối đe dọa (Threat), Lỗ hổng (Vulnerability).
+}
+
+::Tính toàn vẹn Integrity trong an ninh thông tin đư:: Tính toàn vẹn (Integrity) trong an ninh thông tin được thể hiện như thế nào? Chọn đáp án đúng nhất. {
+	=Thông tin là chính xác và không bị thay đổi bởi người không được ủy quyền.
+	~Chỉ những cá nhân được chấp thuận mới có thể truy cập thông tin.
+	~Dữ liệu có thể truy cập được bởi người dùng được ủy quyền.
+	~Người dùng chính là người mà họ tự nhận.
+}
+
+::Ủy quyền Authorization được thể hiện như thế nào C:: Ủy quyền (Authorization) được thể hiện như thế nào? Chọn đáp án đúng nhất. {
+	=Cấp phép hoặc chấp thuận cho các tài nguyên công nghệ cụ thể.
+	~Đảm bảo rằng cá nhân đó chính là người mà họ tự nhận.
+	~Cung cấp việc theo dõi các sự kiện ("dấu vết kiểm toán").
+	~Đảm bảo thông tin là chính xác và không bị thay đổi.
+}
+
+::Một điểm yếu trong hệ thống hoặc biện pháp kiểm so:: Một điểm yếu trong hệ thống hoặc biện pháp kiểm soát có thể bị một tác nhân khai thác được gọi là gì? Chọn đáp án đúng nhất. {
+	=Vulnerability
+	~Threat
+	~Risk
+	~Threat agent
+}
+
+::Hành động mua bảo hiểm cho chiếc xe tay ga để công:: Hành động mua bảo hiểm cho chiếc xe tay ga để công ty bảo hiểm gánh chịu tổn thất nếu bị đánh cắp được gọi là gì? Chọn đáp án đúng nhất. {
+	=Chuyển giao rủi ro (Risk transference).
+	~Giảm thiểu rủi ro (Risk mitigation).
+	~Chấp nhận rủi ro (Risk acceptance).
+	~Tránh rủi ro (Risk avoidance).
+}
+
+::Đâu là một phương thức tấn công phổ biến mà tin tặ:: Đâu là một phương thức tấn công phổ biến mà tin tặc sử dụng để xâm phạm an ninh thông tin cá nhân? {
+	=Quên mật khẩu
+	~Phát tán Malware
+	~Làm giảm tốc độ của máy tính
+	~Gây ra lỗi phần cứng.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây là phương pháp:: Hãy cho biết lựa chọn nào dưới đây là phương pháp tốt nhất để thiết lập bảo mật bằng mật khẩu? {
+	=Sử dụng công nghệ như trình quản lý mật khẩu
+	~Tạo ra các mật khẩu dễ nhớ nhưng phức tạp.
+	~Sử dụng cùng một mật khẩu mạnh cho nhiều tài khoản.
+	~Viết mật khẩu ra giấy và cất ở nơi an toàn.
+}
+
+::Theo các khuyến nghị bảo mật hiện đại yếu tố nào s:: Theo các khuyến nghị bảo mật hiện đại, yếu tố nào sau đây được coi là quan trọng nhất để tạo nên một mật khẩu mạnh? {
+	=Độ dài của mật khẩu
+	~Bao gồm các ký tự đặc biệt
+	~Viết hoa chữ cái đầu tiên
+	~Thay đổi mật khẩu hàng tháng
+}
+
+::Cách tiếp cận an toàn nhất đối với một email không:: Cách tiếp cận an toàn nhất đối với một email không mong đợi xuất phát từ một nguồn đáng tin cậy là gì? {
+	=Coi đó là một tin nhắn lừa đảo và không bao giờ nhấp vào liên kết trong email.
+	~Trả lời email để xác nhận thông tin trước khi thực hiện bất kỳ hành động nào.
+	~Nhấp vào liên kết để kiểm tra xem trang web có hợp pháp không.
+	~Chuyển tiếp email cho bạn bè để hỏi ý kiến.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến Dữ liệu cá nhân (Personal Data)? {
+	=Dữ liệu liên quan trực tiếp hoặc gián tiếp đến một cá nhân đã được xác định hoặc có thể được xác định.
+	~Tất cả các thông tin được lưu trữ trên máy tính hoặc điện thoại.
+	~Dữ liệu được thu thập từ các trang mạng xã hội.
+	~Thông tin về các giao dịch tài chính của một tổ chức.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây không phải là d:: Hãy cho biết lựa chọn nào dưới đây không phải là dữ liệu cá nhân? {
+	=Nhiệt độ trung bình hàng năm của một thành phố.
+	~Dữ liệu sinh trắc học như vân tay, khuôn mặt.
+	~Thông tin định vị GPS và địa chỉ IP.
+	~Dữ liệu tài chính như tài khoản ngân hàng, số thẻ tín dụng.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến nhận định: Dữ liệu cá nhân được xem là tài sản vô hình có giá trị? {
+	=Nguồn nguyên liệu cho các hệ thống phân tích, dự đoán, tiếp thị và cá nhân hóa dịch vụ của các công ty.
+	~Có thể dễ dàng thay thế nếu bị rò rỉ hoặc đánh cắp.
+	~Chỉ có giá trị đối với chủ sở hữu
+	~Không thể mua bán trên thị trường.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến hành vi đánh cắp danh tính (Identity Theft)? {
+	=Mạo danh người khác để vay tiền, mở tài khoản hoặc thực hiện hành vi phạm pháp.
+	~Theo dõi và kiểm soát hoạt động trực tuyến của một cá nhân.
+	~Gửi các email lừa đảo để lấy thông tin đăng nhập.
+	~Làm mất uy tín của một cá nhân trên mạng xã hội.
+}
+
+::Thách thức lớn nhất trong việc bảo vệ dữ liệu cá n:: Thách thức lớn nhất trong việc bảo vệ dữ liệu cá nhân là gì? {
+	=Người dùng thiếu nhận thức và thường xuyên chia sẻ công khai thông tin cá nhân.
+	~Các công ty công nghệ không có khả năng lưu trữ lượng lớn dữ liệu.
+	~Dữ liệu cá nhân không có giá trị đối với tội phạm mạng.
+	~Các quy định pháp lý quá nghiêm ngặt gây khó khăn cho doanh nghiệp.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thu thập dữ liệu cá nhân được đề cập trong nguyên tắc "Thu thập có mục đích, minh bạch" là gì? {
+	=Chỉ thu thập dữ liệu khi thực sự cần thiết và thông báo rõ mục đích sử dụng cho người dùng.
+	~Thu thập càng nhiều dữ liệu càng tốt để phục vụ cho các mục đích trong tương lai.
+	~Không cần thông báo cho người dùng về mục đích thu thập dữ liệu.
+	~Giữ lại dữ liệu vô thời hạn ngay cả khi đã hoàn thành mục đích sử dụng.
+}
+
+::Hãy cho biết người dùng có quyền gì đối với dữ liệ:: Hãy cho biết người dùng có quyền gì đối với dữ liệu cá nhân. Chọn đáp án đúng nhất? {
+	=Quyền biết dữ liệu nào đang được lưu giữ, yêu cầu chỉnh sửa, xóa bỏ và từ chối chia sẻ.
+	~Quyền bán dữ liệu của mình cho bất kỳ ai họ muốn.
+	~Quyền truy cập vào dữ liệu của tất cả người dùng khác.
+	~Quyền thay đổi dữ liệu của người khác mà không cần sự cho phép.
+}
+
+::Hãy cho biết tại sao sử dụng mật khẩu yếu lại nguy:: Hãy cho biết tại sao sử dụng mật khẩu yếu lại nguy hiểm? {
+	=Dễ bị kẻ tấn công phá vỡ thông qua các kỹ thuật như tấn công từ điển hoặc tấn công vét cạn.
+	~Làm chậm tốc độ xử lý của máy tính khi đăng nhập.
+	~Các hệ thống hiện đại không cho phép sử dụng mật khẩu yếu.
+	~Chiếm nhiều dung lượng lưu trữ hơn mật khẩu mạnh.
+}
+
+::Kỹ thuật bẻ khóa ngoại tuyến offline cracking hoạt:: Kỹ thuật bẻ khóa ngoại tuyến (offline cracking) hoạt động như thế nào? {
+	=Kẻ tấn công đánh cắp tệp mã hóa mật khẩu và sử dụng máy tính của mình để so khớp các mã hóa ứng viên.
+	~Kẻ tấn công đoán ngẫu nhiên mật khẩu trực tiếp trên trang web đăng nhập.
+	~Kẻ tấn công gửi email lừa đảo để người dùng tự tiết lộ mật khẩu.
+	~Kẻ tấn công cài đặt phần mềm gián điệp để ghi lại mật khẩu khi người dùng gõ.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ liên quan đến Tấn công từ điển (Dictionary attack)? {
+	=Kẻ tấn công tạo mã hóa của các từ điển thông thường và so sánh với tệp mã hóa bị đánh cắp.
+	~Kẻ tấn công thử mọi tổ hợp ký tự có thể có để tìm ra mật khẩu.
+	~Kẻ tấn công sử dụng các từ trong nhiều ngôn ngữ khác nhau để đoán mật khẩu.
+	~Kẻ tấn công tìm kiếm định nghĩa của các từ liên quan đến người dùng để đoán mật khẩu.
+}
+
+::Social engineering dựa vào yếu tố nào để thực hiện:: Social engineering dựa vào yếu tố nào để thực hiện cuộc tấn công? {
+	=Sự thao túng khéo léo của kẻ tấn công đối với bản chất con người để thuyết phục nạn nhân hành động.
+	~Các lỗ hổng trong phần mềm và hệ điều hành.
+	~Sức mạnh của các máy tính để bẻ khóa mật khẩu.
+	~Các thuật toán mã hóa yếu.
+}
+
+::Nguyên tắc khẩn cấp trong kỹ thuật Social engineer:: Nguyên tắc khẩn cấp trong kỹ thuật Social engineering được sử dụng để làm gì? {
+	=Thuyết phục nạn nhân rằng cần phải hành động ngay lập tức để tránh hậu quả tiêu cực.
+	~Giả danh một nhân vật có quyền uy để ra lệnh cho nạn nhân.
+	~Cho nạn nhân thấy rằng nhiều người khác cũng đã làm như vậy.
+	~Tạo ra cảm giác tin cậy và quen thuộc với nạn nhân.
+}
+
+::Hãy cho biết Spear phishing có đặc điểm gì:: Hãy cho biết Spear phishing có đặc điểm gì? {
+	=Spear phishing nhắm mục tiêu vào những người dùng cụ thể với các email được tùy chỉnh.
+	~Spear phishing sử dụng tin nhắn văn bản thay vì email.
+	~Spear phishing chỉ nhắm vào các giám đốc điều hành cấp cao.
+	~Spear phishing không sử dụng các liên kết web độc hại.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ Typo squatting? {
+	=Kẻ tấn công mua các tên miền có cách viết tương tự với các trang web thực tế để lừa người dùng gõ sai.
+	~Kẻ tấn công gửi email có lỗi chính tả để tránh các bộ lọc thư rác.
+	~Kẻ tấn công sử dụng lỗi chính tả trong mật khẩu để làm cho chúng khó đoán hơn.
+	~Kẻ tấn công sửa lỗi chính tả trên các trang web để làm cho chúng trông hợp pháp hơn.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ Dumpster diving? {
+	=Lục lọi các thùng rác để tìm thông tin hữu ích như lịch, sơ đồ tổ chức, danh bạ điện thoại.
+	~Tìm kiếm các thiết bị điện tử cũ bị vứt bỏ để sửa chữa và bán lại.
+	~Thu thập rác thải để tái chế và bảo vệ môi trường.
+	~Phân tích các loại rác thải để hiểu về thói quen tiêu dùng của một tổ chức.
+}
+
+::Người dùng thực hiện hành động nào dưới đây để chố:: Người dùng thực hiện hành động nào dưới đây để chống lại Shoulder surfing? {
+	=Che chắn bàn phím khi nhập thông tin nhạy cảm như mã PIN hoặc mật khẩu ở nơi công cộng.
+	~Sử dụng các mật khẩu ngắn và dễ nhớ để nhập nhanh hơn.
+	~Yêu cầu người đứng sau giữ khoảng cách an toàn.
+	~Chỉ thực hiện các giao dịch nhạy cảm ở nhà.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ cryptography? {
+	=Biến đổi thông tin thành một dạng an toàn để người không được ủy quyền không thể truy cập.
+	~Ẩn đi sự tồn tại của dữ liệu bằng cách nhúng nó vào các tệp khác.
+	~Tăng tốc độ truyền tải dữ liệu qua mạng.
+	~Nén dữ liệu để giảm dung lượng lưu trữ.
+}
+
+::Hãy cho biết điểm khác nhau cơ bản giữa cryptograp:: Hãy cho biết điểm khác nhau cơ bản giữa cryptography và steganography là gì? {
+	=Mật mã học xáo trộn thông điệp, trong khi steganography ẩn đi sự tồn tại của thông điệp.
+	~Mật mã học chỉ áp dụng cho văn bản, trong khi steganography có thể dùng cho hình ảnh và âm thanh.
+	~Mật mã học là một kỹ thuật cũ, trong khi steganography là một kỹ thuật hiện đại.
+	~Mật mã học cần khóa để giải mã, trong khi steganography không cần.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ ciphertext? {
+	=Dữ liệu đã được mã hóa.
+	~Dữ liệu ở dạng không được mã hóa.
+	~Thuật toán được sử dụng để mã hóa dữ liệu.
+	~Khóa được sử dụng để giải mã dữ liệu.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật toán mật mã đối xứng (symmetric cryptographic algorithms)? {
+	=Sử dụng cùng một khóa duy nhất để mã hóa và giải mã.
+	~Sử dụng một cặp khóa công khai và khóa riêng tư.
+	~Chỉ có thể mã hóa dữ liệu mà không thể giải mã.
+	~Tạo ra một "dấu vân tay kỹ thuật số" của dữ liệu.
+}
+
+::Hãy cho biết điểm yếu của thuật toán mã hóa đối xứ:: Hãy cho biết điểm yếu của thuật toán mã hóa đối xứng là gì? {
+	=Khó khăn trong việc phân phối và duy trì một khóa đơn an toàn giữa nhiều người dùng.
+	~Tốc độ mã hóa và giải mã chậm hơn so với thuật toán bất đối xứng.
+	~Mức độ bảo mật thấp hơn so với thuật toán băm.
+	~Không thể được sử dụng để tạo chữ ký số.
+}
+
+::Hãy cho biết kỹ thuật mã hóa bất đối xứng asymmetr:: Hãy cho biết kỹ thuật mã hóa bất đối xứng (asymmetric cryptography) sử dụng loại khóa nào để mã hóa một thông điệp trước khi gửi cho bên nhận? {
+	=Khóa công khai (public key) của người nhận.
+	~Khóa riêng tư (private key) của người gửi.
+	~Khóa riêng tư (private key) của người nhận.
+	~Khóa công khai (public key) của người gửi.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến chữ ký số (digital signature)? {
+	=Xác minh người gửi, ngăn người gửi từ chối tin nhắn và chứng minh tính toàn vẹn của tin nhắn.
+	~Mã hóa toàn bộ nội dung của tin nhắn để đảm bảo tính bí mật.
+	~Ẩn danh tính của người gửi để bảo vệ quyền riêng tư.
+	~Tăng tốc độ gửi và nhận tin nhắn điện tử.
+}
+
+::Bên gửi sử dụng loại khóa nào để tạo chữ ký số cho:: Bên gửi sử dụng loại khóa nào để tạo chữ ký số cho một tài liệu? {
+	=Khóa riêng tư của người gửi.
+	~Khóa công khai của người nhận.
+	~Khóa công khai của người gửi.
+	~Khóa riêng tư của người nhận.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến mã hóa toàn bộ đĩa (Full-disk encryption)? {
+	=Bảo vệ tất cả dữ liệu trên ổ cứng, bao gồm cả việc ngăn chặn truy cập bằng cách khởi động từ hệ điều hành khác.
+	~Tốc độ mã hóa nhanh hơn và tốn ít tài nguyên hệ thống hơn.
+	~Cho phép người dùng lựa chọn các tệp cụ thể để mã hóa.
+	~Không yêu cầu người dùng phải nhớ mật khẩu để giải mã.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến Sharenting? {
+	=Cha mẹ chia sẻ quá nhiều thông tin về con cái trên mạng, tạo ra dấu chân số cho đứa trẻ.
+	~Chia sẻ mật khẩu tài khoản với bạn bè và gia đình.
+	~Hành vi chia sẻ tin tức giả mạo một cách vô ý.
+	~Sử dụng chung một thiết bị để truy cập nhiều tài khoản khác nhau.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ The Privacy Paradox? {
+	=Bày tỏ sự lo ngại về quyền riêng tư nhưng hành động lại không phản ánh điều đó.
+	~Sẵn sàng trả tiền để bảo vệ quyền riêng tư của mình.
+	~Không quan tâm đến quyền riêng tư và chia sẻ mọi thông tin cá nhân.
+	~Chỉ quan tâm đến quyền riêng tư của bản thân mà không tôn trọng quyền riêng tư của người khác.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ Pig Butchering Scams? {
+	=Lừa đảo tình cảm và lừa đảo đầu tư.
+	~Lừa đảo qua điện thoại và lừa đảo qua email.
+	~Đánh cắp danh tính và tấn công bằng mã độc.
+	~Giả mạo trang web và tạo tin tức giả.
+}
+
+::Hãy cho biết điểm khác nhau cơ bản giữa misinforma:: Hãy cho biết điểm khác nhau cơ bản giữa misinformation và disinformation là gì? {
+	=Misinformation là lan truyền thông tin sai nhưng không có ác ý, trong khi Disinformation là cố tình tạo và lan truyền thông tin sai.
+	~Misinformation là thông tin sai về khoa học, trong khi Disinformation là thông tin sai về chính trị.
+	~Misinformation được lan truyền qua email, trong khi Disinformation được lan truyền qua mạng xã hội.
+	~Không có sự khác biệt, hai thuật ngữ này có thể dùng thay thế cho nhau.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến phương pháp kiểm chứng thông tin SIFT? {
+	=Dừng lại (Stop), Điều tra nguồn tin (Investigate the source), Tìm các nguồn tin khác (Find better coverage), và Truy tìm lại các trích dẫn (Trace claims).
+	~Chia sẻ, Thích, Bình luận và Theo dõi.
+	~Quét, Nhận dạng, Lọc và Tin tưởng.
+	~Tìm kiếm, Phân tích, Tổng hợp và Báo cáo.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả đầy đủ và:: Hãy cho biết lựa chọn nào dưới đây mô tả đầy đủ và chính xác nhất liên quan đến sức khỏe số (Digital Health)? {
+	=Trạng thái khỏe mạnh về thể chất, tâm lý và xã hội trong mối quan hệ tương tác với công nghệ kỹ thuật số.
+	~Khả năng sử dụng thành thạo các thiết bị công nghệ mới nhất.
+	~Việc sử dụng các ứng dụng y tế trên điện thoại thông minh để theo dõi sức khỏe.
+	~Việc hoàn toàn từ bỏ công nghệ để bảo vệ sức khỏe.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến sức khỏe số? {
+	=Sức khỏe thể chất, sức khỏe tâm lý và cảm xúc, sức khỏe xã hội.
+	~Sức khỏe tài chính, sức khỏe nghề nghiệp, sức khỏe tinh thần.
+	~An toàn thiết bị, an toàn dữ liệu, an toàn mạng.
+	~Kỹ năng công nghệ, nhận thức kỹ thuật số, trách nhiệm công dân số.
+}
+
+::Hội chứng thị giác máy tính CVS gây ra các triệu c:: Hội chứng thị giác máy tính (CVS) gây ra các triệu chứng nào dưới đây? {
+	=Mỏi mắt, nóng rát, đau đầu, nhìn mờ, và đau vai gáy.
+	~Tăng cân, béo phì và các bệnh về tim mạch.
+	~Mất ngủ, khó tập trung và hay cáu kỉnh.
+	~Hội chứng ống cổ tay và đau lưng.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ Text Neck? {
+	~Sử dụng chuột máy tính liên tục gây căng cơ vai và cổ.
+	~Gõ bàn phím máy tính quá nhiều gây mỏi cơ cổ.
+	~Ngồi sai tư thế khi làm việc với máy tính để bàn.
+	=Tư thế cúi đầu xem điện thoại trong thời gian dài, làm tăng áp lực lên cột sống cổ.
+}
+
+::Hãy cho biết ánh sáng xanh từ màn hình thiết bị đi:: Hãy cho biết ánh sáng xanh từ màn hình thiết bị điện tử ảnh hưởng đến giấc ngủ như thế nào? {
+	~Không có ảnh hưởng đáng kể đến chất lượng giấc ngủ.
+	~Kích thích não bộ, làm cho người dùng cảm thấy tỉnh táo và khó ngủ hơn.
+	~Gây ra các cơn ác mộng và làm gián đoạn chu kỳ giấc ngủ.
+	=Ức chế việc sản xuất melatonin, hormone gây ngủ, dẫn đến rối loạn giấc ngủ.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ Doomscrolling? {
+	~Chơi game trên điện thoại trong nhiều giờ liên tục.
+	~Lướt mạng xã hội vô định mà không có mục đích cụ thể.
+	~Đọc các bình luận tiêu cực về bản thân trên mạng.
+	=Tiêu thụ một lượng lớn tin tức tiêu cực một cách liên tục, dẫn đến gia tăng cảm giác lo âu và bất lực.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ FOMO? {
+	~Chia sẻ quá nhiều thông tin cá nhân trên mạng.
+	~Tránh xa mạng xã hội và các thiết bị công nghệ.
+	~Chỉ tham gia vào các hoạt động ngoại tuyến.
+	=Kiểm tra mạng xã hội một cách ám ảnh để được kết nối liên tục.
+}
+
+::Hãy cho biết ý nghĩa của việc sử dụng quy tắc 2020:: Hãy cho biết ý nghĩa của việc sử dụng quy tắc 20-20-20 là gì? {
+	~Cải thiện chất lượng giấc ngủ.
+	~Quản lý thời gian sử dụng thiết bị một cách hiệu quả.
+	~Giảm căng thẳng do quá tải thông tin.
+	=Bảo vệ mắt khỏi hội chứng thị giác máy tính.
+}
+
+::Hãy cho biết triết lý Tối giản số Digital Minimali:: Hãy cho biết triết lý Tối giản số (Digital Minimalism) là gì? {
+	~Chỉ sử dụng các thiết bị công nghệ có thiết kế tối giản.
+	~Hoàn toàn loại bỏ công nghệ ra khỏi cuộc sống.
+	~Sử dụng tất cả các ứng dụng và thiết bị có sẵn một cách tối đa.
+	=Chỉ sử dụng một cách có chọn lọc những công cụ số thực sự hỗ trợ cho các giá trị mà bạn rất quan tâm.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến An sinh số (Digital Well-being)? {
+	~Các mối quan hệ xã hội được hình thành và duy trì qua mạng.
+	~Sức khỏe thể chất và tâm lý của người dùng khi tương tác với công nghệ.
+	~Khả năng kiếm tiền và phát triển sự nghiệp trong môi trường số.
+	=Các yếu tố môi trường bên ngoài như an toàn, an ninh, quyền riêng tư và sự tự chủ.
+}
+
+::Hãy cho biết mối quan hệ giữa An sinh số và Sức kh:: Hãy cho biết mối quan hệ giữa An sinh số và Sức khỏe số là gì? {
+	~Sức khỏe số quan trọng hơn An sinh số.
+	~Chúng là hai khái niệm hoàn toàn độc lập và không liên quan đến nhau.
+	~An sinh số quan trọng hơn Sức khỏe số.
+	=Chúng có mối quan hệ cộng sinh, không thể tách rời; An sinh số là nền tảng cho Sức khỏe số và ngược lại.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ thiết kế Nhân văn (Humane Design)? {
+	~Sử dụng các vật liệu thân thiện với môi trường để sản xuất thiết bị.
+	~Thiết kế các giao diện người dùng đẹp mắt và dễ sử dụng.
+	~Tạo ra các sản phẩm có thể sử dụng được bởi tất cả mọi người, kể cả người khuyết tật.
+	=Tạo ra các sản phẩm tôn trọng sự chú ý của người dùng, giảm thiểu các yếu tố gây nghiện và cung cấp cài đặt quyền riêng tư minh bạch.
+}
+
+::Hãy cho biết quy tắc ứng xử trên mạng Netiquette l:: Hãy cho biết quy tắc ứng xử trên mạng (Netiquette) là gì? {
+	~Trích dẫn nguồn khi chia sẻ thông tin.
+	~Luôn luôn đúng giờ trong các cuộc họp trực tuyến.
+	~Không bao giờ viết in hoa toàn bộ.
+	=Ghi nhớ yếu tố con người (Remember the Human).
+}
+
+::Hành động nào dưới đây được xem là la hét trong gi:: Hành động nào dưới đây được xem là la hét trong giao tiếp trực tuyến? {
+	~Trả lời tin nhắn ngay lập tức.
+	~Sử dụng nhiều biểu tượng cảm xúc.
+	~Gửi quá nhiều tin nhắn liên tục.
+	=Viết in hoa toàn bộ nội dung tin nhắn.
+}
+
+::Hãy cho biết lý do vì sao việc tư duy trước khi hà:: Hãy cho biết lý do vì sao việc tư duy trước khi hành động (Think Before You Post/Share) trên môi trường Internet lại quan trọng? {
+	~Một yêu cầu bắt buộc của pháp luật.
+	~Giúp bạn có nhiều lượt thích và tương tác hơn.
+	~Giúp bạn tránh bị các nền tảng mạng xã hội chặn tài khoản.
+	=Mỗi lượt bình luận, chia sẻ đều có sức ảnh hưởng và có thể khuếch đại thông điệp đến mạng lưới của bạn.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ Đồng minh số (Digital Allyship)? {
+	~Tạo nhiều tài khoản ảo để ủng hộ cho một quan điểm nào đó.
+	~Chỉ kết bạn với những người có cùng quan điểm với mình.
+	~Tham gia vào các nhóm để công kích những người có ý kiến trái chiều.
+	=Sử dụng vị thế và tiếng nói của mình để ủng hộ và bảo vệ các cá nhân hoặc nhóm người yếu thế trên không gian mạng.
+}
+
+::Bạn hành động như thế nào khi một người dùng trên:: Bạn hành động như thế nào khi một người dùng trên mạng Internet có biểu hiện bị ảnh hưởng tâm lý? {
+	~Chia sẻ bài đăng của họ với những người bạn khác để tìm sự giúp đỡ.
+	~Bình luận công khai trên bài đăng của họ để hỏi xem có chuyện gì xảy ra.
+	~Bỏ qua vì đó là chuyện riêng tư của họ.
+	=Tiếp cận một cách riêng tư và tế nhị qua tin nhắn riêng để bày tỏ sự quan tâm.
+}
+
+::Vai trò quan trọng nhất của bạn khi hỗ trợ một ngư:: Vai trò quan trọng nhất của bạn khi hỗ trợ một người bạn đang gặp khó khăn về tâm lý là gì? {
+	~Cố gắng làm cho họ vui lên bằng những câu chuyện hài hước.
+	~Đưa ra lời khuyên và giải pháp cho vấn đề của họ.
+	~Kể cho họ nghe những câu chuyện tương tự để họ cảm thấy tốt hơn.
+	=Lắng nghe không phán xét và kết nối họ với những người có chuyên môn.
+}
+
+::Trong trường hợp khẩn cấp nếu bạn tin rằng bạn của:: Trong trường hợp khẩn cấp, nếu bạn tin rằng bạn của mình đang có nguy cơ tự hại tức thời, bạn nên làm gì? {
+	~Chờ đợi xem tình hình có trở nên tốt hơn không.
+	~Giữ bí mật vì đó là lời hứa của bạn với họ.
+	~Cố gắng tự mình giải quyết vấn đề.
+	=Liên hệ ngay với các dịch vụ khẩn cấp, phòng công tác sinh viên hoặc một người lớn mà bạn tin tưởng.
+}
+
+::Hành động nào dưới đây thể hiện bạn là một công dâ:: Hành động nào dưới đây thể hiện bạn là một công dân số có trách nhiệm trong tương lai? {
+	~Tránh xa các cuộc tranh luận về công nghệ trên mạng xã hội.
+	~Chỉ sử dụng các công nghệ đã được kiểm chứng là an toàn tuyệt đối.
+	~Luôn cập nhật các thiết bị và phần mềm mới nhất.
+	=Tham gia tích cực vào các cuộc đối thoại xã hội để định hình các quy tắc, chuẩn mực và luật lệ cho những công nghệ mới.
+}
+
+::Đặc điểm nào của công nghệ số cho phép thông tin đ:: Đặc điểm nào của công nghệ số cho phép thông tin được sao chép và phân phối nhanh chóng mà không làm giảm chất lượng? {
+	~Dữ liệu được chuyển đổi thành dạng số hóa (0 và 1).
+	=Tín hiệu số ít bị nhiễu và méo mó hơn tín hiệu tương tự.
+	~Các thiết bị số có khả năng kết nối với nhau qua mạng internet.
+	~Phần mềm có thể xử lý lượng lớn dữ liệu một cách tự động.
+}
+
+::Thành phần nào dưới đây được ví như trí tuệ và lin:: Thành phần nào dưới đây được ví như trí tuệ và linh hồn của một hệ thống số? {
+	~Dữ liệu (Data).
+	~Phần cứng (Hardware).
+	~Mạng và kết nối (Networks and Connectivity).
+	=Phần mềm (Software).
+}
+
+::Hãy cho biết chức năng chính của thiết bị IoT Inte:: Hãy cho biết chức năng chính của thiết bị IoT (Internet of Things) là gì? {
+	~Kết nối các máy tính và thiết bị khác trong một mạng lưới cục bộ.
+	~Cung cấp dịch vụ và tài nguyên cho các máy tính khác trong mạng.
+	~Quản lý tài nguyên phần cứng và cung cấp môi trường cho các ứng dụng khác hoạt động.
+	=Thu thập và trao đổi dữ liệu tự động thông qua các cảm biến được kết nối internet.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ điện toán đám mây (Cloud Computing)? {
+	~Giảm dung lượng lưu trữ cần thiết cho các loại dữ liệu phức tạp như video và hình ảnh.
+	~Tăng cường khả năng lưu trữ dữ liệu trên các thiết bị cá nhân như điện thoại và máy tính.
+	~Làm cho việc lưu trữ dữ liệu trở nên kém an toàn hơn do phải phụ thuộc vào bên thứ ba.
+	=Cho phép người dùng thuê tài nguyên điện toán từ các nhà cung cấp dịch vụ thông qua internet thay vì sở hữu cơ sở hạ tầng vật lý.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ dữ liệu lớn (Big Data)? {
+	~Dễ dàng xử lý bằng các công cụ phân tích thông thường.
+	~Chỉ bao gồm dữ liệu dạng văn bản và số.
+	~Được lưu trữ trong các cơ sở dữ liệu truyền thống.
+	=Khối lượng dữ liệu cực lớn, đa dạng về định dạng và tốc độ cập nhật nhanh.
+}
+
+::Quá trình huấn luyện các mô hình Trí tuệ nhân tạo:: Quá trình huấn luyện các mô hình Trí tuệ nhân tạo (AI) đã tạo ra những tác động nào đối với môi trường? {
+	~Gây ô nhiễm tiếng ồn từ các trung tâm dữ liệu.
+	~Gây ra ô nhiễm nguồn nước do sử dụng nhiều hóa chất.
+	~Tạo ra một lượng lớn rác thải điện tử từ các máy chủ cũ.
+	=Tiêu thụ một lượng năng lượng tính toán khổng lồ, tạo ra dấu chân carbon không nhỏ.
+}
+
+::Công nghệ chuỗi khối Blockchain được biết đến nhiề:: Công nghệ chuỗi khối (Blockchain) được biết đến nhiều nhất thông qua ứng dụng nào? {
+	~Quản lý năng lượng tái tạo.
+	~Quản lý chuỗi cung ứng.
+	~Theo dõi nguồn gốc sản phẩm.
+	=Các loại tiền điện tử như Bitcoin.
+}
+
+::Cơ chế đồng thuận Proof of Work PoW của Bitcoin gâ:: Cơ chế đồng thuận Proof of Work (PoW) của Bitcoin gây ra lo ngại về môi trường vì sao? {
+	~Gây ra các cuộc xung đột về tài nguyên khoáng sản.
+	~Yêu cầu một lượng lớn nước để làm mát các máy chủ.
+	~Tạo ra nhiều rác thải điện tử từ các thiết bị khai thác.
+	=Đòi hỏi sức mạnh tính toán cực lớn và tiêu thụ một lượng năng lượng điện khổng lồ.
+}
+
+::Hãy cho biết điểm khác nhau cơ bản giữa Thực tế ảo:: Hãy cho biết điểm khác nhau cơ bản giữa Thực tế ảo (VR) và Thực tế tăng cường (AR) là gì? {
+	~VR là một công nghệ cũ, trong khi AR là một công nghệ mới.
+	~VR yêu cầu sử dụng kính đặc biệt, trong khi AR chỉ cần điện thoại thông minh.
+	~VR được sử dụng cho giải trí, trong khi AR được sử dụng cho công việc.
+	=VR tạo ra một môi trường mô phỏng hoàn toàn, trong khi AR chồng các yếu tố ảo lên thế giới thực.
+}
+
+::Công nghệ số giúp giám sát chất lượng không khí và:: Công nghệ số giúp giám sát chất lượng không khí và nước hiệu quả hơn bằng cách nào? {
+	~Khuyến khích người dân sử dụng phương tiện giao thông công cộng.
+	~Giảm số lượng nhà máy gây ô nhiễm.
+	~Cung cấp các bộ lọc không khí và nước hiệu quả hơn.
+	=Triển khai các cảm biến thông minh và hệ thống IoT để thu thập dữ liệu chi tiết theo thời gian thực.
+}
+
+::Nền tảng Global Forest Watch sử dụng công nghệ gì:: Nền tảng Global Forest Watch sử dụng công nghệ gì để cung cấp cảnh báo về nạn phá rừng? {
+	~Báo cáo từ người dân địa phương.
+	~Cảm biến mặt đất.
+	~Drone giám sát.
+	=Dữ liệu vệ tinh.
+}
+
+::Hãy cho biết công nghệ số được sử dụng nhằm hỗ trợ:: Hãy cho biết công nghệ số được sử dụng nhằm hỗ trợ bảo vệ động vật hoang dã như thế nào? {
+	~Tạo ra các khu bảo tồn ảo để động vật sinh sống.
+	=Sử dụng các thiết bị theo dõi gắn GPS và camera bẫy kết nối IoT để theo dõi hành vi và ngăn chặn săn bắn trộm.
+	~Nhân bản vô tính các loài động vật có nguy cơ tuyệt chủng.
+	~Cung cấp thức ăn tổng hợp cho động vật hoang dã.
+}
+
+::Lưới điện thông minh Smart Grid giúp giảm tổn thất:: Lưới điện thông minh (Smart Grid) giúp giảm tổn thất năng lượng và tích hợp năng lượng tái tạo bằng cách nào? {
+	~Xây dựng nhiều nhà máy điện hạt nhân hơn.
+	=Cân bằng cung cầu điện năng theo thời gian thực và quản lý phân phối điện hiệu quả hơn.
+	~Yêu cầu người dân giảm mức tiêu thụ điện.
+	~Thay thế toàn bộ hệ thống dây điện cũ bằng dây điện mới.
+}
+
+::Trong nông nghiệp thông minh việc sử dụng cảm biến:: Trong nông nghiệp thông minh, việc sử dụng cảm biến đất và hệ thống IoT mang lại lợi ích gì? {
+	~Tăng diện tích đất canh tác.
+	=Tiết kiệm đáng kể lượng nước, phân bón và thuốc trừ sâu bằng cách cung cấp đúng lượng cần thiết.
+	~Giảm số lượng nhân công cần thiết.
+	~Trồng được các loại cây trồng mới không phù hợp với điều kiện địa phương.
+}
+
+::Hệ thống giao thông thông minh ITS giúp giảm ùn tắ:: Hệ thống giao thông thông minh (ITS) giúp giảm ùn tắc và khí thải như thế nào? {
+	~Xây dựng thêm nhiều đường cao tốc và cầu vượt.
+	=Tối ưu hóa luồng di chuyển bằng cách điều khiển đèn giao thông và quản lý luồng xe theo thời gian thực.
+	~Hạn chế số lượng xe cá nhân được phép lưu thông.
+	~Khuyến khích người dân đi bộ hoặc đi xe đạp.
+}
+
+::Kinh tế tuần hoàn được thúc đẩy bởi công nghệ số t:: Kinh tế tuần hoàn được thúc đẩy bởi công nghệ số thông qua việc gì? {
+	~Khuyến khích người tiêu dùng mua sắm nhiều hơn để thúc đẩy sản xuất.
+	=Tạo ra các thị trường trực tuyến cho vật liệu tái chế và sử dụng Blockchain để theo dõi chuỗi cung ứng minh bạch.
+	~Giảm giá thành của các sản phẩm mới để người tiêu dùng dễ dàng thay thế đồ cũ.
+	~Đốt rác thải để tạo ra năng lượng.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ Citizen Science? {
+	~Cung cấp các khóa học trực tuyến miễn phí về khoa học môi trường.
+	=Cho phép người dân tham gia giám sát môi trường bằng cách sử dụng các ứng dụng di động để thu thập và báo cáo dữ liệu.
+	~Tổ chức các cuộc thi khoa học cho sinh viên.
+	~Tài trợ cho các dự án nghiên cứu của các nhà khoa học công dân.
+}
+
+::Hãy cho biết tại sao các trung tâm dữ liệu Data Ce:: Hãy cho biết tại sao các trung tâm dữ liệu (Data Centers) lại tiêu thụ một lượng năng lượng khổng lồ? {
+	~Để xây dựng các tòa nhà có khả năng chống chịu thiên tai.
+	=Để vận hành hàng ngàn máy chủ liên tục 24/7 và duy trì hệ thống làm mát phức tạp.
+	~Để trả lương cho đội ngũ nhân viên kỹ thuật đông đảo.
+	~Để mua các phần mềm và giấy phép bản quyền đắt tiền.
+}
+
+::Hãy cho biết vấn đề môi trường nghiêm trọng nhất l:: Hãy cho biết vấn đề môi trường nghiêm trọng nhất liên quan đến việc khai thác tiền điện tử như Bitcoin là gì? {
+	~Gây ô nhiễm nguồn nước do sử dụng hóa chất trong quá trình khai thác.
+	=Tiêu thụ một lượng năng lượng điện cực kỳ lớn
+	~Tạo ra một lượng lớn rác thải điện tử từ các thiết bị đào lỗi thời.
+	~Gây ra tiếng ồn lớn ảnh hưởng đến các khu dân cư xung quanh.
+}
+
+::Hãy cho biết nguyên nhân chính tạo ra một lượng lớ:: Hãy cho biết nguyên nhân chính tạo ra một lượng lớn rác thải điện tử (e-waste) là gì? {
+	~Thiếu các chương trình thu gom và tái chế hiệu quả.
+	=Tốc độ lỗi thời nhanh chóng của các thiết bị và chu kỳ nâng cấp ngắn ngủi của người tiêu dùng.
+	~Giá thành của các thiết bị mới ngày càng rẻ.
+	~Người tiêu dùng không biết cách xử lý các thiết bị cũ.
+}
+
+::Hãy cho biết lý do khiến rác thải điện tử lại nguy:: Hãy cho biết lý do khiến rác thải điện tử lại nguy hiểm đối với môi trường và sức khỏe con người? {
+	~Chiếm quá nhiều diện tích trong các bãi chôn lấp.
+	=Chứa nhiều kim loại nặng và hóa chất độc hại như chì, thủy ngân, cadmium có thể rò rỉ ra môi trường.
+	~Có thể gây cháy nổ nếu không được lưu trữ đúng cách.
+	~Làm giảm giá trị thẩm mỹ của cảnh quan.
+}
+
+::Kim loại xung đột Conflict minerals là gì Hãy lựa:: Kim loại xung đột (Conflict minerals) là gì? Hãy lựa chọn đáp án đúng nhất. {
+	~Các kim loại có tính chất hóa học đối kháng nhau và không thể được sử dụng cùng lúc trong một thiết bị.
+	=Các khoáng sản được khai thác ở các vùng có xung đột vũ trang và việc buôn bán chúng có thể tài trợ cho các nhóm vũ trang.
+	~Các kim loại quý hiếm mà các quốc gia tranh giành quyền sở hữu.
+	~Các kim loại khó khai thác và đòi hỏi công nghệ cao.
+}
+
+::Dấu chân carbon của chuỗi cung ứng trong ngành côn:: Dấu chân carbon của chuỗi cung ứng trong ngành công nghệ chủ yếu đến từ đâu? {
+	~Việc đóng gói sản phẩm bằng các vật liệu không thể tái chế.
+	=Quá trình vận chuyển linh kiện và sản phẩm trên toàn cầu bằng các phương tiện sử dụng nhiên liệu hóa thạch.
+	~Chi phí quảng cáo và tiếp thị sản phẩm trên toàn thế giới.
+	~Việc lưu trữ sản phẩm trong các nhà kho lớn.
+}
+
+::Hãy cho biết đáp án nào dưới đây mô tả cho hiệu ứn:: Hãy cho biết đáp án nào dưới đây mô tả cho hiệu ứng Rebound Effect? {
+	~Việc tái chế một sản phẩm lại tốn nhiều năng lượng hơn là sản xuất một sản phẩm mới.
+	=Việc cải thiện hiệu quả sử dụng một tài nguyên lại dẫn đến việc tăng tổng mức tiêu thụ tài nguyên đó.
+	~Việc sử dụng năng lượng tái tạo lại gây ra các vấn đề môi trường khác.
+	~Việc nâng cao nhận thức về môi trường lại khiến người ta tiêu thụ nhiều hơn.
+}
+
+::Hãy cho biết giải pháp nhằm giảm thiểu rác thải đi:: Hãy cho biết giải pháp nhằm giảm thiểu rác thải điện tử là gì? {
+	~Chỉ mua các thiết bị từ các thương hiệu lớn và uy tín.
+	=Kéo dài vòng đời sử dụng của thiết bị, sửa chữa, tái sử dụng thay vì vứt bỏ.
+	~Vứt bỏ các thiết bị cũ vào thùng rác tái chế thông thường.
+	~Tháo dỡ các thiết bị cũ để lấy các linh kiện còn sử dụng được.
+}
+
+::Hãy cho biết chính sách trách nhiệm mở rộng đối vớ:: Hãy cho biết chính sách trách nhiệm mở rộng đối với các nhà sản xuất (EPR) là gì? {
+	~Chỉ sản xuất các thiết bị tiết kiệm năng lượng.
+	=Chịu trách nhiệm về toàn bộ vòng đời của sản phẩm, từ thiết kế đến thu gom và tái chế.
+	~Cung cấp bảo hành dài hạn cho tất cả các sản phẩm.
+	~Giảm giá thành sản phẩm để người tiêu dùng dễ dàng tiếp cận.
+}
+
+::Hãy cho biết chính phủ có thể khuyến khích các côn:: Hãy cho biết chính phủ có thể khuyến khích các công ty công nghệ sử dụng năng lượng tái tạo bằng cách nào? {
+	~Bắt buộc tất cả các trung tâm dữ liệu phải tự sản xuất năng lượng.
+	=Đưa ra các ưu đãi thuế, trợ cấp hoặc các khoản vay ưu đãi.
+	~Tăng giá điện từ các nguồn năng lượng hóa thạch.
+	~Cấm xây dựng các trung tâm dữ liệu mới.
+}
+
+::Hãy cho biết mục tiêu của việc thúc đẩy kinh tế tu:: Hãy cho biết mục tiêu của việc thúc đẩy kinh tế tuần hoàn trong lĩnh vực công nghệ là gì? {
+	~Tạo ra một chu trình sản xuất và tiêu dùng liên tục không có điểm dừng.
+	=Thiết kế sản phẩm dễ dàng sửa chữa, nâng cấp và tháo rời để tái chế, giảm khai thác tài nguyên mới.
+	~Khuyến khích người tiêu dùng liên tục mua các sản phẩm mới để thúc đẩy kinh tế.
+	~Tái sử dụng các thiết bị cũ mà không cần sửa chữa hay nâng cấp.
+}
+
+::Hãy cho biết chỉ số khả năng sửa chữa mà nước Pháp:: Hãy cho biết chỉ số khả năng sửa chữa mà nước Pháp đã ban hành nhằm mục đích gì? {
+	~Xếp hạng các cửa hàng sửa chữa dựa trên chất lượng dịch vụ.
+	=Khuyến khích người tiêu dùng lựa chọn các sản phẩm điện tử dễ sửa chữa hơn.
+	~Cung cấp hướng dẫn sửa chữa chi tiết cho tất cả các loại thiết bị.
+	~Đánh giá độ bền của các sản phẩm điện tử.
+}
+
+::Hãy cho biết việc làm nào dưới đây nhằm giúp người:: Hãy cho biết việc làm nào dưới đây nhằm giúp người dùng có thể sử dụng dịch vụ đám mây một cách có trách nhiệm hơn? {
+	~Tải tất cả dữ liệu của mình lên đám mây để giải phóng dung lượng trên thiết bị cá nhân.
+	=Dọn dẹp các tệp cũ không dùng đến và chọn cài đặt chất lượng video phù hợp thay vì luôn xem ở độ phân giải cao nhất.
+	~Luôn bật chế độ đồng bộ hóa tự động cho tất cả các ứng dụng.
+	~Chỉ sử dụng các dịch vụ đám mây miễn phí.
+}
+
+::Hãy cho biết hành động nào dưới đây giúp bảo vệ dữ:: Hãy cho biết hành động nào dưới đây giúp bảo vệ dữ liệu cá nhân và tăng cường an sinh số? {
+	~Tắt tất cả thông báo đẩy trên điện thoại.
+	=Bật xác thực hai yếu tố (2FA) cho các tài khoản quan trọng.
+	~Sử dụng chế độ màn hình xám để giảm sự hấp dẫn.
+	~Tham gia một khóa "digital detox".
+}
+
+::Một sinh viên chia sẻ kinh nghiệm về cách nhận biế:: Một sinh viên chia sẻ kinh nghiệm về cách nhận biết email lừa đảo cho bạn bè là một ví dụ về hành động nào? {
+	~Khoe khoang kiến thức công nghệ của bản thân.
+	=Nâng cao nhận thức và hành động vì môi trường số an toàn.
+	~Vi phạm quyền riêng tư của những người đã gửi email lừa đảo.
+	~Tham gia vào khoa học công dân.
+}
+
+::Hãy cho biết công nghệ nào vừa có tiềm năng lớn tr:: Hãy cho biết công nghệ nào vừa có tiềm năng lớn trong việc giám sát môi trường, vừa gây ra lo ngại về việc tiêu thụ năng lượng khổng lồ trong quá trình sử dụng? {
+	~Chuỗi khối (Blockchain).
+	=Trí tuệ nhân tạo (AI).
+	~Internet vạn vật (IoT).
+	~Thực tế ảo (VR).
+}
+
+::Một người dùng quyết định không mua điện thoại mới:: Một người dùng quyết định không mua điện thoại mới mà thay pin cho chiếc điện thoại cũ. Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất cho hành động này? {
+	~Tái chế rác thải điện tử đúng cách.
+	=Kéo dài vòng đời sử dụng của thiết bị.
+	~Sử dụng năng lượng hiệu quả.
+	~Thúc đẩy kinh tế tuần hoàn.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây vi phạm nguyên:: Hãy cho biết lựa chọn nào dưới đây vi phạm nguyên tắc trong Netiquette? {
+	~Sử dụng từ viết tắt trong khi nhắn tin với bạn bè thân thiết.
+	=Công kích, sỉ nhục một người khác trong phần bình luận vì họ có quan điểm trái ngược.
+	~Gửi một email công việc mà không có lời chào hỏi.
+	~Không trả lời một tin nhắn ngay lập tức.
+}
+
+::Việc các thuật toán mạng xã hội chỉ hiển thị những:: Việc các thuật toán mạng xã hội chỉ hiển thị những nội dung phù hợp với niềm tin sẵn có của người dùng có thể tạo ra hiện tượng gì? {
+	~Hội chứng sợ bỏ lỡ (FOMO).
+	=Bong bóng lọc (filter bubble) hoặc buồng vang (echo chamber).
+	~Quá tải thông tin (Information Overload).
+	~Doomscrolling.
+}
+
+::Hãy cho biết lựa chọn nào dưới đây mô tả chính xác:: Hãy cho biết lựa chọn nào dưới đây mô tả chính xác và đầy đủ nhất liên quan đến thuật ngữ tài sản (asset) đặt trong bối cảnh an ninh mạng? {
+	~Một sai sót hoặc điểm yếu cho phép kẻ tấn công vượt qua hàng rào an ninh.
+	=Một vật có giá trị cần được bảo vệ, ví dụ như cơ sở dữ liệu.
+	~Một loại hành động có khả năng gây hại.
+	~Một người hoặc yếu tố có sức mạnh để thực hiện một mối đe dọa.
+}
+
+::Một công ty thực hiện giả lập các cuộc tấn công lừ:: Một công ty thực hiện giả lập các cuộc tấn công lừa đảo để kiểm tra nhân viên. Hãy cho biết mục đích và ý nghĩa của việc này là gì? {
+	~Quản lý danh tính và truy cập.
+	=Đào tạo và nâng cao nhận thức người dùng.
+	~Cập nhật phần mềm bảo mật.
+	~Mã hóa dữ liệu.
+}
+
+::Hãy cho biết chức năng chính của một Hệ thống quản:: Hãy cho biết chức năng chính của một Hệ thống quản lý thông tin và sự kiện bảo mật (SIEM) là gì? {
+	~Ngăn chặn các email lừa đảo và thư rác trước khi chúng đến hộp thư của người dùng.
+	=Thu thập, tương quan và phân tích nhật ký (logs) từ nhiều nguồn để tự động hóa việc phát hiện mối đe dọa.
+	~Mã hóa toàn bộ dữ liệu trên ổ cứng để bảo vệ khỏi truy cập trái phép.
+	~Quét hệ thống để tìm kiếm các lỗ hổng bảo mật và đề xuất các bản vá.
+}
+
+::Hãy cho biết tại sao việc đa dạng hóa mật khẩu sử:: Hãy cho biết tại sao việc đa dạng hóa mật khẩu (sử dụng mật khẩu khác nhau cho các tài khoản khác nhau) lại quan trọng? {
+	~Các trang web khác nhau có yêu cầu về độ phức tạp mật khẩu khác nhau.
+	=Để ngăn chặn việc kẻ tấn công sau khi xâm nhập một tài khoản có thể truy cập vào các tài khoản khác của người dùng.
+	~Để giúp người dùng dễ dàng ghi nhớ mật khẩu nào dành cho tài khoản nào.
+	~Một yêu cầu pháp lý ở hầu hết các quốc gia.
+}

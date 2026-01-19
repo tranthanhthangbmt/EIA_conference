@@ -1,0 +1,11 @@
+question_id,content,options,answer,skill_id_list,difficulty
+Mod1_Q1_MCQ,Dữ liệu thô là?,"[""A. Dữ liệu đã được xử lý và có ý nghĩa"", ""B. Dữ liệu mang tính tổng hợp và suy luận"", ""C. Các sự kiện, con số, ký hiệu chưa được xử lý"", ""D. Các bảng thông tin trong Excel""]",C,"[""1.1_Duyet_TimKiem_Loc""]",easy
+Mod1_Q2_MCQ,Ví dụ nào dưới đây là dữ liệu thô?,"[""A. “Sinh viên A đạt 8.5 môn Toán”"", ""B. “25.000”, “áo thun”, “Hà Nội”"", ""C. “Dựa trên điểm số để đánh giá xu hướng học tập”"", ""D. “Báo cáo học tập năm 2024”""]",B,"[""1.1_Duyet_TimKiem_Loc""]",easy
+Mod1_Q3_MCQ,Thông tin là:,"[""A. Dữ liệu thô chưa được tổ chức"", ""B. Các tri thức chuyên sâu"", ""C. Dữ liệu đã được xử lý, tổ chức và mang ý nghĩa"", ""D. Các quan điểm cá nhân""]",C,"[""1.1_Duyet_TimKiem_Loc""]",easy
+Mod1_Q4_MCQ,Ví dụ nào sau đây là tri thức?,"[""A. Số liệu bán hàng theo tháng"", ""B. Phân tích xu hướng khách hàng và đề xuất hành động"", ""C. Giá trị đơn chiếc của sản phẩm"", ""D. Bảng thống kê doanh thu""]",B,"[""1.1_Duyet_TimKiem_Loc""]",easy
+Mod1_Q5_MCQ,Sự khác biệt giữa thông tin và tri thức nằm ở:,"[""A. Định dạng"", ""B. Nguồn gốc dữ liệu"", ""C. Mức độ xử lý và khả năng suy luận"", ""D. Ngôn ngữ trình bày""]",C,"[""1.1_Duyet_TimKiem_Loc""]",easy
+Mod1_Q6_MCQ,Dữ liệu có cấu trúc thường được lưu trữ trong:,"[""A. File ảnh JPEG"", ""B. Hệ thống cơ sở dữ liệu quan hệ"", ""C. File video MP4"", ""D. Bài viết trên mạng xã hội""]",B,"[""1.3_QuanLy_DuLieu""]",easy
+Mod1_Q7_MCQ,Dữ liệu phi cấu trúc là:,"[""A. Dữ liệu có bảng, hàng, cột"", ""B. Dữ liệu có thẻ XML rõ ràng"", ""C. Văn bản tự do, video, hình ảnh"", ""D. Tệp Excel""]",C,"[""1.1_Duyet_TimKiem_Loc""]",easy
+Mod1_Q8_MCQ,Ví dụ nào sau đây là dữ liệu bán cấu trúc?,"[""A. JSON, XML"", ""B. Bảng tính Excel"", ""C. Video TikTok"", ""D. Bình luận YouTube""]",A,"[""1.1_Duyet_TimKiem_Loc""]",easy
+Mod1_Q9_MCQ,Điểm yếu của dữ liệu phi cấu trúc là:,"[""A. Không có giá trị"", ""B. Rất khó truy xuất, phân tích"", ""C. Không phổ biến trong môi trường số"", ""D. Không có trong thực tế""]",B,"[""1.1_Duyet_TimKiem_Loc""]",easy
+Mod1_Q10_MCQ,Đặc điểm nào KHÔNG đúng với dữ liệu có cấu trúc?,"[""A. Dễ phân tích"", ""B. Linh hoạt cao khi thay đổi"", ""C. Lưu trữ dạng bảng"", ""D. Tính nhất quán cao""]",B,"[""1.1_Duyet_TimKiem_Loc""]",easy

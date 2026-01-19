@@ -1,0 +1,839 @@
+::Theo tài liệu lỗi phần mềm hay bug là gì:: Theo tài liệu, "lỗi phần mềm" hay "bug" là gì? {
+	~Một tính năng mới của chương trình
+	=Một sai sót hoặc khiếm khuyết khiến chương trình tạo ra kết quả không chính xác hoặc không mong muốn
+	~Một loại virus máy tính
+	~Một bản cập nhật của hệ điều hành
+}
+
+::Nguyên nhân nào được xem là phổ biến nhất gây ra l:: Nguyên nhân nào được xem là phổ biến nhất gây ra lỗi phần mềm? {
+	~Xung đột phần mềm
+	~Vấn đề tương thích
+	=Lỗi lập trình
+	~Lỗi phần cứng
+}
+
+::Lỗi xảy ra khi hai hoặc nhiều chương trình được cà:: Lỗi xảy ra khi hai hoặc nhiều chương trình được cài đặt trên cùng một hệ thống không tương thích với nhau được gọi là gì? {
+	~Lỗi lập trình
+	~Lỗi cú pháp
+	=Xung đột phần mềm
+	~Lỗi logic
+}
+
+::Lỗi nào được mô tả là khó nhằn nhất vì chương trìn:: Lỗi nào được mô tả là "khó nhằn" nhất vì chương trình vẫn chạy nhưng cho ra kết quả sai? {
+	=Lỗi Logic (Logical Errors)
+	~Lỗi Cú pháp (Syntax Errors)
+	~Lỗi Thời gian chạy (Runtime Errors)
+	~Lỗi Hiệu năng (Performance Errors)
+}
+
+::Việc quên dấu chấm phẩy  ở cuối một câu lệnh trong:: Việc quên dấu chấm phẩy (;) ở cuối một câu lệnh trong C++ hoặc Java là ví dụ của loại lỗi nào? {
+	~Lỗi Logic
+	=Lỗi Cú pháp
+	~Lỗi Thời gian chạy
+	~Lỗi Giao diện người dùng
+}
+
+::Lỗi chỉ xuất hiện khi chương trình đang thực thi v:: Lỗi chỉ xuất hiện khi chương trình đang thực thi, ví dụ như cố gắng chia một số cho 0, được gọi là gì? {
+	~Lỗi Logic
+	~Lỗi Cú pháp
+	=Lỗi Thời gian chạy
+	~Lỗi Giao diện người dùng
+}
+
+::Một nút bấm không hoạt động hoặc văn bản bị lệch r:: Một nút bấm không hoạt động hoặc văn bản bị lệch ra khỏi khung là ví dụ của loại lỗi nào? {
+	~Lỗi Logic
+	~Lỗi Hiệu năng
+	~Lỗi Thời gian chạy
+	=Lỗi Giao diện người dùng (UI Errors)
+}
+
+::Khi một chương trình hoạt động đúng chức năng nhưn:: Khi một chương trình hoạt động đúng chức năng nhưng rất chậm hoặc tốn nhiều bộ nhớ, nó đang gặp phải loại lỗi nào? {
+	=Lỗi Hiệu năng (Performance Errors)
+	~Lỗi Cú pháp (Syntax Errors)
+	~Lỗi Logic (Logical Errors)
+	~Lỗi Thời gian chạy (Runtime Errors)
+}
+
+::Dấu hiệu nào được xem là rõ ràng nhất cho thấy một:: Dấu hiệu nào được xem là rõ ràng nhất cho thấy một chương trình đang có lỗi? {
+	~Chương trình chạy nhanh hơn bình thường
+	~Chương trình tự động cập nhật
+	=Chương trình hoặc hệ điều hành hiển thị thông báo lỗi (Error Messages)
+	~Giao diện chương trình có màu sắc mới
+}
+
+::Khi một chương trình đột ngột dừng lại và cửa sổ ứ:: Khi một chương trình đột ngột dừng lại và cửa sổ ứng dụng không còn phản hồi với bất kỳ thao tác nào, đây là dấu hiệu gì? {
+	~Sai chức năng
+	~Thông báo lỗi
+	=Ứng dụng bị treo (Application Freeze)
+	~Lỗi hiệu năng
+}
+
+::Khi bạn nhấp vào nút Lưu nhưng tệp không được lưu:: Khi bạn nhấp vào nút "Lưu" nhưng tệp không được lưu, đây là biểu hiện của dấu hiệu lỗi phần mềm nào? {
+	~Ứng dụng bị treo
+	~Không phản hồi
+	~Thông báo lỗi
+	=Sai chức năng (Incorrect Functionality)
+}
+
+::Lỗi phần cứng hardware errors xuất phát từ đâu:: Lỗi phần cứng (hardware errors) xuất phát từ đâu? {
+	~Sai sót trong mã lập trình hoặc cài đặt
+	=Những yếu tố vật lý hoặc sự hư hỏng của thiết bị
+	~Xung đột giữa các phần mềm
+	~Virus và phần mềm độc hại
+}
+
+::Khi biểu tượng WiFi trên máy tính hiển thị dấu X đ:: Khi biểu tượng Wi-Fi trên máy tính hiển thị dấu "X đỏ", đây là biểu hiện của lỗi nào? {
+	~Tốc độ mạng chậm
+	~Tín hiệu yếu, chập chờn
+	=Mất kết nối hoàn toàn
+	~Lỗi card đồ họa
+}
+
+::Đâu là một trong những nguyên nhân phổ biến gây ra:: Đâu là một trong những nguyên nhân phổ biến gây ra lỗi kết nối Wi-Fi? {
+	~Ổ cứng bị đầy dung lượng
+	=Driver của card mạng bị lỗi hoặc chưa cập nhật
+	~Bộ nhớ RAM không đủ
+	~Màn hình có độ phân giải thấp
+}
+
+::Triệu chứng máy khởi động chậm bất thường file bị:: Triệu chứng máy khởi động chậm bất thường, file bị lỗi hoặc có tiếng kêu lạ là dấu hiệu của lỗi phần cứng nào? {
+	~Lỗi bộ nhớ RAM
+	~Lỗi card đồ họa
+	~Lỗi nguồn điện
+	=Lỗi ổ cứng (Hard Disk Errors)
+}
+
+::Khi máy tính đột ngột khởi động lại hoặc ứng dụng:: Khi máy tính đột ngột khởi động lại hoặc ứng dụng hay bị treo, đây có thể là triệu chứng của lỗi gì? {
+	~Lỗi ổ cứng
+	=Lỗi bộ nhớ RAM
+	~Lỗi card đồ họa
+	~Lỗi kết nối Wi-Fi
+}
+
+::Bước kiểm tra đầu tiên và đơn giản nhất khi gặp sự:: Bước kiểm tra đầu tiên và đơn giản nhất khi gặp sự cố Wi-Fi là gì? {
+	~Cài đặt lại hệ điều hành
+	=Quan sát biểu tượng mạng và trạng thái kết nối
+	~Tháo rời và vệ sinh card mạng
+	~Mua một router mới
+}
+
+::Thao tác nào được mô tả là đơn giản nhưng hiệu quả:: Thao tác nào được mô tả là đơn giản nhưng hiệu quả, có thể khắc phục nhiều lỗi kết nối Wi-Fi? {
+	~Thay đổi địa chỉ IP
+	=Tắt nguồn router/modem, đợi 30 giây rồi bật lại
+	~Gỡ bỏ phần mềm diệt virus
+	~Chạy lệnh "tracert"
+}
+
+::Nếu không kết nối được WiFi sau khi cài đặt lại Wi:: Nếu không kết nối được Wi-Fi sau khi cài đặt lại Windows, nguyên nhân phổ biến là gì và bạn cần làm gì? {
+	~Do router quá nóng, cần tắt đi
+	~Do cáp mạng bị lỏng, cần cắm lại
+	=Do driver card mạng lỗi thời, cần cập nhật hoặc cài đặt lại
+	~Do ổ cứng bị lỗi, cần thay mới
+}
+
+::Lệnh nào trong Command Prompt CMD được dùng để kiể:: Lệnh nào trong Command Prompt (CMD) được dùng để kiểm tra khả năng kết nối Internet tới một máy chủ cụ thể (ví dụ của Google)? {
+	~ipconfig /all
+	~tracert 8.8.8.8
+	~netstat -a
+	=ping 8.8.8.8
+}
+
+::Công cụ nào tích hợp sẵn trên Windows giúp ghi lại:: Công cụ nào tích hợp sẵn trên Windows giúp ghi lại và xem các sự kiện (logs) liên quan đến lỗi phần cứng và hệ thống? {
+	~Device Manager
+	~Task Manager
+	=Event Viewer
+	~Command Prompt
+}
+
+::Phần mềm bên thứ ba nào được dùng để kiểm tra tình:: Phần mềm bên thứ ba nào được dùng để kiểm tra tình trạng sức khỏe ổ cứng (S.M.A.R.T)? {
+	~MemTest86
+	~HWMonitor
+	=CrystalDiskInfo
+	~HWiNFO
+}
+
+::Theo tài liệu việc ngày giờ trên máy tính không kh:: Theo tài liệu, việc ngày giờ trên máy tính không khớp với thực tế có thể gây ra lỗi gì? {
+	~Lỗi máy in không hoạt động
+	=Lỗi chứng chỉ số, khiến trình duyệt web hoặc email không hoạt động
+	~Lỗi bàn phím không gõ được
+	~Lỗi màn hình hiển thị sai màu
+}
+
+::Khi một phần mềm yêu cầu cài thêm NET Framework ho:: Khi một phần mềm yêu cầu cài thêm .NET Framework hoặc Visual C++ Runtime mà máy tính chưa có, đây là lỗi thuộc loại nào? {
+	~Sai cấu hình nội bộ
+	=Thiếu thành phần phụ trợ (dependencies)
+	~Phiên bản phần mềm không tương thích
+	~Thiếu quyền truy cập
+}
+
+::Trên hệ điều hành Windows công cụ nào được dùng để:: Trên hệ điều hành Windows, công cụ nào được dùng để lưu lại và xem các lỗi của hệ thống và ứng dụng dưới dạng nhật ký (log)? {
+	~Task Manager
+	~Control Panel
+	=Event Viewer
+	~Windows Explorer
+}
+
+::Ứng dụng tương tự Event Viewer trên hệ điều hành m:: Ứng dụng tương tự Event Viewer trên hệ điều hành macOS có tên là gì? {
+	~Finder
+	~System Preferences
+	~Terminal
+	=Console
+}
+
+::Một thông báo lỗi thường bao gồm ba thành phần qua:: Một thông báo lỗi thường bao gồm ba thành phần quan trọng nào? {
+	~Tên người dùng, Mật khẩu, Thời gian
+	=Mã lỗi, Thông điệp lỗi, Chi tiết kỹ thuật
+	~Tên ứng dụng, Phiên bản, Nhà sản xuất
+	~Lỗi phần cứng, Lỗi phần mềm, Lỗi mạng
+}
+
+::Khi gặp thông báo lỗi DNS server not responding ng:: Khi gặp thông báo lỗi “DNS server not responding", người dùng nên kiểm tra cài đặt nào đầu tiên? {
+	~Cài đặt ngày giờ hệ thống
+	~Cài đặt quyền người dùng
+	~Cài đặt màn hình
+	=Cài đặt mạng (Network Settings)
+}
+
+::Thông báo lỗi Access denied khi mở một thư mục thư:: Thông báo lỗi "Access denied" khi mở một thư mục thường liên quan đến vấn đề cài đặt nào? {
+	~Cấu hình mạng sai
+	~Phiên bản phần mềm không tương thích
+	=Người dùng không đủ quyền ghi dữ liệu (quyền truy cập)
+	~Hệ thống thiếu RAM
+}
+
+::Theo quy trình khoanh vùng hiệu quả 5 bước sau khi:: Theo quy trình khoanh vùng hiệu quả 5 bước, sau khi "Xác định triệu chứng cụ thể", bước tiếp theo là gì? {
+	~Đọc thông báo lỗi chi tiết
+	=Kiểm tra cài đặt liên quan
+	~Tra cứu mã lỗi
+	~Đưa ra nhận định nguyên nhân
+}
+
+::Công cụ nào trên Windows giúp kiểm tra các tiến tr:: Công cụ nào trên Windows giúp kiểm tra các tiến trình đang chiếm nhiều tài nguyên và đóng các ứng dụng bị "treo"? {
+	~Event Viewer
+	~msconfig
+	=Task Manager
+	~System Restore
+}
+
+::Chế độ khởi động nào giúp xác định lỗi do phần mềm:: Chế độ khởi động nào giúp xác định lỗi do phần mềm hệ thống hay do phần mềm của bên thứ ba gây ra? {
+	~Hibernate Mode
+	~Normal Mode
+	~Sleep Mode
+	=Safe Mode
+}
+
+::Trong tình huống trình duyệt không truy cập được t:: Trong tình huống trình duyệt không truy cập được trang web, lệnh ping 8.8.8.8 giúp xác định điều gì? {
+	~Lỗi do file hệ thống
+	=Lỗi ở tầng DNS hay mạng vật lý
+	~Lỗi do thiếu driver card đồ họa
+	~Lỗi do thiếu RAM
+}
+
+::Theo tài liệu nguồn thông tin nào được xem là đáng:: Theo tài liệu, nguồn thông tin nào được xem là đáng tin cậy nhất khi tìm hiểu về một phần mềm? {
+	~Blog công nghệ
+	~Kênh YouTube chuyên môn
+	=Trang web chính thức của nhà phát triển phần mềm
+	~Diễn đàn hỏi đáp
+}
+
+::Nền tảng nào được mô tả là nơi người học có thể đọ:: Nền tảng nào được mô tả là nơi người học có thể đọc thảo luận, đặt câu hỏi và nhận hướng dẫn từ cộng đồng chuyên gia? {
+	~Coursera
+	~GitHub
+	=Stack Overflow
+	~TechCrunch
+}
+
+::Khi tìm kiếm tài liệu tại sao nên ưu tiên dùng từ:: Khi tìm kiếm tài liệu, tại sao nên ưu tiên dùng từ khóa tiếng Anh? {
+	~Để kết quả tìm kiếm ít hơn
+	=Để mở rộng phạm vi tài liệu và tiếp cận nguồn thông tin phong phú hơn
+	~Vì công cụ tìm kiếm chỉ hiểu tiếng Anh
+	~Để tránh các trang web chính thức
+}
+
+::Toán tử tìm kiếm site được sử dụng để làm gì:: Toán tử tìm kiếm site: được sử dụng để làm gì? {
+	~Để tìm một loại tệp cụ thể (ví dụ: pdf)
+	~Để tìm kiếm một cụm từ chính xác
+	=Để tìm kiếm trong một trang web cụ thể
+	~Để kết hợp nhiều từ khóa
+}
+
+::Để tìm kiếm một file có định dạng PDF về chủ đề di:: Để tìm kiếm một file có định dạng PDF về chủ đề "digital literacy", cú pháp tìm kiếm nào là đúng? {
+	~"digital literacy" pdf
+	~digital literacy AND pdf
+	=filetype:pdf digital literacy
+	~site:pdf digital literacy
+}
+
+::Khi tìm kiếm video hướng dẫn trên YouTube bộ lọc n:: Khi tìm kiếm video hướng dẫn trên YouTube, bộ lọc nào nên được sử dụng để ưu tiên nội dung mới? {
+	~Lọc theo độ dài video
+	~Lọc theo ngôn ngữ
+	~Lọc theo số lượt xem
+	=Lọc theo thời gian (ví dụ: tháng gần nhất)
+}
+
+::Khi truy cập một kho mã nguồn trên GitHub bạn nên:: Khi truy cập một kho mã nguồn trên GitHub, bạn nên kiểm tra phần nào đầu tiên để có hướng dẫn tổng quan? {
+	~Phần "Issues" (Vấn đề)
+	=Phần "README.md"
+	~Phần "Stars" (Số lượng sao)
+	~Phần "Code" (Mã nguồn)
+}
+
+::Trước khi tìm kiếm tài liệu bước đầu tiên và quan:: Trước khi tìm kiếm tài liệu, bước đầu tiên và quan trọng nhất là gì? {
+	=Xác định rõ mục tiêu và nhu cầu học tập của bản thân
+	~Tìm kiếm ngay lập tức với từ khóa đầu tiên nghĩ ra
+	~Chọn nền tảng học trực tuyến đắt tiền nhất
+	~Chỉ tìm kiếm tài liệu bằng tiếng Việt
+}
+
+::Một trong những tiêu chí quan trọng để đánh giá mộ:: Một trong những tiêu chí quan trọng để đánh giá một tài liệu trực tuyến có đáng tin cậy hay không là gì? {
+	~Tài liệu phải được viết cách đây rất lâu
+	=Tính cập nhật (được viết hoặc cập nhật trong vòng 1-2 năm gần đây)
+	~Tài liệu phải có nhiều thuật ngữ khó hiểu
+	~Tác giả phải là người nổi tiếng trên mạng xã hội
+}
+
+::Trong tình huống thực hành để tìm tài liệu chính t:: Trong tình huống thực hành, để tìm tài liệu chính thức về lỗi Wi-Fi trên Windows 11, từ khóa nào được đề xuất? {
+	~"lỗi wifi win 11"
+	~"Windows 11 cannot connect to WiFi"
+	="Windows 11 cannot connect to WiFi site:microsoft.com"
+	~"help me fix wifi"
+}
+
+::Kỹ năng nào được nhấn mạnh là chìa khóa của tự học:: Kỹ năng nào được nhấn mạnh là "chìa khóa của tự học trong thời đại số"? {
+	~Kỹ năng lập trình
+	~Kỹ năng thiết kế đồ họa
+	~Kỹ năng giao tiếp
+	=Kỹ năng tìm kiếm và đánh giá tài liệu trực tuyến
+}
+
+::Theo tài liệu việc học theo tài liệu công nghệ lỗi:: Theo tài liệu, việc học theo tài liệu công nghệ lỗi thời hoặc sai lệch có thể dẫn đến hệ quả nào? {
+	~Cải thiện tư duy phản biện
+	~Tiết kiệm thời gian học tập
+	=Gây lỗi hệ thống, hỏng dữ liệu
+	~Tăng cường sự tự tin
+}
+
+::Đâu là một trong những tiêu chí để đánh giá một ng:: Đâu là một trong những tiêu chí để đánh giá một nguồn tài liệu có uy tín hay không? {
+	~Tài liệu phải được viết cách đây rất lâu
+	~Nội dung phải thiên về bán hàng
+	=Tác giả/tổ chức phát hành rõ ràng và có chuyên môn
+	~Không có bất kỳ bình luận hay phản hồi nào
+}
+
+::Tính cập nhật của một tài liệu công nghệ được xem:: "Tính cập nhật" của một tài liệu công nghệ được xem là tốt khi nào? {
+	~Được viết hoặc chỉnh sửa trong vòng 5-10 năm
+	=Được viết hoặc chỉnh sửa trong vòng 1-2 năm gần nhất
+	~Không có ngày tháng xuất bản
+	~Được viết trước năm 2010
+}
+
+::Nguồn tài liệu nào sau đây được khuyến khích ưu ti:: Nguồn tài liệu nào sau đây được khuyến khích ưu tiên hàng đầu khi học công nghệ? {
+	~Blog cá nhân không rõ tác giả
+	~Video trên các kênh giải trí
+	=Trang web chính thức của nhà phát triển (ví dụ: docs.microsoft.com)
+	~Các bài đăng trên diễn đàn không có lượt bình chọn
+}
+
+::Các nền tảng học tập như Coursera edX Khan Academy:: Các nền tảng học tập như Coursera, edX, Khan Academy được coi là đáng tin cậy vì sao? {
+	~Vì các khóa học luôn miễn phí
+	=Vì tài liệu có kiểm định, có đội ngũ học thuật hoặc tổ chức chịu trách nhiệm
+	~Vì chúng chỉ cung cấp các khóa học về kinh doanh
+	~Vì chúng có giao diện quảng cáo đẹp mắt
+}
+
+::Đâu là một ví dụ về nguồn tài liệu KHÔNG đáng tin:: Đâu là một ví dụ về nguồn tài liệu KHÔNG đáng tin cậy? {
+	~Bài viết trên trang chính thức của Google
+	~Video từ kênh Microsoft Learn
+	=Blog không có thông tin tác giả, viết từ năm 2017, chứa nhiều quảng cáo
+	~Khóa học trên Coursera
+}
+
+::Khi gặp một video hướng dẫn chưa rõ độ tin cậy bạn:: Khi gặp một video hướng dẫn chưa rõ độ tin cậy, bạn nên làm gì để kiểm tra? {
+	~Chỉ xem số lượt xem
+	=Xem bình luận để kiểm tra phản hồi về lỗi sai
+	~Tin tưởng ngay nếu video có hình ảnh đẹp
+	~Không cần kiểm tra, làm theo luôn
+}
+
+::Trong tình huống thực hành tại sao nên chọn Video:: Trong tình huống thực hành, tại sao nên chọn Video B (từ kênh "Programming with Mosh", đăng 3 tháng trước) thay vì Video A (kênh không rõ tên, đăng 3 năm trước)? {
+	~Vì Video B có tiêu đề ngắn hơn
+	~Vì Video A có thể chứa virus
+	=Vì Video B có nội dung mới, kênh uy tín và phản hồi tích cực
+	~Vì Video A có chất lượng hình ảnh tốt hơn
+}
+
+::Một trong những mẹo lựa chọn nhanh để học đúng hướ:: Một trong những mẹo lựa chọn nhanh để học đúng hướng là gì? {
+	~Luôn chọn video dài nhất
+	=Luôn kiểm tra tác giả và thời gian cập nhật
+	~Chỉ học từ các tài liệu có nhiều lỗi chính tả
+	~Ưu tiên các blog có nhiều quảng cáo
+}
+
+::Google Scholar được đề cập là nguồn tài liệu phù h:: Google Scholar được đề cập là nguồn tài liệu phù hợp cho loại nội dung nào? {
+	~Hướng dẫn cài đặt phần mềm cơ bản
+	~Tin tức công nghệ hàng ngày
+	=Nội dung nâng cao, phân tích chuyên sâu
+	~Video giải trí
+}
+
+::Việc một tài liệu có trích dẫn hoặc liên kết tham:: Việc một tài liệu có trích dẫn hoặc liên kết tham khảo đi kèm cho thấy điều gì? {
+	~Người viết lười biếng, sao chép nội dung
+	=Người viết không chỉ chia sẻ cảm tính mà có căn cứ
+	~Tài liệu này đã lỗi thời
+	~Nội dung chỉ dành cho chuyên gia
+}
+
+::Theo tài liệu nguồn nào cung cấp nền tảng lý thuyế:: Theo tài liệu, nguồn nào cung cấp nền tảng lý thuyết chắc chắn và giúp hiểu bản chất vấn đề? {
+	~Blog cá nhân
+	~Diễn đàn công nghệ
+	=Tài liệu học thuật
+	~Video hướng dẫn trên TikTok
+}
+
+::Đâu là một đặc điểm của tài liệu học thuật:: Đâu là một đặc điểm của tài liệu học thuật? {
+	~Dùng ngôn ngữ đơn giản, phổ thông
+	~Không có trích dẫn hay dữ liệu minh chứng
+	=Thường được xuất bản bởi trường đại học, viện nghiên cứu
+	~Luôn được đăng tải trên mạng xã hội
+}
+
+::Nền tảng nào được mô tả là chuyên về lĩnh vực khoa:: Nền tảng nào được mô tả là chuyên về lĩnh vực khoa học máy tính? {
+	~IEEE Xplore
+	~Google Scholar
+	=ACM Digital Library
+	~ScienceDirect
+}
+
+::Khi tìm kiếm trên Google Scholar bạn nên đọc phần:: Khi tìm kiếm trên Google Scholar, bạn nên đọc phần nào của một bài báo trước tiên để hiểu tổng quan? {
+	~Method (Phương pháp)
+	~Results (Kết quả)
+	=Abstract (Tóm tắt)
+	~Introduction (Giới thiệu)
+}
+
+::Tính năng nào trên Google Scholar giúp người dùng:: Tính năng nào trên Google Scholar giúp người dùng tìm các bài viết có trích dẫn một bài báo cụ thể, rất hữu ích để mở rộng việc đọc? {
+	~Nút "Save"
+	~Bộ lọc theo năm
+	=Nút "Cited by..." (Được trích dẫn bởi...)
+	~Hộp tìm kiếm tác giả
+}
+
+::Diễn đàn nào được xem là số 1 về hỏi đáp lập trình:: Diễn đàn nào được xem là "số 1 về hỏi đáp lập trình"? {
+	~Reddit
+	~Quora
+	~GitHub Discussions
+	=Stack Overflow
+}
+
+::Trước khi đặt một câu hỏi trên diễn đàn bạn nên là:: Trước khi đặt một câu hỏi trên diễn đàn, bạn nên làm gì đầu tiên? {
+	~Viết ngay một tiêu đề thật dài
+	=Tìm kiếm các câu hỏi tương tự đã có
+	~Đăng câu hỏi trên nhiều diễn đàn cùng lúc
+	~Cung cấp thông tin cá nhân
+}
+
+::Khi đặt câu hỏi trên diễn đàn bạn cần cung cấp nhữ:: Khi đặt câu hỏi trên diễn đàn, bạn cần cung cấp những thông tin gì để tăng khả năng nhận được câu trả lời chính xác? {
+	~Chỉ tiêu đề câu hỏi
+	=Mô tả chi tiết vấn đề, bạn đã làm gì, lỗi là gì và đã thử cách nào
+	~Chỉ ảnh chụp màn hình lỗi
+	~Tên và tuổi của bạn
+}
+
+::Trên Stack Overflow câu trả lời nào nên được ưu ti:: Trên Stack Overflow, câu trả lời nào nên được ưu tiên xem xét? {
+	~Câu trả lời mới nhất
+	~Câu trả lời ngắn nhất
+	~Câu trả lời có nhiều hình ảnh nhất
+	=Câu trả lời có vote cao hoặc được gắn "Accepted Answer"
+}
+
+::Tại sao cần kiểm tra ngày đăng của một câu trả lời:: Tại sao cần kiểm tra ngày đăng của một câu trả lời trên diễn đàn công nghệ? {
+	~Vì câu trả lời cũ hơn thường chính xác hơn
+	=Vì công nghệ thay đổi nhanh, câu trả lời cũ có thể đã lỗi thời
+	~Để biết người trả lời có nhiều thời gian rảnh không
+	~Để xem diễn đàn có hoạt động hay không
+}
+
+::Trong tình huống thực hành khi tìm hiểu về hiệu qu:: Trong tình huống thực hành, khi tìm hiểu về "hiệu quả của ChatGPT trong giáo dục" trên Google Scholar, bạn nên lọc kết quả như thế nào? {
+	~Lọc các bài viết từ 10 năm trước
+	=Lọc các bài viết trong 2 năm gần nhất
+	~Không cần lọc thời gian
+	~Chỉ đọc các bài không có trích dẫn
+}
+
+::Google Sheets là gì:: Google Sheets là gì? {
+	~Một phần mềm chỉnh sửa video chuyên nghiệp
+	=Một công cụ bảng tính trực tuyến miễn phí của Google
+	~Một hệ điều hành cho máy tính
+	~Một ứng dụng mạng xã hội
+}
+
+::Trong giao diện Google Sheets các cột được ký hiệu:: Trong giao diện Google Sheets, các cột được ký hiệu bằng gì? {
+	~Số (1, 2, 3...)
+	~Ký tự đặc biệt (@, #, $...)
+	=Chữ cái (A, B, C...)
+	~La mã (I, II, III...)
+}
+
+::Để nhập một công thức trong Google Sheets bạn phải:: Để nhập một công thức trong Google Sheets, bạn phải bắt đầu bằng dấu gì? {
+	~Dấu chấm (.)
+	~Dấu thăng (#)
+	~Dấu sao (*)
+	=Dấu bằng (=)
+}
+
+::Tính năng nào cho phép bạn kéo góc ô để tự động đi:: Tính năng nào cho phép bạn kéo góc ô để tự động điền tiếp một chuỗi dữ liệu như "Thứ Hai", "Thứ Ba", "Thứ Tư"? {
+	~Data Validation
+	~Conditional Formatting
+	=Autofill (Tự động điền)
+	~Formula Suggestion
+}
+
+::Để tạo một menu thả xuống với các lựa chọn cố định:: Để tạo một menu thả xuống với các lựa chọn cố định như "Đã nộp", "Chưa nộp", bạn nên sử dụng tính năng nào? {
+	=Data Validation (Xác thực dữ liệu)
+	~Autofill
+	~Conditional Formatting
+	~Freeze Panes
+}
+
+::Tính năng nào giúp tự động thay đổi định dạng của:: Tính năng nào giúp tự động thay đổi định dạng của ô (ví dụ: đổi nền ô sang màu đỏ) khi dữ liệu trong ô đó thỏa mãn một điều kiện nhất định (ví dụ: điểm < 5)? {
+	~Data Validation
+	~Autofill
+	=Conditional Formatting (Định dạng theo điều kiện)
+	~Formula Bar
+}
+
+::Để giữ cố định dòng tiêu đề của bảng tính khi cuộn:: Để giữ cố định dòng tiêu đề của bảng tính khi cuộn trang, bạn nên sử dụng tùy chọn nào trong menu "View"? {
+	~Zoom
+	~Full screen
+	~Show formulas
+	=Freeze (Cố định)
+}
+
+::Lỗi VALUE trong Google Sheets thường xuất hiện do:: Lỗi #VALUE! trong Google Sheets thường xuất hiện do nguyên nhân gì? {
+	=Sai định dạng dữ liệu trong công thức (ví dụ: cộng một số với một chữ)
+	~Mất kết nối Internet
+	~Bảng tính có quá nhiều dữ liệu
+	~Lỗi chính tả trong ô văn bản
+}
+
+::Khi dữ liệu tiếng Việt bị mất dấu hoặc hiển thị ký:: Khi dữ liệu tiếng Việt bị mất dấu hoặc hiển thị ký tự lạ, nguyên nhân thường là do ô đang được định dạng là gì và cách khắc phục? {
+	~Định dạng là Text, cần chuyển sang Date
+	=Định dạng là Number, cần chuyển về Text
+	~Định dạng là Date, cần chuyển sang Number
+	~Định dạng là Percentage, cần chuyển về Text
+}
+
+::Phím tắt nào được dùng để xem danh sách tất cả các:: Phím tắt nào được dùng để xem danh sách tất cả các phím tắt trong Google Sheets? {
+	~Ctrl + C
+	~Ctrl + S
+	~Ctrl + D
+	=Ctrl + /
+}
+
+::Phím tắt Ctrl  D trong Google Sheets có chức năng:: Phím tắt Ctrl + D trong Google Sheets có chức năng gì? {
+	~Xóa ô hiện tại
+	=Sao chép ô phía trên
+	~In đậm chữ trong ô
+	~Dán dữ liệu
+}
+
+::Mục đích chính của tính năng Lọc Filter trong Goog:: Mục đích chính của tính năng "Lọc" (Filter) trong Google Sheets là gì? {
+	~Thay đổi thứ tự các dòng theo giá trị tăng dần hoặc giảm dần
+	=Chỉ hiển thị dữ liệu thỏa mãn một điều kiện nhất định và ẩn các dòng không phù hợp
+	~Xóa vĩnh viễn các dòng không cần thiết
+	~Tính toán tổng giá trị của một cột
+}
+
+::Tính năng Sắp xếp Sort khác với Lọc Filter ở điểm:: Tính năng "Sắp xếp" (Sort) khác với "Lọc" (Filter) ở điểm nào? {
+	~Sắp xếp ẩn đi các dòng không phù hợp, còn Lọc thì không
+	~Lọc thay đổi thứ tự các dòng, còn Sắp xếp chỉ hiển thị dữ liệu thỏa điều kiện
+	=Sắp xếp thay đổi thứ tự các dòng, còn Lọc ẩn các dòng không phù hợp
+	~Lọc dùng để tính toán, còn Sắp xếp dùng để định dạng
+}
+
+::Để tạo một bộ lọc trong Google Sheets sau khi chọn:: Để tạo một bộ lọc trong Google Sheets, sau khi chọn vùng dữ liệu, bạn cần vào menu nào? {
+	~File
+	~Edit
+	~Insert
+	=Data
+}
+
+::Biểu tượng nào xuất hiện trên dòng tiêu đề sau khi:: Biểu tượng nào xuất hiện trên dòng tiêu đề sau khi bạn tạo một bộ lọc? {
+	~Hình cái kéo
+	~Hình cái bút
+	=Hình cái phễu
+	~Hình ngôi sao
+}
+
+::Để lọc và chỉ hiển thị các sinh viên có điểm lớn h:: Để lọc và chỉ hiển thị các sinh viên có điểm lớn hơn 8.0, bạn nên sử dụng tùy chọn nào? {
+	~Filter by values
+	=Filter by condition (Lọc theo điều kiện)
+	~Sort A -> Z
+	~Sort Z -> A
+}
+
+::Khi sắp xếp một bảng dữ liệu tại sao bạn cần chọn:: Khi sắp xếp một bảng dữ liệu, tại sao bạn cần chọn toàn bộ bảng thay vì chỉ một cột? {
+	~Để sắp xếp nhanh hơn
+	=Để tránh làm dữ liệu bị lệch dòng, sai thông tin
+	~Để chỉ sắp xếp được cột đầu tiên
+	~Để áp dụng định dạng cho toàn bảng
+}
+
+::Để sắp xếp dữ liệu theo nhiều cấp ví dụ sắp xếp th:: Để sắp xếp dữ liệu theo nhiều cấp (ví dụ: sắp xếp theo Lớp trước, sau đó sắp xếp theo Điểm), bạn nên dùng tính năng nào? {
+	~Create a filter
+	~Basic sort (A->Z)
+	=Advanced range sorting options (Tùy chọn sắp xếp dải ô nâng cao)
+	~Filter by condition
+}
+
+::Khi sắp xếp một bảng có dòng tiêu đề bạn cần tick:: Khi sắp xếp một bảng có dòng tiêu đề, bạn cần tick vào tùy chọn nào để không sắp xếp dòng đầu tiên? {
+	~Data has no header row
+	~Sort by column A
+	~Add another sort column
+	=Data has header row (Dữ liệu có hàng tiêu đề)
+}
+
+::Một trong những lỗi thường gặp khi lọc và sắp xếp:: Một trong những lỗi thường gặp khi lọc và sắp xếp dữ liệu là gì? {
+	=Chỉ chọn một cột để sắp xếp, khiến dữ liệu bị lệch dòng
+	~Dữ liệu được sắp xếp quá nhanh
+	~Bộ lọc hiển thị quá nhiều dữ liệu
+	~Không thể sắp xếp dữ liệu dạng số
+}
+
+::Tính năng Filter View Chế độ xem bộ lọc hữu ích tr:: Tính năng "Filter View" (Chế độ xem bộ lọc) hữu ích trong trường hợp nào? {
+	~Khi bạn muốn xóa vĩnh viễn dữ liệu không cần thiết
+	~Khi bạn làm việc một mình và không chia sẻ file
+	~Khi bạn muốn tạo một bản sao của trang tính
+	=Khi bạn làm việc nhóm và muốn lọc theo cách riêng mà không ảnh hưởng đến người khác
+}
+
+::Để tạo một bộ lọc riêng không ảnh hưởng đến bảng g:: Để tạo một bộ lọc riêng không ảnh hưởng đến bảng gốc, bạn vào "Data" và chọn mục nào? {
+	~Sort range
+	~Create a filter
+	=Filter views (Chế độ xem bộ lọc)
+	~Data validation
+}
+
+::Tại sao cần trực quan hóa dữ liệu bằng biểu đồ:: Tại sao cần trực quan hóa dữ liệu bằng biểu đồ? {
+	~Để làm cho bảng dữ liệu trông phức tạp hơn
+	=Để biến các con số thành hình ảnh trực quan, dễ nhận ra xu hướng và so sánh
+	~Để ẩn đi các dữ liệu quan trọng
+	~Để tăng kích thước của tệp bảng tính
+}
+
+::Loại biểu đồ nào phù hợp nhất khi muốn so sánh các:: Loại biểu đồ nào phù hợp nhất khi muốn so sánh các giá trị khác nhau, ví dụ như điểm trung bình của các môn học? {
+	~Biểu đồ tròn (Pie Chart)
+	~Biểu đồ đường (Line Chart)
+	=Biểu đồ cột (Column Chart)
+	~Biểu đồ vùng (Area Chart)
+}
+
+::Để thể hiện sự thay đổi của dữ liệu theo thời gian:: Để thể hiện sự thay đổi của dữ liệu theo thời gian, chẳng hạn như điểm số qua từng kỳ học, loại biểu đồ nào là phù hợp nhất? {
+	~Biểu đồ tròn (Pie Chart)
+	=Biểu đồ đường (Line Chart)
+	~Biểu đồ cột (Column Chart)
+	~Biểu đồ thanh (Bar Chart)
+}
+
+::Khi muốn hiển thị tỷ lệ phần trăm của các thành ph:: Khi muốn hiển thị tỷ lệ phần trăm của các thành phần trong một tổng thể, ví dụ như tỷ lệ sinh viên đạt loại Giỏi, Khá, Trung bình, bạn nên dùng biểu đồ nào? {
+	=Biểu đồ tròn (Pie Chart)
+	~Biểu đồ đường (Line Chart)
+	~Biểu đồ cột (Column Chart)
+	~Biểu đồ thanh (Bar Chart)
+}
+
+::Biểu đồ thanh Bar Chart nằm ngang thường được ưu t:: Biểu đồ thanh (Bar Chart) nằm ngang thường được ưu tiên hơn biểu đồ cột khi nào? {
+	~Khi dữ liệu thay đổi theo thời gian
+	~Khi muốn thể hiện tỷ lệ phần trăm
+	=Khi tên các đối tượng so sánh quá dài
+	~Khi chỉ có hai nhóm dữ liệu để so sánh
+}
+
+::Bước đầu tiên để tạo một biểu đồ trong Google Shee:: Bước đầu tiên để tạo một biểu đồ trong Google Sheets là gì? {
+	~Vào menu Insert → Chart
+	=Chọn vùng dữ liệu muốn vẽ biểu đồ
+	~Tùy chỉnh màu sắc và tiêu đề
+	~Chọn loại biểu đồ
+}
+
+::Sau khi Google Sheets tự động tạo một biểu đồ mặc:: Sau khi Google Sheets tự động tạo một biểu đồ mặc định, bạn có thể thay đổi loại biểu đồ ở đâu? {
+	~Trong thanh công thức (Formula Bar)
+	~Trong menu File → Page setup
+	=Trong khung chỉnh sửa biểu đồ bên phải, phần "Chart type"
+	~Trong menu Format → Conditional formatting
+}
+
+::Để điều chỉnh tiêu đề màu sắc phông chữ của biểu đ:: Để điều chỉnh tiêu đề, màu sắc, phông chữ của biểu đồ, bạn cần nhấn vào tab nào trong cửa sổ chỉnh sửa? {
+	~Setup
+	~Chart type
+	=Customize (Tùy chỉnh)
+	~Data range
+}
+
+::Khi đọc một biểu đồ yếu tố nào cần được chú ý để h:: Khi đọc một biểu đồ, yếu tố nào cần được chú ý để hiểu biểu đồ đang thể hiện điều gì? {
+	~Chỉ màu sắc của biểu đồ
+	~Chỉ kích thước của biểu đồ
+	~Chỉ phông chữ được sử dụng
+	=Trục tung, trục hoành, và các chú thích
+}
+
+::Một trong những lỗi thường gặp khi tạo biểu đồ là:: Một trong những lỗi thường gặp khi tạo biểu đồ là gì? {
+	~Chọn quá nhiều dữ liệu
+	=Không có tiêu đề, khiến người đọc không hiểu biểu đồ nói về cái gì
+	~Biểu đồ quá đơn giản
+	~Sử dụng quá ít màu sắc
+}
+
+::Theo mẹo trình bày biểu đồ chuyên nghiệp bạn nên l:: Theo mẹo trình bày biểu đồ chuyên nghiệp, bạn nên làm gì? {
+	~Sử dụng càng nhiều màu sắc và hiệu ứng càng tốt
+	~Đặt biểu đồ xa bảng dữ liệu gốc
+	=Chỉ hiển thị thông tin cần thiết, tránh gây rối mắt
+	~Dùng cỡ chữ thật nhỏ để tiết kiệm không gian
+}
+
+::Theo tài liệu tại sao sinh viên cần cải tiến quy t:: Theo tài liệu, tại sao sinh viên cần cải tiến quy trình học tập và làm việc bằng công cụ số? {
+	~Để làm cho công việc trở nên phức tạp hơn
+	=Vì các quy trình thủ công thường tốn thời gian, dễ quên và dễ sai sót
+	~Để chứng tỏ mình giỏi công nghệ
+	~Vì đó là yêu cầu bắt buộc của tất cả các môn học
+}
+
+::Bước đầu tiên để cải tiến một quy trình là gì:: Bước đầu tiên để cải tiến một quy trình là gì? {
+	~Áp dụng ngay một công cụ mới
+	~Tìm kiếm các lỗi phần mềm
+	=Liệt kê các bước trong quy trình hiện tại để hiểu rõ nó
+	~Bỏ qua quy trình cũ và làm theo cách hoàn toàn mới
+}
+
+::Việc vẽ sơ đồ hoặc lập bảng mô tả quy trình hiện t:: Việc vẽ sơ đồ hoặc lập bảng mô tả quy trình hiện tại giúp ích gì? {
+	~Làm cho quy trình trông chuyên nghiệp hơn
+	=Giúp nhìn thấy rõ chỗ nào đang làm mất thời gian, gây chậm trễ
+	~Che giấu những điểm yếu của quy trình
+	~Thêm nhiều bước không cần thiết vào quy trình
+}
+
+::Công cụ nào phù hợp nhất để lập kế hoạch nhóm theo:: Công cụ nào phù hợp nhất để lập kế hoạch nhóm, theo dõi tiến độ và cho phép nhiều người cùng chỉnh sửa một tài liệu? {
+	~Google Forms
+	~Google Calendar
+	=Google Sheets / Google Docs
+	~Evernote
+}
+
+::Để tạo lịch nhắc việc cá nhân hoặc nhóm chẳng hạn:: Để tạo lịch nhắc việc cá nhân hoặc nhóm, chẳng hạn như nhắc lịch nộp bài, bạn nên sử dụng công cụ nào? {
+	~Google Sheets
+	~Google Forms
+	~Google Drive
+	=Google Calendar / To Do
+}
+
+::Công cụ nào được dùng để thu thập ý kiến làm khảo:: Công cụ nào được dùng để thu thập ý kiến, làm khảo sát nhóm hoặc tạo form đăng ký và tự động tổng hợp kết quả vào bảng tính? {
+	~Google Docs
+	~Google Calendar
+	=Google Forms
+	~Notion
+}
+
+::Evernote Notion và OneNote là những công cụ mạnh m:: Evernote, Notion, và OneNote là những công cụ mạnh mẽ dùng để làm gì? {
+	~Quản lý lịch hẹn
+	=Ghi chú số (lưu văn bản, hình ảnh, liên kết)
+	~Tạo bài thuyết trình
+	~Chỉnh sửa video
+}
+
+::Theo quy trình 6 bước để triển khai một giải pháp:: Theo quy trình 6 bước để triển khai một giải pháp cải tiến, sau khi "Đề xuất công cụ phù hợp", bước tiếp theo là gì? {
+	~Chia sẻ với bạn cùng nhóm
+	~Ghi nhận hiệu quả
+	~Quan sát lại quy trình
+	=Thử áp dụng trong thời gian ngắn (1 tuần)
+}
+
+::Trong tình huống minh họa về việc học nhóm giải ph:: Trong tình huống minh họa về việc học nhóm, giải pháp nào đã được áp dụng để giải quyết vấn đề "quên lịch hẹn tập luyện"? {
+	~Dùng Google Sheets để ghi chú
+	=Dùng Google Calendar để hẹn ngày
+	~Dùng Google Drive để lưu slide
+	~Dùng Google Forms để khảo sát
+}
+
+::Một trong những điểm chưa hiệu quả thường thấy tro:: Một trong những điểm chưa hiệu quả thường thấy trong các quy trình làm việc thủ công là gì? {
+	~Có quá nhiều công cụ chia sẻ
+	~Luôn nhớ deadline
+	=Ghi chú bị thất lạc, không hệ thống
+	~Dễ dàng thu thập thông tin từ nhiều người
+}
+
+::Lợi ích chính của việc sử dụng Google SheetsDocs t:: Lợi ích chính của việc sử dụng Google Sheets/Docs trong làm việc nhóm là gì? {
+	~Chỉ một người có thể chỉnh sửa tại một thời điểm
+	~Dữ liệu không được lưu tự động
+	~Khó theo dõi lịch sử chỉnh sửa
+	=Dễ chia sẻ, mọi người cùng chỉnh sửa được, lưu tự động
+}
+
+::Theo tài liệu việc ứng dụng giải pháp số giúp chuy:: Theo tài liệu, việc ứng dụng giải pháp số giúp chuyển đổi trải nghiệm làm việc nhóm từ trạng thái nào sang trạng thái nào? {
+	~Từ phức tạp sang đơn giản
+	~Từ tốn kém sang miễn phí
+	=Từ rối rắm sang trật tự
+	~Từ chuyên nghiệp sang nghiệp dư
+}
+
+::Lợi ích đầu tiên được đề cập khi áp dụng công cụ s:: Lợi ích đầu tiên được đề cập khi áp dụng công cụ số vào làm việc nhóm là gì? {
+	~Tăng tính cạnh tranh
+	=Tiết kiệm thời gian và công sức
+	~Giảm sự sáng tạo
+	~Tăng số lượng cuộc họp
+}
+
+::Theo ví dụ định lượng một nhóm 4 người đã tiết kiệ:: Theo ví dụ định lượng, một nhóm 4 người đã tiết kiệm được bao nhiêu giờ làm việc khi dùng Google Sheets để theo dõi nhiệm vụ thay vì họp nhiều buổi? {
+	~1-2 giờ
+	~2-4 giờ
+	=4-6 giờ
+	~6-8 giờ
+}
+
+::Việc lưu trữ tài liệu trên đám mây Google Drive No:: Việc lưu trữ tài liệu trên đám mây (Google Drive, Notion) mang lại lợi ích gì? {
+	~Phải tải file về mỗi khi muốn sửa
+	~Dễ bị lạc phiên bản tài liệu
+	=Mọi thành viên có thể chỉnh sửa cùng lúc và truy cập từ bất cứ đâu
+	~Chỉ một người có thể truy cập tại một thời điểm
+}
+
+::Sử dụng Google Sheets để phân công công việc với c:: Sử dụng Google Sheets để phân công công việc với cột deadline và trạng thái cụ thể giúp đạt được lợi ích gì? {
+	=Tăng độ chính xác và giảm sai sót
+	~Khiến công việc trở nên phức tạp hơn
+	~Làm các thành viên dễ quên deadline hơn
+	~Dễ gây nhầm lẫn về nhiệm vụ
+}
+
+::Lợi ích Tăng tính minh bạch và khả năng theo dõi c:: Lợi ích "Tăng tính minh bạch và khả năng theo dõi" có nghĩa là gì? {
+	~Mọi người không biết ai đang làm việc gì
+	~Khó biết được ai đã chỉnh sửa tài liệu
+	=Mọi người có thể thấy ai đang làm gì, làm đến đâu và xem được lịch sử chỉnh sửa
+	~Chỉ trưởng nhóm mới có quyền xem tiến độ
+}
+
+::Khi áp dụng công cụ số quy trình làm việc được cải:: Khi áp dụng công cụ số, quy trình làm việc được cải thiện như thế nào so với việc nhắc miệng? {
+	~Vẫn phải nhắc miệng thường xuyên
+	~Vẫn dễ quên như trước
+	=Có thể lên lịch trên Google Calendar có nhắc nhở tự động
+	~Không cần theo dõi deadline nữa
+}
+
+::So với việc mỗi người sửa một bản slide riêng giải:: So với việc mỗi người sửa một bản slide riêng, giải pháp số hóa đề xuất điều gì? {
+	~Vẫn giữ cách làm cũ
+	~Chỉ một người được phép sửa slide
+	=Sửa chung trên một file Google Slides duy nhất
+	~Gửi file qua lại qua Zalo để sửa
+}
+
+::Khi trình bày lợi ích của một giải pháp số bạn nên:: Khi trình bày lợi ích của một giải pháp số, bạn nên làm gì để tăng tính thuyết phục? {
+	~Chỉ nêu cảm nhận chung chung
+	~Tránh đưa ra các con số cụ thể
+	=Đưa số liệu so sánh thời gian tiết kiệm được
+	~Chỉ trích cách làm việc cũ
+}
+
+::Trong tình huống thực tế của nhóm bạn Ngọc sau khi:: Trong tình huống thực tế của nhóm bạn Ngọc, sau khi áp dụng Google Docs và Google Calendar, kết quả đạt được là gì? {
+	~Bài viết vẫn rời rạc và không đúng hạn
+	~Các thành viên không hợp tác với nhau
+	=Bài viết liền mạch, hoàn thành đúng hạn và được giảng viên đánh giá cao
+	~Nhóm phải làm lại từ đầu
+}

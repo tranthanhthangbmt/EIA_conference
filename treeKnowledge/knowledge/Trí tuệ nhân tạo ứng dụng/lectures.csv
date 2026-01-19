@@ -1,0 +1,10 @@
+node_id,title,content_url,description
+Chg5_SVM,Chương 5: Support Vector Machines,https://tranthanhthangbmt.github.io/Machine-Learning-Chapter-5_SVM/,"Phân loại tuyến tính và phi tuyến, hồi quy SVM."
+Chg6_CayQuyetDinh,Chương 6: Decision Trees,https://tranthanhthangbmt.github.io/ML-Chapter6-DecisionTree/,"Huấn luyện và trực quan hóa cây quyết định, dự báo và ước lượng xác suất."
+Chg7_Ensemble_Learning,Chương 7: Ensemble Learning,https://tranthanhthangbmt.github.io/ML-Chapter7-Ensemble-Learning/,"Các phương pháp học kết hợp: Rừng ngẫu nhiên (Random Forests), Bagging, Boosting."
+Chg8_GiamChieu_DuLieu,Chương 8: Dimensionality Reduction,https://tranthanhthangbmt.github.io/ML-Chapter8-Dimensionality-Reduction/,"Kỹ thuật giảm chiều dữ liệu: PCA, Kernel PCA và LLE."
+Chg9_Unsupervised,Chương 9: Unsupervised Learning,https://tranthanhthangbmt.github.io/ML-Chapter9-Unsupervised_Learning/,"Học không giám sát: Phân cụm (Clustering) với K-Means, DBSCAN."
+Chg10_Neural_Nets_Keras,Chương 10: Neural Nets with Keras,https://tranthanhthangbmt.github.io/ML-Chapter10-10_Neural_Nets_With_Keras/,"Giới thiệu về mạng nơ-ron nhân tạo và xây dựng mô hình với Keras."
+Chg11_HuanLuyen_DeepNet,Chương 11: Deep Neural Networks,https://tranthanhthangbmt.github.io/ML-Chapter11-DNN/,"Huấn luyện mạng nơ-ron sâu: Các vấn đề Vanishing/Exploding Gradients, tối ưu hóa."
+Chg12_TensorFlow_TuyChinh,Chương 12: Custom Models with TensorFlow,https://tranthanhthangbmt.github.io/ML-Chapter12-custom_models_and_training_with_tensorflow/,"Tùy chỉnh TensorFlow: Hàm Loss, Layers, Models và quy trình huấn luyện tùy biến."
+Chg14_Computer_Vision,Chương 14: Deep Learning for Computer Vision,https://tranthanhthangbmt.github.io/ML-Chapter-14-DeeplearningForCV/,"Học sâu cho thị giác máy tính: Kiến trúc CNN, ResNet và Transfer Learning."

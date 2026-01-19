@@ -1,0 +1,839 @@
+::Dữ liệu thô là:: Dữ liệu thô là? {
+	~Dữ liệu đã được xử lý và có ý nghĩa
+	~Dữ liệu mang tính tổng hợp và suy luận
+	=Các sự kiện, con số, ký hiệu chưa được xử lý
+	~Các bảng thông tin trong Excel
+}
+
+::Ví dụ nào dưới đây là dữ liệu thô:: Ví dụ nào dưới đây là dữ liệu thô? {
+	~“Sinh viên A đạt 8.5 môn Toán”
+	=“25.000”, “áo thun”, “Hà Nội”
+	~“Dựa trên điểm số để đánh giá xu hướng học tập”
+	~“Báo cáo học tập năm 2024”
+}
+
+::Thông tin là:: Thông tin là: {
+	~Dữ liệu thô chưa được tổ chức
+	~Các tri thức chuyên sâu
+	=Dữ liệu đã được xử lý, tổ chức và mang ý nghĩa
+	~Các quan điểm cá nhân
+}
+
+::Ví dụ nào sau đây là tri thức:: Ví dụ nào sau đây là tri thức? {
+	~Số liệu bán hàng theo tháng
+	=Phân tích xu hướng khách hàng và đề xuất hành động
+	~Giá trị đơn chiếc của sản phẩm
+	~Bảng thống kê doanh thu
+}
+
+::Sự khác biệt giữa thông tin và tri thức nằm ở:: Sự khác biệt giữa thông tin và tri thức nằm ở: {
+	~Định dạng
+	~Nguồn gốc dữ liệu
+	=Mức độ xử lý và khả năng suy luận
+	~Ngôn ngữ trình bày
+}
+
+::Dữ liệu có cấu trúc thường được lưu trữ trong:: Dữ liệu có cấu trúc thường được lưu trữ trong: {
+	~File ảnh JPEG
+	=Hệ thống cơ sở dữ liệu quan hệ
+	~File video MP4
+	~Bài viết trên mạng xã hội
+}
+
+::Dữ liệu phi cấu trúc là:: Dữ liệu phi cấu trúc là: {
+	~Dữ liệu có bảng, hàng, cột
+	~Dữ liệu có thẻ XML rõ ràng
+	=Văn bản tự do, video, hình ảnh
+	~Tệp Excel
+}
+
+::Ví dụ nào sau đây là dữ liệu bán cấu trúc:: Ví dụ nào sau đây là dữ liệu bán cấu trúc? {
+	=JSON, XML
+	~Bảng tính Excel
+	~Video TikTok
+	~Bình luận YouTube
+}
+
+::Điểm yếu của dữ liệu phi cấu trúc là:: Điểm yếu của dữ liệu phi cấu trúc là: {
+	~Không có giá trị
+	=Rất khó truy xuất, phân tích
+	~Không phổ biến trong môi trường số
+	~Không có trong thực tế
+}
+
+::Đặc điểm nào KHÔNG đúng với dữ liệu có cấu trúc:: Đặc điểm nào KHÔNG đúng với dữ liệu có cấu trúc? {
+	~Dễ phân tích
+	=Linh hoạt cao khi thay đổi
+	~Lưu trữ dạng bảng
+	~Tính nhất quán cao
+}
+
+::Velocity trong mô hình 4V nói về:: “Velocity” trong mô hình 4V nói về: {
+	~Tính phong phú của dữ liệu
+	=Tốc độ sinh ra và xử lý dữ liệu
+	~Sự chính xác của dữ liệu
+	~Dung lượng ổ cứng
+}
+
+::Dữ liệu từ mạng xã hội thường là ví dụ cho yếu tố:: Dữ liệu từ mạng xã hội thường là ví dụ cho yếu tố nào? {
+	~Veracity
+	~Volume
+	=Variety
+	~Value
+}
+
+::Veracity nghĩa là:: “Veracity” nghĩa là: {
+	~Dữ liệu có khối lượng lớn
+	~Dữ liệu đa dạng về định dạng
+	=Độ chính xác và tin cậy của dữ liệu
+	~Tốc độ lan truyền dữ liệu
+}
+
+::Thách thức của Volume là gì:: Thách thức của “Volume” là gì? {
+	~Không thể xử lý dữ liệu dạng văn bản
+	~Dễ bị mất dữ liệu
+	=Cần hệ thống lưu trữ mở rộng
+	~Không thể chia sẻ dữ liệu
+}
+
+::Một ví dụ của Variety là:: Một ví dụ của “Variety” là: {
+	~Dữ liệu chỉ có văn bản
+	~CSDL SQL
+	=Video, hình ảnh, văn bản, cảm biến
+	~Dữ liệu năm 2000
+}
+
+::Kỹ năng Đọc lướt còn được gọi là:: Kỹ năng “Đọc lướt” còn được gọi là: {
+	~Scanning
+	~Browsing
+	=Skimming
+	~Jumping
+}
+
+::Khi đọc lướt bạn nên đọc những phần nào:: Khi đọc lướt, bạn nên đọc những phần nào? {
+	=Câu đầu đoạn, tiêu đề, đoạn mở đầu và kết
+	~Câu ngẫu nhiên
+	~Từ cuối văn bản
+	~Toàn bộ văn bản một lượt
+}
+
+::Chiến lược duyệt trang web hiệu quả KHÔNG bao gồm:: Chiến lược duyệt trang web hiệu quả KHÔNG bao gồm: {
+	~Xác định mục tiêu
+	=Mở tất cả liên kết cùng lúc
+	~Chọn nguồn phù hợp
+	~Quan sát cấu trúc trang
+}
+
+::Nguồn nào đáng tin cậy hơn:: Nguồn nào đáng tin cậy hơn? {
+	~Blog không rõ tác giả
+	~Trang .com quảng cáo
+	=Tên miền .edu hoặc .gov
+	~Trang mạng xã hội cá nhân
+}
+
+::Một cách đánh giá nhanh độ tin cậy của trang là:: Một cách đánh giá nhanh độ tin cậy của trang là: {
+	~Màu sắc nổi bật
+	~Càng nhiều hình ảnh càng tốt
+	=Có thông tin tác giả, ngày cập nhật
+	~Đăng bởi người nổi tiếng
+}
+
+::Toán tử  dùng để:: Toán tử “-” dùng để: {
+	~Tìm cụm từ chính xác
+	=Loại trừ từ khóa
+	~Thêm từ khóa
+	~Tìm định nghĩa
+}
+
+::Dấu ngoặc kép  trong tìm kiếm dùng để:: Dấu ngoặc kép "" trong tìm kiếm dùng để: {
+	~Loại trừ kết quả
+	~Mở rộng phạm vi tìm
+	=Tìm cụm từ chính xác
+	~Lọc theo file
+}
+
+::Để tìm bài viết về AI trên vnexpressnet bạn dùng c:: Để tìm bài viết về AI trên vnexpress.net, bạn dùng cú pháp: {
+	~AI inurl:vnexpress
+	=AI site:vnexpress.net
+	~AI filetype:vnexpress
+	~AI intitle:vnexpress
+}
+
+::Google Scholar được dùng để:: Google Scholar được dùng để: {
+	~Tìm kiếm tài khoản Gmail
+	~Tìm thông tin thời tiết
+	=Tìm tài liệu học thuật
+	~Tra cứu hình ảnh
+}
+
+::Toán tử OR dùng để:: Toán tử “OR” dùng để: {
+	~Loại từ
+	=Tìm một trong các từ khóa
+	~Ghép 2 cụm từ
+	~Tìm cụm từ trong tiêu đề
+}
+
+::Longtail keyword là:: Long-tail keyword là: {
+	=Từ khóa dài và cụ thể
+	~Từ khóa lặp lại
+	~Từ viết tắt
+	~Từ khóa phổ biến
+}
+
+::Để tìm bài PDF bạn dùng toán tử nào:: Để tìm bài PDF, bạn dùng toán tử nào? {
+	=filetype:pdf
+	~ext:.pdf
+	~docfile:pdf
+	~findtype:pdf
+}
+
+::Ví dụ nào là từ khóa rõ ràng và cụ thể:: Ví dụ nào là từ khóa rõ ràng và cụ thể? {
+	~Công nghệ
+	=Công nghệ blockchain trong logistics
+	~Thị trường
+	~Tác động
+}
+
+::Bộ lọc theo thời gian dùng để:: Bộ lọc theo thời gian dùng để: {
+	~Tìm thông tin trong 1 khu vực
+	~Tìm tài liệu đúng độ tuổi
+	=Giới hạn kết quả theo năm, tháng
+	~Chỉ tìm định dạng .docx
+}
+
+::Kết hợp nhiều điều kiện lọc trong tìm kiếm bằng:: Kết hợp nhiều điều kiện lọc trong tìm kiếm bằng: {
+	~TO
+	~SUM
+	=AND
+	~LIST
+}
+
+::Kỹ thuật lọc được sử dụng nhiều trong:: Kỹ thuật lọc được sử dụng nhiều trong: {
+	~Trình duyệt
+	~Google Docs
+	=Excel, SQL, Pandas
+	~Gmail
+}
+
+::Lọc dữ liệu theo điều kiện thường dùng toán tử:: Lọc dữ liệu theo điều kiện thường dùng toán tử: {
+	~+
+	~=
+	=AND, OR
+	~IN
+}
+
+::Filetypepdf AI applications giúp bạn:: Filetype:pdf "AI applications" giúp bạn: {
+	~Tìm video AI
+	~Tìm ảnh về AI
+	=Tìm file PDF liên quan đến AI
+	~Tìm trang web
+}
+
+::Lọc theo thời gian thường áp dụng trong:: Lọc theo thời gian thường áp dụng trong: {
+	~Xem video
+	=Lọc dữ liệu theo ngày/tháng
+	~Đổi màu văn bản
+	~Chỉnh sửa file
+}
+
+::Web scraping là kỹ thuật:: Web scraping là kỹ thuật: {
+	~Bảo vệ web
+	=Truy xuất dữ liệu tự động
+	~Duyệt thủ công
+	~Mã hóa dữ liệu
+}
+
+::Công cụ nào sau đây KHÔNG dùng để web scraping:: Công cụ nào sau đây KHÔNG dùng để web scraping? {
+	~BeautifulSoup
+	~Selenium
+	=Canva
+	~Scrapy
+}
+
+::Google Dataset Search giúp:: Google Dataset Search giúp: {
+	~Chạy quảng cáo
+	=Tìm tập dữ liệu công khai
+	~Tạo website
+	~Viết mã
+}
+
+::Pandas là thư viện dùng trong ngôn ngữ nào:: Pandas là thư viện dùng trong ngôn ngữ nào? {
+	~C++
+	~Java
+	=Python
+	~PHP
+}
+
+::Một ứng dụng của Pandas là:: Một ứng dụng của Pandas là: {
+	~Tạo ảnh
+	~Lập kế hoạch
+	=Phân tích và xử lý dữ liệu
+	~Tìm kiếm video
+}
+
+::Định dạng dữ liệu nào phổ biến trong Google Datase:: Định dạng dữ liệu nào phổ biến trong Google Dataset Search? {
+	~PSD
+	~DOCX
+	=CSV
+	~MP3
+}
+
+::Thông tin số là gì theo Luật Công nghệ thông tin 2:: Thông tin số là gì theo Luật Công nghệ thông tin 2006? {
+	~Thông tin truyền miệng
+	=Thông tin được tạo lập bằng phương pháp tín hiệu số
+	~Thông tin trên báo in
+	~Dữ liệu được lưu trữ bằng giấy tờ
+}
+
+::Ví dụ nào sau đây KHÔNG phải là thông tin số:: Ví dụ nào sau đây KHÔNG phải là thông tin số? {
+	=Sách giấy truyền thống
+	~File PDF thống kê dân số
+	~Ứng dụng điện thoại
+	~Video lưu trữ trên YouTube
+}
+
+::Thông tin sai lệch misinformation là gì:: Thông tin sai lệch (misinformation) là gì? {
+	~Thông tin đúng được chia sẻ sai thời điểm
+	~Thông tin sai được chia sẻ đúng thời điểm
+	=Thông tin sai nhưng được chia sẻ không có chủ đích
+	~Thông tin đúng nhưng gây hiểu nhầm
+}
+
+::Thông tin xuyên tạc disinformation có đặc điểm nào:: Thông tin xuyên tạc (disinformation) có đặc điểm nào? {
+	~Được chia sẻ do thiếu kiến thức
+	~Bị lỗi chính tả
+	=Có mục đích lừa dối, gây hại
+	~Không có tác hại đến xã hội
+}
+
+::Tin giả Fake News thường có hình thức nào:: Tin giả (Fake News) thường có hình thức nào? {
+	~Báo cáo học thuật
+	=Clickbait, tin đồn
+	~Thư tín chính thức
+	~Video hướng dẫn học tập
+}
+
+::Bias trong thông tin có nghĩa là gì:: Bias trong thông tin có nghĩa là gì? {
+	~Thông tin chính xác tuyệt đối
+	~Thông tin được trình bày trung lập
+	=Thông tin có thiên vị
+	~Thông tin bị ẩn danh
+}
+
+::Ví dụ về Confirmation Bias là gì:: Ví dụ về Confirmation Bias là gì? {
+	~Người đọc nghi ngờ mọi thông tin
+	~Tin vào thông tin trái ngược niềm tin
+	=Chỉ tin và chia sẻ thông tin phù hợp niềm tin sẵn có
+	~Không quan tâm đến bất kỳ thông tin nào
+}
+
+::Thông tin thật Information Accuracy nên có yếu tố:: Thông tin thật (Information Accuracy) nên có yếu tố nào? {
+	~Dựa vào tin đồn
+	=Được xác minh, kiểm chứng, từ nguồn chính thống
+	~Có nhiều lượt chia sẻ trên mạng
+	~Không có nguồn trích dẫn
+}
+
+::Mô hình CRAAP KHÔNG bao gồm yếu tố nào sau đây:: Mô hình CRAAP KHÔNG bao gồm yếu tố nào sau đây? {
+	~Relevance
+	~Accuracy
+	=Popularity
+	~Purpose
+}
+
+::Authority trong CRAAP dùng để đánh giá gì:: Authority trong CRAAP dùng để đánh giá gì? {
+	~Mức độ chia sẻ trên mạng
+	~Địa chỉ email người dùng
+	=Thẩm quyền của nguồn tin
+	~Tốc độ truyền tin
+}
+
+::CRAAP Currency đề cập đến yếu tố gì:: CRAAP: Currency đề cập đến yếu tố gì? {
+	~Ngôn ngữ của thông tin
+	=Ngày xuất bản hoặc cập nhật của thông tin
+	~Sự nổi tiếng của tác giả
+	~Mức độ dài của bài viết
+}
+
+::Trong mô hình RADCAB chữ D viết tắt cho yếu tố nào:: Trong mô hình RADCAB, chữ D viết tắt cho yếu tố nào? {
+	~Định hướng
+	=Detail
+	~Data
+	~Delay
+}
+
+::Mô hình IMVAIN dùng nhiều trong lĩnh vực nào:: Mô hình IMVAIN dùng nhiều trong lĩnh vực nào? {
+	~Học đường
+	~Công nghệ sinh học
+	=Báo chí và truyền thông
+	~Kỹ thuật phần mềm
+}
+
+::Trong IMVAIN Verified có nghĩa là gì:: Trong IMVAIN, Verified có nghĩa là gì? {
+	~Được chia sẻ rộng rãi
+	=Được xác minh bằng bằng chứng cụ thể
+	~Được viết bằng tiếng Anh
+	~Được người nổi tiếng nhắc đến
+}
+
+::Trong mô hình DRAMA yếu tố nào thay thế cho yếu tố:: Trong mô hình DRAMA, yếu tố nào thay thế cho yếu tố “Purpose” trong mô hình CRAAP. {
+	=Motivation
+	~Accuracy
+	~Authority
+	~Date
+}
+
+::Trong mô hình DRAMA Motivation tập trung vào:: Trong mô hình DRAMA, Motivation tập trung vào: {
+	~Mức độ chi tiết
+	=Động cơ của người viết
+	~Ngôn ngữ cảm xúc
+	~Địa điểm công bố thông tin
+}
+
+::Bước đầu tiên trong SIFT là gì:: Bước đầu tiên trong SIFT là gì? {
+	~Investigate the Source
+	~Find better coverage
+	=Stop
+	~Trace
+}
+
+::Lateral Reading là gì:: Lateral Reading là gì? {
+	~Đọc theo chiều dọc nội dung
+	~Đọc qua một nguồn duy nhất
+	=Đọc ngang – tra cứu thêm nguồn khác
+	~Đọc nội dung hài hước
+}
+
+::Trong SIFT Find Better Coverage nhắm đến việc gì:: Trong SIFT, “Find Better Coverage” nhắm đến việc gì? {
+	~Tìm nguồn thông tin có nhiều lượt like
+	=Tìm nguồn khác đáng tin cậy hơn
+	~Tìm video minh họa
+	~Tìm bài viết từ cá nhân
+}
+
+::Công cụ nào sau đây KHÔNG nằm trong SIFT:: Công cụ nào sau đây KHÔNG nằm trong SIFT? {
+	~Stop
+	~Investigate
+	=Analyze
+	~Trace
+}
+
+::Phân tích dữ liệu là gì:: Phân tích dữ liệu là gì? {
+	~Lưu trữ dữ liệu
+	=Biến dữ liệu thành thông tin có giá trị
+	~Xóa dữ liệu không cần thiết
+	~Gửi email tự động
+}
+
+::Phân tích mô tả trả lời câu hỏi gì:: Phân tích mô tả trả lời câu hỏi gì? {
+	~Tại sao điều đó xảy ra?
+	~Điều gì có thể xảy ra?
+	=Điều gì đã xảy ra?
+	~Làm gì tiếp theo?
+}
+
+::Phân tích chẩn đoán giúp xác định:: Phân tích chẩn đoán giúp xác định: {
+	~Ai là người viết bài
+	=Nguyên nhân hiện tượng
+	~Tần suất xuất hiện
+	~Độ dài bài viết
+}
+
+::Công cụ nào sau đây KHÔNG phải công cụ làm sạch dữ:: Công cụ nào sau đây KHÔNG phải công cụ làm sạch dữ liệu? {
+	~Pandas
+	~Excel
+	=PowerPoint
+	~OpenRefine
+}
+
+::Phương pháp nào dùng để loại bỏ giá trị ngoại lai:: Phương pháp nào dùng để loại bỏ giá trị ngoại lai (outlier)? {
+	=IQR, Z-score
+	~Google search
+	~AI chatbot
+	~Filter mặc định
+}
+
+::Tra cứu mạng là kỹ năng gì:: Tra cứu mạng là kỹ năng gì? {
+	~Chia sẻ bài viết
+	=Tìm kiếm và đánh giá thông tin trên Internet
+	~Mở email
+	~Xem phim trực tuyến
+}
+
+::Tìm kiếm ngược hình ảnh dùng để:: Tìm kiếm ngược hình ảnh dùng để: {
+	~Tăng tốc độ tải ảnh
+	~Biến ảnh thành văn bản
+	=Xác minh nguồn gốc ảnh
+	~Làm cho ảnh rõ nét hơn
+}
+
+::Công cụ Google Fact Check Explorer giúp:: Công cụ Google Fact Check Explorer giúp: {
+	~Kiểm tra chính tả
+	~Tìm kiếm video YouTube
+	=Tìm các bài kiểm chứng thông tin
+	~Dịch bài viết
+}
+
+::Dấu hiệu nhận biết tin giả là gì:: Dấu hiệu nhận biết tin giả là gì? {
+	~Bài viết dài
+	~Nhiều số liệu
+	=Tiêu đề giật gân, không có nguồn rõ ràng
+	~Có hình ảnh sắc nét
+}
+
+::Kiểm tra chéo thông tin có ý nghĩa gì:: Kiểm tra chéo thông tin có ý nghĩa gì? {
+	~Chia sẻ nhiều nơi
+	=Đối chiếu với nhiều nguồn để tăng độ chính xác
+	~Tạo nhiều bản sao
+	~Đăng tải lên mạng xã hội
+}
+
+::AI có thể giúp gì trong kiểm tra thông tin:: AI có thể giúp gì trong kiểm tra thông tin? {
+	=Tăng tốc độ xác minh
+	~Xoá thông tin
+	~Thay đổi ý kiến
+	~Giấu nguồn gốc
+}
+
+::Công cụ Copyleaks dùng để:: Công cụ Copyleaks dùng để: {
+	~Gửi email
+	=Kiểm tra văn bản có phải do AI viết không
+	~Tạo biểu đồ
+	~Dịch ngôn ngữ
+}
+
+::Công cụ giúp kiểm tra deepfake video là gì:: Công cụ giúp kiểm tra deepfake video là gì? {
+	=InVID
+	~Excel
+	~Grammarly
+	~Notion
+}
+
+::NLP trong AI là viết tắt của gì:: NLP trong AI là viết tắt của gì? {
+	~Natural Learning Protocol
+	~National Level Prediction
+	=Natural Language Processing
+	~New Language Provider
+}
+
+::Một nhược điểm của AI là gì:: Một nhược điểm của AI là gì? {
+	~Chậm
+	~Không phân tích được
+	=Tốn chi phí triển khai
+	~Không cần dữ liệu
+}
+
+::Công cụ nào giúp xác minh hình ảnh:: Công cụ nào giúp xác minh hình ảnh? {
+	~Canva
+	=TinEye
+	~Google Docs
+	~Notepad
+}
+
+::Hoaxy dùng để làm gì:: Hoaxy dùng để làm gì? {
+	~Tìm lỗi chính tả
+	=Theo dõi lan truyền thông tin
+	~Dịch bài viết
+	~Vẽ biểu đồ
+}
+
+::Mô hình BERT do tổ chức nào phát triển:: Mô hình BERT do tổ chức nào phát triển? {
+	~Apple
+	~Microsoft
+	~OpenAI
+	=Google
+}
+
+::Wolfram Alpha giúp gì trong kiểm tra thông tin:: Wolfram Alpha giúp gì trong kiểm tra thông tin? {
+	~Tạo bản trình chiếu
+	=Tìm số liệu chính xác từ nguồn cấu trúc
+	~Viết blog cá nhân
+	~Dịch văn bản
+}
+
+::FactCheckorg là tổ chức chuyên:: FactCheck.org là tổ chức chuyên: {
+	~Thiết kế đồ họa
+	~Lập trình phần mềm
+	=Kiểm chứng sự thật
+	~Quảng bá thương hiệu
+}
+
+::Dữ liệu số là gì:: Dữ liệu số là gì? {
+	~Văn bản được in trên giấy
+	=Dữ liệu có thể lưu trữ, xử lý và truyền tải bằng máy tính
+	~Dữ liệu được vẽ tay
+	~Âm thanh không thu được
+}
+
+::Thông tin số có thể biểu diễn dưới dạng:: Thông tin số có thể biểu diễn dưới dạng: {
+	~Chỉ văn bản
+	~Hình ảnh và âm thanh
+	=Nhiều dạng khác nhau như văn bản, âm thanh, hình ảnh, video
+	~Dữ liệu bảng tính duy nhất
+}
+
+::Trong môi trường số kỹ năng thông tin số KHÔNG bao:: Trong môi trường số, kỹ năng thông tin số KHÔNG bao gồm: {
+	~Khả năng tra cứu và đánh giá thông tin
+	=Khả năng nấu ăn
+	~Kỹ năng tìm kiếm, xác thực, tổ chức thông tin
+	~Kỹ năng phân tích dữ liệu
+}
+
+::Yếu tố nào sau đây thể hiện thông tin số chất lượn:: Yếu tố nào sau đây thể hiện thông tin số chất lượng? {
+	~Không có nguồn trích dẫn
+	=Cập nhật mới nhất, chính xác, có nguồn gốc rõ ràng
+	~Tạo từ trang mạng không xác định
+	~Không cần xác thực
+}
+
+::Một ví dụ về nguồn dữ liệu mở là:: Một ví dụ về nguồn dữ liệu mở là: {
+	~Facebook cá nhân
+	=Wikipedia
+	~Nhóm kín trên mạng xã hội
+	~Tin đồn lan truyền
+}
+
+::Mô hình CRAAP gồm mấy yếu tố chính:: Mô hình CRAAP gồm mấy yếu tố chính? {
+	~2
+	~3
+	=5
+	~6
+}
+
+::CRAAP Accuracy dùng để đánh giá:: CRAAP: “Accuracy” dùng để đánh giá: {
+	~Tính đầy đủ của nội dung
+	=Tính chính xác của thông tin
+	~Tác giả có nổi tiếng không
+	~Hình thức trình bày bài viết
+}
+
+::CRAAP Authority tập trung vào:: CRAAP: “Authority” tập trung vào: {
+	=Người viết có thẩm quyền, chuyên môn không
+	~Địa chỉ email của tác giả
+	~Thời gian cập nhật
+	~Cảm xúc người đọc
+}
+
+::CRAAP Purpose là gì:: CRAAP: “Purpose” là gì? {
+	=Mục tiêu và động cơ của nội dung thông tin
+	~Màu sắc của bài viết
+	~Độ dài văn bản
+	~Tên miền trang web
+}
+
+::CRAAP Currency dùng để kiểm tra:: CRAAP: “Currency” dùng để kiểm tra: {
+	=Thời điểm tạo hoặc cập nhật thông tin
+	~Giá trị tiền tệ
+	~Vị trí địa lý
+	~Tên tác giả
+}
+
+::SIFT là viết tắt của mô hình nào:: SIFT là viết tắt của mô hình nào? {
+	~Source – Investigate – Fake – Truth
+	=Stop – Investigate – Find – Trace
+	~Study – Integrate – Filter – Track
+	~Scan – Identify – Follow – Test
+}
+
+::Stop trong SIFT có nghĩa là:: “Stop” trong SIFT có nghĩa là: {
+	~Ngừng đọc mọi thứ
+	=Tạm dừng để cân nhắc trước khi chia sẻ thông tin
+	~Đóng ứng dụng
+	~Xóa thông tin
+}
+
+::Investigate the source nghĩa là:: “Investigate the source” nghĩa là: {
+	=Tra cứu nguồn tin gốc để xác minh
+	~Sao chép nội dung
+	~Bình luận bài viết
+	~Gửi email
+}
+
+::Trace claims quotes and media nghĩa là:: “Trace claims, quotes and media” nghĩa là: {
+	=Tìm nguồn gốc của thông tin hoặc phương tiện
+	~Xem lượt thích
+	~Dò dấu vết tội phạm
+	~Dự đoán xu hướng
+}
+
+::Công cụ Google Reverse Image Search dùng để:: Công cụ Google Reverse Image Search dùng để: {
+	~Vẽ hình ảnh
+	=Tìm kiếm ngược hình ảnh
+	~Biến ảnh thành văn bản
+	~Tăng độ phân giải
+}
+
+::RADCAB là công cụ gì:: RADCAB là công cụ gì? {
+	~Đánh giá phương tiện di chuyển
+	=Đánh giá chất lượng thông tin trên mạng
+	~Chuyển đổi văn bản
+	~Vẽ sơ đồ
+}
+
+::RADCAB gồm bao nhiêu yếu tố:: RADCAB gồm bao nhiêu yếu tố? {
+	~5
+	=6
+	~7
+	~8
+}
+
+::Yếu tố Detail trong RADCAB liên quan đến:: Yếu tố “Detail” trong RADCAB liên quan đến: {
+	~Độ dài đoạn văn
+	=Mức độ chi tiết trong nội dung
+	~Dạng dữ liệu
+	~Số lượt bình luận
+}
+
+::DRAMA là mô hình cải tiến từ:: DRAMA là mô hình cải tiến từ: {
+	=CRAAP
+	~SIFT
+	~SWOT
+	~PEST
+}
+
+::Motivation trong DRAMA đánh giá:: “Motivation” trong DRAMA đánh giá: {
+	=Ý định đằng sau nội dung
+	~Chiều dài văn bản
+	~Số người xem
+	~Địa điểm viết bài
+}
+
+::AI có thể giúp xác minh thông tin như thế nào:: AI có thể giúp xác minh thông tin như thế nào? {
+	~Làm giả thông tin
+	=Kiểm tra sự thật tự động
+	~Giấu nguồn tin
+	~Tăng tương tác
+}
+
+::Công cụ giúp kiểm tra văn bản AI viết là:: Công cụ giúp kiểm tra văn bản AI viết là: {
+	=Copyleaks
+	~Paint
+	~Zalo
+	~YouTube
+}
+
+::Deepfake là gì:: Deepfake là gì? {
+	~Mã lỗi phần mềm
+	=Video giả mạo bằng AI
+	~Ứng dụng học ngôn ngữ
+	~Bài báo khoa học
+}
+
+::Công cụ InVID dùng để:: Công cụ InVID dùng để: {
+	=Kiểm tra nguồn video
+	~Làm video ca nhạc
+	~Xử lý văn bản
+	~Tạo biểu đồ
+}
+
+::TinEye giúp xác minh:: TinEye giúp xác minh: {
+	~Văn bản
+	~Video
+	=Hình ảnh
+	~Âm thanh
+}
+
+::Tin giả thường có đặc điểm:: Tin giả thường có đặc điểm: {
+	~Có nguồn gốc rõ ràng
+	=Giật gân, không có căn cứ
+	~Dễ kiểm chứng
+	~Được xuất bản bởi chính phủ
+}
+
+::Misinformation là gì:: Misinformation là gì? {
+	~Thông tin sai do cố ý
+	=Thông tin sai nhưng không cố ý
+	~Thông tin thật
+	~Thông tin quảng cáo
+}
+
+::Disinformation là gì:: Disinformation là gì? {
+	~Thông tin thiếu chính xác do lỗi đánh máy
+	=Thông tin sai được chia sẻ có chủ đích
+	~Dữ liệu học thuật
+	~Sách in
+}
+
+::Bias trong thông tin là:: Bias trong thông tin là: {
+	~Dạng tin cũ
+	=Thiên kiến hoặc lệch lạc trong đánh giá thông tin
+	~Tên công cụ tìm kiếm
+	~Mẫu tin chuẩn
+}
+
+::Confirmation Bias là hiện tượng:: Confirmation Bias là hiện tượng: {
+	~Tìm kiếm thông tin trái niềm tin
+	=Chỉ tin thông tin củng cố niềm tin có sẵn
+	~Kiểm chứng thông tin ngẫu nhiên
+	~Không tìm kiếm thông tin
+}
+
+::Lateral Reading là gì:: Lateral Reading là gì? {
+	~Đọc dọc
+	=Đọc các nguồn khác nhau để xác minh
+	~Đọc lướt
+	~Đọc chậm
+}
+
+::Công cụ nào giúp kiểm chứng tin lan truyền trên mạ:: Công cụ nào giúp kiểm chứng tin lan truyền trên mạng? {
+	=Hoaxy
+	~Excel
+	~TikTok
+	~Word
+}
+
+::FactCheckorg là:: FactCheck.org là: {
+	~Trang blog cá nhân
+	=Tổ chức kiểm chứng thông tin
+	~Diễn đàn thảo luận
+	~Công cụ dịch thuật
+}
+
+::Snopescom giúp:: Snopes.com giúp: {
+	~Tìm hình ảnh đẹp
+	~Phân tích ngữ pháp
+	=Kiểm tra độ xác thực của tin tức
+	~Xem video
+}
+
+::Công cụ kiểm tra AIgenerated text:: Công cụ kiểm tra AI-generated text: {
+	~ChatGPT
+	=GPTZero
+	~Notepad
+	~Zoom
+}
+
+::Tại sao cần đánh giá thông tin số:: Tại sao cần đánh giá thông tin số? {
+	~Để giải trí
+	=Để đảm bảo tiếp cận thông tin đúng, chính xác
+	~Để giảm thời gian sử dụng Internet
+	~Để tăng like
+}
+
+::Một lợi ích của thông tin chính xác là gì:: Một lợi ích của thông tin chính xác là gì? {
+	~Gây hoang mang
+	~Dễ bị giả mạo
+	=Hỗ trợ ra quyết định hiệu quả
+	~Giảm sự hiểu biết
+}
+
+::Công cụ nào dưới đây KHÔNG dùng để xác minh thông:: Công cụ nào dưới đây KHÔNG dùng để xác minh thông tin? {
+	~Google Fact Check
+	~Wikipedia
+	=Zalo Chat
+	~TinEye
+}
+
+::Công cụ nào hỗ trợ phân tích dữ liệu số:: Công cụ nào hỗ trợ phân tích dữ liệu số? {
+	=Excel
+	~TikTok
+	~ZingMP3
+	~Paint
+}
+
+::Nguồn thông tin đáng tin cậy là:: Nguồn thông tin đáng tin cậy là: {
+	=Trang chính phủ, viện nghiên cứu, báo chí uy tín
+	~Trang blog cá nhân ẩn danh
+	~Group Facebook không kiểm duyệt
+	~Tin đồn từ bạn bè
+}

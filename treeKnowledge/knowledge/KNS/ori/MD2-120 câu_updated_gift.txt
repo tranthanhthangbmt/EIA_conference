@@ -1,0 +1,839 @@
+::Giao tiếp trong môi trường số là gì:: Giao tiếp trong môi trường số là gì? {
+	~Giao tiếp qua điện thoại cố định
+	~Giao tiếp bằng lời nói trực tiếp
+	=Giao tiếp thông qua các nền tảng công nghệ số
+	~Giao tiếp qua văn bản giấy
+}
+
+::Giao tiếp ngoại tuyến offline là hình thức giao ti:: Giao tiếp ngoại tuyến (offline) là hình thức giao tiếp nào? {
+	~Giao tiếp sử dụng Internet và mạng xã hội
+	=Giao tiếp không sử dụng Internet, có sự tương tác trực tiếp của con người
+	~Chỉ giao tiếp qua các cuộc gọi điện thoại
+	~Chỉ giao tiếp qua các ấn phẩm in
+}
+
+::Đâu là một ví dụ về giao tiếp trực tuyến:: Đâu là một ví dụ về giao tiếp trực tuyến? {
+	~Các cuộc họp mặt trực tiếp
+	~Đọc báo in
+	~Nghe đài phát thanh
+	=Gửi thư điện tử (E-mail)
+}
+
+::Tương tác thông qua công nghệ số bao gồm hoạt động:: Tương tác thông qua công nghệ số bao gồm hoạt động nào sau đây? {
+	=Hợp tác qua nền tảng số như Google Docs
+	~Chỉ bao gồm các cuộc trò chuyện thông thường
+	~Chỉ bao gồm việc tham gia các diễn đàn
+	~Chỉ tương tác với trợ lý ảo
+}
+
+::Một trong những ý nghĩa của việc tương tác hiệu qu:: Một trong những ý nghĩa của việc tương tác hiệu quả qua công nghệ số là gì? {
+	~Giảm khả năng hợp tác nhóm
+	~Tăng nguy cơ bị lừa đảo
+	=Phát triển kỹ năng giao tiếp chuyên nghiệp trên không gian số
+	~Hạn chế việc tiếp cận tài nguyên học tập
+}
+
+::Netiquette Phép lịch sự trên mạng chủ yếu đề cập đ:: "Netiquette" (Phép lịch sự trên mạng) chủ yếu đề cập đến điều gì? {
+	~Các quy tắc về an ninh mạng
+	=Các tiêu chuẩn ứng xử và giao tiếp có trách nhiệm trực tuyến
+	~Các luật lệ về bản quyền nội dung số
+	~Các giao thức kỹ thuật cho internet
+}
+
+::Một địa chỉ email bao gồm hai phần là tên miền và:: Một địa chỉ e-mail bao gồm hai phần là tên miền và tên địa phương, được phân tách bằng ký hiệu nào? {
+	~#
+	~&
+	~$
+	=@
+}
+
+::Giao tiếp hiệu quả trên nền tảng số yêu cầu kỹ năn:: Giao tiếp hiệu quả trên nền tảng số yêu cầu kỹ năng nào sau đây? {
+	~Chỉ cần sử dụng mạng xã hội
+	=Kỹ năng lắng nghe, phản hồi đúng lúc
+	~Tạo ra nhiều nhóm chat
+	~Dùng nhiều biểu tượng cảm xúc
+}
+
+::Tại sao tài khoản email được coi là chìa khóa để n:: Tại sao tài khoản email được coi là "chìa khóa" để nhận dạng người dùng trực tuyến? {
+	~Vì nó là phương tiện giao tiếp duy nhất
+	~Vì nó không yêu cầu mật khẩu
+	~Vì nó có tính bảo mật tuyệt đối
+	=Vì nó thường được dùng như "thông tin đăng nhập" để kết nối với các dịch vụ trực tuyến khác
+}
+
+::Hình thức nào sau đây KHÔNG phải là giao tiếp số:: Hình thức nào sau đây KHÔNG phải là giao tiếp số? {
+	~Chat trực tuyến
+	~Cuộc họp video qua zoom
+	=Thư viết tay
+	~Email
+}
+
+::Để giữ an toàn cho tài khoản email một trong những:: Để giữ an toàn cho tài khoản email, một trong những biện pháp được khuyến nghị là gì? {
+	~Sử dụng cùng một mật khẩu cho tất cả các tài khoản
+	=Tạo mật khẩu mạnh và bật bảo vệ hai lớp
+	~Công khai địa chỉ email cá nhân ở mọi nơi
+	~Không bao giờ thay đổi mật khẩu
+}
+
+::Netiquette Phép lịch sự trên mạng KHÔNG bao gồm ng:: "Netiquette" (Phép lịch sự trên mạng) KHÔNG bao gồm nguyên tắc nào dưới đây? {
+	~Tôn trọng quyền riêng tư của người khác.
+	~Đọc kỹ trước khi gửi để tránh sai sót.
+	~Tham gia thảo luận một cách có trách nhiệm.
+	=Tranh luận gay gắt để bảo vệ quan điểm cá nhân.
+}
+
+::Khi viết email công việc dòng tiêu đề Subject nên:: Khi viết email công việc, dòng tiêu đề (Subject) nên {
+	~Để trống để tạo sự tò mò
+	~Viết dài, mô tả chi tiết toàn bộ nội dung email
+	=Ngắn gọn, rõ ràng và phản ánh chính xác nội dung chính
+	~Chỉ sử dụng các ký tự đặc biệt để nổi bật
+}
+
+::Hợp tác số là gì:: Hợp tác số là gì? {
+	=Làm việc nhóm thông qua nền tảng số
+	~Giao tiếp qua giấy tờ
+	~Làm việc độc lập trên máy tính
+	~Giao tiếp qua điện thoại cá nhân
+}
+
+::Một lợi ích của hợp tác trong môi trường số là:: Một lợi ích của hợp tác trong môi trường số là {
+	~Tăng thời gian xử lý công việc
+	=Làm việc mọi lúc, mọi nơi
+	~Không cần người quản lý
+	~Hạn chế chia sẻ tài liệu
+}
+
+::Việc sử dụng chữ in đậm ở một số nội dung trong gi:: Việc sử dụng chữ in đậm ở một số nội dung trong giao tiếp số thường được diễn giải là {
+	~Thể hiện sự chuyên nghiệp
+	~Giúp người đọc dễ nhìn thấy hơn
+	=Nhấn mạnh thông tin quan trọng người đọc cần lưu ý
+	~Hành động không hài lòng
+}
+
+::Khi nhận được một tin nhắn hoặc email có nội dung:: Khi nhận được một tin nhắn hoặc email có nội dung gây khó chịu, bạn nên {
+	~Phản hồi ngay lập tức với một thông điệp tương tự
+	~Bỏ qua và không phản hồi
+	~Chuyển tiếp cho tất cả mọi người để họ cùng biết
+	=Tạm dừng, suy nghĩ kỹ và trả lời một cách bình tĩnh, chuyên nghiệp
+}
+
+::Theo một nghiên cứu năm 2021 lý do phổ biến nhất m:: Theo một nghiên cứu năm 2021, lý do phổ biến nhất mọi người sử dụng mạng xã hội là gì? {
+	~Đọc các câu chuyện tin tức
+	~Tìm kiếm cảm hứng
+	~Lấp đầy thời gian rảnh rỗi
+	=Duy trì kết nối với gia đình và bạn bè
+}
+
+::Yếu tố nào sau đây là QUAN TRỌNG NHẤT để xây dựng:: Yếu tố nào sau đây là QUAN TRỌNG NHẤT để xây dựng lòng tin trong giao tiếp số? {
+	~Tốc độ phản hồi nhanh chóng
+	=Sự trung thực, minh bạch và nhất quán
+	~Sử dụng nhiều hình ảnh và biểu tượng cảm xúc
+	~Luôn đồng ý với mọi người
+}
+
+::Tôn trọng quyền riêng tư trong giao tiếp số nghĩa:: Tôn trọng quyền riêng tư trong giao tiếp số nghĩa là: {
+	~Chia sẻ mọi thông tin của bạn bè
+	~Dùng camera ẩn
+	~Ghi âm cuộc họp bí mật
+	=Không đăng tải thông tin người khác khi chưa được phép
+}
+
+::Khi tham gia một diễn đàn trực tuyến mới việc đầu:: Khi tham gia một diễn đàn trực tuyến mới, việc đầu tiên bạn nên làm là gì? {
+	~Đăng ngay một câu hỏi của mình
+	~Quảng cáo sản phẩm/dịch vụ của mình
+	=Giới thiệu bản thân và đọc các quy tắc của cộng đồng
+	~Chỉ đọc mà không bao giờ tương tác
+}
+
+::Theo tài liệu trách nhiệm công dân trong môi trườn:: Theo tài liệu, trách nhiệm công dân trong môi trường số KHÔNG bao gồm hành vi nào sau đây? {
+	~Phản hồi chính sách thông qua cổng thông tin điện tử
+	~Lan tỏa các giá trị tích cực
+	~Giám sát và góp ý một cách có trách nhiệm
+	=Luôn giữ im lặng trước các vấn đề xã hội
+}
+
+::Đâu là một trong những hành vi thể hiện trách nhiệ:: Đâu là một trong những hành vi thể hiện trách nhiệm công dân trong môi trường số? {
+	~Phớt lờ các vi phạm trên mạng
+	=Tuân thủ pháp luật số và chuẩn mực đạo đức số
+	~Chia sẻ mọi thông tin mà không cần kiểm chứng
+	~Sử dụng danh tính ẩn danh để công kích người khác
+}
+
+::Trong giao tiếp số việc sử dụng biểu tượng cảm xúc:: Trong giao tiếp số, việc sử dụng biểu tượng cảm xúc (emoji) nên {
+	~Được sử dụng thay thế hoàn toàn cho ngôn từ
+	~Tránh tuyệt đối trong mọi ngữ cảnh công việc
+	~Càng nhiều càng tốt để thể hiện cảm xúc
+	=Được sử dụng một cách thận trọng, phù hợp với ngữ cảnh và đối tượng
+}
+
+::Khi giao tiếp trong môi trường số email chat yếu t:: Khi giao tiếp trong môi trường số (email, chat), yếu tố nào sau đây là QUAN TRỌNG NHẤT để tránh hiểu lầm? {
+	~Sử dụng nhiều biểu tượng cảm xúc (emoji) để thể hiện thái độ.
+	~Viết thật ngắn gọn, bỏ qua các từ không cần thiết.
+	=Sử dụng ngôn ngữ rõ ràng, mạch lạc và đúng ngữ pháp.
+	~Luôn viết hoa toàn bộ các từ quan trọng.
+}
+
+::Khi bị bôi nhọ trên mạng xã hội người dùng có thể:: Khi bị bôi nhọ trên mạng xã hội, người dùng có thể làm gì để bảo vệ mình theo quy định của Luật An ninh mạng, 2018? {
+	~Trả đũa bằng cách bôi nhọ lại người khác
+	~Im lặng và chấp nhận
+	~Xóa tài khoản mạng xã hội của mình
+	=Sử dụng công cụ “Báo cáo nội dung” hoặc gửi khiếu nại đến cơ quan quản lý
+}
+
+::Khi bạn không chắc chắn về ý nghĩa của một tin nhắ:: Khi bạn không chắc chắn về ý nghĩa của một tin nhắn, cách tốt nhất là {
+	~Giả vờ như bạn đã hiểu
+	~Phớt lờ tin nhắn đó
+	=Hỏi lại để làm rõ thay vì đưa ra giả định
+	~Hỏi một người khác giải thích hộ
+}
+
+::Lắng nghe tích cực trong môi trường số KHÔNG bao g:: "Lắng nghe tích cực" trong môi trường số KHÔNG bao gồm việc {
+	=Ngắt lời người khác khi họ đang trình bày, chia sẻ thông tin
+	~Đọc kỹ toàn bộ tin nhắn trước khi trả lời
+	~Đưa ra phản hồi dựa trên sự hiểu biết đầy đủ về vấn đề
+	~Tóm tắt lại các điểm chính để xác nhận thông tin
+}
+
+::Công cụ nào sau đây được thiết kế ĐẶC BIỆT cho việ:: Công cụ nào sau đây được thiết kế ĐẶC BIỆT cho việc quản lý dự án và công việc nhóm? {
+	~Zoom
+	=Trello/Asana
+	~Gmail
+	~Microsoft Word
+}
+
+::Phần mềm nào sau đây hỗ trợ giao tiếp nhóm trực tu:: Phần mềm nào sau đây hỗ trợ giao tiếp nhóm trực tuyến hiệu quả? {
+	~Microsoft Word
+	~Excel
+	~Photoshop
+	=Zalo
+}
+
+::Ứng dụng HueS được nêu làm ví dụ cho hành vi công:: Ứng dụng “Hue-S” được nêu làm ví dụ cho hành vi công dân số nào? {
+	~Góp ý dự thảo luật
+	=Gửi phản ánh hiện trạng (lấn chiếm lòng đường) đến chính quyền
+	~Đăng ký môn học trực tuyến
+	~Nộp học phí trực tuyến
+}
+
+::Mục đích chính của các công cụ nhắn tin tức thời Z:: Mục đích chính của các công cụ nhắn tin tức thời (Zalo, Skype, Facebook Messager) trong công việc là {
+	~Thay thế hoàn toàn email
+	~Cho các cuộc trò chuyện dài và phức tạp
+	=Giao tiếp nhanh, trao đổi theo nhóm và chia sẻ tệp tin nhanh chóng
+	~Chỉ để trò chuyện xã hội
+}
+
+::Đâu là một trong những tính năng nổi bật của cuộc:: Đâu là một trong những tính năng nổi bật của cuộc gọi video (video call)? {
+	~Chỉ cho phép gọi một-một
+	=Giao tiếp trực tiếp, thấy được biểu cảm và ngôn ngữ cơ thể
+	~Yêu cầu kết nối mạng dây
+	~Không thể thực hiện trên thiết bị di động
+}
+
+::Trong bối cảnh giao tiếp trực tuyến btw là viết tắ:: Trong bối cảnh giao tiếp trực tuyến, "btw" là viết tắt của cụm từ nào? {
+	~Be there whenever
+	=By the way
+	~Better than watching
+	~Before the work
+}
+
+::Theo tài liệu quyền của một Công dân số bao gồm đi:: Theo tài liệu, quyền của một "Công dân số" bao gồm điều gì? {
+	=Quyền truy cập công nghệ, quyền riêng tư và quyền tự do ngôn luận
+	~Chỉ có quyền truy cập Internet tốc độ cao
+	~Quyền đăng tải mọi thông tin không cần kiểm chứng
+	~Quyền sử dụng miễn phí mọi phần mềm
+}
+
+::Khi tra cứu văn bản pháp luật trực tuyến tại sao v:: Khi tra cứu văn bản pháp luật trực tuyến, tại sao việc kiểm tra hiệu lực của văn bản lại quan trọng? {
+	~Để biết văn bản có phổ biến hay không
+	=Vì văn bản có thể hết hiệu lực
+	~Để xem có bao nhiêu người đã đọc văn bản
+	~Để tải văn bản về máy nhanh hơn
+}
+
+::Tính năng Comment trong Google Docs hay Microsoft:: Tính năng "Comment" trong Google Docs hay Microsoft Word có tác dụng chính là gì? {
+	~Tự động sửa lỗi chính tả
+	~Cho phép nhiều người cùng chỉnh sửa trực tiếp mà không cần trao đổi
+	~Tạo đường link (liên kết) đến tài liệu trách dẫn
+	=Cung cấp không gian để đưa ra phản hồi, góp ý mà không thay đổi nội dung gốc
+}
+
+::Nền tảng nào sau đây thuộc nhóm Lưu trữ đám mây  H:: Nền tảng nào sau đây thuộc nhóm "Lưu trữ đám mây & Hợp tác tài liệu"? {
+	~TikTok
+	~Zalo
+	=Google Drive
+	~Facebook
+}
+
+::Khi tổ chức một cuộc họp trực tuyến việc nào sau đ:: Khi tổ chức một cuộc họp trực tuyến, việc nào sau đây là NÊN LÀM? {
+	=Gửi lịch họp (lời mời) kèm theo link tham gia, chương trình nghị sự và tài liệu đọc trước
+	~Chỉ cần gửi link họp trước giờ họp
+	~Không cần phải có kế hoạch trước, họp tự phát
+	~Yêu cầu mọi người luôn bật camera trong suốt cuộc họp
+}
+
+::Một Wiki trong môi trường làm việc số thường được:: Một "Wiki" trong môi trường làm việc số thường được sử dụng để làm gì? {
+	~Gửi email hàng loạt
+	~Tạo các bản trình chiếu phức tạp
+	=Tạo và chia sẻ kiến thức chung, nơi mọi người cùng đóng góp và chỉnh sửa
+	~Quản lý lịch cá nhân
+}
+
+::Hành vi nào sau đây được xem là NÊN LÀM trong môi:: Hành vi nào sau đây được xem là "NÊN LÀM" trong môi trường mạng? {
+	~Phát tán thông tin chưa kiểm chứng
+	=Sử dụng ngôn từ tôn trọng và xây dựng
+	~Dùng từ ngữ xúc phạm người khác
+	~Nhấn vào các liên kết không rõ nguồn gốc
+}
+
+::Hành vi nào sau đây được xem là KHÔNG NÊN LÀM tron:: Hành vi nào sau đây được xem là "KHÔNG NÊN LÀM" trong môi trường mạng? {
+	~Kiểm chứng nguồn tin trước khi chia sẻ
+	~Phản ánh sự thật một cách văn minh
+	=Vu khống, bôi nhọ qua mạng xã hội
+	~Bảo mật thông tin cá nhân
+}
+
+::Để một cuộc họp trực tuyến hiệu quả người chủ trì:: Để một cuộc họp trực tuyến hiệu quả, người chủ trì nên {
+	~Cho phép mọi người nói tự do, không cần giơ tay
+	=Tắt micro của tất cả người tham gia và chỉ bật khi cần phát biểu
+	~Không can thiệp vào các cuộc trò chuyện song song
+	~Để cuộc họp kéo dài không giới hạn thời gian
+}
+
+::Lợi ích chính của việc sử dụng các công cụ quản lý:: Lợi ích chính của việc sử dụng các công cụ quản lý công việc (như Asana, Trello) là {
+	~Thay thế hoàn toàn việc giao tiếp giữa các thành viên
+	~Tự động hoàn thành tất cả các nhiệm vụ
+	~Chỉ dành cho trưởng nhóm
+	=Tăng cường sự minh bạch, theo dõi tiến độ và phân công trách nhiệm rõ ràng
+}
+
+::Khi cộng tác trên một tài liệu chung bạn phát hiện:: Khi cộng tác trên một tài liệu chung, bạn phát hiện ra lỗi sai quan trọng. Bạn nên {
+	~Tự sửa lỗi mà không nói gì
+	=Gửi email riêng cho sếp phàn nàn về lỗi sai
+	~Sử dụng tính năng "Comment" hoặc "Suggesting" để đề xuất sửa đổi và tag người liên quan
+	~Bỏ qua vì không phải việc của mình
+}
+
+::Bước đầu tiên trong quy trình 5 bước kiểm chứng th:: Bước đầu tiên trong quy trình 5 bước kiểm chứng thông tin là gì? {
+	~Phân tích nội dung
+	~Kiểm tra chéo
+	=Đánh giá nguồn tin
+	~Xác thực hình ảnh
+}
+
+::Làm việc theo nhóm không đồng bộ Asynchronous Coll:: "Làm việc theo nhóm không đồng bộ" (Asynchronous Collaboration) có nghĩa là {
+	=Các thành viên làm việc vào các thời điểm khác nhau, không cần có mặt cùng lúc
+	~Các thành viên làm việc cùng nhau tại cùng một thời điểm
+	~Nhóm làm việc mà không có nhóm trưởng
+	~Nhóm sử dụng duy nhất một công cụ để giao tiếp
+}
+
+::Khi tham gia họp trực tuyến việc sử dụng tính năng:: Khi tham gia họp trực tuyến, việc sử dụng tính năng "giơ tay" (Raise Hand) có tác dụng gì? {
+	~Thể hiện sự đồng ý với người đang nói
+	~Thông báo rời cuộc họp
+	~Tắt micro của người khác
+	=Báo hiệu cho người chủ trì biết bạn muốn phát biểu mà không làm gián đoạn cuộc họp
+}
+
+::Trong môi trường làm việc nhóm trực tuyến Single S:: Trong môi trường làm việc nhóm trực tuyến, "Single Source of Truth" (Nguồn sự thật duy nhất) thường đề cập đến {
+	~Một người trong nhóm luôn luôn đúng
+	=Một nền tảng hoặc tài liệu trung tâm nơi mọi thông tin cập nhật mới nhất được lưu trữ
+	~Một cuộc họp kéo dài hàng giờ
+	~Một kênh chat riêng tư giữa trưởng nhóm và sếp
+}
+
+::Trong môi trường làm việc cộng tác để tránh xung đ:: Trong môi trường làm việc cộng tác, để tránh "xung đột phiên bản" khi nhiều người cùng chỉnh sửa một tệp, bạn nên {
+	~Gửi tệp qua email cho từng người một
+	~Chỉ cho phép một người có quyền chỉnh sửa tại một thời điểm
+	~In tài liệu ra và giửi cho mọi người chỉnh sửa bằng tay rồi tổng hợp lại
+	=Sử dụng các công cụ cộng tác trực tuyến (Google Workspace, Microsoft 365) cho phép chỉnh sửa đồng thời
+}
+
+::Khi chia sẻ màn hình trong cuộc họp trực tuyến điề:: Khi chia sẻ màn hình trong cuộc họp trực tuyến, điều gì là QUAN TRỌNG nhất {
+	=Đảm bảo bạn chỉ chia sẻ các tab, cửa sổ ứng dụng cụ thể cần thiết cho cuộc họp
+	~Chia sẻ toàn bộ màn hình để mọi người thấy mọi thứ
+	~Luôn bật webcam khi chia sẻ màn hình
+	~Cần hỏi ý kiến và nhận được đồng ý của các thành viên mới chia sẻ
+}
+
+::Khi một thành viên trong nhóm liên tục không phản:: Khi một thành viên trong nhóm liên tục không phản hồi tin nhắn hoặc email, việc đầu tiên bạn nên làm là {
+	~Công khai nhắc họ trong nhóm chat để gây áp lực
+	~Báo cáo họ với cấp trên ngay lập tức
+	=Thử liên lạc bằng một phương thức khác (gọi điện) để hỏi thăm và nhắc nhở lịch sự
+	~Coi như họ đang không hợp tác và tự làm thay công việc của họ
+}
+
+::Khi làm việc nhóm trên các nền tảng số hành động n:: Khi làm việc nhóm trên các nền tảng số, hành động nào sau đây là NGUY HIỂM nhất? {
+	~Đăng nhập nền tảng trên nhiều thiết bị
+	~Đăng xuất khỏi tài khoản khi sử dụng thiết bị công cộng
+	=Chia sẻ mật khẩu tài khoản cá nhân cho đồng nghiệp
+	~Sử dụng liên kết chia sẻ với quyền "Chỉ xem"
+}
+
+::Khi cần gửi một tệp tin chứa thông tin nhạy cảm bi:: Khi cần gửi một tệp tin chứa thông tin nhạy cảm, biện pháp an toàn hơn cả là {
+	~Gửi tệp đính kèm email không mật khẩu
+	=Đặt mật khẩu cho tệp và gửi mật khẩu qua một kênh khác (tin nhắn SMS)
+	~Upload lên dịch vụ lưu trữ, chia sẻ liên kết công khai
+	~Không bao giờ gửi thông tin nhạy cảm qua internet
+}
+
+::Hiện tượng Zoombombing xảy ra khi:: Hiện tượng "Zoombombing" xảy ra khi {
+	=Có người không được mời xâm nhập và quấy rối cuộc họp trực tuyến
+	~Một cuộc họp Zoom có chất lượng video rất xấu
+	~Ứng dụng Zoom bị lỗi và tự động thoát
+	~Người tham gia sử dụng background ảo
+}
+
+::Khi nhận được một email yêu cầu cung cấp thông tin:: Khi nhận được một email yêu cầu cung cấp thông tin đăng nhập hoặc thông tin cá nhân, bạn nên {
+	~Trả lời ngay vì có thể đây là yêu cầu khẩn cấp
+	=Xóa email đó ngay lập tức và không click vào bất kỳ liên kết nào
+	~Chuyển tiếp email cho đồng nghiệp để hỏi ý kiến
+	~Cung cấp thông tin để xác minh danh tính của họ
+}
+
+::Khi chia sẻ tệp trên Google Drive hoặc OneDrive qu:: Khi chia sẻ tệp trên Google Drive hoặc OneDrive, quyền "Có thể chỉnh sửa" nên được cấp cho: {
+	=Chỉ những người thực sự cần chỉnh sửa tài liệu
+	~Bất kỳ ai có liên kết
+	~Tất cả mọi người trong công ty
+	~Tất cả đều đúng
+}
+
+::Bản quyền Copyright trong môi trường số áp dụng ch:: Bản quyền (Copyright) trong môi trường số áp dụng cho {
+	~Chỉ các sản phẩm in ấn
+	~Các ý tưởng chưa được công bố
+	~Các sản phẩm phần mềm miễn phí
+	=Các tác phẩm gốc được thể hiện dưới dạng kỹ thuật số (bài viết, hình ảnh, video, code)
+}
+
+::Tin giả thường được thiết kế để kích động yếu tố n:: Tin giả thường được thiết kế để kích động yếu tố nào của người đọc, làm lu mờ khả năng phán xét? {
+	~Lý trí
+	=Cảm xúc mạnh
+	~Trí nhớ
+	~Khả năng tính toán
+}
+
+::Khi thấy đồng nghiệp vô tình chia sẻ thông tin nhạ:: Khi thấy đồng nghiệp vô tình chia sẻ thông tin nhạy cảm trong kênh chat chung, bạn nên {
+	~Nhắc họ ngay lập tức trong kênh chat chung
+	~Báo cáo họ với quản trị viên hệ thống
+	=Nhắn tin riêng cho họ để họ biết và gỡ bỏ tin nhắn đó
+	~Chụp màn hình để lưu lại thông tin đó
+}
+
+::Việc sử dụng mạng riêng ảo VPN khi làm việc từ xa:: Việc sử dụng mạng riêng ảo (VPN) khi làm việc từ xa quan trọng vì {
+	~Giúp tăng tốc độ internet
+	=Mã hóa kết nối của bạn, bảo vệ dữ liệu khỏi bị nghe trộm trên mạng công cộng
+	~Cho phép bạn truy cập các trang web giải trí bị chặn
+	~Thay thế cho phần mềm diệt virus
+}
+
+::Vishing là hình thức tấn công mạng thông qua:: "Vishing" là hình thức tấn công mạng thông qua {
+	~Thư điện tử (email)
+	~Tin nhắn văn bản (SMS)
+	=Cuộc gọi thoại giả mạo
+	~Phần mềm độc hại
+}
+
+::Doxing là hình thức bạo lực mạng nào:: "Doxing" là hình thức bạo lực mạng nào? {
+	~Gửi các tin nhắn đe dọa liên tục
+	~Lan truyền thông tin sai lệch để bôi nhọ
+	=Công khai thông tin cá nhân của người khác mà không có sự cho phép
+	~Lập tài khoản giả mạo
+}
+
+::Theo pháp luật Việt Nam hành vi cung cấp chia sẻ t:: Theo pháp luật Việt Nam, hành vi cung cấp, chia sẻ thông tin giả mạo, sai sự thật trên mạng có thể bị phạt tiền ở mức nào? {
+	~1.000.000 đến  2.000.000 đồng
+	~5.000.000 đến  10.000.000 đồng
+	=10.000.000 đến 20.000.000 đồng
+	~50.000.000 đến  70.000.000 đồng
+}
+
+::Khi làm việc với các nhóm đa văn hóa yếu tố nào cầ:: Khi làm việc với các nhóm đa văn hóa, yếu tố nào cần được đặc biệt lưu ý? {
+	=Tôn trọng sự khác biệt về múi giờ, ngôn ngữ, ngày lễ và phong cách làm việc
+	~Giả định rằng mọi người đều có cùng phong cách giao tiếp
+	~Bắt mọi người phải tuân theo văn hóa của số đông
+	~Chỉ giao tiếp bằng văn bản để tránh hiểu lầm
+}
+
+::Sự chậm trễ trong phản hồi từ một thành viên ở múi:: Sự chậm trễ trong phản hồi từ một thành viên ở múi giờ khác thường nên được {
+	~Làm việc không nghiêm túc
+	=Hiểu và thông cảm, không nên gửi email nhắc liên tục ngoài giờ làm của họ
+	~Báo cáo ngay với quản lý
+	~Phớt lờ và giao công việc cho người khác
+}
+
+::Trong môi trường đa văn hóa việc sử dụng tiếng lón:: Trong môi trường đa văn hóa, việc sử dụng tiếng lóng, thành ngữ địa phương nên {
+	~Được khuyến khích sử dụng vì nó thú vị
+	~Được dịch sang tất cả các ngôn ngữ
+	~Chỉ dùng trong các cuộc trò chuyện riêng tư
+	=Nên hạn chế vì có thể gây khó hiểu cho một số người
+}
+
+::Khi có xung đột trong nhóm trực tuyến cách giải qu:: Khi có xung đột trong nhóm trực tuyến, cách giải quyết PHÙ HỢP nhất là {
+	~Tranh luận công khai trên kênh chat chung cho đến khi có người thắng cuộc
+	=Chuyển sang một cuộc gọi video riêng tư để thảo luận trực tiếp và tìm giải pháp
+	~Im lặng và hy vọng xung đột tự biến mất
+	~Yêu cầu mọi người trong nhóm bỏ phiếu chọn phe
+}
+
+::Văn hóa phản hồi lành mạnh trong môi trường số KHÔ:: "Văn hóa phản hồi" lành mạnh trong môi trường số KHÔNG bao gồm {
+	~Đưa ra phản hồi mang tính xây dựng, cụ thể
+	~Tập trung vào vấn đề, không tấn công cá nhân
+	=Đưa ra phản hồi tiêu cực trước toàn bộ nhóm mà không báo trước
+	~Sẵn sàng đón nhận phản hồi từ người khác
+}
+
+::Khi thuyết trình trực tuyến cho một nhóm đa văn hó:: Khi thuyết trình trực tuyến cho một nhóm đa văn hóa, bạn nên {
+	~Nói thật nhanh để truyền tải nhiều thông tin
+	~Sử dụng nhiều biệt ngữ chuyên môn để thể hiện sự hiểu biết
+	=Nói chậm rãi, rõ ràng và sử dụng hình ảnh/minh họa trực quan để hỗ trợ
+	~Chỉ tập trung vào một nhóm văn hóa chiếm đa số
+}
+
+::Trong môi trường số sự hiện diện Presence của bạn:: Trong môi trường số, "sự hiện diện" (Presence) của bạn thường được thể hiện qua {
+	=Trạng thái trực tuyến (Online/Away/Do Not Disturb) trên các ứng dụng
+	~Số lượng email bạn gửi đi mỗi ngày
+	~Âm lượng micro của bạn
+	~Màu sắc background trong cuộc họp
+}
+
+::Khi một thành viên mới tham gia nhóm từ xa cách tố:: Khi một thành viên mới tham gia nhóm từ xa, cách tốt nhất để giúp họ hòa nhập là: {
+	~Để họ tự tìm hiểu mọi thứ
+	=Tổ chức một buổi giới thiệu chào mừng, giao một người cố vấn hỗ trợ họ
+	~Giao ngay cho họ một dự án khó
+	~Yêu cầu họ tự giới thiệu bản thân trong email gửi toàn công ty
+}
+
+::Giá trị cốt lõi của hợp tác trong môi trường số là:: Giá trị cốt lõi của "hợp tác" trong môi trường số là {
+	~Mọi người làm việc độc lập và báo cáo kết quả cuối cùng
+	~Tuân thủ mệnh lệnh từ lãnh đạo một cách tuyệt đối
+	~Cạnh tranh để trở thành người giỏi nhất
+	=Cùng nhau làm việc hướng tới một mục tiêu chung, chia sẻ ý tưởng và hỗ trợ lẫn nhau
+}
+
+::Dịch vụ công trực tuyến là gì:: Dịch vụ công trực tuyến là gì? {
+	~Việc mua bán hàng hóa qua mạng
+	=Việc cung cấp các dịch vụ hành chính công thông qua nền tảng số
+	~Việc học tập trên các nền tảng E-learning
+	~Việc giao tiếp với bạn bè qua mạng xã hội
+}
+
+::Đâu là một trong những quyền của công dân khi sử d:: Đâu là một trong những quyền của công dân khi sử dụng dịch vụ công trực tuyến? {
+	~Quyền yêu cầu xử lý hồ sơ ngay lập tức
+	~Quyền không cần cung cấp thông tin trung thực
+	=Quyền theo dõi tiến độ xử lý hồ sơ
+	~Quyền sử dụng ngôn từ thô tục khi phản hồi
+}
+
+::Đâu là một trong những nghĩa vụ của công dân khi s:: Đâu là một trong những nghĩa vụ của công dân khi sử dụng dịch vụ công trực tuyến? {
+	=Cung cấp thông tin trung thực và đầy đủ
+	~Có thể nộp hồ sơ trễ hạn
+	~Phê bình thô tục qua hệ thống phản hồi
+	~Không cần tuân thủ quy định
+}
+
+::Bước đầu tiên trong quy trình phản ánh kiến nghị q:: Bước đầu tiên trong quy trình phản ánh, kiến nghị qua nền tảng số là gì? {
+	~Truy cập nền tảng phản ánh
+	~Gửi thông tin phản ánh
+	=Ghi nhận hiện trạng một cách khách quan và xác thực
+	~Theo dõi mã xử lý và kết quả
+}
+
+::Khi góp ý chính sách trực tuyến nguyên tắc quan tr:: Khi góp ý chính sách trực tuyến, nguyên tắc quan trọng cần tuân thủ là gì? {
+	~Góp ý dựa trên cảm tính
+	=Dùng ngôn ngữ xây dựng, dựa trên cơ sở pháp lý và thực tiễn
+	~Sao chép góp ý của người khác
+	~Phê phán và chỉ trích gay gắt
+}
+
+::Trong các cuộc thảo luận nghiêm túc về chính sách:: Trong các cuộc thảo luận nghiêm túc về chính sách, hành vi nào thể hiện trách nhiệm của một công dân số? {
+	~Sử dụng danh tính ẩn danh
+	=Sử dụng danh tính thật (chính danh)
+	~Công kích cá nhân
+	~Tranh luận dựa trên cảm xúc
+}
+
+::Khi tranh luận trên mạng thay vì công kích cá nhân:: Khi tranh luận trên mạng, thay vì công kích cá nhân, người dùng nên làm gì? {
+	=Tranh luận dựa trên lý lẽ, bằng chứng
+	~Dừng cuộc tranh luận ngay lập tức
+	~Chấp nhận mọi ý kiến của người khác
+	~Báo cáo tài khoản của người có ý kiến trái chiều
+}
+
+::Trang web nào được đề cập là nền tảng đáng tin cậy:: Trang web nào được đề cập là nền tảng đáng tin cậy để tra cứu văn bản pháp luật? {
+	~Facebook.com
+	~Google.com
+	=https://thuvienphapluat.vn
+	~Wikipedia.org
+}
+
+::Khi tra cứu văn bản pháp luật trực tuyến tại sao v:: Khi tra cứu văn bản pháp luật trực tuyến, tại sao việc kiểm tra hiệu lực của văn bản lại quan trọng? {
+	~Để biết văn bản có phổ biến hay không
+	=Vì văn bản có thể đã bị sửa đổi, thay thế hoặc hết hiệu lực
+	~f
+	~Để tải văn bản về máy nhanh hơn
+}
+
+::Nền tảng nào được ví dụ là mô hình kiến tạo tri th:: Nền tảng nào được ví dụ là mô hình kiến tạo tri thức phổ thông, một "Bách khoa toàn thư Mở"? {
+	~GitHub
+	~Google Docs
+	~Facebook
+	=Wikipedia
+}
+
+::Công cụ giao tiếp nào được xem là tiêu chuẩn vàng:: Công cụ giao tiếp nào được xem là tiêu chuẩn vàng cho môi trường chuyên nghiệp với khả năng tổ chức trò chuyện theo "kênh"? {
+	~Zalo
+	=Slack
+	~Facebook Messenger
+	~Viber
+}
+
+::Đâu là một trong những thuận lợi chính mà hợp tác:: Đâu là một trong những thuận lợi chính mà hợp tác số mang lại? {
+	~Làm gia tăng rào cản địa lý và thời gian
+	~Hạn chế sự sáng tạo và trao đổi ý tưởng
+	=Phá vỡ rào cản địa lý và thời gian
+	~Yêu cầu mọi thành viên phải làm việc cùng lúc
+}
+
+::Rủi ro về con người trong hợp tác số bao gồm hiện:: Rủi ro về "con người" trong hợp tác số bao gồm hiện tượng nào? {
+	=Xung đột, thiếu tin tưởng, và hiện tượng "ăn theo" (Social Loafing)
+	~Giao tiếp sai lệch do thiếu ngữ cảnh
+	~Mất dữ liệu do tấn công mạng
+	~Lỗi phần mềm và vi phạm bảo mật
+}
+
+::Khi bạn vô tình gửi một email chứa thông tin nhạy:: Khi bạn vô tình gửi một email chứa thông tin nhạy cảm đến nhầm người, việc đầu tiên bạn nên làm là gì? {
+	~Hy vọng họ không đọc được
+	~Gửi ngay một email xin lỗi đến tất cả mọi người trong danh sách liên lạc
+	=Thu hồi email (nếu có thể) và ngay lập tức liên hệ với người nhận để giải thích và đề nghị họ xóa email
+	~Đổ lỗi cho công nghệ
+}
+
+::Hành vi nào sau đây có thể được coi là quấy rối tr:: Hành vi nào sau đây có thể được coi là "quấy rối trực tuyến" (Online Harassment)? {
+	~Gửi lời chào buổi sáng đến đồng nghiệp
+	~Liên tục gửi tin nhắn không mong muốn, đe dọa hoặc bình luận xúc phạm cá nhân
+	~Chia sẻ tài liệu công việc lên kênh chung
+	=Đặt trạng thái "Đang bận"
+}
+
+::Bạn nhận thấy một thành viên trong nhóm thường xuy:: Bạn nhận thấy một thành viên trong nhóm thường xuyên bị loại khỏi các kênh thông tin quan trọng. Bạn nên {
+	=Chủ động thêm họ vào các kênh và nhắc nhở người phụ trách về sự thiếu sót này
+	~Giả vờ như không biết
+	~Nói xấu họ với sếp
+	~Cho rằng họ không muốn tham gia
+}
+
+::Khi sử dụng hình ảnh từ Internet cho bài thuyết tr:: Khi sử dụng hình ảnh từ Internet cho bài thuyết trình công việc, điều quan trọng nhất cần làm là: {
+	~Có thể sử dụng vì mọi thứ trên internet vì chúng đều miễn phí
+	~Chỉ sử dụng hình ảnh có chứa watermark (logo)
+	=Kiểm tra giấy phép (license) của hình ảnh và ghi nguồn đầy đủ nếu cần
+	~Tìm mọi cách chỉnh sửa lại hình ảnh trước khi sử dụng
+}
+
+::Trong một cuộc khảo sát trực tuyến ẩn danh một thà:: Trong một cuộc khảo sát trực tuyến ẩn danh, một thành viên đã viết những lời lẽ tiêu cực, không mang tính xây dựng về đồng nghiệp. Hành động này chủ yếu vi phạm nguyên tắc nào? {
+	~Bảo mật thông tin
+	~Hợp tác hiệu quả
+	~Tốc độ phản hồi
+	=Trung thực và tính xây dựng trong phản hồi
+}
+
+::Điều quan trọng nhất để khuyến khích sự tham gia t:: Điều quan trọng nhất để khuyến khích sự tham gia trong diễn đàn trực tuyến là? {
+	~Kiểm duyệt
+	=Tính tương tác
+	~Chức năng
+	~Thiết kế
+}
+
+::Công cụ nào được giới thiệu trong bài giảng để tìm:: Công cụ nào được giới thiệu trong bài giảng để tìm kiếm các bài viết kiểm chứng từ những tổ chức uy tín trên toàn cầu? {
+	~Wikipedia.
+	~Google Search thông thường.
+	~Facebook Search.
+	=Google Fact Check Explorer.
+}
+
+::Nếu đã lỡ đăng tải hoặc chia sẻ tin giả hành động:: Nếu đã lỡ đăng tải hoặc chia sẻ tin giả, hành động nào sau đây được cho là có trách nhiệm nhất? {
+	=Gỡ bỏ thông tin, đăng bài đính chính và xin lỗi.
+	~Chỉnh sửa bài đăng một chút để thông tin bớt sai lệch.
+	~Khóa tài khoản tạm thời để tránh bị chỉ trích.
+	~Im lặng và hy vọng mọi người sẽ quên đi.
+}
+
+::Nguyên tắc khi phản ánh qua nền tảng số là gì:: Nguyên tắc khi phản ánh qua nền tảng số là gì? {
+	~Sử dụng ngôn ngữ kích động
+	~Tránh gửi trùng lặp
+	=Thông tin trung thực, đính kèm bằng chứng rõ ràng
+	~Viết bằng tiếng lóng
+}
+
+::Vì sao cần tuân thủ quy tắc ứng xử khi tham gia ho:: Vì sao cần tuân thủ quy tắc ứng xử khi tham gia hoạt động trực tuyến? {
+	~Bảo vệ quyền lợi và danh dự của bản thân và người khác
+	~Góp phần xây dựng cộng đồng mạng an toàn và lành mạnh
+	~Tạo môi trường giao tiếp văn minh, lịch sự
+	=Tất cả các lý do trên
+}
+
+::Điều gì quan trọng nhất để duy trì quy tắc ứng xử:: Điều gì quan trọng nhất để duy trì quy tắc ứng xử trên mạng? {
+	~Luôn đồng tình theo ý kiến số đông
+	=Sự đồng hành và hợp tác của cộng đồng
+	~Chứng tỏ bạn quan trọng
+	~Tranh luận triệt để nếu không cùng quan điểm với mình
+}
+
+::Bạn nên làm gì khi nhận được một tin nhắn đe dọa t:: Bạn nên làm gì khi nhận được một tin nhắn đe dọa trên mạng? {
+	~Chia sẻ với bạn bè để xin lời khuyên
+	~Bỏ qua và chặn người gửi.
+	=Báo cáo tin nhắn với nhà cung cấp dịch vụ
+	~Trả lời tin nhắn
+}
+
+::Hành vi công dân số có trách nhiệm gồm:: Hành vi công dân số có trách nhiệm gồm? {
+	~Tư duy phản biện
+	~Tự động chia sẻ thông tin
+	~Năng lực tra cứu pháp luật
+	=Ứng xử có đạo đức trên mạng
+}
+
+::Thuận lợi vượt trội của hợp tác số là gì:: Thuận lợi vượt trội của hợp tác số là gì? {
+	~Đảm bảo mọi người đóng góp như nhau
+	=Phá vỡ rào cản địa lý và thời gian
+	~Không cần xây dựng lòng tin
+	~Giảm xung đột cá nhân
+}
+
+::Giao tiếp số trong giáo dục và hành chính cần nguy:: Giao tiếp số trong giáo dục và hành chính cần nguyên tắc gì? {
+	=Ngôn ngữ chuẩn mực
+	~Tránh dùng biểu tượng cảm xúc
+	~Sử dụng tiếng lóng
+	~Tôn trọng phản hồi
+}
+
+::Hành động quan trọng nhất để bảo vệ quyền riêng tư:: Hành động quan trọng nhất để bảo vệ quyền riêng tư trên mạng xã hội? {
+	~Sử dụng tên thật và ảnh thật
+	~Không chia sẻ thông tin cá nhân
+	~Kết bạn với tất cả
+	=Xem xét và điều chỉnh cài đặt quyền riêng tư
+}
+
+::Sử dụng nền tảng số tiếp cận pháp luật thể hiện đi:: Sử dụng nền tảng số tiếp cận pháp luật thể hiện điều gì? {
+	=Ý thức pháp quyền và năng lực công dân
+	~Sở thích cá nhân
+	~Mong muốn làm cán bộ
+	~Trào lưu công nghệ
+}
+
+::Tại sao Zalo không phải là lựa chọn lý tưởng cho v:: Tại sao Zalo không phải là lựa chọn lý tưởng cho việc quản lý dự án nhóm? {
+	~Vì Zalo là ứng dụng trả phí rất đắt
+	~Vì giao diện Zalo quá phức tạp để sử dụng
+	=Vì thông tin quan trọng dễ bị trôi và khó quản lý
+	~Vì Zalo không có chức năng gọi điện
+}
+
+::Theo Nghị định số 152020NĐCP mức phạt vi phạm hành:: Theo Nghị định số (15/2020/NĐ-CP), mức phạt vi phạm hành chính đối với cá nhân đăng tin sai sự thật trên mạng xã hội {
+	~Cảnh cáo và và yêu cầu đính chính
+	~Cảnh cáo và gửi thông báo yêu cầu kỷ luật về địa phương hoặc cơ quan chủ quản
+	=Từ 2 - 6 triệu, buộc gỡ bỏ thông tin vi phạm. Trong trường hợp gây ảnh hưởng đến danh dự, uy tín của người khác 8 - 10 triệu
+	~Từ 5 - 10 triệu, buộc gỡ bỏ thông tin vi phạm. Trong trường hợp gây ảnh hưởng đến danh dự, uy tín của người khác 10 - 15 triệu
+}
+
+::Theo Điều 4 của Bộ Quy tắc ứng xử trên mạng xã hội:: Theo Điều 4 của Bộ Quy tắc ứng xử trên mạng xã hội, người dùng nên làm gì trước khi đăng ký, tham gia mạng xã hội? {
+	~Tìm cách lách các điều khoản
+	=Tìm hiểu và tuân thủ các điều khoản hướng dẫn sử dụng của nhà cung cấp
+	~Bỏ qua các điều khoản
+	~Chỉ đọc phần tóm tắt
+}
+
+::Bắt nạt trên mạng cyber bullying được định nghĩa l:: Bắt nạt trên mạng (cyber bullying) được định nghĩa là hành vi lặp đi lặp lại nhằm mục đích gì? {
+	=Khiến đối tượng mục tiêu sợ hãi, tức giận hoặc xấu hổ
+	~Kêu gọi đối tượng mục tiêu đăng kí theo dõi kênh
+	~Cung cấp thông tin cá nhân của đối tượng mục tiêu để mọi người biết
+	~Gây cười và giải trí
+}
+
+::Nguyên tắc cộng đồng của một nền tảng mạng xã hội:: "Nguyên tắc cộng đồng" của một nền tảng mạng xã hội là gì? {
+	~Một bộ luật hình sự
+	~Các mẹo để tăng lượt theo dõi
+	=Một bộ tiêu chuẩn về những điều được và không được phép làm trên nền tảng
+	~Hướng dẫn cách kiếm tiền từ nền tảng
+}
+
+::Cân bằng cuộc sống số bao gồm việc gì:: Cân bằng cuộc sống số bao gồm việc gì? {
+	~Dành toàn bộ thời gian cho không gian mạng
+	~Chỉ sử dụng internet cho công việc
+	~Tránh mọi tương tác với người khác ngoài đời
+	=Quản lý thời gian phù hợp, ý thức về tác động của internet và duy trì tương tác ngoài đời
+}
+
+::Danh tính số Digital Identity được định nghĩa là g:: "Danh tính số" (Digital Identity) được định nghĩa là gì? {
+	~Chỉ là tên đăng nhập và mật khẩu
+	~Chỉ là địa chỉ email của một người
+	=Thông tin về một thực thể được hệ thống máy tính sử dụng để đại diện cho đối tượng cụ thể
+	~Chỉ là hình ảnh đại diện trên mạng xã hội
+}
+
+::Theo tài liệu danh tính số được hình thành từ đâu:: Theo tài liệu, danh tính số được hình thành từ đâu? {
+	~Chỉ từ thông tin người dùng tự khai báo
+	=Từ việc liên kết các dấu chân số riêng lẻ để tạo thành một hồ sơ hoàn chỉnh
+	~Chỉ từ các tài khoản mạng xã hội
+	~Chỉ từ lịch sử mua sắm trực tuyến
+}
+
+::Một trong những rủi ro tiềm ẩn khi danh tính số bị:: Một trong những rủi ro tiềm ẩn khi danh tính số bị khai thác là gì? {
+	~Ảnh hưởng đến danh tiếng và uy tín cá nhân trong đời thực
+	=Bị spam quảng cáo
+	~Có quá nhiều bạn bè trên mạng
+	~Trở nên quá nổi tiếng
+}
+
+::Dấu chân số Digital Footprint là gì:: "Dấu chân số" (Digital Footprint) là gì? {
+	~Chỉ những trang web đã truy cập
+	~Chỉ những email đã gửi
+	=Những dấu vết dữ liệu được tạo ra khi sử dụng Internet
+	~Chỉ các bình luận trên mạng xã hội
+}
+
+::Dữ liệu của người dùng bị thu thập âm thầm mà họ k:: Dữ liệu của người dùng bị thu thập âm thầm mà họ không hề hay biết được gọi là gì? {
+	~Danh tính số
+	~Dữ liệu mã hóa
+	~Dấu chân số chủ động
+	=Dấu chân số bị động
+}
+
+::Đâu là một trong những lợi ích của việc các nhà cu:: Đâu là một trong những lợi ích của việc các nhà cung cấp dịch vụ thu thập dữ liệu về hành vi tương tác trên môi trường mạng của người dùng? {
+	~Giảm tính bảo mật của tài khoản
+	~Khiến người dùng mất nhiều thời gian hơn
+	=Nâng cấp các tính năng của ứng dụng số để đem lại trải nghiệm tốt hơn
+	~Làm giảm hiệu quả của các tác vụ
+}
+
+::Vì sao cần lên tiếng chống lại hành vi sai trái tr:: Vì sao cần lên tiếng chống lại hành vi sai trái trên mạng? {
+	~Để ngăn chặn hành vi sai trái lan rộng
+	~Để xây dựng một cộng đồng mạng văn minh và lành mạnh
+	~Để bảo vệ bản thân và những người xung quanh.
+	=Vì tất cả những lý do trên
+}
+
+::Tương lai của giao tiếp và hợp tác số sẽ được định:: Tương lai của giao tiếp và hợp tác số sẽ được định hình chủ yếu bởi: {
+	~Sự ổn định của các công cụ hiện có
+	=Khả năng kết hợp hài hòa giữa công nghệ mới và các kỹ năng giao tiếp, hợp tác cốt lõi của con người
+	~Việc loại bỏ hoàn toàn giao tiếp bằng văn bản
+	~Sự phụ thuộc hoàn toàn vào trí tuệ nhân tạo
+}
+
+::Rủi ro về con người trong hợp tác số bao gồm hiện:: Rủi ro về "con người" trong hợp tác số bao gồm hiện tượng nào? {
+	~Mất dữ liệu do tấn công mạng
+	~Giao tiếp sai lệch do thiếu ngữ cảnh
+	=Xung đột, thiếu tin tưởng, và hiện tượng "ăn theo" (Social Loafing)
+	~Lỗi phần mềm và vi phạm bảo mật
+}
+
+::Theo Luật An ninh mạng 2018 hành vi nào sau đây bị:: Theo Luật An ninh mạng 2018, hành vi nào sau đây bị nghiêm cấm trên không gian mạng? {
+	=Thông tin sai sự thật gây hoang mang trong nhân dân
+	~Chia sẻ kinh nghiệm học tập
+	~Tuyên truyền, quảng bá văn hóa tốt đẹp
+	~Đăng tải hình ảnh du lịch cá nhân
+}
+
+::Một đặc tính của việc chia sẻ hay truy cập nội dun:: Một đặc tính của việc chia sẻ hay truy cập nội dung trên Internet được mô tả trong tài liệu là gì? {
+	~Có thể thu hồi
+	~Luôn an toàn
+	~Luôn riêng tư
+	=Không thể thu hồi  triệt để
+}

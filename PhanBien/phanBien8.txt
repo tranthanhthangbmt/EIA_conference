@@ -1,0 +1,46 @@
+PHÂN TÍCH CHUYÊN SÂU: CẢM XÚC TRONG HỌC TẬP & TÍNH NHÂN VĂN CỦA HỆ THỐNG
+(Dùng để trả lời Reviewer về khía cạnh "Human-Centric AI")
+
+1. Vấn đề của mô hình hiện tại (v9.4 Initial)
+Hiện tại, cảm xúc chỉ đang map đơn giản theo Năng lượng (Energy):
+- Pin > 70 → Flow 🤩
+- Pin < 0 → Frustrated 🤬
+=> Nhược điểm: Chưa thể hiện được mối quan hệ giữa "Độ khó bài học" (Challenge) và "Năng lực/Năng lượng" (Skill/Resources). Ví dụ: Học bài quá dễ khi pin đầy phải là "Chán" (Boredom), không phải Flow.
+
+2. Đề xuất Mô hình Cảm xúc Nâng cao (Dựa trên Thuyết Flow - Csikszentmihalyi)
+Chúng ta sẽ xây dựng State Machine dựa trên 2 trục:
+- Trục Y: Stress/Challenge (Độ khó của môn học: Math > Code > Theory).
+- Trục X: Energy/Resource (Năng lượng hiện tại của Agent).
+
+BẢNG CẢM XÚC (EMOTION MATRIX):
+
+| Trạng thái Pin | Học Môn Khó (Math - Level 3) | Học Môn Vừa (Code - Level 1) | Học Môn Dễ (Theory - Level 0) |
+| :--- | :--- | :--- | :--- |
+| **Pin Cao (>70%)** | **FLOW (Dòng chảy) 🤩**<br>*(Thách thức cao + Năng lượng cao)* | **CONFIDENT (Tự tin) 😎**<br>*(Vừa sức)* | **BORED (Chán) 🥱**<br>*(Dễ quá mức so với năng lực)* |
+| **Pin Vừa (30-70%)** | **STRAINED (Căng thẳng) 😣**<br>*(Hơi quá sức)* | **FOCUSED (Tập trung) 🙂**<br>*(Phù hợp)* | **RELAXED (Thư giãn) 😌**<br>*(Dễ thở)* |
+| **Pin Thấp (<30%)** | **ANXIETY (Lo âu) 😨**<br>*(Quá sức chịu đựng)* | **TIRED (Mệt mỏi) 😓**<br>*(Gắng gượng)* | **RECOVERY (Hồi phục) 🛌**<br>*(Nghỉ ngơi tích cực)* |
+| **Sập nguồn (0%)** | **BURNOUT (Kiệt sức) 😵** | **BURNOUT (Kiệt sức) 😵** | **BURNOUT (Kiệt sức) 😵** |
+
+3. SO SÁNH HÀNH VI & TÍNH NHÂN VĂN
+Đây là điểm mấu chốt để thuyết phục Reviewer về "Responsible AI":
+
+**A. Greedy Agent (Vô cảm - Machine-like):**
+- Hành vi: Luôn chọn "Môn Khó Nhất" bất chấp "Pin Thấp".
+- Kết quả Cảm xúc: Nó liên tục rơi vào vùng **ANXIETY (Lo âu)** và **BURNOUT (Kiệt sức)**. 
+- Ý nghĩa: Đại diện cho phương pháp giáo dục nhồi nhét, chạy theo thành tích, coi người học là cỗ máy. -> **Phản Nhân văn.**
+
+**B. Bio-PKT Agent (Thấu cảm - Human-Centric):**
+- Hành vi:
+    - Khi Pin cao: Chọn Math -> Đạt trạng thái **FLOW 🤩**.
+    - Khi Pin tụt: Chuyển sang Code/Theory -> Chấp nhận trạng thái **RELAXED/FOCUSED** để tránh Anxiety.
+- Kết quả Cảm xúc: Tối đa hóa thời gian ở trong "Vùng Tích Cực" (Zone of Proximal Development).
+- Ý nghĩa: Đại diện cho giáo dục cá nhân hóa, tôn trọng giới hạn sinh học và sức khỏe tinh thần. -> **Đậm tính Nhân văn (Industry 5.0).**
+
+4. KẾ HOẠCH CẬP NHẬT CODE (v9.5)
+- **Logic**: Cập nhật hàm `determineEmotion(energy, difficulty)` trong `script_emotion.js` theo ma trận trên.
+- **UI**: 
+    - Hiển thị rõ tên Môn học đang học (Context).
+    - Hiển thị Cảm xúc tương ứng với sự kết hợp đó.
+    - Greedy sẽ hiện nhiều icon tiêu cực (😨, 😵), Bio sẽ hiện nhiều icon tích cực (🤩, 😎, 😌).
+
+Bạn hãy xem xét phân tích này. Nếu đồng ý, tôi sẽ cập nhật code ngay lập tức.

@@ -1,0 +1,839 @@
+::Theo định nghĩa của Microsoft Trí tuệ nhân tạo AI:: Theo định nghĩa của Microsoft, Trí tuệ nhân tạo (AI) là nỗ lực để tạo ra gì? {
+	~Tạo ra rô bốt có khả năng di chuyển và tương tác vật lý.
+	=Tạo ra một máy tính, rô bốt hoặc công nghệ khác "suy nghĩ" và xử lý dữ liệu theo cách giống như con người chúng ta.
+	~Tạo ra phần mềm có khả năng lập trình tự động.
+	~Tạo ra một hệ thống tự động hóa hoàn toàn các quy trình sản xuất.
+}
+
+::Mục đích của Trí tuệ nhân tạo là gì:: Mục đích của Trí tuệ nhân tạo là gì? {
+	~Tăng tốc độ truyền tải và lưu trữ dữ liệu.
+	~Tự động hóa các tác vụ lặp đi lặp lại.
+	~Cải thiện khả năng kết nối giữa các thiết bị.
+	=Cải thiện công nghệ bằng cách bổ sung chức năng liên quan đến hành vi và cách con người suy luận, học tập và giải quyết vấn đề.
+}
+
+::Trong các năng lực sau năng lực nào được coi là cố:: Trong các năng lực sau, năng lực nào được coi là cốt lõi mà một module AI phải đáp ứng? {
+	~Thiết kế đồ họa và trực quan hóa dữ liệu.
+	~Phân tích hồi quy và dự báo tài chính.
+	~Lập trình và bảo trì hệ thống mạng.
+	=Suy diễn, học, giải quyết vấn đề, nhận thức và trí thông minh ngôn ngữ.
+}
+
+::Trong bối cảnh chuyển đổi số Trí tuệ nhân tạo AI t:: Trong bối cảnh chuyển đổi số, Trí tuệ nhân tạo (AI) thường được ví như bộ phận nào của con người? {
+	~Cơ bắp (Điện toán đám mây).
+	~Giác quan (Internet vạn vật).
+	=Hệ thần kinh.
+	~Hệ thống miễn dịch (An ninh mạng).
+}
+
+::Theo nghĩa hẹp trí tuệ nhân tạo nhằm mục đích gì:: Theo nghĩa hẹp, trí tuệ nhân tạo nhằm mục đích gì? {
+	~Thay thế hoàn toàn lao động trí óc của con người.
+	=Tăng cường năng lực trí tuệ của con người.
+	~Xử lý dữ liệu lớn trên các máy chủ ảo.
+	~Phân tích các mối quan hệ xã hội phức tạp.
+}
+
+::Khi một hệ thống AI tích hợp nhiều module AI nó ba:: Khi một hệ thống AI tích hợp nhiều module AI, nó bao gồm hai yếu tố chính nào? {
+	~Cơ sở dữ liệu và thuật toán.
+	~Giao diện người dùng và phần cứng.
+	=Tác nhân và môi trường xung quanh của nó.
+	~Nền tảng Cloud và mạng lưới cảm biến.
+}
+
+::Trí thông minh của các tác nhân AI được đo lường b:: Trí thông minh của các tác nhân AI được đo lường bằng khả năng nào của chúng? {
+	~Khả năng tự cập nhật phần mềm.
+	~Khả năng tái chế thiết bị điện tử.
+	=Khả năng tạo ra các mục tiêu và đạt được chúng.
+	~Khả năng tương tác với các ứng dụng di động.
+}
+
+::Trong bối cảnh AI thuật toán học sâu dựa trên mô p:: Trong bối cảnh AI, thuật toán học sâu dựa trên mô phỏng cấu trúc nào? {
+	~Cấu trúc phân cấp của tổ chức.
+	~Cấu trúc phân tán của Internet.
+	=Mạng nơ-ron và hoạt động của bộ não con người.
+	~Cấu trúc quan hệ của cơ sở dữ liệu.
+}
+
+::Thuật ngữ nào sau đây được xem là một nhánh của Tr:: Thuật ngữ nào sau đây được xem là một nhánh của Trí tuệ nhân tạo, có mục tiêu làm cho máy móc có khả năng học tập như con người? {
+	~Lập trình hướng đối tượng.
+	~Điện toán lượng tử.
+	=Máy học (Machine Learning).
+	~Chuỗi khối (Blockchain).
+}
+
+::Trí tuệ nhân tạo giúp giải quyết vấn đề gì liên qu:: Trí tuệ nhân tạo giúp giải quyết vấn đề gì liên quan đến các cuộc họp tại công sở? {
+	~Giảm số lượng thành viên tham gia họp.
+	=Trả lời những câu hỏi nền tảng để tiết kiệm thời gian họp.
+	~Tự động hóa việc ghi biên bản cuộc họp.
+	~Giảm chi phí tổ chức cuộc họp trực tuyến.
+}
+
+::Trong lĩnh vực sản xuất AI có thể giúp tối ưu hóa:: Trong lĩnh vực sản xuất, AI có thể giúp tối ưu hóa hoạt động bằng cách nào? {
+	~Giảm thiểu nhu cầu về năng lực số của nhân viên.
+	~Tăng cường sử dụng các công cụ phần mềm văn phòng.
+	=Hỗ trợ bảo trì tiên đoán để tối ưu hóa kế hoạch bảo trì.
+	~Tự động hóa hoàn toàn các quy trình kinh doanh.
+}
+
+::Ba module AI phải đáp ứng được năng lực nào sau đâ:: Ba module AI phải đáp ứng được năng lực nào sau đây? {
+	~Suy diễn, Phân tích, Lập trình.
+	=Suy diễn, Học, Giải quyết vấn đề.
+	~Trình bày, Thấu cảm, Sáng tạo.
+	~Lập trình, Tính toán, Tích hợp.
+}
+
+::Khả năng tạo ra các mục tiêu và đạt được chúng là:: Khả năng tạo ra các mục tiêu và đạt được chúng là thước đo cho điều gì trong hệ thống AI? {
+	~Khả năng xử lý dữ liệu.
+	~Khả năng tương tác với người dùng.
+	~Khả năng bảo mật hệ thống.
+	=Trí thông minh của các tác nhân AI.
+}
+
+::Điều gì là nguồn gốc của sự phát triển đột phá tro:: Điều gì là nguồn gốc của sự phát triển đột phá trong Máy học (Machine Learning)? {
+	~Sự phát triển của hệ thống mạng 5G.
+	~Sự phổ biến của thiết bị di động.
+	=Dữ liệu ngày càng nhiều và năng lực tính toán ngày càng mạnh.
+	~Sự gia tăng của các ứng dụng thương mại điện tử.
+}
+
+::Trong một hệ thống AI các module AI được tích hợp:: Trong một hệ thống AI, các module AI được tích hợp phải đáp ứng năng lực về Trí thông minh ngôn ngữ, điều này liên quan đến khả năng nào? {
+	~Khả năng tạo ra nội dung đa phương tiện.
+	~Khả năng viết mã lập trình phức tạp.
+	~Khả năng nhận diện cảm xúc.
+	=Khả năng xử lý ngôn ngữ tự nhiên.
+}
+
+::Trong lĩnh vực điều trị và chăm sóc sức khỏe AI hỗ:: Trong lĩnh vực điều trị và chăm sóc sức khỏe, AI hỗ trợ bác sĩ trong quy trình nào sau đây? {
+	~Quản lý bảo hiểm y tế.
+	=Chẩn đoán, phát triển điều trị và thuốc.
+	~Lập kế hoạch tài chính cho bệnh viện.
+	~Xây dựng chính sách y tế công cộng.
+}
+
+::Công nghệ IoMT Internet of Medical Things giúp gì:: Công nghệ IoMT (Internet of Medical Things) giúp gì trong lĩnh vực y tế? {
+	~Giảm chi phí sản xuất thiết bị y tế.
+	~Chuẩn hóa quy trình cấp phép thuốc.
+	=Giúp mọi công dân dễ dàng tiếp cận các dịch vụ chăm sóc sức khỏe.
+	~Tăng cường bảo mật hồ sơ bệnh án.
+}
+
+::Trong lĩnh vực nông nghiệp ứng dụng AI Sowing App:: Trong lĩnh vực nông nghiệp, ứng dụng AI Sowing App powered dựa trên Microsoft Cortana Intelligence Suite giúp nông dân làm gì? {
+	~Tự động hóa hoàn toàn việc thu hoạch mùa màng.
+	=Gửi lời khuyên về ngày tối ưu để gieo hạt.
+	~Phân tích độ phức tạp của đất đai.
+	~Xây dựng chiến lược marketing nông sản.
+}
+
+::Rô bốt nông nghiệp ứng dụng AI thường được lập trì:: Rô bốt nông nghiệp ứng dụng AI thường được lập trình để thực hiện nhiệm vụ gì? {
+	~Thiết kế cảnh quan nông trại.
+	=Thu hoạch mùa màng công suất lớn.
+	~Phân tích xu hướng thị trường nông sản.
+	~Quản lý chuỗi cung ứng toàn cầu.
+}
+
+::Trong quản lý đại lý bán lẻ ứng dụng AI có thể tối:: Trong quản lý đại lý bán lẻ, ứng dụng AI có thể tối ưu hóa hoạt động kinh doanh trong các lĩnh vực nào? {
+	~Tuyển dụng nhân sự và quản lý tiền lương.
+	=Lập kế hoạch chuỗi cung ứng và dự báo nhu cầu khách hàng.
+	~Xây dựng thương hiệu và quản lý khủng hoảng truyền thông.
+	~Kiểm soát chất lượng sản phẩm nhập khẩu.
+}
+
+::Trong lĩnh vực bán lẻ AI có thể giúp gia tăng doan:: Trong lĩnh vực bán lẻ, AI có thể giúp gia tăng doanh số bằng cách nào? {
+	~Giảm giá thành sản phẩm liên tục.
+	=Dự báo các hoạt động làm tăng doanh số bán hàng (ví dụ: phương thức trả sau).
+	~Cải thiện hiệu suất của nhân viên bán hàng.
+	~Tối ưu hóa không gian trưng bày sản phẩm.
+}
+
+::Trong đời sống cá nhân ứng dụng AI trên thiết bị t:: Trong đời sống cá nhân, ứng dụng AI trên thiết bị thông minh có thể hỗ trợ nhiệm vụ gì? {
+	~Xây dựng mô hình kinh doanh cá nhân.
+	=Theo dõi sức khỏe hàng ngày và nhắc nhở lịch công tác.
+	~Lập trình các ứng dụng di động phức tạp.
+	~Phân tích dữ liệu lớn cá nhân.
+}
+
+::Công nghệ nào là ví dụ về hệ thống thông minh được:: Công nghệ nào là ví dụ về hệ thống thông minh được điều khiển bằng giọng nói và được tích hợp vào Windows 10? {
+	~Google Drive.
+	~Siri.
+	~Alexa.
+	=Cortana.
+}
+
+::Cortana được tích hợp vào Windows 10 cho phép thực:: Cortana được tích hợp vào Windows 10 cho phép thực hiện chức năng tự động nào? {
+	~Tự động kết nối với mạng ngoại vi.
+	=Tìm kiếm tập tin trên thiết bị và mở ứng dụng.
+	~Tự động sao lưu toàn bộ dữ liệu máy tính.
+	~Tự động chặn các phần mềm độc hại.
+}
+
+::Natural Language Generation NLG một lĩnh vực con c:: Natural Language Generation (NLG), một lĩnh vực con của AI, được ứng dụng điển hình trong việc gì? {
+	~Tạo ra các mô hình 3D.
+	~Phân tích tín hiệu điện toán đám mây.
+	=Phân loại văn bản (ví dụ: thư rác - spam).
+	~Lập trình rô bốt công nghiệp.
+}
+
+::Speech recognition nhận dạng giọng nói là công ngh:: Speech recognition (nhận dạng giọng nói) là công nghệ mà ở đó máy tính được sử dụng để làm gì? {
+	~Tạo ra các bản sao kỹ thuật số.
+	=Nắm bắt các cuộc trò chuyện với con người và chuyển đổi thành các mệnh lệnh.
+	~Tối ưu hóa tốc độ Internet.
+	~Phân tích các giao dịch chuỗi khối.
+}
+
+::Ứng dụng Microsoft Connected Life có mục đích gì t:: Ứng dụng Microsoft Connected Life có mục đích gì trong hệ thống tự động hóa nhà thông minh? {
+	=Cho phép các thiết bị gia dụng (đèn, TV) được điều khiển từ bất kỳ thiết bị Windows nào.
+	~Cung cấp dịch vụ truyền hình trả phí qua Internet.
+	~Tự động cập nhật phần mềm cho tất cả thiết bị.
+	~Quản lý tài khoản ngân hàng từ xa.
+}
+
+::AI trong lĩnh vực nông nghiệp ứng dụng Thị giác má:: AI trong lĩnh vực nông nghiệp ứng dụng Thị giác máy tính (Computer Vision) kết hợp Học sâu (Deep Learning) để theo dõi điều gì? {
+	~Độ phức tạp của chuỗi cung ứng.
+	=Tình trạng phát triển của cây trồng và sâu bệnh.
+	~Tần suất gieo hạt của nông dân.
+	~Xu hướng thị trường cà phê toàn cầu.
+}
+
+::Ứng dụng AI vào hệ thống nhà thông minh trong tươn:: Ứng dụng AI vào hệ thống nhà thông minh trong tương lai sẽ học thói quen cuộc sống cá nhân của người dùng để làm gì? {
+	~Đề xuất các khóa học trực tuyến phù hợp.
+	~Tự động quản lý tài khoản ngân hàng.
+	=Thay thế người dùng để điều khiển các thiết bị phù hợp theo thói quen.
+	~Đưa ra các cảnh báo về an ninh mạng.
+}
+
+::Trong lĩnh vực nông nghiệp mục tiêu của việc ứng d:: Trong lĩnh vực nông nghiệp, mục tiêu của việc ứng dụng AI là gì? {
+	~Giảm sự phụ thuộc vào các nguồn tài nguyên tái tạo.
+	~Tăng cường quảng bá nông sản trên mạng xã hội.
+	=Dự đoán năng suất trên đồng ruộng và phát hiện sâu bệnh.
+	~Tiêu chuẩn hóa quy trình cấp giấy phép kinh doanh nông nghiệp.
+}
+
+::Năng lực đầu tiên và cơ bản nhất mà bất kỳ ai sống:: Năng lực đầu tiên và cơ bản nhất mà bất kỳ ai sống và làm việc trong môi trường AI phải có là gì? {
+	~Lập trình các module AI.
+	=Năng lực nhận ra AI (AI Recognition).
+	~Năng lực đánh giá tri thức.
+	~Năng lực bảo mật dữ liệu.
+}
+
+::Khả năng thảo luận và phân tích những đặc điểm để:: "Khả năng thảo luận và phân tích những đặc điểm để tạo nên thực thể 'thông minh', bao gồm sự khác biệt giữa con người, động vật và máy thông minh" thuộc năng lực nào? {
+	~Năng lực trình bày.
+	=Hiểu biết về sự thông minh (Understanding Intelligence).
+	~Năng lực hành động và phản ứng.
+	~Năng lực suy diễn.
+}
+
+::Năng lực Kiến thức liên ngành Interdisciplinarity:: Năng lực Kiến thức liên ngành (Interdisciplinarity) đòi hỏi nhận ra điều gì? {
+	~Sự khác biệt giữa dữ liệu cấu trúc và phi cấu trúc.
+	~Các thuật toán học sâu phức tạp.
+	=Có nhiều cách để suy nghĩ và phát triển máy "thông minh".
+	~Các tiêu chuẩn đạo đức trong sử dụng AI.
+}
+
+::Công nghệ AI hẹp Narrow AI mô phỏng theo trí thông:: Công nghệ AI hẹp (Narrow AI) mô phỏng theo trí thông minh của con người trong phạm vi nào? {
+	~Nhiều lĩnh vực khác nhau.
+	~Tầm cỡ toàn cầu.
+	=Một lĩnh vực cụ thể.
+	~Tất cả các lĩnh vực học thuật.
+}
+
+::Năng lực xác định được các ưu điểm và nhược điểm c:: Năng lực xác định được các ưu điểm và nhược điểm của công nghệ AI được gọi là gì? {
+	=Điểm mạnh và điểm yếu của AI.
+	~Năng lực đánh giá rủi ro.
+	~Năng lực sáng tạo.
+	~Năng lực quản lý dự án.
+}
+
+::Hình dung được các ứng dụng khả thi trong tương la:: "Hình dung được các ứng dụng khả thi trong tương lai của AI và đánh giá được tác động của các ứng dụng đó đối với thế giới" thuộc năng lực nào? {
+	~Năng lực giải quyết vấn đề số.
+	~Năng lực lập trình.
+	=Hình dung được tương lai của AI.
+	~Năng lực quản lý danh tính số.
+}
+
+::Năng lực trình bày trong AI liên quan đến việc gì:: Năng lực trình bày trong AI liên quan đến việc gì? {
+	~Sử dụng phần mềm trình chiếu.
+	~Giao tiếp hiệu quả trên môi trường số.
+	=Biểu diễn tri thức và trình bày các sơ đồ/mô hình biểu diễn tri thức.
+	~Tổng hợp thông tin từ nhiều nguồn.
+}
+
+::Năng lực ra quyết định trong AI liên quan đến việc:: Năng lực ra quyết định trong AI liên quan đến việc gì? {
+	~Tự động hóa quy trình nghiệp vụ.
+	=Nhận biết và mô tả về cách máy tính lập luận và đưa ra quyết định.
+	~Đánh giá tính chính xác của dữ liệu lớn.
+	~Phân tích các rào cản pháp lý.
+}
+
+::Hiểu các bước liên quan đến học máy Machine Learni:: Hiểu các bước liên quan đến học máy (Machine Learning) thuộc năng lực nào? {
+	~Năng lực lập trình căn bản.
+	=Năng lực hiểu biết về các bước học máy trong AI.
+	~Năng lực phân tích dữ liệu thời gian thực.
+	~Năng lực cấu hình hệ thống.
+}
+
+::Vai trò của con người trong AI được thể hiện qua c:: Vai trò của con người trong AI được thể hiện qua các khía cạnh nào? {
+	~Giám sát hoạt động của rô bốt.
+	~Thiết kế phần cứng và thiết bị ngoại vi.
+	~Vận hành hệ thống điện toán đám mây.
+	=Lập trình, lựa chọn mô hình và tinh chỉnh hệ thống AI.
+}
+
+::Khái niệm cơ bản về kiến thức dữ liệu và vai trò c:: Khái niệm cơ bản về kiến thức dữ liệu và vai trò của dữ liệu đối với các hệ thống AI thuộc năng lực nào? {
+	~Năng lực giao tiếp.
+	=Kiến thức về dữ liệu.
+	~Năng lực quản lý tri thức.
+	~Năng lực suy diễn.
+}
+
+::Năng lực Học từ dữ liệu đòi hỏi nhận ra điều gì:: Năng lực Học từ dữ liệu đòi hỏi nhận ra điều gì? {
+	~Con người là nguồn gốc duy nhất của dữ liệu.
+	~Các thuật toán luôn chính xác tuyệt đối.
+	=Máy tính thường học hỏi từ dữ liệu.
+	~Dữ liệu luôn cần phải được mã hóa.
+}
+
+::Năng lực về việc học từ dữ liệu nhấn mạnh vào quy:: Năng lực về việc học từ dữ liệu nhấn mạnh vào quy trình nào? {
+	~Quy trình bảo trì và nâng cấp phần mềm.
+	=Quy trình học từ dữ liệu của các hệ thống AI để làm giàu thêm trí tuệ của máy tính.
+	~Quy trình kiểm soát dấu chân số.
+	~Quy trình xây dựng thương hiệu cá nhân.
+}
+
+::Tại sao cần huấn luyện hệ thống AI trên tập dữ liệ:: Tại sao cần huấn luyện hệ thống AI trên tập dữ liệu sạch? {
+	~Để đảm bảo tính bảo mật.
+	~Để giảm chi phí lưu trữ.
+	=Vì chất lượng của tập dữ liệu ban đầu có thể ảnh hưởng đến kết quả của thuật toán.
+	~Để tối ưu hóa tốc độ xử lý của máy tính.
+}
+
+::Năng lực Hành động  Phản ứng trong AI là gì:: Năng lực Hành động & Phản ứng trong AI là gì? {
+	~Khả năng tự động phản hồi email.
+	~Khả năng dự đoán xu hướng thị trường.
+	=Hiểu rằng một số hệ thống AI có khả năng hành động theo những gì nó cảm nhận từ môi trường.
+	~Khả năng tự động sửa lỗi kỹ thuật.
+}
+
+::Hệ thống AI nhận biết thế giới bằng cách nào:: Hệ thống AI nhận biết thế giới bằng cách nào? {
+	~Thông qua Internet vạn vật.
+	~Bằng cách sử dụng năng lực trình bày.
+	=Bằng cách sử dụng cảm biến để cảm nhận các tác nhân từ môi trường xung quanh.
+	~Thông qua việc chia sẻ dữ liệu cộng tác.
+}
+
+::Để làm việc trong lĩnh vực Phân tích dữ liệu lớn B:: Để làm việc trong lĩnh vực Phân tích dữ liệu lớn (BDA), kỹ năng chuyên môn nào sau đây là quan trọng? {
+	~Ngôn ngữ lập trình C#.
+	~Thiết kế đồ họa.
+	=Trực quan hóa dữ liệu (Data visualization).
+	~Giao tiếp ngoại tuyến.
+}
+
+::Năng lực nào đòi hỏi hiểu được quy trình huấn luyệ:: Năng lực nào đòi hỏi hiểu được quy trình huấn luyện trên tập dữ liệu sạch, kiểm thử và tinh chỉnh mô hình? {
+	~Năng lực lập trình.
+	~Năng lực trình bày.
+	~Năng lực về Hành động & Phản ứng.
+	=Năng lực suy diễn từ dữ liệu.
+}
+
+::Năng lực nào của người lao động trong lĩnh vực BDA:: Năng lực nào của người lao động trong lĩnh vực BDA được xem là cực kỳ quan trọng do tính đa ngành của công việc? {
+	~Năng lực kỹ thuật.
+	~Năng lực nhận thức.
+	~Năng lực chức năng.
+	=Năng lực xã hội (kỹ năng con người).
+}
+
+::Khung năng lực số DigCompEdu của châu Âu được thiế:: Khung năng lực số DigCompEdu của châu Âu được thiết kế cho đối tượng nào? {
+	~Sinh viên đại học.
+	~Các nhà khoa học dữ liệu.
+	=Các nhà giáo dục ở tất cả các mức giáo dục.
+	~Công dân số toàn cầu.
+}
+
+::Để trở thành chuyên gia AI kiến thức chuyên môn về:: Để trở thành chuyên gia AI, kiến thức chuyên môn về Toán học nào là cần thiết? {
+	~Hình học phẳng.
+	=Đại số, xác suất, thống kê và đồ thị.
+	~Số học cơ bản.
+	~Lượng giác học.
+}
+
+::Kỹ năng chuyên sâu nào sau đây là yêu cầu cho chuy:: Kỹ năng chuyên sâu nào sau đây là yêu cầu cho chuyên gia AI? {
+	~Viết blog và quản lý mạng xã hội.
+	~Thiết kế giao diện người dùng.
+	=Thành thạo các thuật toán Học máy (Machine Learning) và Học sâu (Deep Learning).
+	~Quản lý kho hàng và chuỗi cung ứng.
+}
+
+::Công nghệ lõi nào được VAIS sử dụng để chuyển giọn:: Công nghệ lõi nào được VAIS sử dụng để chuyển giọng nói tiếng Việt thành văn bản? {
+	~Text To Speech.
+	=Speech To Text.
+	~Natural Language Generation.
+	~Computational Thinking.
+}
+
+::VBEE là nền tảng công nghệ lõi gì đối với tiếng Vi:: VBEE là nền tảng công nghệ lõi gì đối với tiếng Việt? {
+	~Chuyển giọng nói thành văn bản.
+	=Chuyển văn bản thành giọng nói trí tuệ nhân tạo có cảm xúc.
+	~Nhận dạng hình ảnh.
+	~Phân tích cảm xúc khách hàng.
+}
+
+::Google Cloud Platform cung cấp dịch vụ nào hỗ trợ:: Google Cloud Platform cung cấp dịch vụ nào hỗ trợ phát triển ứng dụng AI? {
+	~Google Drive.
+	~Google Docs.
+	=Cloud Machine Learning Engine.
+	~Google Maps.
+}
+
+::Trong kiến trúc phân tích dữ liệu thời gian thực R:: Trong kiến trúc phân tích dữ liệu thời gian thực (Realtime Data Analytics), lớp nào bao gồm các ứng dụng của người dùng cuối? {
+	~Lớp Dữ liệu (Data).
+	~Lớp Phân tích (Analytics).
+	~Lớp Tích hợp (Integration).
+	=Lớp Quyết định (Decisions).
+}
+
+::Các công cụ phân tích dữ liệu phổ biến bao gồm nhữ:: Các công cụ phân tích dữ liệu phổ biến bao gồm những công cụ nào sau đây? {
+	~Microsoft Word, Excel, PowerPoint.
+	=R Programming, Apache Hadoop, Apache Storm, MongoDB.
+	~Google Chrome, Safari, Firefox.
+	~Adobe Photoshop, Illustrator, Premiere Pro.
+}
+
+::Trong phân tích dữ liệu lớn Big Data Analytics ngư:: Trong phân tích dữ liệu lớn (Big Data Analytics), người lao động cần kỹ năng gì liên quan đến kinh doanh? {
+	~Kỹ năng tiếp thị đa kênh.
+	=Am hiểu lĩnh vực kinh doanh và các công cụ Big Data.
+	~Kỹ năng quản lý tài chính cá nhân.
+	~Kỹ năng thiết kế sản phẩm mới.
+}
+
+::Phân tích dữ liệu thời gian thực là ứng dụng các k:: Phân tích dữ liệu thời gian thực là ứng dụng các kỹ thuật nào để phát hiện các mẫu và tri thức từ dữ liệu theo thời gian thực? {
+	~Kiểm soát dấu chân số và an sinh số.
+	=Khai phá dữ liệu (Data Mining), Máy học (Machine Learning) và Trí tuệ nhân tạo (Artificial Intelligence).
+	~Phát triển phần mềm văn phòng.
+	~Tối ưu hóa công cụ tìm kiếm (SEO).
+}
+
+::Trong lĩnh vực tài chính thông minh ứng dụng AI có:: Trong lĩnh vực tài chính thông minh, ứng dụng AI có thể giúp phát hiện các mối đe dọa nào? {
+	~Xâm nhập mạng máy tính.
+	~Vi phạm bản quyền nội dung.
+	=Gian lận và hoạt động giao dịch bất hợp pháp.
+	~Thay đổi quy trình quản lý hồ sơ.
+}
+
+::Các thư viện libraries nào sau đây được sử dụng ph:: Các thư viện (libraries) nào sau đây được sử dụng phổ biến trong lập trình AI/Machine Learning? {
+	~Laravel, Django, Ruby on Rails.
+	~Bootstrap, JQuery, Vue.js.
+	~AutoCAD, SAP, Salesforce.
+	=NumPy, Pandas, Scikit-Learn.
+}
+
+::Yếu tố nào sau đây được xem là chất keo kết hợp cá:: Yếu tố nào sau đây được xem là "chất keo" kết hợp các ứng dụng người dùng cuối và công cụ phân tích trong kiến trúc Realtime Data Analytics? {
+	~Lớp Dữ liệu.
+	~Lớp Quyết định.
+	=Lớp Tích hợp (Integration).
+	~Lớp Phân tích.
+}
+
+::Trong lĩnh vực kiểm soát đám đông AI được sử dụng:: Trong lĩnh vực kiểm soát đám đông, AI được sử dụng để làm gì? {
+	~Cấp phép hoạt động sự kiện.
+	=Dự đoán chuyển động của đám đông và đưa ra quyết định ngay lập tức.
+	~Lập kế hoạch tài chính cho sự kiện.
+	~Đánh giá chất lượng dịch vụ công.
+}
+
+::Lĩnh vực nào sau đây được xem là một trong những ứ:: Lĩnh vực nào sau đây được xem là một trong những ứng dụng quan trọng nhất của phân tích dữ liệu lớn theo thời gian thực? {
+	~Thương mại điện tử.
+	~Giáo dục từ xa.
+	=Giao thông thông minh.
+	~Nông nghiệp hữu cơ.
+}
+
+::Theo các chuyên gia năng lực nào sau đây nên được:: Theo các chuyên gia, năng lực nào sau đây nên được thêm vào Khung Năng lực Số toàn cầu (DLGF) do tính quan trọng ngày càng tăng? {
+	~Vận hành thiết bị ngoại vi.
+	=Tư duy tính toán (Computational thinking).
+	~Quản lý dự án.
+	~Thấu cảm số.
+}
+
+::Tư duy tính toán Computational thinking được đề xu:: Tư duy tính toán (Computational thinking) được đề xuất đặt dưới lĩnh vực năng lực nào trong DLGF? {
+	~Sáng tạo nội dung số.
+	~An toàn.
+	=Giải quyết vấn đề (Problem solving).
+	~Giao tiếp và cộng tác.
+}
+
+::Chuyên gia AI cần có kiến thức chuyên sâu về ngôn:: Chuyên gia AI cần có kiến thức chuyên sâu về ngôn ngữ lập trình nào? {
+	~HTML, CSS, JavaScript.
+	=Java, Python, R, C++.
+	~SQL, XML, JSON.
+	~Pascal, Delphi, VB.
+}
+
+::Trong kiến trúc Realtime Data Analytics các công c:: Trong kiến trúc Realtime Data Analytics, các công cụ phân tích phổ biến nằm ở lớp nào? {
+	~Lớp Quyết định.
+	=Lớp Phân tích (Analytics).
+	~Lớp Tích hợp.
+	~Lớp Dữ liệu.
+}
+
+::Công nghệ AI đã làm giảm đáng kể vai trò của trung:: Công nghệ AI đã làm giảm đáng kể vai trò của trung gian trong các giao dịch nhờ vào công nghệ nào? {
+	~Internet vạn vật (IoT).
+	=Chuỗi khối (Blockchain).
+	~Điện toán đám mây.
+	~Phân tích dữ liệu lớn.
+}
+
+::Các chương trình AI nhúng trong các thiết bị và tr:: Các chương trình AI nhúng trong các thiết bị và trong ứng dụng IoT làm tăng đáng kể điều gì của hệ thống? {
+	~Mức độ tuân thủ pháp luật.
+	~Tốc độ kết nối mạng.
+	=Sức mạnh của hệ thống.
+	~Khả năng tương tác với người dùng.
+}
+
+::Năng lực nào đòi hỏi khả năng lập kế hoạch và phát:: Năng lực nào đòi hỏi khả năng lập kế hoạch và phát triển một chuỗi lệnh dễ hiểu cho hệ thống máy tính để giải quyết một vấn đề nhất định? {
+	~Sáng thông tin và phương tiện.
+	=Lập trình (Programming).
+	~Tạo lập nội dung số.
+	~Giải quyết vấn đề kỹ thuật.
+}
+
+::Năng lực Tạo lập nội dung số bao gồm việc dạy ngườ:: Năng lực Tạo lập nội dung số bao gồm việc dạy người học cách áp dụng gì cho nội dung số? {
+	~Tư duy phản biện.
+	~Công nghệ thực tế ảo tăng cường.
+	=Bản quyền và các giấy phép.
+	~Phân tích dữ liệu lớn.
+}
+
+::Trong lĩnh vực Sáng tạo nội dung số năng lực nào l:: Trong lĩnh vực Sáng tạo nội dung số, năng lực nào liên quan đến việc sửa đổi, tinh chỉnh, nâng cấp và kết hợp thông tin/nội dung số vào vốn tri thức sẵn có? {
+	~Phát triển nội dung số.
+	=Kết hợp và tái tạo nội dung số (Integrating and re-elaborating).
+	~Lập trình.
+	~Áp dụng cơ sở pháp lý.
+}
+
+::Năng lực nào đòi hỏi khả năng thiết kế và phát tri:: Năng lực nào đòi hỏi khả năng thiết kế và phát triển một chuỗi lệnh dễ hiểu cho hệ thống máy tính để giải quyết một nhiệm vụ cụ thể? {
+	~Tự động hóa.
+	=Lập trình.
+	~Cấu hình.
+	~Nhận thức xã hội.
+}
+
+::Trong mô hình khung năng lực số dành cho sinh viên:: Trong mô hình khung năng lực số dành cho sinh viên, năng lực nào yêu cầu phát triển tư duy sáng tạo và quy trình tư duy thiết kế ý tưởng trong môi trường số? {
+	=Thực hành tư duy đổi mới sáng tạo trong xây dựng nội dung số.
+	~Học tập số.
+	~Cộng tác trong công việc.
+	~Bảo vệ danh tính số.
+}
+
+::Việc tạo lập và sửa đổi các sản phẩm số ở các định:: Việc tạo lập và sửa đổi các sản phẩm số ở các định dạng khác nhau thuộc nhóm năng lực nào? {
+	~An toàn và an sinh số.
+	=Sáng tạo nội dung số.
+	~Khai thác thông tin và dữ liệu.
+	~Giao tiếp và hợp tác.
+}
+
+::Năng lực Phát triển nội dung số yêu cầu người học:: Năng lực Phát triển nội dung số yêu cầu người học có kiến thức cơ bản về chỉnh sửa và mã hóa của loại hình nào? {
+	~Giao thức Internet.
+	=Âm thanh, hình ảnh và video, ứng dụng và giao diện, trang web.
+	~Hệ thống quản trị cơ sở dữ liệu.
+	~Phần cứng máy tính.
+}
+
+::Phẩm chất nào sau đây được liệt kê là cần thiết ch:: Phẩm chất nào sau đây được liệt kê là cần thiết cho năng lực Tạo lập nội dung số? {
+	~Điềm tĩnh.
+	=Sáng tạo và Tư duy đổi mới.
+	~Thận trọng.
+	~Tự phản chiếu.
+}
+
+::Năng lực Lập trình trong Khung DigComp 20 và DLGF:: Năng lực Lập trình trong Khung DigComp 2.0 (và DLGF) tập trung vào khía cạnh nào? {
+	=Lập kế hoạch và phát triển một chuỗi lệnh cho hệ thống tính toán.
+	~Thiết kế giao diện người dùng chuyên nghiệp.
+	~Quản lý dự án phát triển phần mềm.
+	~Sử dụng các gói phần mềm văn phòng.
+}
+
+::Để giải quyết vấn đề kỹ thuật khi vận hành thiết b:: Để giải quyết vấn đề kỹ thuật khi vận hành thiết bị, sinh viên cần có phẩm chất nào? {
+	~Thấu cảm.
+	=Nhanh nhẹn và Linh hoạt trong nhận thức.
+	~Tự tin.
+	~Tự định hướng.
+}
+
+::Năng lực nào liên quan đến việc xác định đánh giá:: Năng lực nào liên quan đến việc xác định, đánh giá, lựa chọn và sử dụng các công cụ và công nghệ số thích hợp để giải quyết vấn đề? {
+	~Năng lực trình bày.
+	~Năng lực cộng tác.
+	=Nhận diện nhu cầu và đáp ứng công nghệ (Identifying needs and technological responses).
+	~Năng lực đánh giá thông tin.
+}
+
+::Năng lực Phát triển nội dung số đòi hỏi người học:: Năng lực Phát triển nội dung số đòi hỏi người học phải thể hiện bản thân qua đâu? {
+	~Bằng văn bản học thuật.
+	=Qua các phương tiện số (digital means).
+	~Qua giao tiếp truyền thống.
+	~Bằng cách phát biểu công khai.
+}
+
+::Trong lĩnh vực Sản xuất kỹ thuật số Digital Produc:: Trong lĩnh vực Sản xuất kỹ thuật số (Digital Production), năng lực nào đòi hỏi sự sẵn sàng cập nhật những phát triển công nghệ và khám phá các cơ hội kỹ thuật số mới? {
+	=Khám phá kỹ thuật số (Digital exploration).
+	~Tự động hóa.
+	~Cấu hình (Configuration).
+	~Sự hợp tác.
+}
+
+::Trong lĩnh vực Sản xuất kỹ thuật số năng lực Tự độ:: Trong lĩnh vực Sản xuất kỹ thuật số, năng lực Tự động hóa là gì? {
+	~Khả năng tự động hóa việc mua sắm trực tuyến.
+	~Khả năng tự động cập nhật hệ điều hành.
+	=Khả năng sửa đổi hoặc tạo ra các giải pháp kỹ thuật số có thể tự động hóa hoàn toàn hoặc một phần để thực hiện một tác vụ.
+	~Khả năng tự động quản lý danh tính số.
+}
+
+::Khung năng lực số DigCompEdu nhấn mạnh vai trò của:: Khung năng lực số DigCompEdu nhấn mạnh vai trò của nhà giáo dục là gì khi nói về công nghệ số? {
+	~Người tạo ra công nghệ mới.
+	=Người hướng dẫn và cố vấn cho người học trong các nỗ lực học tập tự chủ.
+	~Người quản lý hệ thống LMS.
+	~Người đánh giá chính xác nhất.
+}
+
+::Trong mô hình tiến triển DigCompEdu giai đoạn nào:: Trong mô hình tiến triển DigCompEdu, giai đoạn nào được gọi là Chuyên gia (Expert - B2)? {
+	~Giai đoạn nhớ và hiểu.
+	~Giai đoạn tạo lập.
+	=Giai đoạn áp dụng, mở rộng và suy ngẫm về các thực hành số.
+	~Giai đoạn truyền đạt kiến thức.
+}
+
+::Yêu cầu nào sau đây thuộc nhóm năng lực Phát triển:: Yêu cầu nào sau đây thuộc nhóm năng lực Phát triển nội dung số? {
+	~Phân tích tính chính xác của nguồn tin.
+	~Quản lý mật khẩu và quyền riêng tư.
+	=Tạo lập và sửa nội dung số ở các định dạng khác nhau.
+	~Tham gia vào cộng đồng học tập trực tuyến.
+}
+
+::Năng lực nào liên quan đến việc sử dụng các công c:: Năng lực nào liên quan đến việc sử dụng các công cụ như Excel, MySQL hoặc Microsoft Access để thu thập và lưu trữ dữ liệu tự động? {
+	~Khai thác thông tin và dữ liệu.
+	=Tự động hóa (Automation).
+	~Quản lý dự án.
+	~Tư duy phản biện.
+}
+
+::Trong năng lực Sáng tạo nội dung số cần dạy người:: Trong năng lực Sáng tạo nội dung số, cần dạy người học cách làm gì với nội dung số? {
+	~Hạn chế chia sẻ công khai.
+	~Sử dụng các công cụ chuyên nghiệp.
+	=Áp dụng bản quyền và các giấy phép, cách tham chiếu các nguồn và ghi công các giấy phép.
+	~Tinh chỉnh các thuật toán lập trình.
+}
+
+::Khả năng điều chỉnh các ứng dụng và thiết bị theo:: Khả năng điều chỉnh các ứng dụng và thiết bị theo sở thích cá nhân hoặc nhu cầu của riêng họ, cũng như giải quyết các vấn đề kỹ thuật thuộc năng lực nào? {
+	~Lập trình.
+	~Tự động hóa.
+	=Cấu hình (Configuration).
+	~Phân tích dữ liệu.
+}
+
+::Cuộc Cách mạng Công nghiệp lần thứ tư khác biệt că:: Cuộc Cách mạng Công nghiệp lần thứ tư khác biệt căn bản so với ba cuộc cách mạng trước ở điểm nào? {
+	~Thay lao động chân tay bằng máy móc.
+	=Là thông minh hóa, máy móc thay lao động trí óc.
+	~Tạo ra sản xuất cơ khí.
+	~Tạo ra sản xuất hàng loạt.
+}
+
+::Trong bối cảnh CMCN 40 công nghệ số có đặc điểm nà:: Trong bối cảnh CMCN 4.0, công nghệ số có đặc điểm nào khiến nó khác biệt so với các cuộc cách mạng trước? {
+	~Càng đắt đỏ khi càng nhiều người dùng.
+	=Càng dùng nhiều, càng nhiều người dùng thì càng rẻ.
+	~Càng phức tạp về mặt kỹ thuật.
+	~Càng ít tạo ra dữ liệu.
+}
+
+::Yếu tố nào đóng vai trò quan trọng hơn trong CMCN:: Yếu tố nào đóng vai trò quan trọng hơn trong CMCN 4.0 so với các cuộc cách mạng công nghiệp trước đây? {
+	~Công nghệ gốc.
+	=Người dùng (quyết định sự thông minh của hệ thống).
+	~Phần cứng máy tính.
+	~Các nhà sản xuất truyền thống.
+}
+
+::Theo quan điểm của các tài liệu chuyển đổi số là c:: Theo quan điểm của các tài liệu, chuyển đổi số là cuộc cách mạng về vấn đề gì nhiều hơn là công nghệ? {
+	=Thể chế, tư duy và nhận thức.
+	~Tài chính và đầu tư.
+	~Tổ chức bộ máy.
+	~Marketing và thương hiệu.
+}
+
+::Trong bối cảnh chuyển đổi số dữ liệu lớn Big Data:: Trong bối cảnh chuyển đổi số, dữ liệu lớn (Big Data) được ví như bộ phận nào của con người? {
+	=Bộ não.
+	~Cơ bắp.
+	~Hệ thần kinh.
+	~Giác quan.
+}
+
+::Điện toán đám mây Cloud Computing được ví như bộ p:: Điện toán đám mây (Cloud Computing) được ví như bộ phận nào của con người? {
+	~Giác quan.
+	~Hệ thần kinh.
+	~Bộ não.
+	=Cơ bắp.
+}
+
+::Chính phủ số được định nghĩa là chính phủ điện tử:: Chính phủ số được định nghĩa là chính phủ điện tử, bổ sung thêm "bốn Có" nào? {
+	~Có hạ tầng, có ứng dụng, có nhân lực, có chính sách.
+	~Có kinh tế số, có xã hội số, có công nghệ, có dữ liệu.
+	=Có toàn bộ hoạt động an toàn trên môi trường số, có khả năng cung cấp dịch vụ mới nhanh chóng, có khả năng sử dụng nguồn lực tối ưu và có khả năng kiến tạo phát triển.
+	~Có minh bạch, có hiệu quả, có tham nhũng thấp, có dịch vụ công.
+}
+
+::Yếu tố nào là điều kiện tiên quyết để chuyển đổi s:: Yếu tố nào là điều kiện tiên quyết để chuyển đổi số thành công tại một tổ chức? {
+	~Đầu tư lớn vào phần cứng.
+	~Thuê chuyên gia công nghệ nước ngoài.
+	=Quyết tâm và sự vào cuộc thực sự của người đứng đầu (Lãnh đạo).
+	~Đào tạo lại toàn bộ nhân viên.
+}
+
+::Chuyển đổi số trong y tế hướng đến việc sử dụng lo:: Chuyển đổi số trong y tế hướng đến việc sử dụng loại hồ sơ nào để tiến tới không dùng bệnh án giấy? {
+	~Hồ sơ sức khỏe cá nhân.
+	~Hồ sơ thanh toán viện phí.
+	=Hồ sơ bệnh án điện tử.
+	~Hồ sơ bảo hiểm y tế.
+}
+
+::Theo Chiến lược Chuyển đổi số quốc gia mục tiêu đế:: Theo Chiến lược Chuyển đổi số quốc gia, mục tiêu đến năm 2030 là bao nhiêu phần trăm dân số có năng lực số cơ bản? {
+	~50%.
+	~60%.
+	=70%.
+	~80%.
+}
+
+::Trong lĩnh vực giáo dục một trong những mục tiêu c:: Trong lĩnh vực giáo dục, một trong những mục tiêu chuyển đổi số là đào tạo lại, đào tạo nâng cao kỹ năng số cho đối tượng nào? {
+	~Lãnh đạo cấp cao.
+	=Tất cả người dân qua các khóa học đại trà trực tuyến mở.
+	~Các nhà phát triển phần mềm.
+	~Các chuyên gia an ninh mạng.
+}
+
+::Trong tài chính thông minh ứng dụng AI có thể giúp:: Trong tài chính thông minh, ứng dụng AI có thể giúp phát hiện các mối đe dọa nào? {
+	~Xâm nhập mạng máy tính.
+	~Vi phạm bản quyền nội dung.
+	=Gian lận và hoạt động giao dịch bất hợp pháp.
+	~Thay đổi quy trình quản lý hồ sơ.
+}
+
+::Mục tiêu của Chính phủ số là cung cấp dịch vụ chất:: Mục tiêu của Chính phủ số là cung cấp dịch vụ chất lượng hơn, đưa ra quyết định kịp thời hơn, ban hành chính sách tốt hơn, dựa trên nền tảng nào? {
+	=Dữ liệu và công nghệ số.
+	~Các quy trình truyền thống.
+	~Các thỏa thuận quốc tế.
+	~Các chuyên gia tài chính.
+}
+
+::Trong lĩnh vực giáo dục mục tiêu thử nghiệm chương:: Trong lĩnh vực giáo dục, mục tiêu thử nghiệm chương trình đào tạo cho phép học sinh, sinh viên học trực tuyến tối thiểu bao nhiêu phần trăm nội dung chương trình? {
+	~10%.
+	=20% (Theo Tài liệu - Cẩm nang BTTTT).
+	~50%.
+	~100%.
+}
+
+::Chuyển đổi số trong lĩnh vực Tài chính  Ngân hàng:: Chuyển đổi số trong lĩnh vực Tài chính - Ngân hàng thúc đẩy hợp tác với các công ty nào trong việc xây dựng hệ sinh thái dịch vụ? {
+	~Các công ty công nghệ phần cứng.
+	~Các công ty viễn thông.
+	=Công ty công nghệ tài chính (Fintech) và trung gian thanh toán.
+	~Các công ty năng lượng.
+}
+
+::Khả năng sử dụng các công cụ lập trình bậc cao như:: Khả năng sử dụng các công cụ lập trình bậc cao như Java, Swift, và Node.js là cần thiết cho nhóm chuyên gia nào trong lĩnh vực IoT? {
+	~Chuyên gia bảo mật.
+	~Chuyên gia phần cứng.
+	=Thiết kế và phát triển ứng dụng (UI/UX).
+	~Chuyên gia phân tích dữ liệu.
+}
+
+::Kỹ năng nào được coi là thiết yếu trong IoT để thi:: Kỹ năng nào được coi là thiết yếu trong IoT để thiết kế và quản lý mạng? {
+	~Phân tích ngữ nghĩa.
+	=Mạng máy tính (Network).
+	~Tư duy phản biện.
+	~Học tập tự điều chỉnh.
+}
+
+::Đối với người phát triển hệ thống IoT khả năng lập:: Đối với người phát triển hệ thống IoT, khả năng lập trình nhúng (embedded programming) cần thành thạo ngôn ngữ nào? {
+	~Swift, C#, PHP.
+	~Python, Ruby, SQL.
+	=C, C++, Python, hoặc JavaScript.
+	~HTML, CSS, XML.
+}
+
+::Tại sao vấn đề bảo mật IoT phải được cân nhắc ưu t:: Tại sao vấn đề bảo mật IoT phải được cân nhắc ưu tiên? {
+	~Vì chi phí sản xuất thiết bị cao.
+	=Vì các thiết bị IoT khá dễ bị xâm phạm bảo mật do tính đa dạng và đa nền tảng kết nối.
+	~Vì IoT không sử dụng công nghệ Cloud.
+	~Vì IoT chỉ sử dụng AI hẹp.
+}
+
+::Nền tảng học tập nào được đề cập là phù hợp cho vi:: Nền tảng học tập nào được đề cập là phù hợp cho việc học các khóa học về Machine Learning và Deep Learning? {
+	~Coursera, edX, MIT Open Courseware.
+	~Udemy, Khan Academy.
+	~Codecademy, The Code Player.
+	=Tất cả các nền tảng trên.
+}
+
+::Năng lực nào liên quan đến việc xử lý một vấn đề t:: Năng lực nào liên quan đến việc xử lý một vấn đề tính toán thành các bước tuần tự và logic như một giải pháp cho hệ thống máy tính? {
+	~Lập trình.
+	=Tư duy tính toán (Computational thinking).
+	~Tư duy đổi mới.
+	~Giải quyết vấn đề kỹ thuật.
+}
+
+::Tư duy tính toán Computational thinking được xem l:: Tư duy tính toán (Computational thinking) được xem là khác biệt với lập trình ở điểm nào? {
+	=Nó tập trung vào tư duy thuật toán như một phần của giải quyết vấn đề, không nhất thiết phải lập trình bằng ngôn ngữ cụ thể.
+	~Nó chỉ áp dụng cho các vấn đề vật lý.
+	~Nó không yêu cầu kiến thức toán học.
+	~Nó chỉ cần thiết cho các chuyên gia công nghệ.
+}
+
+::Phẩm chất nào sau đây là cần thiết cho Tư duy đổi:: Phẩm chất nào sau đây là cần thiết cho Tư duy đổi mới sáng tạo (Innovation)? {
+	~Điềm tĩnh.
+	=Thấu cảm và Giải quyết vấn đề.
+	~Tự phản chiếu.
+	~Tuân thủ quy tắc.
+}
+
+::Theo các chuyên gia các công ty nên xem xét trau d:: Theo các chuyên gia, các công ty nên xem xét trau dồi năng lực số tại nơi làm việc để nhân viên có thể thích ứng thành công với điều gì? {
+	~Nền kinh tế số.
+	=Các công cụ, hệ thống và quy trình mới.
+	~Các chuẩn mực đạo đức.
+	~Các chính sách của công ty.
+}
+
+::Năng lực nào cho phép cá nhân điều chỉnh hòa nhập:: Năng lực nào cho phép cá nhân điều chỉnh, hòa nhập, thích nghi nhanh chóng với sự thay đổi hoặc điều kiện mới? {
+	~Tính linh hoạt.
+	~Tư duy phản biện.
+	=Khả năng thích ứng.
+	~Thấu cảm.
+}
+
+::Trong lĩnh vực BDA năng lực nào đòi hỏi phải hiểu:: Trong lĩnh vực BDA, năng lực nào đòi hỏi phải hiểu và có khả năng phân tích và đánh giá dữ liệu, thông tin và nội dung số đặc thù trong hoạt động nghề nghiệp? {
+	~Năng lực lập trình.
+	~Năng lực giải quyết vấn đề kỹ thuật.
+	=Nhận biết và đánh giá nội dung và dữ liệu đặc thù cho công việc.
+	~Năng lực vận hành thiết bị số.
+}
+
+::Yếu tố nào sau đây là nguyên nhân trực tiếp khiến:: Yếu tố nào sau đây là nguyên nhân trực tiếp khiến Kodak phá sản vào năm 2012? {
+	~Cuộc khủng hoảng tài chính toàn cầu.
+	=Sự xuất hiện của iPhone năm 2007 và Instagram năm 2010.
+	~Sự cạnh tranh từ các công ty sản xuất phim ảnh truyền thống.
+	~Việc giấu kín phát minh máy ảnh số của chính họ.
+}
+
+::Trong quá trình xây dựng chính phủ số rủi ro lớn n:: Trong quá trình xây dựng chính phủ số, rủi ro lớn nhất đối với quốc gia là gì? {
+	~Mất nguồn nhân lực chất lượng cao.
+	=Mất chủ quyền số quốc gia (an toàn, an ninh mạng).
+	~Khó khăn trong việc thay đổi thói quen của người dân.
+	~Chi phí đầu tư hạ tầng quá cao.
+}
+
+::Theo quan điểm của DigCompEdu ở mức Người tiên pho:: Theo quan điểm của DigCompEdu, ở mức Người tiên phong (Pioneer - C2), nhà giáo dục thường làm gì? {
+	~Bám theo lịch trình đào tạo đã có.
+	~Tích hợp công nghệ số vào giảng dạy.
+	=Phát triển các tiếp cận sư phạm mới lạ và đổi mới sáng tạo giáo dục.
+	~Chỉ sử dụng các công nghệ số cơ bản.
+}
+
+::Nền tảng công nghệ số nào sau đây được đề cập là g:: Nền tảng công nghệ số nào sau đây được đề cập là giải pháp đột phá để thúc đẩy chuyển đổi số nhanh hơn, giảm chi phí và tăng hiệu quả? {
+	~Hệ thống thông tin ERP.
+	=Nền tảng số (Platform).
+	~Phần mềm diệt virus.
+	~Thiết bị ngoại vi.
+}
